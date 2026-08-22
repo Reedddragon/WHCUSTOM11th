@@ -8038,6 +8038,14 @@
         "id": "b069-cadc-4a08-a736",
         "type": "selectionEntry",
         "targetId": "3a39-0b56-25e0-eff8"
+      },
+      {
+        "import": true,
+        "name": "Khorne Elite Berzerkers",
+        "hidden": false,
+        "id": "6d12-f409-4963-2559",
+        "targetId": "8fcd-44ae-5a3f-ac6a",
+        "type": "selectionEntry"
       }
     ],
     "sharedSelectionEntries": [
@@ -8103,9 +8111,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of Khorne at the start of that battle round. If you do, this model is no longer destroyed and in the Reinforcements step of your next Movement phase, it is set up anywhere on the battlefield using its Deep Strike ability, with 8 wounds remaining.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability. If you do, this model is no longer destroyed and is placed into Reserves with its full wounds remaining."
               }
             ],
             "id": "c119-e343-c7ef-bd4c",
@@ -8145,9 +8153,9 @@
           {
             "characteristics": [
               {
-                "$text": "While a friendly ^^**World Eaters^^** unit is within 6\" of this model, you can ignore any or all modifiers to that unit's Move characteristic and to Advance and Charge rolls made for it, and each time a model in that unit makes a melee attack, you can ignore any or all modifiers to that attack's Weapon Skill characteristic and/or any or all modifiers to the Hit roll.",
                 "name": "Effect",
-                "typeId": "64d6-2545-b925-8bb5"
+                "typeId": "64d6-2545-b925-8bb5",
+                "$text": "While a friendly WORLD EATERS unit is within 6\" of this model, each time a Charge roll is made for that unit, add 2 to the roll., and each time a model in that unit makes a melee attack, you can ignore any or all modifiers to that attack's Weapon Skill characteristic and/or any or all modifiers to the Hit roll."
               }
             ],
             "id": "30f4-54de-d45c-aa7d",
@@ -8317,39 +8325,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
                     "name": "Range",
-                    "typeId": "914c-b413-91e3-a132"
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
                   },
                   {
-                    "$text": "8",
                     "name": "A",
-                    "typeId": "2337-daa1-6682-b110"
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "8"
                   },
                   {
-                    "$text": "2+",
                     "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6"
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "14",
                     "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba"
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "16"
                   },
                   {
-                    "$text": "-3",
                     "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2"
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-4"
                   },
                   {
-                    "$text": "D6+2",
                     "name": "D",
-                    "typeId": "3254-9fe6-d824-513e"
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "D6+2"
                   },
                   {
-                    "$text": "Devastating Wounds",
                     "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e"
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "Devastating Wounds"
                   }
                 ],
                 "id": "c2d5-0bee-869e-fb77",
@@ -8361,39 +8369,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Melee",
                     "name": "Range",
-                    "typeId": "914c-b413-91e3-a132"
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
                   },
                   {
-                    "$text": "16",
                     "name": "A",
-                    "typeId": "2337-daa1-6682-b110"
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "18"
                   },
                   {
-                    "$text": "2+",
                     "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6"
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "7",
                     "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba"
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "8"
                   },
                   {
-                    "$text": "-2",
                     "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2"
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
                   },
                   {
-                    "$text": "2",
                     "name": "D",
-                    "typeId": "3254-9fe6-d824-513e"
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
                   },
                   {
-                    "$text": "Devastating Wounds",
                     "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e"
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "Devastating Wounds"
                   }
                 ],
                 "id": "be4d-fdfc-bae7-1387",
@@ -8455,7 +8463,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 330
+            "value": 360
           },
           {
             "name": "Crusade Points",
@@ -8875,7 +8883,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -11316,7 +11324,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -12022,6 +12030,20 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities"
+          },
+          {
+            "name": "Trophy Taker",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "98ae-a99b-81b5-9e8d",
+            "characteristics": [
+              {
+                "$text": "While this model is leading a unit, models in that unit have the Fights First ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -14131,198 +14153,6 @@
       {
         "modifiers": [
           {
-            "conditions": [
-              {
-                "field": "selections",
-                "scope": "45f6-8429-a1d9-2a51",
-                "value": 5,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "childId": "model",
-                "type": "greaterThan"
-              }
-            ],
-            "type": "set",
-            "field": "51b2-306e-1021-d207",
-            "value": 330
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "32bc-0724-a7cf-f17c",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 2,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "32bc-0724-a7cf-f17c",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "add",
-            "value": "Max 1 paired accursed weapons per 5 models",
-            "field": "error"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "a1b4-80b4-e85e-96ec",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 6,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "a1b4-80b4-e85e-96ec",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "add",
-            "value": "Max 3 power fists per 5 models",
-            "field": "error"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "d2a3-be7e-4ec8-f9f6",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "type": "greaterThan",
-                        "value": 2,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "d2a3-be7e-4ec8-f9f6",
-                        "shared": true,
-                        "includeChildSelections": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "45f6-8429-a1d9-2a51",
-                        "childId": "model",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "add",
-            "value": "Max 1 chainfist per 5 models",
-            "field": "error"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "bafc-43a3-0d00-77c9",
@@ -14340,42 +14170,20 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 280,
             "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
+            "conditions": [
               {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "45f6-8429-a1d9-2a51",
-                        "shared": true,
-                        "childName": "Chaos Terminators"
-                      }
-                    ]
-                  }
-                ]
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "45f6-8429-a1d9-2a51",
+                "childId": "model",
+                "shared": true,
+                "percentValue": false,
+                "includeChildSelections": true,
+                "includeChildForces": false
               }
             ]
           }
@@ -14553,17 +14361,6 @@
                 "includeChildForces": false,
                 "id": "ac9a-795d-d213-4c79",
                 "type": "min"
-              },
-              {
-                "field": "selections",
-                "scope": "parent",
-                "value": 1,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": false,
-                "includeChildForces": false,
-                "id": "f91e-34f0-f2c6-0ebd",
-                "type": "max"
               }
             ],
             "selectionEntryGroups": [
@@ -14572,7 +14369,7 @@
                   {
                     "field": "selections",
                     "scope": "parent",
-                    "value": 1,
+                    "value": 2,
                     "percentValue": false,
                     "shared": true,
                     "includeChildSelections": false,
@@ -14583,7 +14380,7 @@
                   {
                     "field": "selections",
                     "scope": "parent",
-                    "value": 1,
+                    "value": 2,
                     "percentValue": false,
                     "shared": true,
                     "includeChildSelections": false,
@@ -14592,645 +14389,14 @@
                     "type": "max"
                   }
                 ],
-                "selectionEntries": [
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "af0a-b83e-feb7-b53c",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "c53d-e6cd-132c-b458",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "beed-89ca-2ac7-d3aa",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "59e7-efdf-50a3-8cb1",
-                        "name": "Combi-weapon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d774-8e7d-6f5f-2ecd",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "ee13-ec9c-8c0b-8040",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "d505-544f-ab41-dc3a",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "2cb9-56d6-ced4-220b",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "42d7-7118-d1d1-a8e7",
-                        "name": "Power fist",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "a1b4-80b4-e85e-96ec",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "42e6-ddda-c5b2-92ae",
-                    "name": "Combi-weapon, power fist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "ace4-e853-3646-69a7",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "055b-aed7-9b49-628c",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "22f9-bbb5-125f-c2ac",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "4559-2e1e-de14-5caf",
-                        "name": "Combi-weapon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d774-8e7d-6f5f-2ecd",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "a48f-adfc-998b-810a",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "a9aa-7c21-8880-1de3",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "a78c-78d5-2973-6f4c",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "17c6-9f14-e24b-5585",
-                        "name": "Accursed weapon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "67cd-e430-ed37-2d08",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "7bf1-c93c-4d2d-7d84",
-                    "name": "Combi-weapon, accursed weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "221b-a08f-d951-2d82",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "98b5-df55-ab60-de4e",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "9af3-1bae-08e4-583d",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "4643-7ecc-90af-5f02",
-                        "name": "Chainfist",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d2a3-be7e-4ec8-f9f6",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "7fbc-72b4-ed23-0205",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "2887-4692-406a-af57",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "c82e-091e-c286-fcd6",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "355c-f337-6889-a8dc",
-                        "name": "Combi-weapon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d774-8e7d-6f5f-2ecd",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "4873-2933-d3dc-0e52",
-                    "name": "Combi-weapon, chainfist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "7667-30f8-f79e-cb7a",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "16be-15ba-ebab-5539",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "b0ac-258c-60c9-9657",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "9f7e-03ba-a796-d2c4",
-                        "name": "Combi-bolter",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "2d4d-9623-1cea-b73a",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "7dc5-a125-9051-54e6",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "ca7f-b875-39c1-dbbe",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "6903-4e9c-f079-b46c",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "6c1a-ff6e-d48c-0874",
-                        "name": "Accursed weapon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "67cd-e430-ed37-2d08",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "652a-8514-3e89-a385",
-                    "name": "Combi-bolter, accursed weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "6829-688c-20cc-9bee",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "f267-cb0d-96b6-a16f",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "ffc5-e85d-3555-3fd8",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "4f07-b038-51cd-4252",
-                        "name": "Chainfist",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d2a3-be7e-4ec8-f9f6",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "d211-0752-a3ba-5f46",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "d43f-6af8-96af-588a",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "e2b3-e5ad-5e3c-4628",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "e1ae-1368-9031-ff6d",
-                        "name": "Combi-bolter",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "2d4d-9623-1cea-b73a",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "7aaa-752f-16ab-98d3",
-                    "name": "Combi-bolter, chainfist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "6e0c-6f1f-c3fb-2769",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "2a1e-629d-0b6c-a918",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "d816-8604-544a-1eae",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "00b5-bdf3-cf20-1983",
-                        "name": "Combi-bolter",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "2d4d-9623-1cea-b73a",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "0135-2030-e5bd-36d3",
-                            "type": "min"
-                          },
-                          {
-                            "field": "selections",
-                            "scope": "parent",
-                            "value": 1,
-                            "percentValue": false,
-                            "shared": true,
-                            "includeChildSelections": false,
-                            "includeChildForces": false,
-                            "id": "6d9e-8e40-cc03-929c",
-                            "type": "max"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "17dc-0b2f-bc46-3007",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "id": "11dd-abd0-b264-f792",
-                        "name": "Power fist",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "a1b4-80b4-e85e-96ec",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 0
-                      }
-                    ],
-                    "id": "0984-2ae1-939b-1d1e",
-                    "name": "Combi-bolter, power fist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "type": "upgrade"
-                  }
-                ],
                 "entryLinks": [
                   {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "ef12-9abc-adbe-9e9b",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "id": "b8d0-cc58-0fee-c02c",
-                    "name": "Paired accursed weapons",
-                    "hidden": false,
-                    "collective": false,
                     "import": true,
-                    "targetId": "32bc-0724-a7cf-f17c",
-                    "type": "selectionEntry"
+                    "name": "Chained Combi-Weapon",
+                    "hidden": false,
+                    "id": "ce6c-8003-e6e9-5557",
+                    "type": "selectionEntry",
+                    "targetId": "612a-e8a9-d5db-dedb"
                   }
                 ],
                 "id": "04bb-5629-4da0-b0a1",
@@ -15238,7 +14404,58 @@
                 "hidden": false,
                 "collective": false,
                 "import": true,
-                "defaultSelectionEntryId": "652a-8514-3e89-a385"
+                "defaultSelectionEntryId": "652a-8514-3e89-a385",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Melee Weapon",
+                    "id": "707b-0fa8-fd9c-f18c",
+                    "hidden": false,
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Chainfist",
+                        "hidden": false,
+                        "id": "8b6d-d56b-d7d6-df64",
+                        "type": "selectionEntry",
+                        "targetId": "d2a3-be7e-4ec8-f9f6"
+                      },
+                      {
+                        "import": true,
+                        "name": "Power fist",
+                        "hidden": false,
+                        "id": "1ab7-d3c0-4494-8021",
+                        "type": "selectionEntry",
+                        "targetId": "a1b4-80b4-e85e-96ec"
+                      },
+                      {
+                        "import": true,
+                        "name": "Paired accursed weapons",
+                        "hidden": false,
+                        "id": "6e8c-7a98-372c-2464",
+                        "type": "selectionEntry",
+                        "targetId": "32bc-0724-a7cf-f17c"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "239d-82c6-0603-2cb4"
+                      },
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "b74d-794e-5791-61cb"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "costs": [
@@ -15263,17 +14480,6 @@
               {
                 "field": "selections",
                 "scope": "parent",
-                "value": 4,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": false,
-                "includeChildForces": false,
-                "id": "c1ff-0cbb-3c2c-c29f",
-                "type": "min"
-              },
-              {
-                "field": "selections",
-                "scope": "parent",
                 "value": 9,
                 "percentValue": false,
                 "shared": true,
@@ -15281,908 +14487,155 @@
                 "includeChildForces": false,
                 "id": "9bef-d87c-a1bb-8302",
                 "type": "max"
+              },
+              {
+                "type": "min",
+                "value": 4,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ca78-a079-6c8c-cf3c",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
               }
             ],
             "selectionEntries": [
               {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 9,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "d99c-1c58-11bc-3181",
-                    "type": "max"
-                  }
-                ],
+                "type": "model",
+                "import": true,
+                "name": "Terminator w/ Heavy Melee Weapon",
+                "hidden": false,
+                "id": "272a-d848-40ab-1371",
                 "entryLinks": [
                   {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "da01-7379-3fb4-658f",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "bea9-0720-2304-24c3",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "aa47-ca8f-58d2-b46a",
-                    "name": "Combi-bolter",
-                    "hidden": false,
-                    "collective": false,
                     "import": true,
-                    "targetId": "2d4d-9623-1cea-b73a",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "c2b6-fa0a-8d3b-6aaa",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "aa5c-41ff-dca6-bdad",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "f78b-0952-754d-a1ec",
-                    "name": "Accursed weapon",
+                    "name": "Chained Combi-Weapon",
                     "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "67cd-e430-ed37-2d08",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "cfd2-df58-3637-0a6c",
-                "name": "Combi-bolter, accursed weapon",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 1
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 2,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "669d-5dd3-0281-f40a",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "4fd0-96d3-98bc-6894",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "c740-a043-57be-1f66",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "0965-5773-0b7b-2398",
-                    "name": "Chainfist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "d2a3-be7e-4ec8-f9f6",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "90e7-4db1-29ce-ce67",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "8c2f-f266-c33e-2c57",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "a7f5-87f2-c916-73de",
-                    "name": "Combi-bolter",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "2d4d-9623-1cea-b73a",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "b0b9-9511-44c1-b272",
-                "name": "Combi-bolter, chainfist",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 2
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 6,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "dc1d-1b9d-8970-4e51",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "2fd5-7223-40bf-110a",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "689d-0a23-500d-09a6",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "46a6-2070-b33f-e6f7",
-                    "name": "Combi-bolter",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "2d4d-9623-1cea-b73a",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "3e99-598f-1211-de2c",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "46e3-5b56-59e5-9b9f",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "f957-5b87-be91-f347",
-                    "name": "Power fist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "a1b4-80b4-e85e-96ec",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "782f-6bfe-7238-960a",
-                "name": "Combi-bolter, power fist",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 3
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 9,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "bab3-ae83-c558-a421",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "d930-9f55-30b9-03d2",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "7a53-36af-8a2e-7992",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "3e16-b685-c565-ea4e",
-                    "name": "Combi-weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "d774-8e7d-6f5f-2ecd",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "a7ed-f547-4f41-85b5",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "d60e-c147-b8bd-2f70",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "dc73-8212-a459-0c35",
-                    "name": "Accursed weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "67cd-e430-ed37-2d08",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "6f2b-96ea-9352-c5f4",
-                "name": "Combi-weapon, accursed weapon",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 4
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 2,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "a78d-f412-2a0f-e09f",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "92cb-13a2-1c8e-0d03",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "9167-bdb4-9e4a-f204",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "bff1-bcab-6594-7d01",
-                    "name": "Chainfist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "d2a3-be7e-4ec8-f9f6",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "348b-b61d-db69-6038",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "d7c5-a46c-946a-aef7",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "7ffc-829c-9d98-e279",
-                    "name": "Combi-weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "d774-8e7d-6f5f-2ecd",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "d372-f3e8-a5a0-a8b1",
-                "name": "Combi-weapon, chainfist",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 5
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 6,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "ab14-485a-be77-6684",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "0239-ef13-0abe-3d13",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "a730-f285-3398-857b",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "7062-ceeb-328e-8c92",
-                    "name": "Combi-weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "d774-8e7d-6f5f-2ecd",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "55f8-6a2c-e263-0585",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "39cf-65c2-d84d-ddaf",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "66a4-0302-e17b-51b5",
-                    "name": "Power fist",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "a1b4-80b4-e85e-96ec",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "a2f9-42e2-efbf-fe40",
-                "name": "Combi-weapon, power fist",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 6
-              },
-              {
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "parent",
-                    "value": 2,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "includeChildForces": false,
-                    "id": "2c17-29f3-88d9-5d7b",
-                    "type": "max"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "e28d-8582-c7a7-9433",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "1a09-89fc-8908-00b5",
-                        "type": "max"
-                      }
-                    ],
-                    "id": "8195-94b2-dc5b-86ec",
-                    "name": "Paired accursed weapons",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "targetId": "32bc-0724-a7cf-f17c",
-                    "type": "selectionEntry"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
-                  }
-                ],
-                "id": "10f6-ffca-ae38-250e",
-                "name": "Paired accursed weapons",
-                "hidden": false,
-                "collective": false,
-                "import": true,
-                "type": "model",
-                "sortIndex": 7
-              },
-              {
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "45f6-8429-a1d9-2a51",
-                            "childId": "model",
-                            "shared": true,
-                            "percentValue": false,
-                            "includeChildSelections": true,
-                            "includeChildForces": false
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "45f6-8429-a1d9-2a51",
-                            "childId": "5f1f-f3bb-d6dd-6714",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "field": "error",
-                    "value": "Max 1 {this} per 5 models"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "field": "selections",
-                    "scope": "45f6-8429-a1d9-2a51",
-                    "value": 2,
-                    "percentValue": false,
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": false,
-                    "id": "6dfe-76a0-6932-8f99",
-                    "type": "max"
+                    "id": "4b0f-c131-6f99-20e3",
+                    "type": "selectionEntry",
+                    "targetId": "612a-e8a9-d5db-dedb"
                   }
                 ],
                 "selectionEntryGroups": [
                   {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "60c2-3e2a-3dd3-3d6a",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "ab7e-e02b-fc9d-e13a",
-                        "type": "max"
-                      }
-                    ],
+                    "name": "Melee Weapon",
+                    "id": "3209-fa5a-f129-93fa",
+                    "hidden": false,
                     "entryLinks": [
                       {
-                        "id": "2323-5c06-ade2-ffbc",
-                        "name": "Accursed weapon",
-                        "hidden": false,
-                        "collective": false,
                         "import": true,
-                        "targetId": "67cd-e430-ed37-2d08",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "id": "f172-e595-cc9f-4c6b",
-                        "name": "Power fist",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "a1b4-80b4-e85e-96ec",
-                        "type": "selectionEntry"
-                      },
-                      {
-                        "id": "3b63-7576-357b-7d3a",
                         "name": "Chainfist",
                         "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "d2a3-be7e-4ec8-f9f6",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "id": "0b10-6367-8a8c-15b1",
-                    "name": "Melee weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "defaultSelectionEntryId": "2323-5c06-ade2-ffbc"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "e2ff-1662-8b4e-8a26",
-                        "type": "min"
+                        "id": "ef97-ad5e-097c-b593",
+                        "type": "selectionEntry",
+                        "targetId": "d2a3-be7e-4ec8-f9f6"
                       },
                       {
+                        "import": true,
+                        "name": "Power fist",
+                        "hidden": false,
+                        "id": "bd81-adc8-0926-e454",
+                        "type": "selectionEntry",
+                        "targetId": "a1b4-80b4-e85e-96ec"
+                      },
+                      {
+                        "import": true,
+                        "name": "Paired accursed weapons",
+                        "hidden": false,
+                        "id": "be3f-3bc8-4e81-bbd3",
+                        "type": "selectionEntry",
+                        "targetId": "32bc-0724-a7cf-f17c"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
                         "field": "selections",
                         "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
                         "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "5f3b-ee30-bccd-d8f7",
-                        "type": "max"
-                      }
-                    ],
-                    "selectionEntries": [
+                        "id": "74d0-c912-fb3c-2c56"
+                      },
                       {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "36\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "4+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "7",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Devastating Wounds, Rapid Fire 2, Sustained Hits 1",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "id": "2db4-7c20-3e1d-77ff",
-                            "name": "Reaper autocannon",
-                            "hidden": false,
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "id": "388c-2f8a-aafe-4190",
-                            "name": "Sustained Hits",
-                            "hidden": false,
-                            "targetId": "1897-c22c-9597-12b1",
-                            "type": "rule"
-                          },
-                          {
-                            "id": "6e51-ddf9-54e3-8f16",
-                            "name": "Devastating Wounds",
-                            "hidden": false,
-                            "targetId": "be1e-ac8e-1e2c-3528",
-                            "type": "rule"
-                          },
-                          {
-                            "name": "Rapid Fire",
-                            "id": "6947-08cf-426b-8142",
-                            "hidden": false,
-                            "targetId": "c5c8-8b58-b8b6-7786",
-                            "type": "rule"
-                          }
-                        ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 0
-                          }
-                        ],
-                        "id": "f0b2-e942-6896-6acf",
-                        "name": "Reaper autocannon",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "type": "upgrade"
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "6c49-6321-774e-9f13"
                       }
-                    ],
-                    "entryLinks": [
-                      {
-                        "id": "5264-f62f-4569-a23e",
-                        "name": "Heavy flamer",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "targetId": "1b85-b802-42a2-47bd",
-                        "type": "selectionEntry"
-                      }
-                    ],
-                    "id": "429d-d402-0672-086d",
-                    "name": "Heavy weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true
+                    ]
                   }
                 ],
-                "costs": [
+                "constraints": [
                   {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c1ff-0cbb-3c2c-c29f",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9626-14ec-838d-d8de",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
                   }
                 ],
-                "id": "5f1f-f3bb-d6dd-6714",
-                "name": "Heavy weapon",
-                "hidden": false,
-                "collective": false,
-                "import": true,
+                "sortIndex": 1
+              },
+              {
                 "type": "model",
-                "sortIndex": 8
+                "import": true,
+                "name": "Terminator w/ Accursed Melee Weapon",
+                "hidden": false,
+                "id": "c102-1e66-f06d-629a",
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Chained Combi-Weapon",
+                    "hidden": false,
+                    "id": "f40a-ae03-0c74-8c07",
+                    "type": "selectionEntry",
+                    "targetId": "612a-e8a9-d5db-dedb"
+                  },
+                  {
+                    "import": true,
+                    "name": "Accursed weapon",
+                    "hidden": false,
+                    "id": "d5dc-6add-7226-5b84",
+                    "type": "selectionEntry",
+                    "targetId": "67cd-e430-ed37-2d08",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a0f1-0545-9b1b-5957"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "dbf7-f08b-c13b-a4c5"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "id": "ad01-52b6-735a-8b6b",
@@ -16777,7 +15230,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 100
           },
           {
             "type": "set",
@@ -17984,7 +16437,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -18278,17 +16766,6 @@
             "value": 0
           }
         ],
-        "constraints": [
-          {
-            "type": "max",
-            "value": 2,
-            "field": "selections",
-            "scope": "45f6-8429-a1d9-2a51",
-            "shared": true,
-            "id": "0ad7-c36f-b013-96dd",
-            "includeChildSelections": false
-          }
-        ],
         "id": "32bc-0724-a7cf-f17c",
         "name": "Paired accursed weapons",
         "hidden": false,
@@ -18301,39 +16778,39 @@
           {
             "characteristics": [
               {
-                "$text": "Melee",
                 "name": "Range",
-                "typeId": "914c-b413-91e3-a132"
+                "typeId": "914c-b413-91e3-a132",
+                "$text": "Melee"
               },
               {
-                "$text": "3",
                 "name": "A",
-                "typeId": "2337-daa1-6682-b110"
+                "typeId": "2337-daa1-6682-b110",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "WS",
-                "typeId": "95d1-95f-45b4-11d6"
+                "typeId": "95d1-95f-45b4-11d6",
+                "$text": "4+"
               },
               {
-                "$text": "8",
                 "name": "S",
-                "typeId": "ab33-d393-96ce-ccba"
+                "typeId": "ab33-d393-96ce-ccba",
+                "$text": "8"
               },
               {
-                "$text": "-3",
                 "name": "AP",
-                "typeId": "41a0-1301-112a-e2f2"
+                "typeId": "41a0-1301-112a-e2f2",
+                "$text": "-3"
               },
               {
-                "$text": "2",
                 "name": "D",
-                "typeId": "3254-9fe6-d824-513e"
+                "typeId": "3254-9fe6-d824-513e",
+                "$text": "2"
               },
               {
-                "$text": "Anti-VEHICLE 3+",
                 "name": "Keywords",
-                "typeId": "893f-9000-ccf7-648e"
+                "typeId": "893f-9000-ccf7-648e",
+                "$text": "Anti-VEHICLE 3+, Anti-MONSTER 3+"
               }
             ],
             "id": "6044-c4f2-8321-fd60",
@@ -18660,7 +17137,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 255
+            "value": 240
           },
           {
             "type": "set",
@@ -18809,9 +17286,9 @@
           {
             "characteristics": [
               {
-                "$text": "While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Wound roll as well.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 to the Hit roll, add 1 to the Wound roll as well."
               }
             ],
             "id": "3070-b510-7093-db8f",
@@ -18849,6 +17326,20 @@
             "hidden": false,
             "type": "profile",
             "targetId": "045c-4246-0d69-78c8"
+          },
+          {
+            "name": "Feel No Pain",
+            "id": "ae20-5f2b-a5a1-5d4d",
+            "hidden": false,
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "6+",
+                "field": "name"
+              }
+            ],
+            "type": "rule",
+            "targetId": "9bf4-280f-bbe2-6fbb"
           }
         ],
         "categoryLinks": [
@@ -19172,7 +17663,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -19441,7 +17932,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 265
+            "value": 250
           },
           {
             "type": "set",
@@ -19457,46 +17948,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "9932-3d2b-1e47-d53b",
-                        "shared": true,
-                        "childName": "Exalted Eightbound"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -19623,6 +18074,20 @@
             "hidden": false,
             "type": "profile",
             "targetId": "045c-4246-0d69-78c8"
+          },
+          {
+            "name": "Feel No Pain",
+            "id": "ef1d-2f54-5fb9-4c74",
+            "hidden": false,
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "6+",
+                "field": "name"
+              }
+            ],
+            "type": "rule",
+            "targetId": "9bf4-280f-bbe2-6fbb"
           }
         ],
         "categoryLinks": [
@@ -19730,18 +18195,18 @@
                 ],
                 "infoLinks": [
                   {
-                    "id": "4152-9031-dbe9-0d3d",
-                    "name": "Chainblades",
-                    "hidden": false,
-                    "targetId": "d339-6968-9063-f383",
-                    "type": "profile"
-                  },
-                  {
                     "name": "Anti",
                     "id": "197c-9a43-06e1-98c0",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "4111-82e3-9444-e942"
+                  },
+                  {
+                    "name": "Chainblades",
+                    "id": "4152-9031-dbe9-0d3d",
+                    "hidden": false,
+                    "targetId": "d339-6968-9063-f383",
+                    "type": "profile"
                   }
                 ],
                 "costs": [
@@ -19834,18 +18299,18 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Chainblades",
-                    "id": "cbf4-ca44-4737-10f5",
-                    "hidden": false,
-                    "targetId": "d339-6968-9063-f383",
-                    "type": "profile"
-                  },
-                  {
                     "name": "Anti",
                     "id": "c739-c91e-90c1-1f2f",
                     "hidden": false,
                     "type": "rule",
                     "targetId": "4111-82e3-9444-e942"
+                  },
+                  {
+                    "name": "Chainblades",
+                    "id": "54ec-9130-87bf-1cf6",
+                    "hidden": false,
+                    "targetId": "d339-6968-9063-f383",
+                    "type": "profile"
                   }
                 ],
                 "costs": [
@@ -19886,7 +18351,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 125
           },
           {
             "name": "Crusade Points",
@@ -25385,7 +23850,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -27348,7 +25813,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -27368,6 +25833,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -28257,7 +26737,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 175
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -29090,7 +27570,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -30769,9 +29249,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of the battle round, if this unit is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time you make a Blessings of Khorne roll, if this unit is on the battlefield, you can add 1 to or subtract 1 from one of the dice rolled (each dice can only be modified in this way once, and a dice cannot be modified below 1 or above 6)."
               }
             ],
             "id": "1273-7c5a-b059-a2ba",
@@ -31582,7 +30062,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 505
+            "value": 440
           },
           {
             "name": "Crusade Points",
@@ -31602,6 +30082,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -34345,7 +32840,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -34370,6 +32865,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -35636,7 +34141,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -35661,6 +34166,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -36782,7 +35297,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 315
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -37630,7 +36145,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 320
+            "value": 280
           },
           {
             "name": "Crusade Points",
@@ -38036,7 +36551,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -38056,6 +36571,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -38708,7 +37238,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -39328,7 +37858,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -39348,6 +37878,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -39537,7 +38082,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -39562,6 +38107,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -41708,6 +40263,977 @@
         "name": "Heavy reaper autocannon",
         "hidden": false,
         "id": "8e4e-08dd-0af5-398c",
+        "collective": false
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Chained Combi-Weapon",
+        "hidden": false,
+        "id": "612a-e8a9-d5db-dedb",
+        "profiles": [
+          {
+            "name": "➤ Chained Combi-Weapon - Boltor",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "59f2-4e3f-f8e0-b814",
+            "characteristics": [
+              {
+                "$text": "24\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "4",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "4+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "4",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "0",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Rapid Fire 4",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          },
+          {
+            "name": "➤ Chained Combi-Weapon - Flamer",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "b815-cee3-17d1-a0c1",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "D6",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "N/A",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Ignores Cover, Torrent",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Ignores Cover",
+            "id": "d030-690d-58e1-1ff4",
+            "hidden": false,
+            "targetId": "4640-43e7-30b-215a",
+            "type": "rule"
+          },
+          {
+            "name": "Rapid Fire",
+            "id": "bf28-b8b9-78e6-e457",
+            "hidden": false,
+            "targetId": "c5c8-8b58-b8b6-7786",
+            "type": "rule"
+          },
+          {
+            "name": "Torrent",
+            "id": "7de6-3845-5f43-9733",
+            "hidden": false,
+            "targetId": "5edf-d619-23e0-9b56",
+            "type": "rule"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a0f2-ee99-35b6-0250",
+            "percentValue": false,
+            "includeChildSelections": false,
+            "includeChildForces": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ce33-2b85-a2bc-5684",
+            "percentValue": false,
+            "includeChildSelections": false,
+            "includeChildForces": false
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Khorne Elite Berzerkers",
+        "hidden": false,
+        "id": "8fcd-44ae-5a3f-ac6a",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "8fcd-44ae-5a3f-ac6a",
+                "childId": "model",
+                "shared": true,
+                "percentValue": false,
+                "includeChildSelections": true,
+                "includeChildForces": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "ec4a-b222-ccb5-4012",
+            "percentValue": false,
+            "includeChildSelections": true,
+            "includeChildForces": false
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "75bb-ded1-c86d-bdf0",
+            "scope": "self",
+            "shared": true,
+            "id": "ed09-55e5-a212-ec8b",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "7aeb-c2da-6a3f-109a",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "443a-57c8-1012-e52c",
+            "includeChildSelections": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Blessing of Blood",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "032c-b222-23aa-f87c",
+            "characteristics": [
+              {
+                "$text": "On your Charge phase, Select one of the Blessing of Khorne, This blessing is active along with other blessings until your next command phase.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Blood Surge",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "3a67-655c-82a3-6b16",
+            "characteristics": [
+              {
+                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Attached Unit",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "3379-9753-7ea9-71f2",
+            "characteristics": [
+              {
+                "$text": "If a Character unit from your army with the Leader ability can be attached to a Khorne Berzerker, it can be attached to this unit instead.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Blessings of Khorne",
+            "id": "9354-fe4b-0e42-d88d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "e68b-b42f-6f7c-4670"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Faction: World Eaters",
+            "hidden": false,
+            "id": "fa7f-edbb-dd09-dbf1",
+            "targetId": "bd1d-c1a5-6ca2-c791",
+            "primary": false
+          },
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "9182-776a-7aaf-defb",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Grenades",
+            "hidden": false,
+            "id": "aa49-5367-7e54-288c",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false
+          },
+          {
+            "name": "Chaos",
+            "hidden": false,
+            "id": "a564-0d3a-cc9d-8858",
+            "targetId": "4c00-2578-faf5-6918",
+            "primary": false
+          },
+          {
+            "name": "Khorne",
+            "hidden": false,
+            "id": "d693-aec7-67dc-9f84",
+            "targetId": "4bd-5ee0-f179-2fc5",
+            "primary": false
+          },
+          {
+            "name": "Berzerkers",
+            "hidden": false,
+            "id": "f3f7-072c-714a-bcb3",
+            "targetId": "802c-f8e1-e339-84b3",
+            "primary": false
+          },
+          {
+            "name": "Battleline",
+            "hidden": false,
+            "id": "77b5-b345-6771-7491",
+            "targetId": "e338-111e-d0c6-b687",
+            "primary": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Khorne Elite Berzerker Champion",
+            "hidden": false,
+            "id": "0805-75cd-95e3-fe1b",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f35a-69d5-0a10-ecb0",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "966d-befe-250a-46c6",
+                "percentValue": false,
+                "includeChildSelections": false,
+                "includeChildForces": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Khorne Berzerker",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "a706-4637-89c3-85aa",
+                "characteristics": [
+                  {
+                    "$text": "8\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "4",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "3+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "6+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Pistol",
+                "id": "c481-9d97-e1c3-6e54",
+                "hidden": false,
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3642-a70c-9f51-413d",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "12f8-77c0-73cf-9173",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Plasma pistol",
+                    "hidden": false,
+                    "id": "e774-c57e-f64e-66c3",
+                    "infoLinks": [
+                      {
+                        "name": "Hazardous",
+                        "id": "639e-bb88-dc1c-22fb",
+                        "hidden": false,
+                        "targetId": "8367-374c-f87-c627",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Pistol",
+                        "id": "9b23-a3be-7b20-f58d",
+                        "hidden": false,
+                        "targetId": "8bf7-8812-923d-29e4",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "➤ Plasma pistol - standard",
+                        "id": "710e-8987-a6e7-cb6a",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "1c84-74f8-f27d-55db"
+                      },
+                      {
+                        "name": "➤ Plasma pistol - supercharge",
+                        "id": "458a-3c48-ee7b-1673",
+                        "hidden": false,
+                        "type": "profile",
+                        "targetId": "7250-9be2-c024-4f64"
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Weapon Modifications",
+                        "hidden": false,
+                        "id": "c191-b5e6-d823-0e1f",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ]
+                  }
+                ],
+                "collective": false,
+                "import": true,
+                "defaultSelectionEntryId": "7b18-d954-c7a9-a1a7"
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Khornate eviscerator",
+                "hidden": false,
+                "id": "c2c4-88b8-f706-ac0c",
+                "collective": false,
+                "targetId": "a3b4-f330-4ed9-8314",
+                "type": "selectionEntry"
+              }
+            ],
+            "collective": false,
+            "sortIndex": 2
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "4-9 Khorne Elite Berzerkers",
+            "id": "78df-b035-5769-ec3e",
+            "hidden": false,
+            "selectionEntryGroups": [
+              {
+                "name": "Berzerkers with alternate weapons",
+                "id": "2603-a898-0c3e-afb2",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "model",
+                    "import": true,
+                    "name": "Khorne Elite Berzerkers",
+                    "hidden": false,
+                    "id": "a799-bfb1-19d3-166a",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 4,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "7e60-3e89-2141-238f",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 9,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9549-aec1-0850-dcbb",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Khornate eviscerator",
+                        "hidden": false,
+                        "id": "9a99-e3f3-c838-ce43",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "9718-3454-ec82-6795",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "ac48-5cf6-67d5-5e98",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Khornate eviscerator",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "74e0-66fc-bdac-ffb5",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "3",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "8",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "-",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 0
+                          }
+                        ],
+                        "collective": false
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Plasma pistol",
+                        "hidden": false,
+                        "id": "1e94-6694-d1af-5824",
+                        "infoLinks": [
+                          {
+                            "name": "Pistol",
+                            "id": "648f-8cfd-4dfd-0d16",
+                            "hidden": false,
+                            "targetId": "8bf7-8812-923d-29e4",
+                            "type": "rule"
+                          },
+                          {
+                            "name": "Rapid Fire",
+                            "id": "35e8-23f3-be12-24cd",
+                            "hidden": false,
+                            "targetId": "c5c8-8b58-b8b6-7786",
+                            "type": "rule"
+                          },
+                          {
+                            "name": "➤ Plasma pistol - standard",
+                            "id": "edfb-12da-df2d-370a",
+                            "hidden": false,
+                            "type": "profile",
+                            "targetId": "1c84-74f8-f27d-55db"
+                          },
+                          {
+                            "name": "➤ Plasma pistol - supercharge",
+                            "id": "671e-d39e-64d9-dbc3",
+                            "hidden": false,
+                            "type": "profile",
+                            "targetId": "7250-9be2-c024-4f64"
+                          },
+                          {
+                            "name": "Hazardous",
+                            "id": "2850-1205-ae5c-9c8f",
+                            "hidden": false,
+                            "targetId": "8367-374c-f87-c627",
+                            "type": "rule"
+                          }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 0
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "d7f7-e9b5-c1c6-c4ce-min",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "d7f7-e9b5-c1c6-c4ce-max",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "comment": "BS 4+",
+                        "collective": false
+                      }
+                    ],
+                    "collective": false
+                  }
+                ]
+              }
+            ],
+            "collective": false,
+            "import": true,
+            "defaultSelectionEntryId": "b568-8a23-be6f-a14d",
+            "sortIndex": 3
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Icon of Khorne",
+            "hidden": false,
+            "id": "59d4-27ef-77a7-6b78",
+            "associations": [
+              {
+                "min": 1,
+                "max": 1,
+                "scope": "8fcd-44ae-5a3f-ac6a",
+                "childId": "model",
+                "name": "Icon of Khorne",
+                "id": "1da5-a626-11a6-bc6b"
+              }
+            ],
+            "collective": false,
+            "targetId": "8e1d-9846-a460-6002",
+            "type": "selectionEntry",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Crusade",
+            "hidden": false,
+            "id": "e5c6-90df-f3f7-7718",
+            "type": "selectionEntryGroup",
+            "targetId": "8bbb-e890-a169-863e",
+            "sortIndex": 1
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 100
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          }
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": 6,
+                "field": "ed09-55e5-a212-ec8b",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "increment",
+                "value": 2,
+                "field": "7aeb-c2da-6a3f-109a",
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "increment",
+                "value": 2,
+                "field": "443a-57c8-1012-e52c",
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Battle-ready)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Blooded)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Heroic)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 50,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Legendary)",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 50,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "comment": "Crusade modifiers"
+          }
+        ],
         "collective": false
       }
     ],
@@ -52460,39 +51986,39 @@
       {
         "characteristics": [
           {
-            "$text": "Melee",
             "name": "Range",
-            "typeId": "914c-b413-91e3-a132"
+            "typeId": "914c-b413-91e3-a132",
+            "$text": "Melee"
           },
           {
-            "$text": "4",
             "name": "A",
-            "typeId": "2337-daa1-6682-b110"
+            "typeId": "2337-daa1-6682-b110",
+            "$text": "4"
           },
           {
-            "$text": "3+",
             "name": "WS",
-            "typeId": "95d1-95f-45b4-11d6"
+            "typeId": "95d1-95f-45b4-11d6",
+            "$text": "3+"
           },
           {
-            "$text": "8",
             "name": "S",
-            "typeId": "ab33-d393-96ce-ccba"
+            "typeId": "ab33-d393-96ce-ccba",
+            "$text": "14"
           },
           {
-            "$text": "-3",
             "name": "AP",
-            "typeId": "41a0-1301-112a-e2f2"
+            "typeId": "41a0-1301-112a-e2f2",
+            "$text": "-3"
           },
           {
-            "$text": "2",
             "name": "D",
-            "typeId": "3254-9fe6-d824-513e"
+            "typeId": "3254-9fe6-d824-513e",
+            "$text": "2"
           },
           {
-            "$text": "Anti-MONSTER 3+, Anti-VEHICLE 3+",
             "name": "Keywords",
-            "typeId": "893f-9000-ccf7-648e"
+            "typeId": "893f-9000-ccf7-648e",
+            "$text": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
           }
         ],
         "id": "d339-6968-9063-f383",
