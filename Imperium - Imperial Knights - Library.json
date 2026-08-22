@@ -1463,7 +1463,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -2387,7 +2387,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -3260,7 +3260,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 350
+            "value": 330
           },
           {
             "name": "Crusade Points",
@@ -6696,7 +6696,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 360
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -7660,7 +7660,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 350
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -8179,7 +8179,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 400
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -9128,7 +9128,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 380
+            "value": 360
           },
           {
             "name": "Crusade Points",
@@ -15712,7 +15712,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 380
+            "value": 370
           },
           {
             "name": "Crusade Points",
@@ -19487,7 +19487,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -20584,7 +20584,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 360
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -21849,9 +21849,9 @@
           {
             "characteristics": [
               {
-                "$text": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model. and Once per game, Bellatus Reaper Chainsword gains Extra Attacks ability after doing a successful charge move"
               }
             ],
             "name": "Thundercharge",
@@ -21992,7 +21992,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 250
+            "value": 230
           },
           {
             "name": "Crusade Points",
