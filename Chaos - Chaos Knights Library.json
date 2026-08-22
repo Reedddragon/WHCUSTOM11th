@@ -888,7 +888,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -935,7 +935,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -1034,7 +1034,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "b8e4-40f2-6789-53d0",
@@ -1063,6 +1063,12 @@
             "hidden": false,
             "targetId": "370b-1eb7-eac6-491c",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "79d8-d843-7093-fb91",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -1465,7 +1471,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -1486,6 +1492,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -1503,39 +1524,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "b0aa-5b7a-4a18-1c9f"
           },
           {
             "type": "set",
@@ -1801,7 +1789,27 @@
             "name": "Diabolus heavy stubber",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons"
+            "typeName": "Ranged Weapons",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "2+",
+                "field": "94d-8a98-cf90-183e",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "753d-4e02-eda3-4809",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "War Dog Brigand"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -2051,7 +2059,27 @@
             "name": "Avenger chaincannon",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons"
+            "typeName": "Ranged Weapons",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "2+",
+                "field": "94d-8a98-cf90-183e",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "753d-4e02-eda3-4809",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "War Dog Brigand"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -2112,7 +2140,27 @@
             "name": "Daemonbreath spear",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons"
+            "typeName": "Ranged Weapons",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "2+",
+                "field": "94d-8a98-cf90-183e",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "753d-4e02-eda3-4809",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "War Dog Brigand"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -2198,7 +2246,27 @@
             "name": "Havoc multi-launcher",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons"
+            "typeName": "Ranged Weapons",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "2+",
+                "field": "94d-8a98-cf90-183e",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "753d-4e02-eda3-4809",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "War Dog Brigand"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -2441,7 +2509,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -2488,7 +2556,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -2601,7 +2669,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "69b0-8bfd-4782-f891",
@@ -2630,6 +2698,12 @@
             "hidden": false,
             "targetId": "27fa-0f87-9be4-5db1",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "1199-60c4-7557-cecd",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -2902,7 +2976,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -2955,39 +3029,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "2ba8-ba3f-1a25-cb99"
           },
           {
             "type": "set",
@@ -3214,7 +3255,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -3261,7 +3302,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -3360,7 +3401,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "ae5a-779f-a067-03a4",
@@ -3389,6 +3430,12 @@
             "hidden": false,
             "targetId": "7177-ef6b-50ae-82e2",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "29f1-10cf-499f-0875",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -3458,7 +3505,27 @@
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
                     "hidden": false,
-                    "id": "9a2a-73c8-7c8c-f19b"
+                    "id": "9a2a-73c8-7c8c-f19b",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "2+",
+                        "field": "95d1-95f-45b4-11d6",
+                        "conditions": [
+                          {
+                            "type": "instanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "e96b-ac98-7fd2-a155",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "War Dog Karnivore"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -3530,7 +3597,27 @@
                     "typeId": "8a40-4aaa-c780-9046",
                     "typeName": "Melee Weapons",
                     "hidden": false,
-                    "id": "70ef-396b-bb23-6560"
+                    "id": "70ef-396b-bb23-6560",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "2+",
+                        "field": "95d1-95f-45b4-11d6",
+                        "conditions": [
+                          {
+                            "type": "instanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "e96b-ac98-7fd2-a155",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "War Dog Karnivore"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "costs": [
@@ -3709,7 +3796,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 155
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -3762,39 +3849,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "1df3-61b3-1a11-0900"
           },
           {
             "type": "set",
@@ -4021,7 +4075,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -4068,7 +4122,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -4167,7 +4221,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "96e1-0018-ecf2-a9dd",
@@ -4196,6 +4250,12 @@
             "hidden": false,
             "targetId": "8364-7dd6-fadc-a5d2",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "74dc-5141-3e67-a93d",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -4429,7 +4489,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -4450,6 +4510,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -4467,39 +4542,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "1995-c5fc-e109-31f1"
           },
           {
             "type": "set",
@@ -4726,7 +4768,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -4773,7 +4815,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -4872,7 +4914,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "e391-f4d8-0acc-7f6e",
@@ -4901,6 +4943,12 @@
             "hidden": false,
             "targetId": "f8a3-f5fa-4e85-cc47",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "6e69-c1fa-b4c8-f89d",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -5272,7 +5320,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -5325,39 +5373,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "f1a4-0645-a8de-81bd"
           },
           {
             "type": "set",
@@ -5631,7 +5646,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -6960,7 +6975,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 380
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -7028,46 +7043,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "0119-8c04-435e-c782",
-                        "shared": true,
-                        "childName": "Knight Despoiler"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -7653,7 +7628,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 15
+            "value": 5
           },
           {
             "name": "Crusade Points",
@@ -7758,7 +7733,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 25
+            "value": 10
           },
           {
             "name": "Crusade Points",
@@ -8206,7 +8181,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -8444,7 +8419,7 @@
                       {
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D6+3"
+                        "$text": "D3+5"
                       },
                       {
                         "name": "Keywords",
@@ -8785,7 +8760,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 355
+            "value": 330
           },
           {
             "name": "Crusade Points",
@@ -8810,6 +8785,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -8843,46 +8828,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "7a51-8f1f-7290-d9d2",
-                        "shared": true,
-                        "childName": "Knight Desecrator"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -9125,7 +9070,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -9346,7 +9291,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 365
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -9366,6 +9311,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -9399,46 +9359,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "61e0-e55b-1926-44df",
-                        "shared": true,
-                        "childName": "Knight Rampager"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -10098,7 +10018,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -10319,7 +10239,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 355
+            "value": 330
           },
           {
             "name": "Crusade Points",
@@ -10339,6 +10259,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -10372,46 +10307,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "a78d-828b-302b-1bec",
-                        "shared": true,
-                        "childName": "Knight Abominant"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -11126,7 +11021,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "12"
+                "$text": "13"
               },
               {
                 "name": "Sv",
@@ -12534,7 +12429,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 400
+            "value": 390
           },
           {
             "name": "Crusade Points",
@@ -12602,46 +12497,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "87ea-c7bd-6df0-f056",
-                        "shared": true,
-                        "childName": "Knight Tyrant"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -13900,7 +13755,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "id": "6b1e-130c-63fa-2e7d",
@@ -13910,18 +13765,32 @@
             "typeName": "Unit"
           },
           {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "f1cf-eb2a-583d-ee2f",
             "characteristics": [
               {
-                "$text": "Each time this model makes an attack that targets a ^^**Vehicle^^**, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a ^^**Fortification^^**, improve the Strength and Damage characteristics of that attack by 2 instead).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
               }
-            ],
-            "id": "a74b-9224-a762-2be2",
-            "name": "Sunderer of Fortresses",
-            "hidden": false,
+            ]
+          },
+          {
+            "name": "Sunderer of The Battlefield",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "784a-0e9a-9d52-6051",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack targets a unit that is not a FORTIFICATION, VEHICLE, MONSTER Armor penetration characteristics of the Profile of this weapon by 1 and you can reroll the Hit roll. and they are considered inside Conversion Range."
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -13958,13 +13827,6 @@
             "name": "Damaged: 1-10 wounds remaining",
             "hidden": false,
             "targetId": "7400-7387-dae-781f",
-            "type": "profile"
-          },
-          {
-            "name": "*Invulnerable Save",
-            "id": "9374-8790-4eec-aeac",
-            "hidden": false,
-            "targetId": "4e9b-b002-b008-6077",
             "type": "profile"
           }
         ],
@@ -14048,7 +13910,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 785
+            "value": 600
           },
           {
             "name": "Crusade Points",
@@ -14116,46 +13978,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 75,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "e289-ad32-c78a-e055",
-                        "shared": true,
-                        "childName": "Chaos Acastus Knight Asterius"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -14419,48 +14241,48 @@
                 ],
                 "profiles": [
                   {
-                    "characteristics": [
-                      {
-                        "$text": "48\"",
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "$text": "16",
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "$text": "-2",
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "$text": "6",
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "$text": "Conversion, Twin-linked, Sustained Hits D3",
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
                     "name": "Twin conversion beam cannon",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
-                    "id": "7322-a1c5-255-ed8b"
+                    "id": "b9b5-11e0-91f5-1cbe",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "16"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Conversion, Twin-linked, Sustained Hits D3"
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -14903,7 +14725,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "id": "310d-1486-55e8-2d6c",
@@ -14913,18 +14735,32 @@
             "typeName": "Unit"
           },
           {
+            "name": "Sunderer of Fortresses",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "076a-bcd9-d5eb-040d",
             "characteristics": [
               {
-                "$text": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack targets a FORTIFICATION, VEHICLE, MONSTER improve the Strength and Damage characteristics of that attack by 2 instead and you can Re-roll the hit roll."
               }
-            ],
-            "id": "e9ae-3e4d-a77b-c5d2",
-            "name": "Bastion of Firepower",
-            "hidden": false,
+            ]
+          },
+          {
+            "name": "Acastus Armor",
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "cfc0-6fef-f01c-8b21",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -14962,13 +14798,6 @@
             "hidden": false,
             "targetId": "5e13-1624-d280-418d",
             "type": "rule"
-          },
-          {
-            "name": "*Invulnerable Save",
-            "id": "0a1f-d9c6-a40c-4564",
-            "hidden": false,
-            "targetId": "4e9b-b002-b008-6077",
-            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -15061,6 +14890,11 @@
             ],
             "selectionEntries": [
               {
+                "type": "upgrade",
+                "import": true,
+                "name": "Twin Magna Volcano Cannon",
+                "hidden": false,
+                "id": "21c4-2b13-f360-97d0",
                 "constraints": [
                   {
                     "type": "min",
@@ -15068,10 +14902,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "a197-c720-c045-de90",
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
+                    "id": "88d0-d3a5-ffc5-92bc"
                   },
                   {
                     "type": "max",
@@ -15079,63 +14910,53 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "3608-72f2-1eb5-7d94",
-                    "percentValue": false,
-                    "includeChildSelections": false,
-                    "includeChildForces": false
+                    "id": "21c5-03dc-e417-0d77"
                   }
                 ],
                 "profiles": [
                   {
-                    "characteristics": [
-                      {
-                        "$text": "72\"",
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "$text": "D6",
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "$text": "18",
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "$text": "-4",
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "$text": "D6+6",
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "$text": "Blast, Twin-linked",
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
-                    "name": "Twin magna lascannon",
+                    "name": "Twin Magna Volcano Cannon",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
-                    "id": "f407-c2ad-122e-228c"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 0
+                    "id": "5b1c-a34a-1086-eb02",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "72\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D3+3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "22"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-5"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "D6+8"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Twin-linked"
+                      }
+                    ]
                   }
                 ],
                 "entryLinks": [
@@ -15143,7 +14964,7 @@
                     "import": true,
                     "name": "Weapon Modifications",
                     "hidden": false,
-                    "id": "7546-10a1-1f7a-b6be",
+                    "id": "e8ad-6e17-b224-5491",
                     "type": "selectionEntryGroup",
                     "targetId": "f9da-852a-d7f0-92e9"
                   }
@@ -15152,17 +14973,11 @@
                   {
                     "name": "Attacks Dx Weapon",
                     "hidden": false,
-                    "id": "5e44-dc5d-6756-b8c5",
+                    "id": "97fe-affe-7041-dd8d",
                     "targetId": "e993-e086-6de1-12af",
                     "primary": false
                   }
-                ],
-                "type": "upgrade",
-                "import": true,
-                "name": "Twin magna lascannon",
-                "hidden": false,
-                "id": "ab22-ae06-7c8c-48c5",
-                "collective": false
+                ]
               }
             ],
             "selectionEntryGroups": [
@@ -15614,7 +15429,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 725
+            "value": 600
           },
           {
             "name": "Crusade Points",
@@ -15682,46 +15497,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 75,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "fe77-6f85-5ddb-65bf",
-                        "shared": true,
-                        "childName": "Chaos Acastus Knight Porphyrion"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -15980,7 +15755,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -16187,7 +15962,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 375
           },
           {
             "name": "Crusade Points",
@@ -16255,46 +16030,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "4175-82c6-8e96-bef8",
-                        "shared": true,
-                        "childName": "Chaos Cerastus Knight Lancer"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -16785,7 +16520,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -16810,7 +16545,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "id": "c85c-2c10-9dab-f10f",
@@ -17010,7 +16745,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 370
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -17078,46 +16813,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "b6e5-911b-93f-476",
-                        "shared": true,
-                        "childName": "Chaos Cerastus Knight Castigator"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -17663,7 +17358,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -17688,7 +17383,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "id": "5403-3f13-3ca6-22b6",
@@ -17870,7 +17565,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 370
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -17938,46 +17633,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ec6e-d1d6-f7c6-d008",
-                        "shared": true,
-                        "childName": "Chaos Cerastus Knight Acheron"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -18673,7 +18328,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -18891,7 +18546,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 375
           },
           {
             "name": "Crusade Points",
@@ -18911,6 +18566,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -18944,46 +18614,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "8b1d-9029-f9e1-42d9",
-                        "shared": true,
-                        "childName": "Chaos Cerastus Knight Atrapos"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -19729,7 +19359,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -20584,7 +20214,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -20604,6 +20234,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -20637,46 +20282,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2d0e-5b83-b678-56dc",
-                        "shared": true,
-                        "childName": "Chaos Questoris Knight Magaera"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -20933,7 +20538,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -21795,7 +21400,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 365
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -21863,46 +21468,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "106c-4bdf-79a4-1c70",
-                        "shared": true,
-                        "childName": "Chaos Questoris Knight Styrix"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -22098,7 +21663,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 6,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
@@ -22145,7 +21710,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -22244,7 +21809,7 @@
             "name": "Vehicle",
             "hidden": false,
             "targetId": "dbd4-63-af05-998",
-            "primary": true
+            "primary": false
           },
           {
             "id": "3a45-b388-5145-4408",
@@ -22273,6 +21838,12 @@
             "hidden": false,
             "targetId": "47a1-f548-3346-b0df",
             "primary": false
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "c063-4e48-00e5-0c3c",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "selectionEntryGroups": [
@@ -22998,7 +22569,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -23019,6 +22590,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -23036,39 +22622,6 @@
             "type": "set-primary",
             "value": "8dd6-af11-abd3-55f1",
             "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set-primary",
-            "value": "e338-111e-d0c6-b687",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "6cb5-45cf-c626-fa86",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "multiply",
-            "value": 2,
-            "field": "1df3-61b3-1a11-0900"
           },
           {
             "type": "set",
@@ -23405,7 +22958,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -23619,7 +23172,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 340
+            "value": 330
           },
           {
             "name": "Crusade Points",
@@ -23687,46 +23240,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "c0a2-eb65-6d34-5bc6",
-                        "shared": true,
-                        "childName": "Knight Ruinator"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }

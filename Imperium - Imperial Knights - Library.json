@@ -429,7 +429,7 @@
                   {
                     "name": "T",
                     "typeId": "d29d-cf75-fc2d-34a4",
-                    "$text": "11"
+                    "$text": "12"
                   },
                   {
                     "name": "Sv",
@@ -466,9 +466,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Each time this model makes an attack, an unmodified successful Hit roll of 5+ scores a Critical Hit."
                   }
                 ],
                 "name": "Chainbreaker",
@@ -1143,7 +1143,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 415
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -1163,6 +1163,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -1241,7 +1256,7 @@
           {
             "targetId": "dbd4-63-af05-998",
             "id": "e395-3277-43cf-64b6",
-            "primary": true,
+            "primary": false,
             "name": "Vehicle"
           },
           {
@@ -1273,6 +1288,12 @@
             "id": "ad14-a1ba-a6e7-6ba1",
             "primary": false,
             "name": "Armiger"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "49e8-3b78-0756-3210",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "infoLinks": [
@@ -1313,39 +1334,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "6",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+*"
               }
             ],
             "name": "Armiger Warglaive",
@@ -1409,7 +1430,7 @@
           },
           {
             "type": "max",
-            "value": 3,
+            "value": 6,
             "field": "selections",
             "scope": "force",
             "shared": true,
@@ -1442,7 +1463,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -1462,6 +1483,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -1755,49 +1791,6 @@
                             "includeChildForces": true
                           }
                         ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": 3,
-                "field": "77d5-daf2-c670-6a4d",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d469-239c-7e4c-4210",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d62d-db22-4893-4bc0",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "1. Incursion (1000 Point limit)"
                       }
                     ]
                   }
@@ -2187,7 +2180,7 @@
           {
             "targetId": "dbd4-63-af05-998",
             "id": "8e5-50e1-634a-4aa7",
-            "primary": true,
+            "primary": false,
             "name": "Vehicle"
           },
           {
@@ -2219,6 +2212,12 @@
             "id": "54b-83bd-597d-ccfb",
             "primary": false,
             "name": "Armiger"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "94f4-c85f-591c-b1c8",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "infoLinks": [
@@ -2266,7 +2265,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -2355,7 +2354,7 @@
           },
           {
             "type": "max",
-            "value": 3,
+            "value": 6,
             "field": "selections",
             "scope": "force",
             "shared": true,
@@ -2388,7 +2387,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -2719,49 +2718,6 @@
                 "type": "set",
                 "value": 6,
                 "field": "343f-6550-4c70-e1f8"
-              },
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d469-239c-7e4c-4210",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d62d-db22-4893-4bc0",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "1. Incursion (1000 Point limit)"
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": 3,
-                "field": "9a4f-64e1-6ace-8796"
               },
               {
                 "conditions": [
@@ -3104,7 +3060,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -3304,7 +3260,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -3324,6 +3280,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -3372,46 +3343,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "8441-8356-5e7c-69ee",
-                        "shared": true,
-                        "childName": "Knight Paladin"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -3930,7 +3861,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -4124,7 +4055,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 355
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -4149,6 +4080,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -4197,46 +4138,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "9efd-ec72-353f-4b23",
-                        "shared": true,
-                        "childName": "Knight Errant"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -4594,7 +4495,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -4782,7 +4683,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 355
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -4807,6 +4708,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -4855,46 +4766,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "eb4-4a67-11e9-3cb8",
-                        "shared": true,
-                        "childName": "Knight Gallant"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -5528,7 +5399,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -5737,7 +5608,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 360
           },
           {
             "name": "Crusade Points",
@@ -5762,6 +5633,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -5810,46 +5691,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "c609-c87e-f9dd-5006",
-                        "shared": true,
-                        "childName": "Knight Warden"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -6259,7 +6100,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -6855,7 +6696,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 360
           },
           {
             "name": "Crusade Points",
@@ -6938,46 +6779,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "1e27-a6de-3840-a050",
-                        "shared": true,
-                        "childName": "Knight Crusader"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -7249,7 +7050,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -7859,7 +7660,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 365
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -7879,6 +7680,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -7927,46 +7743,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ebd9-7175-3f0c-72a9",
-                        "shared": true,
-                        "childName": "Knight Preceptor"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -8238,7 +8014,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "12"
+                "$text": "13"
               },
               {
                 "name": "Sv",
@@ -8403,7 +8179,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 425
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -8486,46 +8262,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 25,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "6e36-f85-1c3b-8bf3",
-                        "shared": true,
-                        "childName": "Knight Castellan"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -9227,7 +8963,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "12"
+                "$text": "13"
               },
               {
                 "name": "Sv",
@@ -9392,7 +9128,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 400
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -9475,46 +9211,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "8fb9-50b2-adc6-161a",
-                        "shared": true,
-                        "childName": "Knight Valiant"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -11137,7 +10833,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "name": "Acastus Knight Asterius",
@@ -11149,16 +10845,30 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack targets a unit that is not a FORTIFICATION, VEHICLE, MONSTER Armor penetration characteristics of the Profile of this weapon by 1 and you can reroll the Hit roll. and they are considered inside Conversion Range."
               }
             ],
-            "name": "Sunderer of Fortresses",
+            "name": "Sunderer of The Battlefield",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
             "id": "8107-cbfe-4bc2-99e1"
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "8e91-03ea-5f3c-98db",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -11191,13 +10901,6 @@
             "targetId": "1934-9c67-78e2-4fd9"
           },
           {
-            "name": "Invulnerable Save (5+*)",
-            "hidden": false,
-            "type": "profile",
-            "id": "b912-a48c-723f-4e96",
-            "targetId": "8552-862d-6a49-4879"
-          },
-          {
             "name": "Code Chivalric",
             "hidden": false,
             "type": "rule",
@@ -11209,7 +10912,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 785
+            "value": 600
           },
           {
             "name": "Crusade Points",
@@ -11292,46 +10995,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 75,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "f8d0-fdf2-2e5e-3b74",
-                        "shared": true,
-                        "childName": "Acastus Knight Asterius"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -11583,39 +11246,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "48\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
-                        "$text": "3",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
                       },
                       {
-                        "$text": "3+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "16",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "16"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "6",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "4"
                       },
                       {
-                        "$text": "Conversion, Twin-linked, Sustained Hits D3",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Conversion, Twin-linked, Sustained Hits D3"
                       }
                     ],
                     "name": "Twin conversion beam cannon",
@@ -11689,39 +11352,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "24\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
                       },
                       {
-                        "$text": "6",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
                       },
                       {
-                        "$text": "3+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "6",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
                       },
                       {
-                        "$text": "0",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "0"
                       },
                       {
-                        "$text": "2",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
                       },
                       {
-                        "$text": "Devastating Wounds",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Devastating Wounds"
                       }
                     ],
                     "name": "Asterius volkite culverin",
@@ -11779,39 +11442,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "48\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
-                        "$text": "D6+3",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "6"
                       },
                       {
-                        "$text": "3+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "6",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
                       },
                       {
-                        "$text": "-1",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
                       },
                       {
-                        "$text": "1",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
                       },
                       {
-                        "$text": "Anti-Infantry 2+, Blast, Ignores Cover, Indirect Fire",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Anti-Infantry 2+, Blast 2, Ignores Cover, Indirect Fire"
                       }
                     ],
                     "name": "Karacnos mortar battery",
@@ -11993,7 +11656,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": "5+*"
+                "$text": "5+"
               }
             ],
             "name": "Acastus Knight Porphyrion",
@@ -12001,6 +11664,34 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "e6ec-843a-ab40-28a"
+          },
+          {
+            "name": "Sunderer of Fortresses",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "54ff-ca3c-2504-10f4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack targets a FORTIFICATION, VEHICLE, MONSTER improve the Strength and Damage characteristics of that attack by 2 instead and you can Re-roll the hit roll."
+              }
+            ]
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5c78-1840-5e14-f605",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -12083,13 +11774,6 @@
             "targetId": "5e13-1624-d280-418d"
           },
           {
-            "name": "Invulnerable Save (5+*)",
-            "hidden": false,
-            "type": "profile",
-            "id": "bc1-ed43-2aae-267d",
-            "targetId": "8552-862d-6a49-4879"
-          },
-          {
             "name": "Damaged: 1-10 Wounds Remaining",
             "hidden": false,
             "type": "profile",
@@ -12102,38 +11786,6 @@
             "type": "rule",
             "id": "7788-1df9-f8fd-55e",
             "targetId": "cbd-943-bc7b-20ec"
-          }
-        ],
-        "infoGroups": [
-          {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Bastion of Firepower",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "565-616f-548a-b9ab"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Lethal Hits",
-                "hidden": false,
-                "type": "rule",
-                "id": "1051-bb5d-bf4b-b320",
-                "targetId": "d1d1-611e-5191-1095"
-              }
-            ],
-            "name": "Bastion of Firepower",
-            "hidden": false,
-            "id": "7fb8-ae75-1c6d-4834"
           }
         ],
         "selectionEntryGroups": [
@@ -12162,42 +11814,42 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "72\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "72\""
                       },
                       {
-                        "$text": "D6",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D3+3"
                       },
                       {
-                        "$text": "3+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "18",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "22"
                       },
                       {
-                        "$text": "-4",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-5"
                       },
                       {
-                        "$text": "D6+6",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "D6+8"
                       },
                       {
-                        "$text": "Blast, Twin-linked",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Twin-linked"
                       }
                     ],
-                    "name": "Twin magna lascannon",
+                    "name": "Twin Magna Volcano Cannon",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
@@ -12225,366 +11877,16 @@
                 ],
                 "type": "upgrade",
                 "import": true,
-                "name": "Twin magna lascannon",
+                "name": "Twin Magna Volcano Cannon",
                 "hidden": false,
                 "id": "1d9a-57f1-78bd-f342"
               }
             ],
             "selectionEntryGroups": [
               {
-                "selectionEntries": [
-                  {
-                    "selectionEntries": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e98d-4e77-4c80-1b60"
-                          },
-                          {
-                            "type": "max",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "7716-179f-af5c-bd9d"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "48\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "9",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Acastus autocannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "eb3a-97a1-f83-1fcc"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "9be8-df5a-ca0d-182f",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Acastus autocannon",
-                        "hidden": false,
-                        "id": "1961-5261-ccc4-f070"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "2 Acastus autocannons",
-                    "hidden": false,
-                    "id": "5621-3b42-f51b-e40c"
-                  },
-                  {
-                    "selectionEntries": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e98d-4e77-4c80-1b60"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "7716-179f-af5c-bd9d"
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "48\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "9",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Acastus autocannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "bea1-bed6-c0ea-e4aa"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "c956-75a1-ec3e-95cb",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Acastus autocannon",
-                        "hidden": false,
-                        "id": "4937-89f1-ba77-b223"
-                      },
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "48\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "12",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-3",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "D6+1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Lascannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "1898-d8d0-7e42-652d"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e98d-4e77-4c80-1b60"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "7716-179f-af5c-bd9d"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "3457-03c2-3bb8-89c3",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Lascannon",
-                        "hidden": false,
-                        "id": "f156-8ba5-4a15-ef86"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "1 Acastus autocannon and 1 lascannon",
-                    "hidden": false,
-                    "id": "62d8-6634-9940-a56a"
-                  },
-                  {
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "48\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "12",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-3",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "D6+1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Lascannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "3688-2729-1cfa-369b"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e98d-4e77-4c80-1b60"
-                          },
-                          {
-                            "type": "max",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "7716-179f-af5c-bd9d"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "63dd-500f-9dfb-5dbf",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Lascannon",
-                        "hidden": false,
-                        "id": "c4da-ff52-1481-95b5"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "2 Lascannons",
-                    "hidden": false,
-                    "id": "84b4-a59b-3e71-6a0f"
-                  }
-                ],
+                "name": "Carapace weapon",
+                "id": "fda6-b323-40a7-f977",
+                "hidden": false,
                 "constraints": [
                   {
                     "type": "min",
@@ -12592,7 +11894,10 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "16b7-114b-dcb1-dace"
+                    "id": "93fa-403e-93b1-3946",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
                   },
                   {
                     "type": "max",
@@ -12600,19 +11905,26 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "bbca-6eeb-4b61-c2e4"
+                    "id": "4047-b3ad-39bb-932a",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
                   }
                 ],
-                "name": "Acastus Autocannons",
-                "id": "4d7f-db31-7a3a-3907",
-                "hidden": false,
-                "defaultSelectionEntryId": "5621-3b42-f51b-e40c"
-              },
-              {
                 "selectionEntries": [
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Acastus ironstorm missile pod",
+                    "hidden": false,
+                    "id": "32f1-ae0c-8f4b-c2a5",
                     "profiles": [
                       {
+                        "name": "Acastus ironstorm missile pod",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "b9b1-ca93-0e5e-420c",
                         "characteristics": [
                           {
                             "$text": "48\"",
@@ -12649,35 +11961,37 @@
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
-                        ],
-                        "name": "Acastus ironstorm missile pod",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "3576-4d0d-5fbb-8d1a"
+                        ]
                       }
                     ],
                     "infoLinks": [
                       {
-                        "name": "Heavy",
-                        "id": "1552-1ac9-7cf3-58c4",
+                        "name": "Blast",
+                        "id": "9bab-fd1f-a52b-1bbb",
                         "hidden": false,
-                        "type": "rule",
-                        "targetId": "1202-10a8-78e9-4c67"
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "8166-7cd7-1586-839a",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
                       },
                       {
                         "name": "Indirect Fire",
-                        "id": "b9e2-8508-55d2-15d8",
+                        "id": "f6c2-1515-037b-efb9",
                         "hidden": false,
-                        "type": "rule",
-                        "targetId": "4ddd-4e29-acdd-5e6d"
-                      },
+                        "targetId": "4ddd-4e29-acdd-5e6d",
+                        "type": "rule"
+                      }
+                    ],
+                    "costs": [
                       {
-                        "name": "Blast",
-                        "id": "927a-74b6-c411-d169",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "6c1f-1cf7-ff25-c99e"
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
                       }
                     ],
                     "entryLinks": [
@@ -12685,20 +11999,26 @@
                         "import": true,
                         "name": "Weapon Modifications",
                         "hidden": false,
-                        "id": "94ab-5ea6-1fa8-47f7",
+                        "id": "64fc-d39f-3079-0ed9",
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
                       }
                     ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Acastus ironstorm missile pod",
-                    "hidden": false,
-                    "id": "845c-f07d-7d-b5f9"
+                    "collective": false
                   },
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Helios defence missiles",
+                    "hidden": false,
+                    "id": "f672-f393-9214-23aa",
                     "profiles": [
                       {
+                        "name": "Helios defence missiles",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "8766-db4f-7659-9d3e",
                         "characteristics": [
                           {
                             "$text": "48\"",
@@ -12731,32 +12051,34 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "Anti-Fly 2+, Heavy",
+                            "$text": "Anti-FLY 2+, Heavy",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
-                        ],
-                        "name": "Helios defence missiles",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "ee88-6de7-ede9-c612"
+                        ]
                       }
                     ],
                     "infoLinks": [
                       {
-                        "name": "Heavy",
-                        "id": "9b37-c1b-267-85a5",
+                        "name": "Anti",
+                        "id": "8952-d533-ae1c-81e5",
                         "hidden": false,
-                        "type": "rule",
-                        "targetId": "1202-10a8-78e9-4c67"
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule"
                       },
                       {
-                        "name": "Anti",
-                        "id": "1098-f00-4b7-c9c6",
+                        "name": "Heavy",
+                        "id": "7543-07c0-f0e9-f577",
                         "hidden": false,
-                        "type": "rule",
-                        "targetId": "4111-82e3-9444-e942"
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
                       }
                     ],
                     "entryLinks": [
@@ -12764,7 +12086,7 @@
                         "import": true,
                         "name": "Weapon Modifications",
                         "hidden": false,
-                        "id": "ebd8-834f-6a36-ceed",
+                        "id": "63e5-78ba-2007-22a5",
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
                       }
@@ -12773,40 +12095,219 @@
                       {
                         "name": "Damage Dx Weapon",
                         "hidden": false,
-                        "id": "b6ba-6fa9-e85b-919f",
+                        "id": "8843-ca51-581e-4dbc",
                         "targetId": "4986-bf86-beb4-13ac",
                         "primary": false
                       }
                     ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Helios defence missiles",
-                    "hidden": false,
-                    "id": "f5b1-c36e-4936-862f"
+                    "collective": false
                   }
                 ],
+                "collective": false,
+                "import": true,
+                "defaultSelectionEntryId": "2bd3-2771-a737-adee"
+              },
+              {
+                "name": "Shoulder weapons",
+                "id": "eac2-7e1c-54d0-be74",
+                "hidden": false,
                 "constraints": [
                   {
                     "type": "min",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "e247-c91e-2f79-f8ca"
+                    "id": "dd0c-da56-89ec-cc98",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
                   },
                   {
                     "type": "max",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "e04-c215-d77c-cb55"
+                    "id": "4e44-98eb-4b23-832d",
+                    "percentValue": false,
+                    "includeChildSelections": false,
+                    "includeChildForces": false
                   }
                 ],
-                "name": "Acastus Ironstorm Missile Pod",
-                "id": "2d57-7258-76bf-5aa0",
-                "hidden": false,
-                "defaultSelectionEntryId": "845c-f07d-7d-b5f9"
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Acastus autocannon",
+                    "hidden": false,
+                    "id": "a3c4-c651-da71-f184",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "519f-de5f-ec46-1b31",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Acastus autocannon",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "6a70-f536-b94b-3fa3",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "9",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-1",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "3",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "-",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Weapon Modifications",
+                        "hidden": false,
+                        "id": "5312-6ff7-6225-af5b",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ],
+                    "collective": false
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Lascannon",
+                    "hidden": false,
+                    "id": "be87-17e8-7cdb-ce69",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3bc8-51eb-a267-e7ce",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Lascannon",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "1cb4-d47d-9e32-f5a4",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "12",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-3",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "D6+1",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "-",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 0
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Weapon Modifications",
+                        "hidden": false,
+                        "id": "cfd5-e89d-93b7-b868",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ],
+                    "collective": false
+                  }
+                ],
+                "collective": false,
+                "import": true,
+                "defaultSelectionEntryId": "ba14-8cac-6b19-4318"
               }
             ],
             "entryLinks": [
@@ -12857,7 +12358,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 725
+            "value": 600
           },
           {
             "name": "Crusade Points",
@@ -12940,46 +12441,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 75,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "61c9-8baf-22b4-5d84",
-                        "shared": true,
-                        "childName": "Acastus Knight Porphyrion"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -13317,7 +12778,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -13468,7 +12929,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 415
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -13551,46 +13012,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "9ee-e289-bc6c-d943",
-                        "shared": true,
-                        "childName": "Cerastus Knight Lancer"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -14179,7 +13600,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -14300,7 +13721,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 380
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -14383,46 +13804,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "1654-5c17-474e-2d84",
-                        "shared": true,
-                        "childName": "Cerastus Knight Castigator"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -14952,7 +14333,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -15166,7 +14547,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 380
+            "value": 350
           },
           {
             "name": "Crusade Points",
@@ -15249,46 +14630,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "11d3-167b-6dff-a4c2",
-                        "shared": true,
-                        "childName": "Cerastus Knight Acheron"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -16220,7 +15561,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -16371,7 +15712,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 405
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -16391,6 +15732,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -16439,46 +15795,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "37a7-d156-1e4c-8fe1",
-                        "shared": true,
-                        "childName": "Cerastus Knight Atrapos"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -17215,7 +16531,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -17841,7 +17157,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -17861,6 +17177,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -17909,46 +17240,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "adfa-19fc-7337-7350",
-                        "shared": true,
-                        "childName": "Questoris Knight Magaera"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -18203,7 +17494,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -18836,7 +18127,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 340
           },
           {
             "name": "Crusade Points",
@@ -18919,46 +18210,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "f8f3-a438-1212-93e8",
-                        "shared": true,
-                        "childName": "Questoris Knight Styrix"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -19409,7 +18660,7 @@
           },
           {
             "type": "max",
-            "value": 3,
+            "value": 6,
             "field": "selections",
             "scope": "force",
             "shared": true,
@@ -19422,7 +18673,7 @@
           {
             "targetId": "dbd4-63-af05-998",
             "id": "cfec-9b33-fca7-7d2d",
-            "primary": true,
+            "primary": false,
             "name": "Vehicle"
           },
           {
@@ -19454,6 +18705,12 @@
             "id": "687b-25d0-1fc9-830c",
             "primary": false,
             "name": "Moirax"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "4672-5af4-cf86-156b",
+            "primary": true,
+            "name": "Battleline"
           }
         ],
         "profiles": [
@@ -19467,7 +18724,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
@@ -20230,7 +19487,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -20250,6 +19507,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -20298,46 +19570,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "e3dd-7e90-140a-b3ab",
-                        "shared": true,
-                        "childName": "Armiger Moirax"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -20603,49 +19835,6 @@
                             "includeChildForces": true
                           }
                         ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "set",
-                "value": 3,
-                "field": "19af-f4ad-9cc5-7412",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d469-239c-7e4c-4210",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "d62d-db22-4893-4bc0",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "1. Incursion (1000 Point limit)"
                       }
                     ]
                   }
@@ -21087,14 +20276,14 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Improve this model's Objective Control characteristic by 2 and its Leadership characteristic by 1.",
                     "name": "Description",
-                    "typeId": "f262-34f4-0217-8bdd"
+                    "typeId": "f262-34f4-0217-8bdd",
+                    "$text": "This model gain Feel no pain 6+ ability, When your deed is finished, Upgrade the ability to Feel no pain 5+."
                   },
                   {
-                    "$text": "5 or 6",
                     "name": "D6",
-                    "typeId": "abc7-ec7f-1f21-d074"
+                    "typeId": "abc7-ec7f-1f21-d074",
+                    "$text": "5 or 6"
                   }
                 ],
                 "name": "...yet shall our legacy be unsullied.",
@@ -21206,7 +20395,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "11"
+                "$text": "12"
               },
               {
                 "name": "Sv",
@@ -21395,7 +20584,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 400
+            "value": 360
           },
           {
             "name": "Crusade Points",
@@ -21478,46 +20667,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "f12b-ca2a-9c87-79bb",
-                        "shared": true,
-                        "childName": "Knight Defender"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -22649,7 +21798,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "10"
+                "$text": "11"
               },
               {
                 "name": "Sv",
@@ -22843,7 +21992,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 265
+            "value": 250
           },
           {
             "name": "Crusade Points",
@@ -22926,46 +22075,6 @@
             "type": "set-primary",
             "value": "5e03-9044-273d-e818",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "10d8-d702-f556-5d3c",
-                        "shared": true,
-                        "childName": "Knight Destrier"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
