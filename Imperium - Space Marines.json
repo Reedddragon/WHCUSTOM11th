@@ -28199,7 +28199,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "(Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n\n\n▪ This unit’s melee attacks have +1 to hit rolls.\n▪ Or: Attacks that target this unit have ‑1 to hit rolls."
+                "$text": "(Once per Phase, per unit): In the Fight phase and your opponent's Shooting Phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n\n\n▪ This unit’s melee attacks have +1 to Wound rolls.\n▪ Or: Attacks that target this unit have ‑1 to Wound rolls."
               }
             ],
             "name": "Bladeguard",
@@ -28729,46 +28729,6 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "7044-bf1-f949-c32d",
-                        "shared": true,
-                        "childName": "Bladeguard Veteran Squad"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "9c48-11e8-9134-1696",
@@ -28782,54 +28742,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "instanceOf",
-                "value": 1,
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "childId": "4ef9-15ce-e3e6-36de",
-                "shared": true,
-                "childName": "Imperium - Adeptus Astartes - Blood Angels"
-              }
-            ],
-            "comment": "Blood Angels tax"
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "comment": "Blood Angels tax",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "shared": true,
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "7044-bf1-f949-c32d",
-                    "childId": "fa1c-b448-12fa-e1d6",
-                    "shared": true,
-                    "id": "ba23-92ab-dd3c-8775"
-                  }
-                ]
               }
             ]
           }
@@ -29263,46 +29175,6 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "9e9c-bf4d-2d40-be82",
-                        "shared": true,
-                        "childName": "Vanguard Veteran Squad with Jump Packs"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "f6a9-1391-0ca7-8ec9",
@@ -29316,54 +29188,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "instanceOf",
-                "value": 1,
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "childId": "4ef9-15ce-e3e6-36de",
-                "shared": true,
-                "childName": "Imperium - Adeptus Astartes - Blood Angels"
-              }
-            ],
-            "comment": "Blood Angels tax"
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "comment": "Blood Angels tax",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "shared": true,
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 6,
-                    "field": "selections",
-                    "scope": "9e9c-bf4d-2d40-be82",
-                    "childId": "8a7f-b578-d274-9769",
-                    "shared": true,
-                    "id": "ec23-b747-adf5-2c25"
-                  }
-                ]
               }
             ]
           },
@@ -29423,9 +29247,9 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "The bearer has a 4+ invulnerable save",
                                 "name": "Description",
-                                "typeId": "9b8f-694b-e5e-b573"
+                                "typeId": "9b8f-694b-e5e-b573",
+                                "$text": "The bearer has a 4+ invulnerable save and Add 1 to wound"
                               }
                             ],
                             "name": "Storm Shield",
@@ -29439,7 +29263,23 @@
                         "import": true,
                         "name": "Storm Shield",
                         "hidden": false,
-                        "id": "d696-6426-c95b-30e4"
+                        "id": "d696-6426-c95b-30e4",
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": "3",
+                            "field": "750a-a2ec-90d3-21fe",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
+                          },
+                          {
+                            "type": "set",
+                            "value": "4+",
+                            "field": "55a7-5b54-c60d-11dc",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -29653,6 +29493,20 @@
                                 "childName": "Master-crafted Power Weapon"
                               }
                             ]
+                          },
+                          {
+                            "type": "set",
+                            "value": "3",
+                            "field": "750a-a2ec-90d3-21fe",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
+                          },
+                          {
+                            "type": "set",
+                            "value": "4+",
+                            "field": "55a7-5b54-c60d-11dc",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
                           }
                         ]
                       }
@@ -101376,7 +101230,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -101621,9 +101475,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, when this model is selected to fight, it can use this ability. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this model’s unit",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "(Once per Phase, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee wound rolls can be re-rolled\n▪ Or: Saves done by this unit can be re-rolled."
               }
             ],
             "name": "Deeds of Heroism",
@@ -101918,14 +101772,18 @@
                 "targetId": "83a1-feb8-d495-aa28"
               },
               {
+                "import": true,
+                "name": "Master-crafted power weapon",
+                "hidden": false,
+                "id": "f066-ba3a-58c2-2a02",
                 "entryLinks": [
                   {
                     "import": true,
-                    "name": "Weapon Upgrades",
+                    "name": "Weapon Modifications",
                     "hidden": false,
-                    "id": "ed40-6f4a-bada-ea1d",
+                    "id": "21b2-15b9-a2e2-e9e0",
                     "type": "selectionEntryGroup",
-                    "targetId": "8cf2-a48c-58d2-cb4e"
+                    "targetId": "f9da-852a-d7f0-92e9"
                   }
                 ],
                 "constraints": [
@@ -101935,7 +101793,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "0e30-7076-1c90-4b26"
+                    "id": "1f1a-d2f4-9902-582f"
                   },
                   {
                     "type": "max",
@@ -101943,15 +101801,11 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "c791-5e57-b7ac-37bd"
+                    "id": "11bd-7a90-dc12-ae36"
                   }
                 ],
-                "import": true,
-                "name": "Close combat weapon",
-                "hidden": false,
-                "id": "40e5-ca50-a158-123d",
                 "type": "selectionEntry",
-                "targetId": "f3c7-067a-894a-cc3a"
+                "targetId": "2b6b-56b9-13a8-3320"
               }
             ],
             "name": "Wargear",
@@ -130305,39 +130159,39 @@
           {
             "characteristics": [
               {
-                "$text": "Melee",
                 "name": "Range",
-                "typeId": "914c-b413-91e3-a132"
+                "typeId": "914c-b413-91e3-a132",
+                "$text": "Melee"
               },
               {
-                "$text": "4",
                 "name": "A",
-                "typeId": "2337-daa1-6682-b110"
+                "typeId": "2337-daa1-6682-b110",
+                "$text": "5"
               },
               {
-                "$text": "3+",
                 "name": "WS",
-                "typeId": "95d1-95f-45b4-11d6"
+                "typeId": "95d1-95f-45b4-11d6",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "S",
-                "typeId": "ab33-d393-96ce-ccba"
+                "typeId": "ab33-d393-96ce-ccba",
+                "$text": "5"
               },
               {
-                "$text": "-2",
                 "name": "AP",
-                "typeId": "41a0-1301-112a-e2f2"
+                "typeId": "41a0-1301-112a-e2f2",
+                "$text": "-2"
               },
               {
-                "$text": "2",
                 "name": "D",
-                "typeId": "3254-9fe6-d824-513e"
+                "typeId": "3254-9fe6-d824-513e",
+                "$text": "2"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
-                "typeId": "893f-9000-ccf7-648e"
+                "typeId": "893f-9000-ccf7-648e",
+                "$text": "-"
               }
             ],
             "name": "Master-crafted power weapon",
