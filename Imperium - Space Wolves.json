@@ -424,7 +424,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 130
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -1394,7 +1439,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 160
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -1419,6 +1464,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -2009,7 +2064,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -2826,7 +2881,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -3524,7 +3579,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -4038,7 +4138,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -4418,7 +4563,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 65
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -5673,7 +5863,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -6914,7 +7149,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -8494,7 +8774,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -8517,8 +8797,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -8537,7 +8837,7 @@
               }
             ],
             "type": "set",
-            "value": 270,
+            "value": 240,
             "field": "51b2-306e-1021-d207"
           }
         ],
@@ -9249,7 +9549,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 165
+            "value": 145
           },
           {
             "name": "Crusade Points",
@@ -9274,6 +9574,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -12219,7 +12529,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -12302,46 +12612,6 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ca30-caf3-d7a8-1d32",
-                        "shared": true,
-                        "childName": "Wolf Guard Terminators"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "8fa3-4666-3ca7-4e0f",
@@ -12397,405 +12667,6 @@
             ],
             "selectionEntries": [
               {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 9,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "2206-ec94-f634-2226",
-                    "automatic": true
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "Melee",
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "$text": "4",
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "$text": "3+",
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "$text": "2",
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ],
-                        "name": "Master-crafted Power Weapon",
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "hidden": false,
-                        "id": "5762-878b-231d-d044"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "d32b-43c2-2e1f-f2a0-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "d32b-43c2-2e1f-f2a0-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Master-crafted Power Weapon",
-                    "hidden": false,
-                    "id": "9843-8f1b-7c67-61b9"
-                  },
-                  {
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "24\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "2",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "4",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "0",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "Rapid Fire 2",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Storm Bolter",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "64c0-dd07-8e3a-6d3c"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Rapid Fire",
-                        "id": "213f-1e7b-50cb-28f1",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "c5c8-8b58-b8b6-7786"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4e73-55cd-de2d-a32a-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4e73-55cd-de2d-a32a-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Storm Bolter",
-                    "hidden": false,
-                    "id": "70f9-7a89-bbac-a9a7"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
-                      },
-                      {
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da",
-                        "$text": "2+"
-                      },
-                      {
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc",
-                        "$text": "6+"
-                      },
-                      {
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": "4+"
-                      }
-                    ],
-                    "name": "Wolf Guard Terminator",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "d9b7-fcdf-c0cb-4851"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "ca30-caf3-d7a8-1d32",
-                        "childId": "3e05-9064-404-87d4",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "2206-ec94-f634-2226"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Wolf Guard Terminator w/ storm bolter",
-                "hidden": false,
-                "id": "c169-905a-e3f-8c1",
-                "sortIndex": 1
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "d217-d4e1-284e-92c7"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "ca30-caf3-d7a8-1d32",
-                            "childId": "model",
-                            "shared": true,
-                            "id": "67f8-a069-45cb-49f8",
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atLeast",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "ca30-caf3-d7a8-1d32",
-                            "childId": "3e05-9064-404-87d4",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 1 per 5 models",
-                    "field": "error",
-                    "id": "ed99-62e7-5faa-dee1"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "b823-4181-3bc5-3f0f-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "b823-4181-3bc5-3f0f-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "import": true,
-                    "name": "Power fist",
-                    "hidden": false,
-                    "id": "aa70-14eb-1c49-1809",
-                    "type": "selectionEntry",
-                    "targetId": "eb70-5918-e9a-5a3f"
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "24\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "6",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "6",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "0",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "Devastating Wounds",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Assault Cannon",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "8067-a14a-bfb6-4549"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Devastating Wounds",
-                        "id": "09d7-afca-7445-f3cc",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "be1e-ac8e-1e2c-3528"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4982-31a6-b5e7-d43a-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4982-31a6-b5e7-d43a-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Assault Cannon",
-                    "hidden": false,
-                    "id": "5084-6487-26a1-daec"
-                  }
-                ],
                 "profiles": [
                   {
                     "characteristics": [
@@ -12844,257 +12715,477 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "Wolf Guard Terminator w/ Assault Cannon",
+                "name": "Wolf Guard Terminator",
                 "hidden": false,
                 "id": "3e05-9064-404-87d4",
-                "sortIndex": 3
-              },
-              {
-                "constraints": [
+                "sortIndex": 3,
+                "selectionEntryGroups": [
                   {
-                    "type": "max",
-                    "value": 9,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "c2f3-caca-76b7-1d40",
-                    "automatic": true
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "profiles": [
+                    "name": "Weapons",
+                    "id": "3234-b3bb-d373-9457",
+                    "hidden": false,
+                    "constraints": [
                       {
-                        "characteristics": [
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "aeaa-7de1-68b3-0521",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "4d16-a107-3044-6d58",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Power Claw Fist",
+                        "hidden": false,
+                        "id": "8726-c348-ead4-c4ad",
+                        "profiles": [
                           {
-                            "$text": "Melee",
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "$text": "4",
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "$text": "3+",
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "$text": "2",
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "name": "Power Claw Fist",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "cb5b-5aad-fb4c-aa8e",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
                           }
                         ],
-                        "name": "Master-crafted Power Weapon",
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Modifications",
+                            "hidden": false,
+                            "id": "6cdc-c622-49c6-317c",
+                            "type": "selectionEntryGroup",
+                            "targetId": "f9da-852a-d7f0-92e9"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Relic Great Axe",
                         "hidden": false,
-                        "id": "0592-e3ac-3d71-076d"
+                        "id": "22b3-ed52-6e0a-3da0",
+                        "profiles": [
+                          {
+                            "name": "Relic Great Axe",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "ab8d-6cf4-d736-319e",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132",
+                                "$text": "Melee"
+                              },
+                              {
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110",
+                                "$text": "3"
+                              },
+                              {
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6",
+                                "$text": "3+"
+                              },
+                              {
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba",
+                                "$text": "9"
+                              },
+                              {
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2",
+                                "$text": "-3"
+                              },
+                              {
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e",
+                                "$text": "3"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": "Devastating Wounds"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Devastating Wounds",
+                            "id": "4795-8f25-fe66-04b7",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "be1e-ac8e-1e2c-3528"
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Modifications",
+                            "hidden": false,
+                            "id": "2dc0-bd94-126d-620e",
+                            "type": "selectionEntryGroup",
+                            "targetId": "f9da-852a-d7f0-92e9"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Assault Cannon & Master-crafted Power Weapon",
+                        "hidden": false,
+                        "id": "425e-2db5-3704-d451",
+                        "selectionEntries": [
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Master-crafted Power Weapon",
+                            "hidden": false,
+                            "id": "072e-3571-1c65-c914",
+                            "profiles": [
+                              {
+                                "name": "Master-crafted Power Weapon",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "dac2-5e9e-afbc-a707",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "-",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "7364-6ef7-95c7-438e",
+                                "includeChildSelections": false
+                              },
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "eaba-b828-ad41-d25d",
+                                "includeChildSelections": false
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "import": true,
+                                "name": "Weapon Modifications",
+                                "hidden": false,
+                                "id": "0f4f-fce4-f3ec-3ddc",
+                                "type": "selectionEntryGroup",
+                                "targetId": "f9da-852a-d7f0-92e9"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Assault Cannon",
+                            "hidden": false,
+                            "id": "4b0a-4e09-57ac-e085",
+                            "profiles": [
+                              {
+                                "name": "Assault Cannon",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "0e95-d76d-745c-d3f7",
+                                "characteristics": [
+                                  {
+                                    "$text": "24\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "6",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "2+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "6",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "0",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Devastating Wounds",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Devastating Wounds",
+                                "id": "716a-2706-1621-4866",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "be1e-ac8e-1e2c-3528"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "15ad-bd72-8587-000a",
+                                "includeChildSelections": false
+                              },
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "9236-7c88-69a3-87d9",
+                                "includeChildSelections": false
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Storm Shield & Master-crafted Power Weapon",
+                        "hidden": false,
+                        "id": "6748-c61c-200b-f377",
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Storm shield",
+                            "hidden": false,
+                            "id": "38e3-7556-5a7f-19bb",
+                            "constraints": [
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "26ba-ba6c-f94d-b77a",
+                                "includeChildSelections": false
+                              },
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "35c3-3193-697d-9e32",
+                                "includeChildSelections": false
+                              }
+                            ],
+                            "type": "selectionEntry",
+                            "targetId": "d576-d444-2286-9eeb",
+                            "modifiers": [
+                              {
+                                "type": "increment",
+                                "value": 1,
+                                "field": "750a-a2ec-90d3-21fe",
+                                "scope": "model",
+                                "affects": "profiles.Unit"
+                              }
+                            ]
+                          }
+                        ],
+                        "selectionEntries": [
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Master-crafted Power Weapon",
+                            "hidden": false,
+                            "id": "a711-e35d-ff77-4781",
+                            "profiles": [
+                              {
+                                "name": "Master-crafted Power Weapon",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "e024-a012-c500-3b3d",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "-",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "min",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "7887-2a83-9b8f-0440",
+                                "includeChildSelections": false
+                              },
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "b63e-ced5-5427-bf0a",
+                                "includeChildSelections": false
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "import": true,
+                                "name": "Weapon Modifications",
+                                "hidden": false,
+                                "id": "e56f-be98-feb7-aad1",
+                                "type": "selectionEntryGroup",
+                                "targetId": "f9da-852a-d7f0-92e9"
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ddfb-e508-f32c-244b",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "969b-f4ec-9b64-6372",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Master-crafted Power Weapon",
-                    "hidden": false,
-                    "id": "5c90-e561-66a0-1344"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "6\""
-                      },
-                      {
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "5"
-                      },
-                      {
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da",
-                        "$text": "2+"
-                      },
-                      {
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe",
-                        "$text": "4"
-                      },
-                      {
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc",
-                        "$text": "6+"
-                      },
-                      {
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": "4+"
-                      }
-                    ],
-                    "name": "Wolf Guard Terminator (Storm shield)",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "2bb7-8921-7138-957b"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "150e-e1ad-8a41-47c5"
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4d3e-5f30-d5ae-6648-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4d3e-5f30-d5ae-6648-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "import": true,
-                    "name": "Storm shield",
-                    "hidden": false,
-                    "id": "fd41-4ba2-3e4e-7897",
-                    "type": "selectionEntry",
-                    "targetId": "d576-d444-2286-9eeb"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "ca30-caf3-d7a8-1d32",
-                        "childId": "3e05-9064-404-87d4",
-                        "shared": true,
-                        "roundUp": false,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "c2f3-caca-76b7-1d40"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Wolf Guard Terminator w/ storm shield",
-                "hidden": false,
-                "id": "d953-a57f-9ac3-179f",
-                "sortIndex": 2,
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 5
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 0
-                  },
-                  {
-                    "name": "Honour Points",
-                    "typeId": "8135-9a2f-6627-09e2",
-                    "value": 0
-                  },
-                  {
-                    "name": "Relic Fragments",
-                    "typeId": "0ece-6541-4662-ece2",
-                    "value": 0
+                    "defaultSelectionEntryId": "e469-68a3-630f-754f"
                   }
                 ]
               }
@@ -13128,6 +13219,9 @@
             ],
             "selectionEntryGroups": [
               {
+                "name": "Weapons",
+                "id": "4c2a-3678-da00-a4c1",
+                "hidden": false,
                 "constraints": [
                   {
                     "type": "min",
@@ -13150,8 +13244,18 @@
                 ],
                 "selectionEntries": [
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Power Claw Fist",
+                    "hidden": false,
+                    "id": "09b6-e7b6-d498-0e54",
                     "profiles": [
                       {
+                        "name": "Power Claw Fist",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "53bd-9bd3-4967-740c",
                         "characteristics": [
                           {
                             "$text": "Melee",
@@ -13169,7 +13273,7 @@
                             "typeId": "95d1-95f-45b4-11d6"
                           },
                           {
-                            "$text": "5",
+                            "$text": "6",
                             "name": "S",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
@@ -13179,30 +13283,15 @@
                             "typeId": "41a0-1301-112a-e2f2"
                           },
                           {
-                            "$text": "1",
+                            "$text": "2",
                             "name": "D",
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "Twin-linked",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
-                        ],
-                        "name": "Twin lightning claws",
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "hidden": false,
-                        "id": "53bd-9bd3-4967-740c"
-                      }
-                    ],
-                    "infoLinks": [
-                      {
-                        "name": "Twin-linked",
-                        "id": "e5bd-61ca-f5df-d35b",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "cf93-ad4d-2f08-a79d"
+                        ]
                       }
                     ],
                     "entryLinks": [
@@ -13214,58 +13303,58 @@
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
                       }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Twin-linked Lightning Claws",
-                    "hidden": false,
-                    "id": "09b6-e7b6-d498-0e54"
+                    ]
                   },
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Relic Great Axe",
+                    "hidden": false,
+                    "id": "320d-0d3a-dd22-2906",
                     "profiles": [
                       {
-                        "characteristics": [
-                          {
-                            "$text": "Melee",
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "$text": "3+",
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "$text": "7",
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "$text": "Devastating Wounds",
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ],
                         "name": "Relic Great Axe",
                         "typeId": "8a40-4aaa-c780-9046",
                         "typeName": "Melee Weapons",
                         "hidden": false,
-                        "id": "f0cb-e4ef-d525-7bd6"
+                        "id": "f50c-a41b-ba55-2dc3",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
+                          },
+                          {
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
+                          },
+                          {
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "9"
+                          },
+                          {
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-3"
+                          },
+                          {
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Devastating Wounds"
+                          }
+                        ]
                       }
                     ],
                     "infoLinks": [
@@ -13286,58 +13375,28 @@
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
                       }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Relic Great Axe",
-                    "hidden": false,
-                    "id": "320d-0d3a-dd22-2906"
+                    ]
                   },
                   {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "9ac7-efec-f151-55a5-min",
-                            "includeChildSelections": false
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "9ac7-efec-f151-55a5-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "e26a-c210-21d0-3f71",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Storm Bolter",
-                        "hidden": false,
-                        "id": "5a23-b62b-b8dc-d0ac",
-                        "type": "selectionEntry",
-                        "targetId": "70f9-7a89-bbac-a9a7"
-                      }
-                    ],
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Assault Cannon & Master-crafted Power Weapon",
+                    "hidden": false,
+                    "id": "e469-68a3-630f-754f",
                     "selectionEntries": [
                       {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Master-crafted Power Weapon",
+                        "hidden": false,
+                        "id": "bf02-8951-4f2d-2a64",
                         "profiles": [
                           {
+                            "name": "Master-crafted Power Weapon",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "4cdf-e25e-c5a6-3af6",
                             "characteristics": [
                               {
                                 "$text": "Melee",
@@ -13374,12 +13433,7 @@
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
-                            ],
-                            "name": "Master-crafted Power Weapon",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "4cdf-e25e-c5a6-3af6"
+                            ]
                           }
                         ],
                         "constraints": [
@@ -13411,23 +13465,104 @@
                             "type": "selectionEntryGroup",
                             "targetId": "f9da-852a-d7f0-92e9"
                           }
-                        ],
+                        ]
+                      },
+                      {
                         "type": "upgrade",
                         "import": true,
-                        "name": "Master-crafted Power Weapon",
+                        "name": "Assault Cannon",
                         "hidden": false,
-                        "id": "bf02-8951-4f2d-2a64"
+                        "id": "1b05-bb5c-2279-d98b",
+                        "profiles": [
+                          {
+                            "name": "Assault Cannon",
+                            "typeId": "f77d-b953-8fa4-b762",
+                            "typeName": "Ranged Weapons",
+                            "hidden": false,
+                            "id": "02cb-435b-af38-f861",
+                            "characteristics": [
+                              {
+                                "$text": "24\"",
+                                "name": "Range",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "A",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "$text": "2+",
+                                "name": "BS",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "S",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "$text": "0",
+                                "name": "AP",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "$text": "Devastating Wounds",
+                                "name": "Keywords",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Devastating Wounds",
+                            "id": "eb32-3578-3cf3-d430",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "be1e-ac8e-1e2c-3528"
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "0546-b5c7-cd02-a597",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "ae80-7540-1d6f-342f",
+                            "includeChildSelections": false
+                          }
+                        ]
                       }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Storm Bolter & Master-crafted Power Weapon",
-                    "hidden": false,
-                    "id": "e469-68a3-630f-754f"
+                    ]
                   },
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Storm Shield & Master-crafted Power Weapon",
+                    "hidden": false,
+                    "id": "823e-c52e-1700-6073",
                     "entryLinks": [
                       {
+                        "import": true,
+                        "name": "Storm shield",
+                        "hidden": false,
+                        "id": "44d4-1a7b-b37c-e4f5",
                         "constraints": [
                           {
                             "type": "min",
@@ -13448,18 +13583,33 @@
                             "includeChildSelections": false
                           }
                         ],
-                        "import": true,
-                        "name": "Storm shield",
-                        "hidden": false,
-                        "id": "44d4-1a7b-b37c-e4f5",
                         "type": "selectionEntry",
-                        "targetId": "d576-d444-2286-9eeb"
+                        "targetId": "d576-d444-2286-9eeb",
+                        "modifiers": [
+                          {
+                            "type": "increment",
+                            "value": 1,
+                            "field": "750a-a2ec-90d3-21fe",
+                            "scope": "model",
+                            "affects": "profiles.Unit"
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
                       {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Master-crafted Power Weapon",
+                        "hidden": false,
+                        "id": "06c6-d2a2-eafb-abb7",
                         "profiles": [
                           {
+                            "name": "Master-crafted Power Weapon",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "e08c-3cbd-a5eb-5cdd",
                             "characteristics": [
                               {
                                 "$text": "Melee",
@@ -13496,12 +13646,7 @@
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
-                            ],
-                            "name": "Master-crafted Power Weapon",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "e08c-3cbd-a5eb-5cdd"
+                            ]
                           }
                         ],
                         "constraints": [
@@ -13533,76 +13678,11 @@
                             "type": "selectionEntryGroup",
                             "targetId": "f9da-852a-d7f0-92e9"
                           }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Master-crafted Power Weapon",
-                        "hidden": false,
-                        "id": "06c6-d2a2-eafb-abb7"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Storm Shield & Master-crafted Power Weapon",
-                    "hidden": false,
-                    "id": "823e-c52e-1700-6073",
-                    "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 5
-                      },
-                      {
-                        "name": "Crusade Points",
-                        "typeId": "b03b-c239-15a5-da55",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Battle Honours",
-                        "typeId": "75bb-ded1-c86d-bdf0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Experience",
-                        "typeId": "a623-fe74-1d33-cddf",
-                        "value": 0
-                      },
-                      {
-                        "name": "Crusade: Weapon Modifications",
-                        "typeId": "716d-91b7-d55a-1022",
-                        "value": 0
-                      },
-                      {
-                        "name": "Blackstone Fragments",
-                        "typeId": "ac6b-ced3-9b5e-9a6e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Detachment Points",
-                        "typeId": "82ae-1066-5107-6ae0",
-                        "value": 0
-                      },
-                      {
-                        "name": "Enhancements",
-                        "typeId": "f759-1bc4-cb3a-f0d2",
-                        "value": 0
-                      },
-                      {
-                        "name": "Honour Points",
-                        "typeId": "8135-9a2f-6627-09e2",
-                        "value": 0
-                      },
-                      {
-                        "name": "Relic Fragments",
-                        "typeId": "0ece-6541-4662-ece2",
-                        "value": 0
+                        ]
                       }
                     ]
                   }
                 ],
-                "name": "Weapons",
-                "hidden": false,
-                "id": "4c2a-3678-da00-a4c1",
                 "defaultSelectionEntryId": "e469-68a3-630f-754f"
               }
             ],
@@ -13620,67 +13700,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "5",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "5"
                   },
                   {
-                    "$text": "2+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "3",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
-                  }
-                ],
-                "modifierGroups": [
-                  {
-                    "modifiers": [
-                      {
-                        "type": "increment",
-                        "value": 1,
-                        "field": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "type": "append",
-                        "value": "(Storm shield)",
-                        "field": "name"
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "1f70-af8a-871e-979f",
-                        "childId": "d576-d444-2286-9eeb",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "and"
+                    "$text": "4+"
                   }
                 ],
                 "name": "Wolf Guard Terminator Pack Leader",
@@ -14409,7 +14461,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -14429,6 +14481,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -14497,7 +14574,7 @@
               }
             ],
             "type": "set",
-            "value": 160,
+            "value": 150,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -15142,7 +15219,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -15165,8 +15242,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -16013,7 +16110,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -16038,6 +16135,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -16814,7 +16921,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -16839,6 +16946,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -17220,7 +17337,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -17321,48 +17438,8 @@
               }
             ],
             "type": "set",
-            "value": 200,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "7a50-3722-8195-5877",
-                        "shared": true,
-                        "childName": "Thunderwolf Cavalry"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -18385,7 +18462,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 30
           },
           {
             "name": "Crusade Points",
@@ -18673,48 +18750,8 @@
               }
             ],
             "type": "set",
-            "value": 75,
+            "value": 60,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "dc75-5a79-4121-1d72",
-                        "shared": true,
-                        "childName": "Fenrisian Wolves"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "infoLinks": [
@@ -28522,7 +28559,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 20
+            "value": 15
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -33963,7 +34045,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -33986,8 +34068,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -35479,7 +35581,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -35502,8 +35604,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -35535,7 +35657,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35565,7 +35687,7 @@
               }
             ],
             "type": "set",
-            "value": 230,
+            "value": 220,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35595,7 +35717,7 @@
               }
             ],
             "type": "set",
-            "value": 115,
+            "value": 100,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35611,7 +35733,7 @@
               }
             ],
             "type": "set",
-            "value": 230,
+            "value": 220,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35628,46 +35750,6 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d4ef-1ddc-1ed5-5156",
-                        "shared": true,
-                        "childName": "Wolf Guard Headtakers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -35750,7 +35832,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -35773,8 +35855,28 @@
             "value": 0
           },
           {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
             "name": "Honour Points",
             "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -37997,7 +38099,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -39968,6 +40070,1072 @@
         "hidden": false,
         "id": "4174-3c06-0bf7-e559",
         "sortIndex": 1
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Leman Russ",
+        "hidden": false,
+        "id": "1847-bd4e-fc53-98d3",
+        "categoryLinks": [
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "f8fc-8a01-0168-7093",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false
+          },
+          {
+            "name": "Epic Hero",
+            "hidden": false,
+            "id": "d4d2-832b-6d5f-1a36",
+            "targetId": "4f3a-f0f7-6647-348d",
+            "primary": true
+          },
+          {
+            "name": "Monster",
+            "hidden": false,
+            "id": "331e-4c51-1bc7-7298",
+            "targetId": "9693-cf84-fe69-37a9",
+            "primary": false
+          },
+          {
+            "name": "Imperium",
+            "hidden": false,
+            "id": "0035-ad81-d80a-f501",
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "primary": false
+          },
+          {
+            "name": "Faction: Adeptus Astartes",
+            "hidden": false,
+            "id": "32f6-9efb-ccd8-13ca",
+            "targetId": "6e7-40c-58d9-e402",
+            "primary": false
+          },
+          {
+            "name": "Primarch",
+            "hidden": false,
+            "id": "43da-3aec-5095-cb4a",
+            "targetId": "6474-0ce3-6b5a-120c",
+            "primary": false
+          },
+          {
+            "name": "Faction: Space Wolves",
+            "hidden": false,
+            "id": "d0bf-5ce6-8c1f-5887",
+            "targetId": "a0d9-c115-2a-8330",
+            "primary": false
+          },
+          {
+            "name": "Leman Russ",
+            "hidden": false,
+            "id": "2ef8-7fa0-20e7-5224",
+            "targetId": "ecc7-283b-8425-5e52",
+            "primary": false
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "88a2-1992-813a-241b"
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "59ec-e383-5102-a258",
+            "includeChildSelections": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Leman Russ",
+            "hidden": false,
+            "id": "d221-eae7-7d5b-464c",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Arsenal of The Wolf King",
+                "hidden": false,
+                "id": "7b51-20bd-75bd-90eb",
+                "profiles": [
+                  {
+                    "name": "Gungnir, Spear of the Emperor",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "a45e-6581-c0cf-54f3",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "11",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-4",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Lance",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "page": 41
+                  },
+                  {
+                    "name": "Mjalnar, the Sword of Balenight",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "7c99-bda1-3afe-2747",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "14",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-3",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "D6+1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "page": 41
+                  },
+                  {
+                    "name": "Axe of Helwinter",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "c390-3595-1924-8594",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "10",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "8",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "Sustained Hits 1",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "page": 41
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a3fd-158c-bdd1-17e4"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "15ea-b7c2-b00e-dbe5"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Lethal Hits",
+                    "id": "2a76-5067-d395-208c",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "d1d1-611e-5191-1095"
+                  },
+                  {
+                    "name": "Sustained Hits",
+                    "id": "ada1-8f6f-4934-0446",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "1897-c22c-9597-12b1"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Scornspitter",
+                "hidden": false,
+                "id": "4a3d-5fdb-d159-fda2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7f0f-1763-4a6f-4790"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7bea-c03c-8f0f-011f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Scornspitter",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "b5c9-5b6e-6b0b-1ae2",
+                    "characteristics": [
+                      {
+                        "$text": "24\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ],
+                    "page": 41
+                  }
+                ],
+                "page": 41
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Warlord",
+                "hidden": false,
+                "id": "21bc-14ab-7093-2704",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "81f0-2ab1-50c7-2333"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5d2b-27f8-a17b-ff81"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "caa-f869-3cbd-b48e"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Invulnerable Save 4+",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "cc41-eae5-3d99-99ec",
+                "characteristics": [
+                  {
+                    "$text": "4+",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Leman Russ",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "2ccc-be9b-6a0e-2a40",
+                "characteristics": [
+                  {
+                    "$text": "9\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "9",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "10",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "5+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "4",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Saga of Hel [Aura]",
+                "typeId": "6128-0fe9-bc6b-7164",
+                "typeName": "Wolf King of Fenris",
+                "hidden": false,
+                "id": "93a3-c7b7-8546-4cba",
+                "characteristics": [
+                  {
+                    "$text": "While a friendly ^^**Adeptus Astartes^^** unit is within 6\" of this model, melee weapons in that unit have the Ability Sustained Hits 1, if that model already has Sustained Hits, add 1 to x of the ability. When this model uses Axe of Helwinter, an unmodifed Hit roll of 5+ is a Critical Hit.",
+                    "name": "Effect",
+                    "typeId": "4593-c408-1ef0-324e"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Saga of Odin [Aura]",
+                "typeId": "6128-0fe9-bc6b-7164",
+                "typeName": "Wolf King of Fenris",
+                "hidden": false,
+                "id": "7cab-c813-366a-32cc",
+                "characteristics": [
+                  {
+                    "$text": "While a friendly ^^**Adeptus Astartes^^** unit is within 6\" of this model, melee weapons in that unit have the [Anti-Psycher 4+] ability along with [Devastating Wounds]. When this model uses Gungnir, Spear of the Emperor, an unmodifed wound roll of 5+ is a critical Wound",
+                    "name": "Effect",
+                    "typeId": "4593-c408-1ef0-324e"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Saga of Thor [Aura]",
+                "typeId": "6128-0fe9-bc6b-7164",
+                "typeName": "Wolf King of Fenris",
+                "hidden": false,
+                "id": "96e0-cd59-84d5-9edf",
+                "characteristics": [
+                  {
+                    "$text": "While a friendly ^^**Adeptus Astartes^^** unit is within 6\" of this model, you can ignore any or all modifiers to that unit's Move characteristic and to Advance and Charge rolls made for it, and each time a model in that unit makes a Charge move, add 2 to the roll. When this model uses Mjalnar, the Sword of Balenight, you can re-roll the damage roll.",
+                    "name": "Effect",
+                    "typeId": "4593-c408-1ef0-324e"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Space Wolves Bodyguard",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "b237-2536-e0e1-566d",
+                "characteristics": [
+                  {
+                    "$text": "While this model is within 3\" of one or more friendly ^^**Adeptus Astartes^^** units, this model has the Lone Operative ability.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "The Emperor's Executioner",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "2645-cced-49bb-eccc",
+                "characteristics": [
+                  {
+                    "$text": "Each time this model charges, You can select one melee weapon to gain Extra Attacks ability that lasts till next command phase",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "page": 41
+              },
+              {
+                "name": "Wolf King of Fenris",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "5513-072a-c23e-ca0a",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "At the start of your Command phase, select two Saga of Wolf King of Fenris abilities. Until the start of your next Command phase, this model has those abilities."
+                  }
+                ],
+                "page": 41
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "89e2-3a87-932b-228f"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "50fd-ae70-625f-2526"
+              }
+            ]
+          },
+          {
+            "type": "model",
+            "import": true,
+            "name": "Freki",
+            "hidden": false,
+            "id": "821a-6634-cc78-5a07",
+            "selectionEntryGroups": [
+              {
+                "name": "Wargear",
+                "id": "1509-dd81-5572-9b76",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Freki's Claws",
+                    "hidden": false,
+                    "id": "cc73-9623-f15a-95f1",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "09c0-491c-6fa1-b161"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2b02-f309-b6cc-9d7c"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Freki's Claws",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "ff51-1315-b260-a68a",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-1",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Sustained Hits 1",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Freki",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "676c-0d3c-66ed-c42a",
+                "characteristics": [
+                  {
+                    "$text": "9\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "9",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "4+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "3",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Invulnerable Save",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "9194-0f44-b9eb-0ee0",
+                "characteristics": [
+                  {
+                    "$text": "4+",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Wolves Bodyguard",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "1379-7896-75f6-b149",
+                "characteristics": [
+                  {
+                    "$text": "If this unit’s Leman Russ model is destroyed, all of this unit’s remaining Freki and Geri models are also destroyed.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "page": 41
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d06e-2bf1-a4f7-d8f7"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Oath of Moment",
+                "id": "ad29-2a63-d793-5a3a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "3b76-4053-ece9-6e7d"
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Honour Points",
+                "typeId": "8135-9a2f-6627-09e2",
+                "value": 0
+              },
+              {
+                "name": "Relic Fragments",
+                "typeId": "0ece-6541-4662-ece2",
+                "value": 0
+              }
+            ]
+          },
+          {
+            "type": "model",
+            "import": true,
+            "name": "Geri",
+            "hidden": false,
+            "id": "b7d1-9a7a-8b8f-00d7",
+            "selectionEntryGroups": [
+              {
+                "name": "Wargear",
+                "id": "47e4-d2c2-36b6-f178",
+                "hidden": false,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Geri's Fang",
+                    "hidden": false,
+                    "id": "7178-c075-bb98-fcd8",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "ca47-1d34-b492-07f2"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "4764-e108-1f61-0222"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Geri's Fang",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "93db-7879-7968-d6be",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "3",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "8",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Geri",
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "hidden": false,
+                "id": "4fe2-2ecd-2de7-f10e",
+                "characteristics": [
+                  {
+                    "$text": "9\"",
+                    "name": "M",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "$text": "9",
+                    "name": "T",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "$text": "4+",
+                    "name": "SV",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "$text": "3",
+                    "name": "W",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "$text": "7+",
+                    "name": "LD",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "OC",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "typeId": "55a7-5b54-c60d-11dc",
+                    "$text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Invulnerable Save",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "a884-1335-4ae2-4b0b",
+                "characteristics": [
+                  {
+                    "$text": "4+",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Wolves Bodyguard",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "3891-04fd-a333-7fdd",
+                "characteristics": [
+                  {
+                    "$text": "If this unit’s Leman Russ model is destroyed, all of this unit’s remaining Freki and Geri models are also destroyed.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ],
+                "page": 41
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "5e7d-5a04-5d90-6468"
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Oath of Moment",
+                "id": "48e7-9b27-ba96-e09a",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "3b76-4053-ece9-6e7d"
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Honour Points",
+                "typeId": "8135-9a2f-6627-09e2",
+                "value": 0
+              },
+              {
+                "name": "Relic Fragments",
+                "typeId": "0ece-6541-4662-ece2",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Deep Strike",
+            "id": "dc82-600c-0f98-da9d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "Oath of Moment",
+            "id": "dda3-233d-9053-317f",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 350
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Crusade",
+            "id": "7834-7d6a-f01d-5929",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Mighty Champions",
+                "hidden": false,
+                "id": "2bf4-cd09-5883-d7d8",
+                "type": "selectionEntryGroup",
+                "targetId": "f842-6e90-bc5a-80f1"
+              }
+            ],
+            "sortIndex": 1
+          }
+        ],
+        "page": 41
       }
     ],
     "categoryEntries": [
@@ -40846,6 +42014,22 @@
         "name": "Wulfen with Storm Shields",
         "id": "5e41-161b-7d74-8c8e",
         "hidden": false
+      },
+      {
+        "name": "Leman Russ",
+        "id": "ecc7-283b-8425-5e52",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "a610-b97a-a9f1-9ec7",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -41185,6 +42369,14 @@
         "id": "1058-f2e6-8f32-7483",
         "type": "selectionEntry",
         "targetId": "ee6b-3815-3a1a-6458"
+      },
+      {
+        "import": true,
+        "name": "Leman Russ",
+        "hidden": false,
+        "id": "fc7a-b725-4779-62ee",
+        "targetId": "1847-bd4e-fc53-98d3",
+        "type": "selectionEntry"
       }
     ],
     "sharedInfoGroups": [
@@ -41276,6 +42468,19 @@
     "revision": 3,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
-    "authorName": "Acebaur/Mad Spy"
+    "authorName": "Acebaur/Mad Spy",
+    "profileTypes": [
+      {
+        "name": "Saga of Wolf King of Fenris",
+        "id": "6128-0fe9-bc6b-7164",
+        "hidden": false,
+        "characteristicTypes": [
+          {
+            "name": "Effect",
+            "id": "4593-c408-1ef0-324e"
+          }
+        ]
+      }
+    ]
   }
 }
