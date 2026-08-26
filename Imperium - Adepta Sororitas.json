@@ -2125,7 +2125,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -2290,6 +2290,14 @@
                 "type": "selectionEntry",
                 "id": "6d19-ef26-9df2-f571",
                 "targetId": "f204-1361-eda8-9845"
+              },
+              {
+                "import": true,
+                "name": "Simulacrum Imperialis",
+                "hidden": false,
+                "id": "4e03-9d54-ce6-6f6",
+                "type": "selectionEntry",
+                "targetId": "dbfb-cfa4-24b3-54e8"
               }
             ],
             "type": "model",
@@ -2477,121 +2485,6 @@
                 "collective": false
               },
               {
-                "infoLinks": [
-                  {
-                    "name": "Battle Sister",
-                    "hidden": false,
-                    "type": "profile",
-                    "id": "9501-8565-98aa-1400",
-                    "targetId": "68fd-7de8-6eb0-b30e"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4a1a-5ba3-d314-868"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6610-39c8-f528-abc0"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Bolt pistol",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "a1a5-ad5a-70a-8c74",
-                    "targetId": "a330-88d-5e33-d8ca"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c541-b1fb-aef7-464e"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "b47-1585-3859-bd80"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Boltgun",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "c08d-b1b6-da9a-9303",
-                    "targetId": "9378-6ba3-6811-68a7"
-                  },
-                  {
-                    "import": true,
-                    "name": "Simulacrum Imperialis",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "4e03-9d54-ce6-6f6",
-                    "targetId": "dbfb-cfa4-24b3-54e8"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "f7fe-46e-219d-c975"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c82e-2c89-6552-c54f"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Close combat weapon",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "bc9a-4977-eee4-d50c",
-                    "targetId": "f204-1361-eda8-9845"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "5876-31f3-f770-1078",
-                    "includeChildSelections": false
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Battle Sister w/ Simulacrum Imperialis",
-                "hidden": false,
-                "id": "cc4b-338b-47bd-edde"
-              },
-              {
                 "entryLinks": [
                   {
                     "constraints": [
@@ -2659,61 +2552,6 @@
                   {
                     "entryLinks": [
                       {
-                        "modifiers": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "c24e-b34f-1f45-d364",
-                                "childId": "e133-3a33-f95f-ae50",
-                                "shared": true,
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "set",
-                            "value": 0,
-                            "field": "311b-4af2-b0a3-7570"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "311b-4af2-b0a3-7570"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Special Weapons",
-                        "hidden": false,
-                        "type": "selectionEntryGroup",
-                        "id": "a68b-43f6-f795-b743",
-                        "targetId": "2d13-a896-8e4c-2cda"
-                      },
-                      {
-                        "modifiers": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "greaterThan",
-                                "value": 0,
-                                "field": "selections",
-                                "scope": "c24e-b34f-1f45-d364",
-                                "childId": "2d13-a896-8e4c-2cda",
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": false
-                              }
-                            ],
-                            "type": "set",
-                            "value": 0,
-                            "field": "c360-ad11-95e6-68b1"
-                          }
-                        ],
                         "import": true,
                         "name": "Heavy Weapons",
                         "hidden": false,
@@ -2761,7 +2599,7 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "Battle Sister w/ Special or Heavy Weapon",
+                "name": "Battle Sister w/ Heavy Weapon",
                 "hidden": false,
                 "id": "c24e-b34f-1f45-d364"
               },
@@ -3700,39 +3538,39 @@
           {
             "characteristics": [
               {
-                "$text": "36\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "36\""
               },
               {
-                "$text": "3",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "4"
               },
               {
-                "$text": "4+",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "4+"
               },
               {
-                "$text": "5",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "5"
               },
               {
-                "$text": "-1",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-1"
               },
               {
-                "$text": "2",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "3"
               },
               {
-                "$text": "Heavy, Sustained Hits 1",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Heavy, Sustained Hits 1"
               }
             ],
             "name": "Heavy bolter",
@@ -3770,39 +3608,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "12\""
               },
               {
-                "$text": "D6",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "D6+1"
               },
               {
-                "$text": "N/A",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "N/A"
               },
               {
-                "$text": "5",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "5"
               },
               {
-                "$text": "0",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-1"
               },
               {
-                "$text": "1",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "1"
               },
               {
-                "$text": "Ignores Cover, Torrent",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Ignores Cover, Torrent"
               }
             ],
             "name": "Ministorum flamer",
@@ -3848,39 +3686,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "18\""
               },
               {
-                "$text": "D6",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "D6+2"
               },
               {
-                "$text": "N/A",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "N/A"
               },
               {
-                "$text": "6",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "6"
               },
               {
-                "$text": "-1",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-2"
               },
               {
-                "$text": "1",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "1"
               },
               {
-                "$text": "Ignores Cover, Torrent",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Ignores Cover, Torrent"
               }
             ],
             "name": "Ministorum heavy flamer",
@@ -3926,39 +3764,39 @@
           {
             "characteristics": [
               {
-                "$text": "18\"",
                 "name": "Range",
-                "typeId": "9896-9419-16a1-92fc"
+                "typeId": "9896-9419-16a1-92fc",
+                "$text": "18\""
               },
               {
-                "$text": "2",
                 "name": "A",
-                "typeId": "3bb-c35f-f54-fb08"
+                "typeId": "3bb-c35f-f54-fb08",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "BS",
-                "typeId": "94d-8a98-cf90-183e"
+                "typeId": "94d-8a98-cf90-183e",
+                "$text": "4+"
               },
               {
-                "$text": "9",
                 "name": "S",
-                "typeId": "2229-f494-25db-c5d3"
+                "typeId": "2229-f494-25db-c5d3",
+                "$text": "9"
               },
               {
-                "$text": "-4",
                 "name": "AP",
-                "typeId": "9ead-8a10-520-de15"
+                "typeId": "9ead-8a10-520-de15",
+                "$text": "-4"
               },
               {
-                "$text": "D6",
                 "name": "D",
-                "typeId": "a354-c1c8-a745-f9e3"
+                "typeId": "a354-c1c8-a745-f9e3",
+                "$text": "D6"
               },
               {
-                "$text": "Heavy, Melta 2",
                 "name": "Keywords",
-                "typeId": "7f1b-8591-2fcf-d01c"
+                "typeId": "7f1b-8591-2fcf-d01c",
+                "$text": "Heavy, Melta 2"
               }
             ],
             "name": "Multi-melta",
@@ -6819,7 +6657,7 @@
               {
                 "name": "A",
                 "typeId": "2337-daa1-6682-b110",
-                "$text": "4"
+                "$text": "5"
               },
               {
                 "name": "WS",
@@ -6876,39 +6714,39 @@
           {
             "characteristics": [
               {
-                "$text": "Melee",
                 "name": "Range",
-                "typeId": "914c-b413-91e3-a132"
+                "typeId": "914c-b413-91e3-a132",
+                "$text": "Melee"
               },
               {
-                "$text": "3",
                 "name": "A",
-                "typeId": "2337-daa1-6682-b110"
+                "typeId": "2337-daa1-6682-b110",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "WS",
-                "typeId": "95d1-95f-45b4-11d6"
+                "typeId": "95d1-95f-45b4-11d6",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "S",
-                "typeId": "ab33-d393-96ce-ccba"
+                "typeId": "ab33-d393-96ce-ccba",
+                "$text": "5"
               },
               {
-                "$text": "-1",
                 "name": "AP",
-                "typeId": "41a0-1301-112a-e2f2"
+                "typeId": "41a0-1301-112a-e2f2",
+                "$text": "-2"
               },
               {
-                "$text": "2",
                 "name": "D",
-                "typeId": "3254-9fe6-d824-513e"
+                "typeId": "3254-9fe6-d824-513e",
+                "$text": "2"
               },
               {
-                "$text": "Lethal Hits",
                 "name": "Keywords",
-                "typeId": "893f-9000-ccf7-648e"
+                "typeId": "893f-9000-ccf7-648e",
+                "$text": "Lethal Hits"
               }
             ],
             "id": "d01-43c6-1de1-c3ec",
@@ -6953,7 +6791,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 130
           },
           {
             "type": "set",
@@ -6969,46 +6807,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "f1af-4984-1a52-c5",
-                        "shared": true,
-                        "childName": "Celestian Sacresants"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -7171,39 +6969,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Melee",
                             "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
                           },
                           {
-                            "$text": "3",
                             "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
                           },
                           {
-                            "$text": "3+",
                             "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
                           },
                           {
-                            "$text": "5",
                             "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "5"
                           },
                           {
-                            "$text": "-2",
                             "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
                           },
                           {
-                            "$text": "2",
                             "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Sustained Hits 1, Lethal Hits"
                           }
                         ],
                         "name": "Spear of the Faithful",
@@ -7494,7 +7292,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -10236,6 +10034,14 @@
                     "type": "selectionEntry",
                     "id": "759d-a1e8-8edd-148c",
                     "targetId": "f204-1361-eda8-9845"
+                  },
+                  {
+                    "import": true,
+                    "name": "Holy Trinity Primaries",
+                    "hidden": false,
+                    "id": "005d-e53f-ff93-efe7",
+                    "type": "selectionEntryGroup",
+                    "targetId": "2d13-a896-8e4c-2cda"
                   }
                 ],
                 "constraints": [
@@ -10246,352 +10052,6 @@
                     "scope": "parent",
                     "shared": true,
                     "id": "5efc-5be5-b059-972a"
-                  }
-                ],
-                "selectionEntryGroups": [
-                  {
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "24\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Rapid Fire 2, Assault",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Artificer-crafted storm bolter",
-                            "hidden": false,
-                            "id": "e0e5-7613-e0a6-b5c9",
-                            "typeName": "Ranged Weapons",
-                            "typeId": "f77d-b953-8fa4-b762"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "c5d8-37bc-6ac5-dc4"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Rapid Fire",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "cdf1-e936-6ea0-2d58",
-                            "targetId": "c5c8-8b58-b8b6-7786"
-                          },
-                          {
-                            "name": "Assault",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "a31f-be60-8c56-a898",
-                            "targetId": "fc8a-8c24-bae9-cc1c"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Artificer-crafted storm bolter",
-                        "hidden": false,
-                        "id": "3ef3-5f25-c32b-6555"
-                      },
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "12\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "9",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-4",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "D6",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Melta 2, Assault",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Meltagun",
-                            "hidden": false,
-                            "id": "9101-f21a-dab0-d068",
-                            "typeName": "Ranged Weapons",
-                            "typeId": "f77d-b953-8fa4-b762"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "f6e3-eb4f-e3d2-a65f"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Assault",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "89a-2030-7905-8061",
-                            "targetId": "fc8a-8c24-bae9-cc1c"
-                          },
-                          {
-                            "name": "Melta",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "e707-6b84-65f1-d76a",
-                            "targetId": "7cdb-fb99-44a9-8849"
-                          }
-                        ],
-                        "categoryLinks": [
-                          {
-                            "name": "Damage Dx Weapon",
-                            "hidden": false,
-                            "id": "1f18-ff58-c28b-b981",
-                            "targetId": "4986-bf86-beb4-13ac",
-                            "primary": false
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Meltagun",
-                        "hidden": false,
-                        "id": "fc05-599e-2f63-d4e4",
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          },
-                          {
-                            "name": "Crusade Points",
-                            "typeId": "b03b-c239-15a5-da55",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Battle Honours",
-                            "typeId": "75bb-ded1-c86d-bdf0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Experience",
-                            "typeId": "a623-fe74-1d33-cddf",
-                            "value": 0
-                          },
-                          {
-                            "name": "Crusade: Weapon Modifications",
-                            "typeId": "716d-91b7-d55a-1022",
-                            "value": 0
-                          },
-                          {
-                            "name": "Blackstone Fragments",
-                            "typeId": "ac6b-ced3-9b5e-9a6e",
-                            "value": 0
-                          },
-                          {
-                            "name": "Detachment Points",
-                            "typeId": "82ae-1066-5107-6ae0",
-                            "value": 0
-                          },
-                          {
-                            "name": "Enhancements",
-                            "typeId": "f759-1bc4-cb3a-f0d2",
-                            "value": 0
-                          }
-                        ]
-                      },
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "12\"",
-                                "name": "Range",
-                                "id": "85cd-9b5d-4d7-f6c1",
-                                "hidden": false,
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "D6",
-                                "name": "A",
-                                "id": "a5a0-2c30-1758-f031",
-                                "hidden": false,
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "N/A",
-                                "name": "BS",
-                                "id": "6928-2903-10a8-76d7",
-                                "hidden": false,
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "5",
-                                "name": "S",
-                                "id": "7b9-13e6-840e-747d",
-                                "hidden": false,
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "id": "5f3b-76a-bdff-e650",
-                                "hidden": false,
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "id": "e912-2748-a9fe-b7d2",
-                                "hidden": false,
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Assault, Ignores Cover, Torrent",
-                                "name": "Keywords",
-                                "id": "b7ca-81e-2dff-c49f",
-                                "hidden": false,
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Ministorum flamer",
-                            "hidden": false,
-                            "id": "990c-dd5c-57b-5455",
-                            "typeName": "Ranged Weapons",
-                            "typeId": "f77d-b953-8fa4-b762"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "5600-97d5-3120-2a6a"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Ignores Cover",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "1f74-185d-1d66-bd7f",
-                            "targetId": "4640-43e7-30b-215a"
-                          },
-                          {
-                            "name": "Torrent",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "3103-bc50-ad97-25c9",
-                            "targetId": "5edf-d619-23e0-9b56"
-                          },
-                          {
-                            "name": "Assault",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "2b8b-8d2a-a906-5ce",
-                            "targetId": "fc8a-8c24-bae9-cc1c"
-                          }
-                        ],
-                        "categoryLinks": [
-                          {
-                            "name": "Attacks Dx Weapon",
-                            "hidden": false,
-                            "id": "c971-4a2b-8177-9d1d",
-                            "targetId": "e993-e086-6de1-12af",
-                            "primary": false
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Ministorum Flamer",
-                        "hidden": false,
-                        "id": "f7e0-497c-c3-ca00"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "763f-b2d3-11df-838b"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "887b-698-132e-6650"
-                      }
-                    ],
-                    "name": "Dominion Special Weapon",
-                    "hidden": false,
-                    "id": "277d-c75c-b09c-4dec",
-                    "defaultSelectionEntryId": "3ef3-5f25-c32b-6555"
                   }
                 ],
                 "type": "model",
@@ -10905,46 +10365,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d929-b22d-3040-9707",
-                        "shared": true,
-                        "childName": "Dominion Squad"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -10953,7 +10373,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 170
           },
           {
             "name": "Crusade Points",
@@ -11380,7 +10800,49 @@
                     "import": true,
                     "name": "Exorcist Missile Launcher",
                     "hidden": false,
-                    "id": "7276-fb9b-cb95-f1a9"
+                    "id": "7276-fb9b-cb95-f1a9",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      }
+                    ]
                   },
                   {
                     "profiles": [
@@ -11499,7 +10961,7 @@
                   },
                   {
                     "type": "max",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -11947,46 +11409,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 40,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "684e-4dd3-340a-23ee",
-                        "shared": true,
-                        "childName": "Exorcist"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -11995,7 +11417,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 55
           },
           {
             "name": "Crusade Points",
@@ -12636,46 +12058,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "938e-1c24-4e63-4cf3",
-                        "shared": true,
-                        "childName": "Hospitaller"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -13395,7 +12777,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -14350,46 +13732,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 3,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "1001-80ff-c9a8-5d9b",
-                        "shared": true,
-                        "childName": "Immolator"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -14398,7 +13740,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -16228,7 +15570,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -17658,7 +17000,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -18075,39 +17417,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Melee",
                             "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
                           },
                           {
-                            "$text": "4",
                             "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "4"
                           },
                           {
-                            "$text": "3+",
                             "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
                           },
                           {
-                            "$text": "8",
                             "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "8"
                           },
                           {
-                            "$text": "-2",
                             "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
                           },
                           {
-                            "$text": "2",
                             "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Cleave 1"
                           }
                         ],
                         "name": "Paragon War Blade",
@@ -18138,39 +17480,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Melee",
                             "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
                           },
                           {
-                            "$text": "3",
                             "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
                           },
                           {
-                            "$text": "3+",
                             "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
                           },
                           {
-                            "$text": "12",
                             "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "12"
                           },
                           {
-                            "$text": "-1",
                             "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
                           },
                           {
-                            "$text": "3",
                             "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "-"
                           }
                         ],
                         "name": "Paragon War Mace",
@@ -18209,39 +17551,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "36\"",
                             "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "36\""
                           },
                           {
-                            "$text": "3",
                             "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "4"
                           },
                           {
-                            "$text": "3+",
                             "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "3+"
                           },
                           {
-                            "$text": "5",
                             "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "5"
                           },
                           {
-                            "$text": "-1",
                             "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
                           },
                           {
-                            "$text": "2",
                             "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "3"
                           },
                           {
-                            "$text": "Sustained Hits 1",
                             "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Sustained Hits 1"
                           }
                         ],
                         "name": "Heavy Bolter",
@@ -18350,7 +17692,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 10
+                        "value": 0
                       },
                       {
                         "name": "Crusade Points",
@@ -18805,39 +18147,39 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "Melee",
                                 "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
+                                "typeId": "914c-b413-91e3-a132",
+                                "$text": "Melee"
                               },
                               {
-                                "$text": "4",
                                 "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
+                                "typeId": "2337-daa1-6682-b110",
+                                "$text": "4"
                               },
                               {
-                                "$text": "3+",
                                 "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
+                                "typeId": "95d1-95f-45b4-11d6",
+                                "$text": "3+"
                               },
                               {
-                                "$text": "8",
                                 "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
+                                "typeId": "ab33-d393-96ce-ccba",
+                                "$text": "8"
                               },
                               {
-                                "$text": "-2",
                                 "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
+                                "typeId": "41a0-1301-112a-e2f2",
+                                "$text": "-2"
                               },
                               {
-                                "$text": "2",
                                 "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
+                                "typeId": "3254-9fe6-d824-513e",
+                                "$text": "2"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": "Cleave 1"
                               }
                             ],
                             "name": "Paragon War Blade",
@@ -18878,39 +18220,39 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "Melee",
                                 "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
+                                "typeId": "914c-b413-91e3-a132",
+                                "$text": "Melee"
                               },
                               {
-                                "$text": "3",
                                 "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
+                                "typeId": "2337-daa1-6682-b110",
+                                "$text": "3"
                               },
                               {
-                                "$text": "3+",
                                 "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
+                                "typeId": "95d1-95f-45b4-11d6",
+                                "$text": "3+"
                               },
                               {
-                                "$text": "12",
                                 "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
+                                "typeId": "ab33-d393-96ce-ccba",
+                                "$text": "12"
                               },
                               {
-                                "$text": "-1",
                                 "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
+                                "typeId": "41a0-1301-112a-e2f2",
+                                "$text": "-2"
                               },
                               {
-                                "$text": "3",
                                 "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
+                                "typeId": "3254-9fe6-d824-513e",
+                                "$text": "3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": "-"
                               }
                             ],
                             "name": "Paragon War Mace",
@@ -18959,39 +18301,39 @@
                           {
                             "characteristics": [
                               {
-                                "$text": "36\"",
                                 "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
+                                "typeId": "9896-9419-16a1-92fc",
+                                "$text": "36\""
                               },
                               {
-                                "$text": "3",
                                 "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
+                                "typeId": "3bb-c35f-f54-fb08",
+                                "$text": "4"
                               },
                               {
-                                "$text": "3+",
                                 "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
+                                "typeId": "94d-8a98-cf90-183e",
+                                "$text": "3+"
                               },
                               {
-                                "$text": "5",
                                 "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
+                                "typeId": "2229-f494-25db-c5d3",
+                                "$text": "5"
                               },
                               {
-                                "$text": "-1",
                                 "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
+                                "typeId": "9ead-8a10-520-de15",
+                                "$text": "-1"
                               },
                               {
-                                "$text": "2",
                                 "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
+                                "typeId": "a354-c1c8-a745-f9e3",
+                                "$text": "3"
                               },
                               {
-                                "$text": "Sustained Hits 1",
                                 "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
+                                "typeId": "7f1b-8591-2fcf-d01c",
+                                "$text": "Sustained Hits 1"
                               }
                             ],
                             "name": "Heavy Bolter",
@@ -19117,11 +18459,6 @@
                         "hidden": false,
                         "id": "9403-6ce4-fcc2-e5e8",
                         "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 10
-                          },
                           {
                             "name": "Crusade Points",
                             "typeId": "b03b-c239-15a5-da55",
@@ -19484,46 +18821,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "e75d-a7ac-7fcc-d302",
-                        "shared": true,
-                        "childName": "Paragon Warsuits"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -22184,7 +21481,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -22285,14 +21582,6 @@
             ],
             "entryLinks": [
               {
-                "import": true,
-                "name": "Sister Superior Ranged Weapons",
-                "hidden": false,
-                "type": "selectionEntryGroup",
-                "id": "ff4b-25f9-3317-d534",
-                "targetId": "4c22-7a16-82bc-e202"
-              },
-              {
                 "constraints": [
                   {
                     "type": "max",
@@ -22345,6 +21634,14 @@
                 "type": "selectionEntry",
                 "id": "3e81-b744-d4ac-2815",
                 "targetId": "a330-88d-5e33-d8ca"
+              },
+              {
+                "import": true,
+                "name": "Holy Trinity Heavies",
+                "hidden": false,
+                "id": "d6c6-aa3c-1dfd-4349",
+                "type": "selectionEntryGroup",
+                "targetId": "e133-3a33-f95f-ae50"
               }
             ],
             "selectionEntries": [
@@ -22451,95 +21748,6 @@
           {
             "selectionEntries": [
               {
-                "selectionEntryGroups": [
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "bfcb-131c-98c2-9657"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Ministorum heavy flamer",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "84c7-ae8d-d586-784a",
-                        "targetId": "609c-5e0-92ba-5250"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "af73-5916-62e0-4719"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Multi-melta",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "c67d-428c-b52e-2ac8",
-                        "targetId": "1eae-cf99-54ba-2e0a",
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          }
-                        ]
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "c391-c46d-8b31-13b8"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Heavy bolter",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "a492-fbe3-4a96-5128",
-                        "targetId": "4342-9072-ac29-3dc6"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "fac4-75c8-6f84-8eb4"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "1bbc-5ad5-25ce-e4bf"
-                      }
-                    ],
-                    "name": "Retributor Weapons",
-                    "hidden": false,
-                    "id": "e923-2215-2cad-a020",
-                    "defaultSelectionEntryId": "a492-fbe3-4a96-5128"
-                  }
-                ],
                 "constraints": [
                   {
                     "type": "min",
@@ -22660,6 +21868,14 @@
                     "id": "6f56-715d-488f-98ba",
                     "type": "selectionEntry",
                     "targetId": "a330-88d-5e33-d8ca"
+                  },
+                  {
+                    "import": true,
+                    "name": "Holy Trinity Heavies",
+                    "hidden": false,
+                    "id": "583f-ad66-4237-5d83",
+                    "type": "selectionEntryGroup",
+                    "targetId": "e133-3a33-f95f-ae50"
                   }
                 ],
                 "type": "model",
@@ -22715,9 +21931,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ^^**Adepta Sororitas^^** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ^^**Adepta Sororitas^^** units from your army during the battle or a Vehicle or Monster Unit, add 1 to the Hit roll and add 1 to the Wound roll as well."
               }
             ],
             "name": "Storm of Retribution",
@@ -22994,46 +22210,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "c49d-f150-4b3-c118",
-                        "shared": true,
-                        "childName": "Retributor Squad"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -23042,7 +22218,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 130
           },
           {
             "name": "Crusade Points",
@@ -23067,6 +22243,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -23607,733 +22793,6 @@
         ],
         "selectionEntries": [
           {
-            "selectionEntryGroups": [
-              {
-                "selectionEntries": [
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1944-9d4c-531e-6e44"
-                          },
-                          {
-                            "type": "max",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "22cd-e635-5802-cb3b"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "4102-f03f-c60d-4681",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Bolt pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "e6fb-d0c2-e987-70d6",
-                        "targetId": "a330-88d-5e33-d8ca"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6e28-21b9-4830-4aa1"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "2 Bolt Pistols",
-                    "hidden": false,
-                    "id": "f54e-c0c6-dc22-f891"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "238-36c6-509c-fe48"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "6015-b1dc-3b22-5626"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "c908-1bd5-06e5-311d",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Bolt pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "2e2-8ebf-930d-3eff",
-                        "targetId": "a330-88d-5e33-d8ca"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "9122-8880-ee4c-7064"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "d0d0-6b9b-56f5-8ae5"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "a686-7db6-ffa8-a59f",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Plasma pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "8e55-e7c9-6596-d2ff",
-                        "targetId": "9dd0-f453-50c6-a28e"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4ea-c5da-3a3f-8a79"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Bolt Pistol and Plasma Pistol",
-                    "hidden": false,
-                    "id": "7f34-110d-27e7-dd20"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "e024-d837-d1b0-7ed"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "222a-d609-d9a3-aaa7"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "961e-3475-3f49-0677",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Plasma pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "f99a-6b0c-13f3-bca",
-                        "targetId": "9dd0-f453-50c6-a28e"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "Melee",
-                                "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
-                              },
-                              {
-                                "$text": "-2",
-                                "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
-                              }
-                            ],
-                            "name": "Power Weapon",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "1156-bd38-a807-9186"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "a0eb-94e3-9a50-d118"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "66fc-d5b0-b858-33a"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "1891-80bb-2be0-ca25",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Power Weapon",
-                        "hidden": false,
-                        "id": "7b0-dadf-acc0-f3a2"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "9189-a8e5-1fef-ae1a"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Plasma Pistol and Power Weapon",
-                    "hidden": false,
-                    "id": "792e-2c25-dcd9-f9ee"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1829-b38c-557c-2c62"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "db4e-d6da-7d7b-383d"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "65d0-bc3f-3f42-6557",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Bolt pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "1b8f-24d4-dcd-171e",
-                        "targetId": "a330-88d-5e33-d8ca"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "Melee",
-                                "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
-                              },
-                              {
-                                "$text": "-2",
-                                "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
-                              }
-                            ],
-                            "name": "Power Weapon",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "ce71-b434-ba43-b172"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "a0eb-94e3-9a50-d118"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "66fc-d5b0-b858-33a"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "6ac8-584a-752a-41c5",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Power Weapon",
-                        "hidden": false,
-                        "id": "99ae-c7fd-763d-5f4e"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a60f-4354-9048-ac6c"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Bolt Pistol and Power Weapon",
-                    "hidden": false,
-                    "id": "fe4f-aa85-2644-5578"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "abf2-7e2f-2da5-8a47"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "4b6a-4d8e-3eaf-ccec"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "44e6-bd14-8214-0a22",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Bolt pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "42fa-a65-fa47-2bdb",
-                        "targetId": "a330-88d-5e33-d8ca"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "Melee",
-                                "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
-                              }
-                            ],
-                            "name": "Chainsword",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "76cb-6a13-b9a7-912f"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1c8c-2fa-c4ca-a60a"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "cfa8-9c8f-e751-35c5"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "5e44-7e54-3042-c2b8",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Chainsword",
-                        "hidden": false,
-                        "id": "55da-9c2f-d79e-3141"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a15b-e72a-eea4-7320"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Bolt Pistol and Chainsword",
-                    "hidden": false,
-                    "id": "91ae-88df-6a04-223f"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "af30-6aff-f057-e7be"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "9890-c923-8711-40ee"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "97c6-ef40-4b9b-60cc",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Plasma pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "8b17-4363-2f3e-ca24",
-                        "targetId": "9dd0-f453-50c6-a28e"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "Melee",
-                                "name": "Range",
-                                "typeId": "914c-b413-91e3-a132"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "A",
-                                "typeId": "2337-daa1-6682-b110"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "WS",
-                                "typeId": "95d1-95f-45b4-11d6"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "S",
-                                "typeId": "ab33-d393-96ce-ccba"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "41a0-1301-112a-e2f2"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "3254-9fe6-d824-513e"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
-                              }
-                            ],
-                            "name": "Chainsword",
-                            "typeId": "8a40-4aaa-c780-9046",
-                            "typeName": "Melee Weapons",
-                            "hidden": false,
-                            "id": "3d04-2c6-46f4-5e03"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1c8c-2fa-c4ca-a60a"
-                          },
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "cfa8-9c8f-e751-35c5"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "528a-90f0-6afa-2401",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Chainsword",
-                        "hidden": false,
-                        "id": "b47a-447e-24c3-fdb"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "205a-e9d4-106e-f1fc"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Plasma Pistol and Chainsword",
-                    "hidden": false,
-                    "id": "5787-254d-180a-1813"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "3037-f8c6-f86d-2cda"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "8538-8e85-2871-a62a"
-                  }
-                ],
-                "name": "Weapons",
-                "hidden": false,
-                "id": "bc47-a31c-bed2-c8cc",
-                "defaultSelectionEntryId": "f54e-c0c6-dc22-f891",
-                "collapsible": true
-              }
-            ],
             "constraints": [
               {
                 "type": "min",
@@ -24388,6 +22847,32 @@
                 "type": "selectionEntry",
                 "id": "668f-c530-6843-389b",
                 "targetId": "3837-30d2-fb43-9473"
+              },
+              {
+                "import": true,
+                "name": "Holy Trinity Pistols",
+                "hidden": false,
+                "id": "c300-16af-a95a-6336",
+                "type": "selectionEntryGroup",
+                "targetId": "2c9a-9fac-83a6-b87d",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0047-d528-e1dd-4e92"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6fc5-033f-8e0f-6940"
+                  }
+                ]
               }
             ],
             "type": "model",
@@ -24411,6 +22896,89 @@
                   }
                 ]
               }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Power Weapon",
+                "hidden": false,
+                "id": "7b0-dadf-acc0-f3a2",
+                "profiles": [
+                  {
+                    "name": "Power Weapon",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "1156-bd38-a807-9186",
+                    "characteristics": [
+                      {
+                        "$text": "Melee",
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "$text": "-",
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a0eb-94e3-9a50-d118"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "66fc-d5b0-b858-33a"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "1891-80bb-2be0-ca25",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ]
+              }
             ]
           }
         ],
@@ -24418,7 +22986,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -24471,7 +23039,7 @@
               }
             ],
             "type": "set",
-            "value": 150,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -24490,395 +23058,12 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "bee9-172b-7db7-f748",
-                        "shared": true,
-                        "childName": "Seraphim Squad"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "selectionEntryGroups": [
           {
             "selectionEntries": [
               {
-                "selectionEntries": [
-                  {
-                    "entryLinks": [
-                      {
-                        "constraints": [
-                          {
-                            "type": "min",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "1944-9d4c-531e-6e44"
-                          },
-                          {
-                            "type": "max",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "22cd-e635-5802-cb3b"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Bolt pistol",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "255d-8409-c0aa-eb33",
-                        "targetId": "a330-88d-5e33-d8ca"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6e28-21b9-4830-4aa1"
-                      },
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "60db-d681-d360-d5c8"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "2 Bolt Pistols",
-                    "hidden": false,
-                    "id": "8338-a43-10-5a14",
-                    "collective": true
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "37b-2145-9a3e-b6ce"
-                  },
-                  {
-                    "type": "max",
-                    "value": 9,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "6a19-c576-7118-233f"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "35e8-2d21-11df-a67c"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "1d32-aa90-2a18-2be0"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Close combat weapon",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "f802-4ef4-667-3ba4",
-                    "targetId": "3837-30d2-fb43-9473"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Seraphim",
-                "hidden": false,
-                "id": "1e39-cfcf-2756-5357",
-                "infoLinks": [
-                  {
-                    "targetId": "ec15-22bd-ae4-29fb",
-                    "id": "e25e-1356-eec4-2a04",
-                    "type": "profile",
-                    "name": "Seraphim",
-                    "hidden": false
-                  }
-                ]
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "60d-b0b-da7c-b170"
-                  }
-                ],
-                "selectionEntryGroups": [
-                  {
-                    "constraints": [
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "7f6e-d2d3-e3f2-1adc",
-                        "type": "min"
-                      },
-                      {
-                        "field": "selections",
-                        "scope": "parent",
-                        "value": 1,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "includeChildForces": false,
-                        "id": "e484-00fb-77c1-d25f",
-                        "type": "max"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "entryLinks": [
-                          {
-                            "constraints": [
-                              {
-                                "type": "min",
-                                "value": 2,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "a253-53bb-7056-40c6"
-                              },
-                              {
-                                "type": "max",
-                                "value": 2,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "9831-fed2-20f-4aef"
-                              }
-                            ],
-                            "import": true,
-                            "name": "Ministorum hand flamer",
-                            "hidden": false,
-                            "type": "selectionEntry",
-                            "id": "ba25-1030-c77b-b943",
-                            "targetId": "c462-3995-88b0-200c"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "34f5-66c4-7a6e-915b"
-                          }
-                        ],
-                        "id": "7d9-8c33-edaa-621c",
-                        "name": "2x Ministorum Hand Flamers",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "type": "upgrade"
-                      },
-                      {
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "2ca1-22b6-eb11-2e7f"
-                          }
-                        ],
-                        "selectionEntries": [
-                          {
-                            "profiles": [
-                              {
-                                "characteristics": [
-                                  {
-                                    "$text": "6\"",
-                                    "name": "Range",
-                                    "typeId": "9896-9419-16a1-92fc"
-                                  },
-                                  {
-                                    "$text": "1",
-                                    "name": "A",
-                                    "typeId": "3bb-c35f-f54-fb08"
-                                  },
-                                  {
-                                    "$text": "3+",
-                                    "name": "BS",
-                                    "typeId": "94d-8a98-cf90-183e"
-                                  },
-                                  {
-                                    "$text": "8",
-                                    "name": "S",
-                                    "typeId": "2229-f494-25db-c5d3"
-                                  },
-                                  {
-                                    "$text": "-4",
-                                    "name": "AP",
-                                    "typeId": "9ead-8a10-520-de15"
-                                  },
-                                  {
-                                    "$text": "D3",
-                                    "name": "D",
-                                    "typeId": "a354-c1c8-a745-f9e3"
-                                  },
-                                  {
-                                    "$text": "Melta 2, Pistol",
-                                    "name": "Keywords",
-                                    "typeId": "7f1b-8591-2fcf-d01c"
-                                  }
-                                ],
-                                "name": "Inferno Pistol",
-                                "typeId": "f77d-b953-8fa4-b762",
-                                "typeName": "Ranged Weapons",
-                                "hidden": false,
-                                "id": "3d8c-9fff-3b0b-b82"
-                              }
-                            ],
-                            "constraints": [
-                              {
-                                "type": "min",
-                                "value": 2,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "4bdd-ce18-572d-63af"
-                              },
-                              {
-                                "type": "max",
-                                "value": 2,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "5b74-1c1d-c88d-8af9"
-                              }
-                            ],
-                            "infoLinks": [
-                              {
-                                "name": "Pistol",
-                                "hidden": false,
-                                "type": "rule",
-                                "id": "fdd8-b68a-4c8f-b690",
-                                "targetId": "8bf7-8812-923d-29e4"
-                              },
-                              {
-                                "name": "Melta",
-                                "hidden": false,
-                                "type": "rule",
-                                "id": "1241-2c17-a5f3-614e",
-                                "targetId": "7cdb-fb99-44a9-8849"
-                              }
-                            ],
-                            "categoryLinks": [
-                              {
-                                "name": "Damage Dx Weapon",
-                                "hidden": false,
-                                "id": "8005-037d-4ad2-c2f4",
-                                "targetId": "4986-bf86-beb4-13ac",
-                                "primary": false
-                              }
-                            ],
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Inferno Pistol",
-                            "hidden": false,
-                            "id": "ebcc-d9ea-b5de-563e"
-                          }
-                        ],
-                        "id": "de77-880d-31c2-fea2",
-                        "name": "2x Inferno Pistols",
-                        "hidden": false,
-                        "collective": false,
-                        "import": true,
-                        "type": "upgrade"
-                      }
-                    ],
-                    "id": "4e65-98bb-f041-b59b",
-                    "name": "Special Weapon",
-                    "hidden": false,
-                    "collective": false,
-                    "import": true,
-                    "defaultSelectionEntryId": "7d9-8c33-edaa-621c"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "bee9-172b-7db7-f748",
-                        "childId": "model",
-                        "shared": true
-                      }
-                    ],
-                    "type": "set",
-                    "value": 4,
-                    "field": "60d-b0b-da7c-b170"
-                  }
-                ],
                 "entryLinks": [
                   {
                     "constraints": [
@@ -24905,6 +23090,32 @@
                     "type": "selectionEntry",
                     "id": "7453-2395-100b-e3cf",
                     "targetId": "3837-30d2-fb43-9473"
+                  },
+                  {
+                    "import": true,
+                    "name": "Holy Trinity Pistols",
+                    "hidden": false,
+                    "id": "62c3-48dc-9ddf-ecb5",
+                    "type": "selectionEntryGroup",
+                    "targetId": "2c9a-9fac-83a6-b87d",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "60d-b0b-da7c-b170"
+                      },
+                      {
+                        "type": "max",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "19fe-2b95-a167-ab3c"
+                      }
+                    ]
                   }
                 ],
                 "type": "model",
@@ -25205,7 +23416,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -25296,229 +23507,89 @@
             "entryLinks": [
               {
                 "import": true,
-                "name": "Sister Novitiate (Autogun)",
+                "name": "Sister Novitiate",
                 "hidden": false,
                 "type": "selectionEntry",
                 "id": "3a3f-a211-11ab-af21",
                 "targetId": "4cde-9ef-5b92-9c64",
-                "collective": true
-              },
-              {
-                "import": true,
-                "name": "Sister Novitiate (Melee Weapon)",
-                "hidden": false,
-                "type": "selectionEntry",
-                "id": "15eb-5b5e-8ac7-5100",
-                "targetId": "a6f5-9a5d-b4bb-9461",
-                "collective": true
+                "collective": true,
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Novitiate melee weapon",
+                    "hidden": false,
+                    "id": "da00-a4cb-aa27-33fd",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "f6d7-b2eb-9cc9-b425"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "1ea4-5b1d-639f-419e"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Novitiate melee weapon",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "2fa5-843f-b2d3-ec64",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "4+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "4",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "0",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "-",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "collective": true
+                  }
+                ]
               }
             ],
             "selectionEntries": [
-              {
-                "selectionEntries": [
-                  {
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "You can re-roll Advance and Charge rolls made for the bearer’s unit.",
-                            "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
-                          }
-                        ],
-                        "name": "Sacred Banner",
-                        "typeId": "9cc3-6d83-4dd3-9b64",
-                        "typeName": "Abilities",
-                        "hidden": false,
-                        "id": "a98b-c507-2078-b22"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c4ff-a120-6278-6862"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "2dce-d742-4fac-545f"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Sacred Banner",
-                    "hidden": false,
-                    "id": "9059-ba63-3509-c02b"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "5671-6e1a-89d5-d71b"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Sister Novitiate",
-                    "hidden": false,
-                    "type": "profile",
-                    "id": "5cf3-4f5f-23dd-bbaf",
-                    "targetId": "9996-fbd1-4807-f820"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "db91-4365-2aad-fbf4"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ce77-432c-fcbd-9b90"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Close combat weapon",
-                    "hidden": false,
-                    "id": "7db8-b41a-9702-d476",
-                    "type": "selectionEntry",
-                    "targetId": "f204-1361-eda8-9845",
-                    "collective": true
-                  },
-                  {
-                    "import": true,
-                    "name": "Autopistol",
-                    "hidden": false,
-                    "id": "9417-6b77-d28d-cb6e",
-                    "type": "selectionEntry",
-                    "targetId": "836e-4f46-1837-b270"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Novitiate with Sacred Banner",
-                "hidden": false,
-                "id": "a9c8-437a-2fb8-8ccb"
-              },
-              {
-                "selectionEntries": [
-                  {
-                    "infoLinks": [
-                      {
-                        "name": "Novitiate autopistol",
-                        "hidden": false,
-                        "type": "profile",
-                        "id": "9e47-c558-f978-7684",
-                        "targetId": "3e10-d7df-b71c-6af3"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "67ba-6f71-fe29-a568"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "e333-394f-5fe7-a6e6"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Autopistol",
-                    "hidden": false,
-                    "id": "71a-e551-9c4a-ce7b"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "9a00-9fcc-25c3-7bfe"
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Sister Novitiate",
-                    "hidden": false,
-                    "type": "profile",
-                    "id": "f51f-83b8-2f17-4048",
-                    "targetId": "9996-fbd1-4807-f820"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Simulacrum Imperialis",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "7ca6-505e-f07d-f71c",
-                    "targetId": "dbfb-cfa4-24b3-54e8"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "aaf7-41bd-e34c-8764"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "69ca-3c1e-ee39-fab4"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Close combat weapon",
-                    "hidden": false,
-                    "id": "5c88-3b31-8667-ec77",
-                    "type": "selectionEntry",
-                    "targetId": "f204-1361-eda8-9845",
-                    "collective": true
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Novitiate with Simulacrum Imperialis",
-                "hidden": false,
-                "id": "5c8d-6030-2b4d-33f1"
-              },
               {
                 "infoLinks": [
                   {
@@ -25530,32 +23601,6 @@
                   }
                 ],
                 "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4484-f83-4282-5308"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "e8f3-879-89af-8bdc"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Ministorum flamer",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "5cc3-1fe3-3802-12c0",
-                    "targetId": "c308-ba07-5145-376"
-                  },
                   {
                     "constraints": [
                       {
@@ -25590,12 +23635,20 @@
                     "id": "769c-ff51-45bf-a2f9",
                     "type": "selectionEntry",
                     "targetId": "836e-4f46-1837-b270"
+                  },
+                  {
+                    "import": true,
+                    "name": "Holy Trinity Heavies",
+                    "hidden": false,
+                    "id": "1806-57ac-ef3e-996b",
+                    "type": "selectionEntryGroup",
+                    "targetId": "e133-3a33-f95f-ae50"
                   }
                 ],
                 "constraints": [
                   {
                     "type": "max",
-                    "value": 2,
+                    "value": 1,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -25604,9 +23657,80 @@
                 ],
                 "type": "model",
                 "import": true,
-                "name": "Novitiate with Ministorum Flamer",
+                "name": "Novitiate with Heavy Weapon",
                 "hidden": false,
                 "id": "e575-fde2-a41b-f778"
+              },
+              {
+                "infoLinks": [
+                  {
+                    "name": "Sister Novitiate",
+                    "hidden": false,
+                    "type": "profile",
+                    "id": "181e-7df2-f214-10e8",
+                    "targetId": "9996-fbd1-4807-f820"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "998a-2a6e-fa9a-6384"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9076-f623-e67a-21b2"
+                      }
+                    ],
+                    "import": true,
+                    "name": "Close combat weapon",
+                    "hidden": false,
+                    "id": "96d0-231b-811b-8e84",
+                    "type": "selectionEntry",
+                    "targetId": "f204-1361-eda8-9845",
+                    "collective": true
+                  },
+                  {
+                    "import": true,
+                    "name": "Autopistol",
+                    "hidden": false,
+                    "id": "0e9e-9cdc-f93e-7e33",
+                    "type": "selectionEntry",
+                    "targetId": "836e-4f46-1837-b270"
+                  },
+                  {
+                    "import": true,
+                    "name": "Holy Trinity Primaries",
+                    "hidden": false,
+                    "id": "76aa-cac2-92d4-b54f",
+                    "type": "selectionEntryGroup",
+                    "targetId": "2d13-a896-8e4c-2cda"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "629b-b760-8ed2-db6d"
+                  }
+                ],
+                "type": "model",
+                "import": true,
+                "name": "Novitiate with Special Weapon",
+                "hidden": false,
+                "id": "3a5a-21ff-aa3f-221c"
               }
             ],
             "constraints": [
@@ -25969,7 +24093,60 @@
             "name": "Novitiate Superior",
             "hidden": false,
             "id": "18ec-e67b-f093-e599",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sacred Banner",
+                "hidden": false,
+                "id": "9059-ba63-3509-c02b",
+                "profiles": [
+                  {
+                    "name": "Sacred Banner",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "a98b-c507-2078-b22",
+                    "characteristics": [
+                      {
+                        "$text": "You can re-roll Advance and Charge rolls made for the bearer’s unit.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c4ff-a120-6278-6862"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2dce-d742-4fac-545f"
+                  }
+                ]
+              }
+            ],
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Simulacrum Imperialis",
+                "hidden": false,
+                "id": "7ca6-505e-f07d-f71c",
+                "type": "selectionEntry",
+                "targetId": "dbfb-cfa4-24b3-54e8"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -26829,46 +25006,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 3,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "52c7-3f6b-cece-8101",
-                        "shared": true,
-                        "childName": "Sororitas Rhino"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -26877,7 +25014,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 245
+            "value": 200
           },
           {
             "name": "Crusade Points",
@@ -27320,9 +25457,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the battle round, if this model is on the battlefield, you gain 1 Miracle Dice showing a value of 6."
               }
             ],
             "name": "Solemn Procession",
@@ -27576,39 +25713,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Melee",
                         "name": "Range",
-                        "typeId": "914c-b413-91e3-a132"
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
                       },
                       {
-                        "$text": "3",
                         "name": "A",
-                        "typeId": "2337-daa1-6682-b110"
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
                       },
                       {
-                        "$text": "3+",
                         "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6"
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "4",
                         "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba"
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2"
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "1",
                         "name": "D",
-                        "typeId": "3254-9fe6-d824-513e"
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e"
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
                       }
                     ],
                     "name": "Power weapon",
@@ -27726,39 +25863,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Melee",
                         "name": "Range",
-                        "typeId": "914c-b413-91e3-a132"
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
                       },
                       {
-                        "$text": "3",
                         "name": "A",
-                        "typeId": "2337-daa1-6682-b110"
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
                       },
                       {
-                        "$text": "3+",
                         "name": "WS",
-                        "typeId": "95d1-95f-45b4-11d6"
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "4",
                         "name": "S",
-                        "typeId": "ab33-d393-96ce-ccba"
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "41a0-1301-112a-e2f2"
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "1",
                         "name": "D",
-                        "typeId": "3254-9fe6-d824-513e"
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
-                        "typeId": "893f-9000-ccf7-648e"
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
                       }
                     ],
                     "name": "Power weapon",
@@ -27861,7 +25998,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -27914,7 +26051,7 @@
               }
             ],
             "type": "set",
-            "value": 150,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -27931,46 +26068,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "22f0-a7d8-b2b6-e26",
-                        "shared": true,
-                        "childName": "Zephyrim Squad"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -28618,33 +26715,6 @@
       {
         "entryLinks": [
           {
-            "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "dadb-3c24-d032-48a7"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "1a92-3456-39b6-42c5"
-              }
-            ],
-            "import": true,
-            "name": "Close combat weapon",
-            "hidden": false,
-            "type": "selectionEntry",
-            "id": "d7b8-e841-c0f-dab7",
-            "targetId": "f204-1361-eda8-9845",
-            "collective": true
-          },
-          {
             "import": true,
             "name": "Autopistol",
             "hidden": false,
@@ -28758,7 +26828,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Sister Novitiate (Autogun)",
+        "name": "Sister Novitiate",
         "hidden": false,
         "id": "4cde-9ef-5b92-9c64",
         "collective": false
@@ -28792,7 +26862,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 110
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -31333,7 +29438,7 @@
             "constraints": [
               {
                 "type": "min",
-                "value": 2,
+                "value": 4,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -31342,7 +29447,7 @@
               },
               {
                 "type": "max",
-                "value": 4,
+                "value": 8,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -31363,7 +29468,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 3,
+                "value": 5,
                 "field": "selections",
                 "scope": "8124-7324-b211-3269",
                 "childId": "model",
@@ -34257,7 +32362,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -34282,6 +32387,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -34433,9 +32548,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the ^^**[Precision]^^** ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked within a ^^**Transport**^^.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the ^^**[Precision]^^** ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked within a ^^**Transport**^^. You can use a miracle die to also reroll the Wound Roll."
               }
             ],
             "name": "Virtue of Intolerance",
@@ -34689,39 +32804,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "3+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "1",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "2"
                   },
                   {
-                    "$text": "7+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "5+"
                   }
                 ],
                 "name": "Celestian Insidiant Superior",
@@ -34822,7 +32937,95 @@
             "name": "Celestian Insidiant Superior",
             "hidden": false,
             "id": "5260-6d8b-bebd-6378",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Denuncia Oratory",
+                "hidden": false,
+                "id": "6b64-a791-434a-882b",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b8fb-6fb4-09c5-7845-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b8fb-6fb4-09c5-7845-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Denuncia Oratory",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0d79-8c08-81a5-8b90",
+                    "characteristics": [
+                      {
+                        "$text": "Each time the bearer’s unit’s quarry is destroyed, you can select a new unit from your opponent’s army to be its quarry.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Simulacrum imperialis",
+                "hidden": false,
+                "id": "da06-14e8-a52b-db3b",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7553-a0c6-425b-70ea-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7553-a0c6-425b-70ea-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Simulacrum Imperialis",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "6894-ba17-e451-a786",
+                    "characteristics": [
+                      {
+                        "$text": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -34888,123 +33091,12 @@
                     "includeChildSelections": false
                   }
                 ],
-                "modifiers": [
-                  {
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "e286-849d-8f74-75e6",
-                        "childId": "6da6-6fed-44a2-3475",
-                        "shared": true,
-                        "roundUp": false
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "e286-849d-8f74-75e6",
-                        "childId": "dfc9-3074-4b0b-9966",
-                        "shared": true,
-                        "roundUp": false
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "e286-849d-8f74-75e6",
-                        "childId": "a990-deb8-0471-a9d1",
-                        "shared": true,
-                        "roundUp": false
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "e286-849d-8f74-75e6",
-                        "childId": "ac73-bb9b-f1f2-eeb7",
-                        "shared": true,
-                        "roundUp": false
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "e286-849d-8f74-75e6",
-                        "childId": "f780-8fc0-e9b7-7050",
-                        "shared": true,
-                        "roundUp": false
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "4a7f-0a75-7c89-a82b"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Insidiant",
                 "hidden": false,
                 "id": "e035-fad9-edcc-8faf",
                 "sortIndex": 1
-              },
-              {
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6a1c-0502-b6db-e255-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "6a1c-0502-b6db-e255-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "import": true,
-                    "name": "Ministorum hand flamer",
-                    "hidden": false,
-                    "id": "0d0a-026e-86d2-67ec",
-                    "type": "selectionEntry",
-                    "targetId": "c462-3995-88b0-200c"
-                  },
-                  {
-                    "import": true,
-                    "name": "Null mace",
-                    "hidden": false,
-                    "id": "528b-a8fe-d4e7-6bc7",
-                    "type": "selectionEntry",
-                    "targetId": "0c2d-0fea-e434-a32e"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "23d0-0a83-587a-3f34",
-                    "includeChildSelections": false
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Insidiant w/ hand flamer",
-                "hidden": false,
-                "id": "6da6-6fed-44a2-3475",
-                "sortIndex": 2
               },
               {
                 "constraints": [
@@ -35044,39 +33136,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "Melee",
                             "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
+                            "typeId": "914c-b413-91e3-a132",
+                            "$text": "Melee"
                           },
                           {
-                            "$text": "3",
                             "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
+                            "typeId": "2337-daa1-6682-b110",
+                            "$text": "3"
                           },
                           {
-                            "$text": "3+",
                             "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
+                            "typeId": "95d1-95f-45b4-11d6",
+                            "$text": "3+"
                           },
                           {
-                            "$text": "4",
                             "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
+                            "typeId": "ab33-d393-96ce-ccba",
+                            "$text": "4"
                           },
                           {
-                            "$text": "-2",
                             "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
+                            "typeId": "41a0-1301-112a-e2f2",
+                            "$text": "-2"
                           },
                           {
-                            "$text": "2",
                             "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
+                            "typeId": "3254-9fe6-d824-513e",
+                            "$text": "2"
                           },
                           {
-                            "$text": "Lethal Hits",
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Lethal Hits, Anti-PSYKER 4+, Devastating Wounds"
                           }
                         ],
                         "name": "Blessed sword",
@@ -35107,13 +33199,43 @@
                 "name": "Insidiant w/ blessed sword",
                 "hidden": false,
                 "id": "dfc9-3074-4b0b-9966",
-                "sortIndex": 3
+                "sortIndex": 3,
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Condemnor bolt pistol",
+                    "hidden": false,
+                    "id": "2b96-6de5-9739-2934",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8840-b47a-daa6-1ac6",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "db2c-cb8a-9ce9-1f6a",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "6060-41bc-087d-70f4"
+                  }
+                ]
               },
               {
                 "constraints": [
                   {
                     "type": "max",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -35217,134 +33339,13 @@
                 "name": "Insidiant w/ virge of admonition",
                 "hidden": false,
                 "id": "a990-deb8-0471-a9d1",
-                "sortIndex": 4
-              },
-              {
+                "sortIndex": 4,
                 "entryLinks": [
                   {
-                    "import": true,
-                    "name": "Null mace",
-                    "hidden": false,
-                    "id": "de53-c6c6-0f11-b4ef",
-                    "type": "selectionEntry",
-                    "targetId": "0c2d-0fea-e434-a32e"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "f998-1519-5489-4a52",
-                    "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "b8fb-6fb4-09c5-7845-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "b8fb-6fb4-09c5-7845-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "Each time the bearer’s unit’s quarry is destroyed, you can select a new unit from your opponent’s army to be its quarry.",
-                            "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
-                          }
-                        ],
-                        "name": "Denuncia Oratory",
-                        "typeId": "9cc3-6d83-4dd3-9b64",
-                        "typeName": "Abilities",
-                        "hidden": false,
-                        "id": "0d79-8c08-81a5-8b90"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Denuncia Oratory",
-                    "hidden": false,
-                    "id": "6b64-a791-434a-882b"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Insidiant w/ denuncia",
-                "hidden": false,
-                "id": "ac73-bb9b-f1f2-eeb7",
-                "sortIndex": 5
-              },
-              {
-                "entryLinks": [
-                  {
-                    "import": true,
-                    "name": "Null mace",
-                    "hidden": false,
-                    "id": "1f8a-803b-5fcc-08db",
-                    "type": "selectionEntry",
-                    "targetId": "0c2d-0fea-e434-a32e"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "f98f-9378-d93e-cca4-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "f98f-9378-d93e-cca4-max",
-                        "includeChildSelections": false
-                      }
-                    ],
                     "import": true,
                     "name": "Condemnor bolt pistol",
                     "hidden": false,
-                    "id": "d4a2-2213-43dc-f47e",
-                    "type": "selectionEntry",
-                    "targetId": "6060-41bc-087d-70f4"
-                  }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "604a-0202-ad8e-8433",
-                    "includeChildSelections": false
-                  }
-                ],
-                "selectionEntries": [
-                  {
+                    "id": "2d10-7af9-7085-f19e",
                     "constraints": [
                       {
                         "type": "min",
@@ -35352,7 +33353,7 @@
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "7553-a0c6-425b-70ea-min",
+                        "id": "d4f0-73e9-12e3-0749",
                         "includeChildSelections": false
                       },
                       {
@@ -35361,39 +33362,14 @@
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "7553-a0c6-425b-70ea-max",
+                        "id": "a345-5e33-4c7b-3531",
                         "includeChildSelections": false
                       }
                     ],
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result.",
-                            "name": "Description",
-                            "typeId": "9b8f-694b-e5e-b573"
-                          }
-                        ],
-                        "name": "Simulacrum Imperialis",
-                        "typeId": "9cc3-6d83-4dd3-9b64",
-                        "typeName": "Abilities",
-                        "hidden": false,
-                        "id": "6894-ba17-e451-a786"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Simulacrum imperialis",
-                    "hidden": false,
-                    "id": "da06-14e8-a52b-db3b"
+                    "type": "selectionEntry",
+                    "targetId": "6060-41bc-087d-70f4"
                   }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Insidiant w/ simulacrum",
-                "hidden": false,
-                "id": "f780-8fc0-e9b7-7050",
-                "sortIndex": 6
+                ]
               }
             ],
             "constraints": [
@@ -36878,7 +34854,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -36903,6 +34879,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -38084,7 +36070,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -38127,6 +36113,147 @@
         "name": "Intranzia Fraye",
         "hidden": false,
         "id": "e59a-2a90-e102-940f"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Holy Trinity Combi-Weapon",
+        "hidden": false,
+        "id": "b8f2-1db6-dda5-11c8",
+        "profiles": [
+          {
+            "name": "➤ Holy Trinity Combi-Weapon - Boltor",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "59d4-bc34-36ec-689a",
+            "characteristics": [
+              {
+                "$text": "24\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "2",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "3+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "4",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "2",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Rapid Fire 2",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          },
+          {
+            "name": "➤ Holy Trinity Combi-Weapon - Melta",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "aac1-8e43-ac8c-b689",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "1",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "3+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "9",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-4",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "D6",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Melta 2",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          },
+          {
+            "name": "➤ Holy Trinity Combi-Weapon - Flamer",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "ed15-ba36-62dc-a55c",
+            "characteristics": [
+              {
+                "$text": "12\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "D6+1",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "N/A",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "5",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "1",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Ignores Cover, Torrent",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedProfiles": [
@@ -38340,7 +36467,7 @@
           {
             "name": "W",
             "typeId": "750a-a2ec-90d3-21fe",
-            "$text": "1"
+            "$text": "2"
           },
           {
             "name": "LD",
@@ -38592,7 +36719,7 @@
           {
             "name": "M",
             "typeId": "e703-ecb6-5ce7-aec1",
-            "$text": "6\""
+            "$text": "8\""
           },
           {
             "name": "T",
@@ -39171,6 +37298,14 @@
             "type": "selectionEntry",
             "id": "e4c5-7418-c14c-5d43",
             "targetId": "9dd0-f453-50c6-a28e"
+          },
+          {
+            "import": true,
+            "name": "Holy Trinity Combi-Weapon",
+            "hidden": false,
+            "id": "4cf4-4da2-afc6-59ad",
+            "type": "selectionEntry",
+            "targetId": "b8f2-1db6-dda5-11c8"
           }
         ],
         "constraints": [
@@ -39507,39 +37642,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "24\"",
                     "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc"
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
                   },
                   {
-                    "$text": "2",
                     "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08"
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "2"
                   },
                   {
-                    "$text": "3+",
                     "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e"
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "S",
-                    "typeId": "2229-f494-25db-c5d3"
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "4"
                   },
                   {
-                    "$text": "0",
                     "name": "AP",
-                    "typeId": "9ead-8a10-520-de15"
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
                   },
                   {
-                    "$text": "2",
                     "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3"
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
                   },
                   {
-                    "$text": "Rapid Fire 2",
                     "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Rapid Fire 2"
                   }
                 ],
                 "name": "Artificer-crafted storm bolter",
@@ -39567,7 +37702,7 @@
             "id": "ed5f-bf03-c63f-c957"
           }
         ],
-        "name": "Special Weapons",
+        "name": "Holy Trinity Primaries",
         "hidden": false,
         "id": "2d13-a896-8e4c-2cda"
       },
@@ -39638,7 +37773,7 @@
             "id": "c360-ad11-95e6-68b1"
           }
         ],
-        "name": "Heavy Weapons",
+        "name": "Holy Trinity Heavies",
         "hidden": false,
         "id": "e133-3a33-f95f-ae50"
       },
@@ -52644,6 +50779,168 @@
         "name": "Weapons",
         "id": "acdc-9c11-8d38-1fd8",
         "hidden": false
+      },
+      {
+        "name": "Holy Trinity Pistols",
+        "id": "2c9a-9fac-83a6-b87d",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Ministorum hand flamer",
+            "hidden": false,
+            "id": "a31c-1a11-7ea2-c629",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a01a-50b6-f176-f1bb"
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "c462-3995-88b0-200c",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": 2,
+                "field": "a01a-50b6-f176-f1bb",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "unit-self",
+                    "childId": "bee9-172b-7db7-f748",
+                    "shared": true,
+                    "childName": "Seraphim Squad"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "import": true,
+            "name": "Inferno pistol",
+            "hidden": false,
+            "id": "59e1-f66c-3098-d77c",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "99b7-50bc-1838-be63"
+              }
+            ],
+            "type": "selectionEntry",
+            "targetId": "3cef-a2a4-8354-6103",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": 2,
+                "field": "99b7-50bc-1838-be63",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "unit-self",
+                    "childId": "bee9-172b-7db7-f748",
+                    "shared": true,
+                    "childName": "Seraphim Squad"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Heavy Bolt Pistol",
+            "hidden": false,
+            "id": "334e-b8fd-8ee4-2c28",
+            "profiles": [
+              {
+                "name": "Heavy Bolt Pistol",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "0028-4843-820e-f419",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ad14-233e-c61b-9dd0"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": 2,
+                "field": "ad14-233e-c61b-9dd0",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "unit-self",
+                    "childId": "bee9-172b-7db7-f748",
+                    "shared": true,
+                    "childName": "Seraphim Squad"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "entryLinks": [
