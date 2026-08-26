@@ -66783,6 +66783,24 @@
                         "type": "selectionEntryGroup",
                         "targetId": "f9da-852a-d7f0-92e9"
                       }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "7a93-63ca-676d-e489"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "22e7-da4d-ecc6-f84c"
+                      }
                     ]
                   }
                 ],
