@@ -135,7 +135,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "db8-7a89-3b82-c492",
-        "targetId": "3376-d337-6a33-4bca"
+        "targetId": "3376-d337-6a33-4bca",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 80
+          }
+        ]
       },
       {
         "import": true,
@@ -275,7 +282,63 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "a389-35ee-3abb-338",
-        "targetId": "5768-1f87-3a16-d901"
+        "targetId": "5768-1f87-3a16-d901",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 60
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Deep Strike",
+            "id": "5d90-801e-5428-06fe",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "Power from Pain",
+            "id": "a956-270c-74a8-d39d",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Webway's Laughing Ghost (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "49cb-25f5-66ca-74eb",
+            "characteristics": [
+              {
+                "$text": "At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can spend 1 Pain token to Empower this unit. Each time you do, remove this unit from the battlefield and place it into Strategic Reserves.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,
@@ -283,7 +346,56 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "b9e6-c04b-8799-1c79",
-        "targetId": "f88f-60c5-3daf-3d2f"
+        "targetId": "f88f-60c5-3daf-3d2f",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 100
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Warning Warning (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5d9f-a67d-00ca-d240",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In the Fight phase you can spend 1 Pain token to Empower this unit, While Empowered, The melee weapon of this model has [Devastating Wounds] Ability."
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "4702-9a4d-1200-84cf",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ]
       },
       {
         "import": true,
@@ -291,7 +403,56 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "f826-b031-f76c-751f",
-        "targetId": "8c34-52ba-cbd0-9ca4"
+        "targetId": "8c34-52ba-cbd0-9ca4",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Now you see me, Now you Dont (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "4d04-8090-842e-ca24",
+            "characteristics": [
+              {
+                "$text": "In opponent's Shooting phase you can spend 1 Pain token to Empower this unit, While Empowered, Reduce 1 to Ballistic skill or Weapon Skill characteristic of the attacks allocated to this unit.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "1433-bdd7-d380-ed02",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ]
       },
       {
         "import": true,
@@ -299,7 +460,56 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "dd4b-d758-5063-9b16",
-        "targetId": "9270-4b93-ca59-f3ed"
+        "targetId": "9270-4b93-ca59-f3ed",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 60
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "4175-c35d-8518-d6e5",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sky slip (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "86d3-abfb-0097-91c1",
+            "characteristics": [
+              {
+                "$text": "In the Movement phase you can spend 1 Pain token to Empower this unit, While Empowered, that unit is still eligible to shoot and declare a charge this turn.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,
@@ -307,7 +517,56 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "e9a-9fe4-d8b6-e59d",
-        "targetId": "854b-f8e-28fa-8c24"
+        "targetId": "854b-f8e-28fa-8c24",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "ef86-f6cd-99bb-5b8e",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Fuck it we ball (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "454e-18c3-9bf0-0d09",
+            "characteristics": [
+              {
+                "$text": "In the Movement phase you can spend 1 Pain token to Empower this unit, While Empowered, Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,
@@ -315,7 +574,32 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "fd0b-aee0-3632-f3c6",
-        "targetId": "e011-d99d-f0de-5289"
+        "targetId": "e011-d99d-f0de-5289",
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "c82a-a4e3-3c41-5443",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Reaper's Lie",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "86f8-9e0d-2a63-0173",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In any Phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. It switches the Reaper's Wager winning side to the opposite of the current winning wager."
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,
@@ -323,7 +607,56 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "f21a-cd8a-ab17-5ecd",
-        "targetId": "dac1-6a7f-a06a-82cf"
+        "targetId": "dac1-6a7f-a06a-82cf",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 60
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "59f7-db77-8b93-1553",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dance Macabre (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "073d-b296-356b-0979",
+            "characteristics": [
+              {
+                "$text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack, you can re-roll the Hit roll.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,
@@ -331,7 +664,49 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "97e5-742b-fa8f-ae08",
-        "targetId": "dada-b81b-37bd-1f3b"
+        "targetId": "dada-b81b-37bd-1f3b",
+        "infoLinks": [
+          {
+            "name": "Power from Pain",
+            "id": "c792-b2a7-9b22-d7a3",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "5e02-2ddc-f55-e6dd"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Breakdancing  (Pain)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "340f-f681-faa3-b779",
+            "characteristics": [
+              {
+                "$text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack, you can re-roll the Wound roll.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "38de-521f-1ce0-44a0",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "import": true,

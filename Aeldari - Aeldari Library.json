@@ -15202,6 +15202,16 @@
                     "shared": true,
                     "includeChildForces": true,
                     "includeChildSelections": true
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildForces": true,
+                    "includeChildSelections": true
                   }
                 ],
                 "type": "and"
@@ -15244,6 +15254,16 @@
                     "shared": true,
                     "includeChildForces": true,
                     "includeChildSelections": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
                   }
                 ],
                 "type": "or"
@@ -15350,9 +15370,14 @@
               {
                 "profiles": [
                   {
+                    "name": "Shrieker Cannon",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "6ca-5831-21c6-250",
                     "characteristics": [
                       {
-                        "$text": "24\"",
+                        "$text": "48\"",
                         "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
@@ -15386,12 +15411,7 @@
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
-                    ],
-                    "name": "Shrieker Cannon",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "hidden": false,
-                    "id": "6ca-5831-21c6-250"
+                    ]
                   }
                 ],
                 "constraints": [
@@ -31981,6 +32001,16 @@
                     "shared": true,
                     "includeChildForces": true,
                     "includeChildSelections": true
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildForces": true,
+                    "includeChildSelections": true
                   }
                 ],
                 "type": "and"
@@ -32023,6 +32053,16 @@
                     "shared": true,
                     "includeChildForces": true,
                     "includeChildSelections": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
                   }
                 ],
                 "type": "or"
@@ -34439,7 +34479,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 120
           },
           {
             "conditions": [
@@ -37007,7 +37047,25 @@
             "typeId": "74f8-5443-9d6d-1f1e",
             "typeName": "Transport",
             "hidden": false,
-            "id": "9c6-2ec1-17be-c398"
+            "id": "9c6-2ec1-17be-c398",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "This model has a transport capacity of 13 Harlequins Infantry models.",
+                "field": "30f2-be70-861d-1b84",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "model-self",
+                    "childId": "cc5f-e70c-3576-765d",
+                    "shared": true,
+                    "childName": "Clown Mobile"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -37084,46 +37142,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 3,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "854b-f8e-28fa-8c24",
-                        "shared": true,
-                        "childName": "Starweaver"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -37249,6 +37267,81 @@
                 "name": "Close Combat Weapon",
                 "hidden": false,
                 "id": "273-cae3-c7fa-fa24"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clown Mobile",
+                "hidden": false,
+                "id": "cc5f-e70c-3576-765d",
+                "profiles": [
+                  {
+                    "name": "Clown Mobile",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "f2b7-014d-60e9-dbfb",
+                    "characteristics": [
+                      {
+                        "$text": "This model has now 13 transport capacity instead of 6",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "760d-67f9-cd26-2d7d"
+                  }
+                ]
               }
             ],
             "entryLinks": [
@@ -43265,7 +43358,7 @@
             "modifiers": [
               {
                 "type": "set",
-                "value": 100,
+                "value": 70,
                 "field": "51b2-306e-1021-d207",
                 "conditions": [
                   {
@@ -43283,7 +43376,7 @@
               },
               {
                 "type": "set",
-                "value": 190,
+                "value": 100,
                 "field": "51b2-306e-1021-d207",
                 "conditionGroups": [
                   {
@@ -43317,7 +43410,7 @@
               },
               {
                 "type": "set",
-                "value": 205,
+                "value": 140,
                 "field": "51b2-306e-1021-d207",
                 "conditions": [
                   {
@@ -45094,6 +45187,16 @@
                     "shared": true,
                     "includeChildSelections": true,
                     "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
                   }
                 ],
                 "type": "or"
@@ -45218,6 +45321,16 @@
                         "field": "selections",
                         "scope": "roster",
                         "childId": "5ad5-9b0d-a70e-b9ec",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "e688-8140-bc36-3cee",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -46449,6 +46562,16 @@
                     "shared": true,
                     "includeChildForces": true,
                     "includeChildSelections": true
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
+                    "shared": true,
+                    "includeChildForces": true,
+                    "includeChildSelections": true
                   }
                 ],
                 "type": "and"
@@ -46488,6 +46611,16 @@
                     "field": "selections",
                     "scope": "roster",
                     "childId": "5ad5-9b0d-a70e-b9ec",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "e688-8140-bc36-3cee",
                     "shared": true,
                     "includeChildSelections": true,
                     "includeChildForces": true
