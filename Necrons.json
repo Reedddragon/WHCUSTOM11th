@@ -9408,14 +9408,19 @@
                 ],
                 "profiles": [
                   {
+                    "name": "➤ Staff of light - Dispersed Beam",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "5e01-de1a-d07b-929a",
                     "characteristics": [
                       {
-                        "$text": "18\"",
+                        "$text": "36\"",
                         "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
-                        "$text": "3",
+                        "$text": "6",
                         "name": "A",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
@@ -9425,7 +9430,7 @@
                         "typeId": "94d-8a98-cf90-183e"
                       },
                       {
-                        "$text": "5",
+                        "$text": "6",
                         "name": "S",
                         "typeId": "2229-f494-25db-c5d3"
                       },
@@ -9435,21 +9440,60 @@
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
-                        "$text": "1",
+                        "$text": "2",
                         "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
+                        "$text": "Lethal Hits",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
-                    ],
-                    "name": "Staff of light",
+                    ]
+                  },
+                  {
+                    "name": "➤ Staff of light - Focused Beam",
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "hidden": false,
-                    "id": "8dc2-0cec-a0e2-2cfb"
+                    "id": "f502-5dbc-63f5-9048",
+                    "characteristics": [
+                      {
+                        "$text": "48\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "14",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-4",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Lethal Hits",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
                   }
                 ],
                 "type": "upgrade",
@@ -9522,7 +9566,26 @@
                     "id": "c5f6-c4a5-9b91-256c",
                     "hidden": false,
                     "type": "rule",
-                    "targetId": "cd26-1611-860a-91e4"
+                    "targetId": "cd26-1611-860a-91e4",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": true,
+                        "field": "hidden",
+                        "conditions": [
+                          {
+                            "type": "atLeast",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "childId": "0b0e-6803-4196-1cf3",
+                            "shared": true,
+                            "childName": "Agnes Tachyon Eternal Arrow",
+                            "includeChildSelections": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "categoryLinks": [
@@ -9538,7 +9601,93 @@
                 "import": true,
                 "name": "Tachyon arrow",
                 "hidden": false,
-                "id": "9a5d-4aa6-6149-cd18"
+                "id": "9a5d-4aa6-6149-cd18",
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Agnes Tachyon Eternal Arrow",
+                    "hidden": false,
+                    "id": "1104-50d7-0b35-c253",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a0e6-f768-3045-a57c"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Agnes Tachyon Eternal Arrow",
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "hidden": false,
+                        "id": "1b20-2069-ae89-780f",
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "typeId": "9b8f-694b-e5e-b573",
+                            "$text": "Remove One shot Limitation."
+                          }
+                        ]
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "",
+                        "field": "7f1b-8591-2fcf-d01c",
+                        "scope": "9a5d-4aa6-6149-cd18",
+                        "affects": "self.entries.profiles.Ranged Weapons"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -12334,7 +12483,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 180
           },
           {
             "name": "Crusade Points",
@@ -12478,20 +12627,6 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "The Stars Are Right",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "7003-283b-1b84-c602"
-          },
-          {
-            "characteristics": [
-              {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "This model can be attached to the following units:\n■ IMMORTALS\n■ NECRON WARRIORS\n"
@@ -12502,6 +12637,34 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "b567-98ec-597b-f8c9"
+          },
+          {
+            "name": "Time Travel",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "8a73-e759-ae77-ad91",
+            "characteristics": [
+              {
+                "$text": "Each time this unit is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "The Stars Are Right",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "7003-283b-1b84-c602",
+            "characteristics": [
+              {
+                "$text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound. You can Ignore all modifiers after using this ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -12526,6 +12689,11 @@
             ],
             "profiles": [
               {
+                "name": "Staff of Tomorrow",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "e091-87a3-25fd-3d92",
                 "characteristics": [
                   {
                     "$text": "Melee",
@@ -12533,7 +12701,7 @@
                     "typeId": "914c-b413-91e3-a132"
                   },
                   {
-                    "$text": "2",
+                    "$text": "4",
                     "name": "A",
                     "typeId": "2337-daa1-6682-b110"
                   },
@@ -12543,7 +12711,7 @@
                     "typeId": "95d1-95f-45b4-11d6"
                   },
                   {
-                    "$text": "4",
+                    "$text": "6",
                     "name": "S",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
@@ -12562,12 +12730,7 @@
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
-                ],
-                "name": "Staff of Tomorrow",
-                "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons",
-                "hidden": false,
-                "id": "e091-87a3-25fd-3d92"
+                ]
               }
             ],
             "infoLinks": [
@@ -12648,7 +12811,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -13363,7 +13561,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -13657,7 +13890,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 175
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -14265,50 +14498,6 @@
               {
                 "characteristics": [
                   {
-                    "$text": "18\"",
-                    "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc"
-                  },
-                  {
-                    "$text": "3",
-                    "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08"
-                  },
-                  {
-                    "$text": "3+",
-                    "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e"
-                  },
-                  {
-                    "$text": "5",
-                    "name": "S",
-                    "typeId": "2229-f494-25db-c5d3"
-                  },
-                  {
-                    "$text": "-2",
-                    "name": "AP",
-                    "typeId": "9ead-8a10-520-de15"
-                  },
-                  {
-                    "$text": "1",
-                    "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3"
-                  },
-                  {
-                    "$text": "-",
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
-                  }
-                ],
-                "name": "Staff of light",
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "hidden": false,
-                "id": "cecc-a1d5-2c1-7e0b"
-              },
-              {
-                "characteristics": [
-                  {
                     "$text": "Melee",
                     "name": "Range",
                     "typeId": "914c-b413-91e3-a132"
@@ -14349,6 +14538,94 @@
                 "typeName": "Melee Weapons",
                 "hidden": false,
                 "id": "679a-7b7b-e0e8-1de5"
+              },
+              {
+                "name": "➤ Staff of light - Dispersed Beam",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "bc4d-0aa4-8249-b859",
+                "characteristics": [
+                  {
+                    "$text": "36\"",
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "$text": "-2",
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "$text": "Lethal Hits",
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
+              },
+              {
+                "name": "➤ Staff of light - Focused Beam",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "6255-c6fb-dd4e-969e",
+                "characteristics": [
+                  {
+                    "$text": "48\"",
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "$text": "14",
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "$text": "-4",
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "$text": "Lethal Hits",
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
               }
             ],
             "type": "upgrade",
@@ -14362,7 +14639,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -14732,7 +15044,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -14752,6 +15064,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -16170,7 +16497,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -16486,50 +16813,6 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "18\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Staff of light",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "3bb9-cfd3-a1f4-1d39"
-                      },
-                      {
-                        "characteristics": [
-                          {
                             "$text": "Melee",
                             "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
@@ -16570,6 +16853,94 @@
                         "typeName": "Melee Weapons",
                         "hidden": false,
                         "id": "7403-f6-6b4-944f"
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "c969-c1e9-00de-7310",
+                        "characteristics": [
+                          {
+                            "$text": "36\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "3bb9-cfd3-a1f4-1d39",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "14",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-4",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -17240,50 +17611,6 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "18\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "3+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Staff of light",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "6094-47a9-660d-d482"
-                      },
-                      {
-                        "characteristics": [
-                          {
                             "$text": "Melee",
                             "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
@@ -17324,6 +17651,94 @@
                         "typeName": "Melee Weapons",
                         "hidden": false,
                         "id": "8101-4101-e60c-f5ce"
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "916f-3e9f-b458-8a14",
+                        "characteristics": [
+                          {
+                            "$text": "36\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "6744-1848-d46f-7787",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "14",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-4",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -17743,7 +18158,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -17763,6 +18178,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -18223,50 +18653,6 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "18\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Staff of light",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "4a5a-85ae-3c45-8954"
-                      },
-                      {
-                        "characteristics": [
-                          {
                             "$text": "Melee",
                             "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
@@ -18307,6 +18693,94 @@
                         "typeName": "Melee Weapons",
                         "hidden": false,
                         "id": "9844-84db-6dcd-7d05"
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "8c86-70c9-1bb0-6e82",
+                        "characteristics": [
+                          {
+                            "$text": "36\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "3d2c-6df3-e3eb-a9e5",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "14",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-4",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -18619,7 +19093,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -18999,50 +19473,6 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "18\"",
-                            "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "$text": "3",
-                            "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "$text": "-",
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ],
-                        "name": "Staff of light",
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "hidden": false,
-                        "id": "20d7-fc7b-d23a-1537"
-                      },
-                      {
-                        "characteristics": [
-                          {
                             "$text": "Melee",
                             "name": "Range",
                             "typeId": "914c-b413-91e3-a132"
@@ -19101,6 +19531,94 @@
                         "typeName": "Melee Weapons",
                         "hidden": false,
                         "id": "8f1e-30b0-111-bccf"
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "da73-6790-690f-bfa4",
+                        "characteristics": [
+                          {
+                            "$text": "36\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "1fd8-8adc-329d-648e",
+                        "characteristics": [
+                          {
+                            "$text": "48\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "2+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "14",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "-4",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -19664,7 +20182,26 @@
             "typeId": "f77d-b953-8fa4-b762",
             "typeName": "Ranged Weapons",
             "hidden": false,
-            "id": "da09-ceb4-d0ec-e297"
+            "id": "da09-ceb4-d0ec-e297",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "",
+                "field": "7f1b-8591-2fcf-d01c",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "0b0e-6803-4196-1cf3",
+                    "shared": true,
+                    "childName": "Agnes Tachyon Eternal Arrow",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -19673,7 +20210,26 @@
             "hidden": false,
             "type": "rule",
             "id": "bb73-6840-bb76-bb48",
-            "targetId": "cd26-1611-860a-91e4"
+            "targetId": "cd26-1611-860a-91e4",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "0b0e-6803-4196-1cf3",
+                    "shared": true,
+                    "childName": "Agnes Tachyon Eternal Arrow",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -19689,14 +20245,91 @@
         "import": true,
         "name": "Tachyon arrow",
         "hidden": false,
-        "id": "6920-cba8-a495-6d1e"
+        "id": "6920-cba8-a495-6d1e",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Agnes Tachyon Eternal Arrow",
+            "hidden": false,
+            "id": "0b0e-6803-4196-1cf3",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b0c1-a2f4-2c62-ff59"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Agnes Tachyon Eternal Arrow",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "d6f0-f5b8-7e3e-fdfd",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Remove One shot Limitation."
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 0
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -19716,6 +20349,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -19905,50 +20553,6 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "18\"",
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "$text": "4+",
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "$text": "-2",
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "$text": "-",
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ],
-                    "name": "Staff of light",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "hidden": false,
-                    "id": "542b-4858-7bca-539e"
-                  },
-                  {
-                    "characteristics": [
-                      {
                         "$text": "Melee",
                         "name": "Range",
                         "typeId": "914c-b413-91e3-a132"
@@ -19989,6 +20593,94 @@
                     "typeName": "Melee Weapons",
                     "hidden": false,
                     "id": "b711-1774-efa4-2a82"
+                  },
+                  {
+                    "name": "➤ Staff of light - Dispersed Beam",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "4464-5bfc-f1e3-8fe3",
+                    "characteristics": [
+                      {
+                        "$text": "36\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Lethal Hits",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Staff of light - Focused Beam",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "d06b-3900-5e5a-aaf5",
+                    "characteristics": [
+                      {
+                        "$text": "48\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "14",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-4",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "6",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Lethal Hits",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -20345,7 +21037,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 35
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -20926,7 +21653,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 55
           },
           {
             "name": "Crusade Points",
@@ -21817,7 +22544,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -21837,6 +22564,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -22945,7 +23687,7 @@
               }
             ],
             "type": "set",
-            "value": 190,
+            "value": 160,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -23287,7 +24029,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -23307,6 +24049,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -23367,7 +24124,7 @@
               }
             ],
             "type": "set",
-            "value": 140,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -24286,7 +25043,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -24404,7 +25161,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While a friendly NECRONS unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds."
+                "$text": "While a friendly NECRONS unit is within 9\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds."
               }
             ],
             "name": "Nanoscarab Reanimation Beam (Aura)",
@@ -25002,7 +25759,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -25022,6 +25779,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -25178,39 +25950,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "18\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "18\""
                       },
                       {
-                        "$text": "6",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "2+"
                       },
                       {
-                        "$text": "6",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "1",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
                       },
                       {
-                        "$text": "Ignores Cover, Pistol",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Ignores Cover, Pistol"
                       }
                     ],
                     "name": "Enmitic disintegrator pistols",
@@ -25517,7 +26289,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -25606,7 +26378,7 @@
               }
             ],
             "type": "set",
-            "value": 160,
+            "value": 140,
             "field": "51b2-306e-1021-d207"
           }
         ],
@@ -28739,7 +29511,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -28759,6 +29531,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -29629,7 +30416,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 330
+            "value": 280
           },
           {
             "name": "Crusade Points",
@@ -30161,7 +30948,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 360
+            "value": 310
           },
           {
             "name": "Crusade Points",
@@ -30697,7 +31484,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 345
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -31391,7 +32178,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 340
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -32178,49 +32965,7 @@
         "import": true,
         "name": "Transcendent C'tan",
         "hidden": false,
-        "id": "276e-bc21-e1d0-3c41",
-        "modifiers": [
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "276e-bc21-e1d0-3c41",
-                        "shared": true,
-                        "childName": "Transcendent C'tan"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": "276e-bc21-e1d0-3c41"
       },
       {
         "selectionEntries": [
@@ -32928,7 +33673,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -32969,7 +33714,7 @@
         "modifiers": [
           {
             "type": "set",
-            "value": 110,
+            "value": 80,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -33022,7 +33767,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 20
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "selectionEntryGroups": [
@@ -33259,7 +34039,7 @@
               }
             ],
             "type": "set",
-            "value": 80,
+            "value": 40,
             "field": "51b2-306e-1021-d207"
           }
         ],
@@ -33509,7 +34289,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -33529,6 +34309,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -33596,48 +34391,8 @@
               }
             ],
             "type": "set",
-            "value": 145,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "c6db-9736-4d53-3ef6",
-                        "shared": true,
-                        "childName": "Ophydian Destroyers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "selectionEntryGroups": [
@@ -34164,7 +34919,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -34314,48 +35069,8 @@
               }
             ],
             "type": "set",
-            "value": 140,
+            "value": 100,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "77d-d442-a3-422c",
-                        "shared": true,
-                        "childName": "Tomb Blades"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "selectionEntryGroups": [
@@ -36094,7 +36809,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -36478,48 +37193,8 @@
               }
             ],
             "type": "set",
-            "value": 220,
+            "value": 180,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "a022-9bf6-f08b-c416",
-                        "shared": true,
-                        "childName": "Canoptek Wraiths"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -37116,7 +37791,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -37826,7 +38501,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -38580,7 +39255,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 20
           },
           {
             "name": "Crusade Points",
@@ -38600,6 +39275,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -38650,7 +39340,7 @@
               }
             ],
             "type": "set",
-            "value": 55,
+            "value": 40,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -38667,7 +39357,7 @@
               }
             ],
             "type": "set",
-            "value": 80,
+            "value": 60,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -38684,48 +39374,8 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "6f72-b8f7-fd8d-5c2c",
-                        "shared": true,
-                        "childName": "Lokhust Destroyers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -40081,47 +40731,7 @@
         "modifiers": [
           {
             "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d9ea-2965-24-d3a3",
-                        "shared": true,
-                        "childName": "Lokhust Heavy Destroyers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 50,
+            "value": 40,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -40138,7 +40748,7 @@
           },
           {
             "type": "increment",
-            "value": 60,
+            "value": 40,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -40158,7 +40768,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -40202,7 +40812,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -40222,6 +40832,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -41017,7 +41642,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -42702,7 +43327,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 280
+            "value": 220
           },
           {
             "name": "Crusade Points",
@@ -43524,46 +44149,6 @@
                 "childName": "The Phaeron's Armoury"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 30,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "256d-92cd-5d14-bbab",
-                        "shared": true,
-                        "childName": "Obelisk"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -43572,7 +44157,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 465
+            "value": 325
           },
           {
             "name": "Crusade Points",
@@ -43865,6 +44450,55 @@
                 ],
                 "profiles": [
                   {
+                    "name": "Antimatter meteor",
+                    "typeId": "cd5c-98c0-9fd1-7cc6",
+                    "typeName": "C'tan Powers",
+                    "hidden": false,
+                    "id": "edc-857f-aecb-41a6",
+                    "characteristics": [
+                      {
+                        "$text": "24\"",
+                        "name": "Range",
+                        "typeId": "c8d9-46d-dcd6-1689"
+                      },
+                      {
+                        "$text": "D6+3",
+                        "name": "A",
+                        "typeId": "aaaa-4f37-91d0-777a"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "BS",
+                        "typeId": "2c55-58d1-38b-60dd"
+                      },
+                      {
+                        "$text": "14",
+                        "name": "S",
+                        "typeId": "8b6b-d3c8-750c-88b3"
+                      },
+                      {
+                        "$text": "-3",
+                        "name": "AP",
+                        "typeId": "6c3a-fc79-84fe-5e11"
+                      },
+                      {
+                        "$text": "3",
+                        "name": "D",
+                        "typeId": "ff69-87b4-9dea-a132"
+                      },
+                      {
+                        "$text": "Blast, Devastating Wounds, Indirect Fire",
+                        "name": "Keywords",
+                        "typeId": "df1a-3aa6-e9f9-c780"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cosmic fire",
+                    "typeId": "cd5c-98c0-9fd1-7cc6",
+                    "typeName": "C'tan Powers",
+                    "hidden": false,
+                    "id": "629c-2df2-9774-be49",
                     "characteristics": [
                       {
                         "$text": "18\"",
@@ -43892,7 +44526,7 @@
                         "typeId": "6c3a-fc79-84fe-5e11"
                       },
                       {
-                        "$text": "1",
+                        "$text": "2",
                         "name": "D",
                         "typeId": "ff69-87b4-9dea-a132"
                       },
@@ -43901,14 +44535,14 @@
                         "name": "Keywords",
                         "typeId": "df1a-3aa6-e9f9-c780"
                       }
-                    ],
-                    "name": "Cosmic fire",
+                    ]
+                  },
+                  {
+                    "name": "Time's arrow",
                     "typeId": "cd5c-98c0-9fd1-7cc6",
                     "typeName": "C'tan Powers",
                     "hidden": false,
-                    "id": "629c-2df2-9774-be49"
-                  },
-                  {
+                    "id": "1a9b-4328-6db8-bf8e",
                     "characteristics": [
                       {
                         "$text": "24\"",
@@ -43945,56 +44579,7 @@
                         "name": "Keywords",
                         "typeId": "df1a-3aa6-e9f9-c780"
                       }
-                    ],
-                    "name": "Time's arrow",
-                    "typeId": "cd5c-98c0-9fd1-7cc6",
-                    "typeName": "C'tan Powers",
-                    "hidden": false,
-                    "id": "1a9b-4328-6db8-bf8e"
-                  },
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "24\"",
-                        "name": "Range",
-                        "typeId": "c8d9-46d-dcd6-1689"
-                      },
-                      {
-                        "$text": "D6+3",
-                        "name": "A",
-                        "typeId": "aaaa-4f37-91d0-777a"
-                      },
-                      {
-                        "$text": "3+",
-                        "name": "BS",
-                        "typeId": "2c55-58d1-38b-60dd"
-                      },
-                      {
-                        "$text": "10",
-                        "name": "S",
-                        "typeId": "8b6b-d3c8-750c-88b3"
-                      },
-                      {
-                        "$text": "-3",
-                        "name": "AP",
-                        "typeId": "6c3a-fc79-84fe-5e11"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "D",
-                        "typeId": "ff69-87b4-9dea-a132"
-                      },
-                      {
-                        "$text": "Blast, Devastating Wounds, Indirect Fire",
-                        "name": "Keywords",
-                        "typeId": "df1a-3aa6-e9f9-c780"
-                      }
-                    ],
-                    "name": "Antimatter meteor",
-                    "typeId": "cd5c-98c0-9fd1-7cc6",
-                    "typeName": "C'tan Powers",
-                    "hidden": false,
-                    "id": "edc-857f-aecb-41a6"
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -44410,46 +44995,6 @@
                 "childName": "The Phaeron's Armoury"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "5451-67b5-a66c-71d2",
-                        "shared": true,
-                        "childName": "Tesseract Vault"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -44458,7 +45003,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 420
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -45344,46 +45889,6 @@
                 "childName": "The Phaeron's Armoury"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 20,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "db10-2662-da6a-516e",
-                        "shared": true,
-                        "childName": "Monolith"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ]
       },
@@ -45392,7 +45897,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 420
+            "value": 355
           },
           {
             "name": "Crusade Points",
@@ -46445,7 +46950,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -47042,7 +47582,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "infoLinks": [
@@ -47663,7 +48238,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 45
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -48285,7 +48895,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -49213,7 +49858,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 540
+            "value": 360
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -49500,7 +50180,7 @@
                 "constraints": [
                   {
                     "type": "min",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -49508,7 +50188,7 @@
                   },
                   {
                     "type": "max",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -50074,49 +50754,7 @@
         "import": true,
         "name": "Seraptek Heavy Construct",
         "hidden": false,
-        "id": "fa11-cd65-fcf6-427c",
-        "modifiers": [
-          {
-            "type": "increment",
-            "value": 30,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "fa11-cd65-fcf6-427c",
-                        "shared": true,
-                        "childName": "Seraptek Heavy Construct"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": "fa11-cd65-fcf6-427c"
       },
       {
         "costs": [
@@ -51488,7 +52126,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -52282,7 +52920,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 35
           },
           {
             "name": "Crusade Points",
@@ -53385,7 +54023,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 35
           },
           {
             "name": "Crusade Points",
@@ -53410,6 +54048,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -54345,7 +54993,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -54370,6 +55018,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -54992,7 +55650,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 185
+            "value": 130
           },
           {
             "name": "Crusade Points",
@@ -56161,7 +56819,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -56186,6 +56844,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -56676,7 +57344,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -56701,6 +57369,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
