@@ -75936,46 +75936,6 @@
             "field": "hidden"
           },
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "7c93-baac-e65f-58bd",
-                        "shared": true,
-                        "childName": "Scourges with Heavy Weapons"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "8ba7-9bdb-0839-7512",
@@ -126203,6 +126163,95 @@
                         "targetId": "8bf7-8812-923d-29e4"
                       }
                     ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Shardcarbine",
+                    "hidden": false,
+                    "id": "adea-d531-e57d-226a",
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "829b-e2cb-74e1-ab41-max",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9f8e-1bcc-c9f8-ce78",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Shardcarbine",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "5918-43f9-b8ce-ff4a",
+                        "characteristics": [
+                          {
+                            "$text": "18\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "$text": "3",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "$text": "0",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "$text": "Anti-Infantry 3+, Assault",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Anti",
+                        "id": "cc6b-1490-5830-e315",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "4111-82e3-9444-e942"
+                      },
+                      {
+                        "name": "Assault",
+                        "id": "c83d-6f9e-820d-7a5d",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "fc8a-8c24-bae9-cc1c"
+                      }
+                    ]
                   }
                 ],
                 "infoLinks": [
@@ -126226,7 +126275,7 @@
                 ],
                 "selectionEntryGroups": [
                   {
-                    "name": "Weapon Choice",
+                    "name": "Melee Weapon Choice",
                     "id": "49a6-06a5-c353-ed7e",
                     "hidden": false,
                     "selectionEntries": [
@@ -126387,86 +126436,6 @@
                             "hidden": false,
                             "type": "rule",
                             "targetId": "8bf7-8812-923d-29e4"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Shardcarbine",
-                        "hidden": false,
-                        "id": "adea-d531-e57d-226a",
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "829b-e2cb-74e1-ab41-max",
-                            "includeChildSelections": false
-                          }
-                        ],
-                        "profiles": [
-                          {
-                            "name": "Shardcarbine",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "5918-43f9-b8ce-ff4a",
-                            "characteristics": [
-                              {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Anti-Infantry 3+, Assault",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ]
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Anti",
-                            "id": "cc6b-1490-5830-e315",
-                            "hidden": false,
-                            "type": "rule",
-                            "targetId": "4111-82e3-9444-e942"
-                          },
-                          {
-                            "name": "Assault",
-                            "id": "c83d-6f9e-820d-7a5d",
-                            "hidden": false,
-                            "type": "rule",
-                            "targetId": "fc8a-8c24-bae9-cc1c"
                           }
                         ]
                       }
@@ -126718,6 +126687,193 @@
                       }
                     ],
                     "defaultSelectionEntryId": "67ba-df6e-b4a3-85d4"
+                  },
+                  {
+                    "name": "Melee Weapon Choice",
+                    "id": "9e33-8c9b-deba-d796",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Pain sculptors",
+                        "hidden": false,
+                        "id": "6d77-8738-6d01-0a40",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "e3a2-960c-159b-cb1f",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Pain sculptors",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "cd83-53da-f78d-cc39",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "3",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-1",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "Anti-Infantry 4+, Twin-Linked",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Anti",
+                            "id": "ac10-eeff-73b5-fb5c",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "4111-82e3-9444-e942"
+                          },
+                          {
+                            "name": "Twin-linked",
+                            "id": "583f-ca01-3069-483a",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "cf93-ad4d-2f08-a79d"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Razorflail",
+                        "hidden": false,
+                        "id": "4148-dfe6-b962-7847",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "0f0c-ca1d-f1fb-5f3c",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Razorflail",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "b4bc-b255-fe67-db4a",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "-",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Anti",
+                            "id": "8381-4b6c-3fa1-7824",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "4111-82e3-9444-e942"
+                          },
+                          {
+                            "name": "Pistol",
+                            "id": "b8ea-e4f3-59ac-5d4f",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "8bf7-8812-923d-29e4"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a9c9-1675-07af-569c",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "db7a-f064-f3ea-0bd8",
+                        "includeChildSelections": false
+                      }
+                    ]
                   }
                 ]
               },
@@ -126939,6 +127095,193 @@
                         "scope": "parent",
                         "shared": true,
                         "id": "8765-dec5-1fa5-125b-max",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Melee Weapon Choice",
+                    "id": "962a-dc8f-79da-1e63",
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Pain sculptors",
+                        "hidden": false,
+                        "id": "34f9-6aee-007b-ae0a",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "a80d-32a8-c0d0-775b",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Pain sculptors",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "d0ff-ef07-cec8-e8bc",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "3",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-1",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "Anti-Infantry 4+, Twin-Linked",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Anti",
+                            "id": "7646-7e4c-df73-bb29",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "4111-82e3-9444-e942"
+                          },
+                          {
+                            "name": "Twin-linked",
+                            "id": "20ea-d5b5-0c16-0054",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "cf93-ad4d-2f08-a79d"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Razorflail",
+                        "hidden": false,
+                        "id": "e93d-6a89-20c4-ea01",
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "68a5-8998-5cf7-519e",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Razorflail",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "fbe1-aab1-f77d-a271",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "4",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "-",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Anti",
+                            "id": "8cef-f123-5506-4019",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "4111-82e3-9444-e942"
+                          },
+                          {
+                            "name": "Pistol",
+                            "id": "b3ad-d5b2-15b8-aee1",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "8bf7-8812-923d-29e4"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "33fa-b3e8-f624-601f",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3d7d-c407-f196-b1c4",
                         "includeChildSelections": false
                       }
                     ]
