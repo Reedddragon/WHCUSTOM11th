@@ -20,7 +20,7 @@
           }
         ],
         "import": true,
-        "name": "Chaplain Grimaldus",
+        "name": "Reclusiarch Grimaldus",
         "hidden": false,
         "type": "selectionEntry",
         "id": "524-c0e0-88a9-bc11",
@@ -100,7 +100,7 @@
       },
       {
         "import": true,
-        "name": "Repulsor Executioner",
+        "name": "Crusader Dreadnought",
         "hidden": false,
         "type": "selectionEntry",
         "id": "f0fe-79fd-b14c-4c2b",
@@ -3531,20 +3531,21 @@
                   {
                     "constraints": [
                       {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5b10-727f-779c-1906"
-                      },
-                      {
                         "type": "max",
                         "value": 1,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
                         "id": "3ee3-475e-1187-3d3a"
+                      },
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "04dc-b101-c0ec-3475",
+                        "includeChildSelections": false
                       }
                     ],
                     "selectionEntries": [
@@ -3593,53 +3594,6 @@
                             "typeName": "Melee Weapons",
                             "hidden": false,
                             "id": "4dbf-b3ea-afac-a26d"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 0,
-                            "field": "selections",
-                            "scope": "206c-6b4d-4aaa-7e79",
-                            "shared": true,
-                            "id": "5a0e-cc48-dcf2-596e",
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "modifiers": [
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 10,
-                                "field": "selections",
-                                "scope": "206c-6b4d-4aaa-7e79",
-                                "childId": "93d5-a2f6-533-694f",
-                                "shared": true,
-                                "id": "da62-2a62-7b9-86a9",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "increment",
-                            "value": 1,
-                            "field": "5a0e-cc48-dcf2-596e"
-                          },
-                          {
-                            "conditions": [
-                              {
-                                "type": "atLeast",
-                                "value": 5,
-                                "field": "selections",
-                                "scope": "206c-6b4d-4aaa-7e79",
-                                "childId": "93d5-a2f6-533-694f",
-                                "shared": true,
-                                "id": "2504-4842-8136-1944",
-                                "includeChildSelections": true
-                              }
-                            ],
-                            "type": "increment",
-                            "value": 1,
-                            "field": "5a0e-cc48-dcf2-596e"
                           }
                         ],
                         "entryLinks": [
@@ -3810,6 +3764,89 @@
                         "name": "Astartes Chainsword",
                         "hidden": false,
                         "id": "de7a-3acb-5169-0755"
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Twin Lightning Claws",
+                        "hidden": false,
+                        "id": "50a1-c9b6-a9b5-a355",
+                        "infoLinks": [
+                          {
+                            "name": "Twin-linked",
+                            "id": "ebd6-1b41-1365-a908",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "cf93-ad4d-2f08-a79d"
+                          }
+                        ],
+                        "profiles": [
+                          {
+                            "name": "Twin Lightning Claws",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "9954-2c3a-9c2c-622b",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "5",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "2+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "5",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "1",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "$text": "Twin-linked",
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "constraints": [
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "79d3-0cd2-dd51-91e7-max",
+                            "includeChildSelections": false
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Upgrades",
+                            "hidden": false,
+                            "id": "c1af-1105-be21-9bbe",
+                            "type": "selectionEntryGroup",
+                            "targetId": "8cf2-a48c-58d2-cb4e"
+                          }
+                        ]
                       }
                     ],
                     "name": "Melee Option",
@@ -3818,177 +3855,11 @@
                     "defaultSelectionEntryId": "de7a-3acb-5169-0755"
                   }
                 ],
-                "modifiers": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "206c-6b4d-4aaa-7e79",
-                        "childId": "3378-f713-ff02-3d7c",
-                        "shared": true,
-                        "id": "9321-cb30-c04-17c4",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "set",
-                    "value": 3,
-                    "field": "c707-6035-e75a-14b8"
-                  }
-                ],
                 "type": "model",
                 "import": true,
                 "name": "Sword Brother",
                 "hidden": false,
                 "id": "b3a3-f1ea-c706-bc9"
-              },
-              {
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "c21-80f5-4fe2-dba6"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 5,
-                        "field": "selections",
-                        "scope": "206c-6b4d-4aaa-7e79",
-                        "childId": "93d5-a2f6-533-694f",
-                        "shared": true,
-                        "id": "1f02-cec7-a671-f844",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "c21-80f5-4fe2-dba6"
-                  },
-                  {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "206c-6b4d-4aaa-7e79",
-                        "childId": "93d5-a2f6-533-694f",
-                        "shared": true,
-                        "id": "a725-5379-0eda-7276",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "c21-80f5-4fe2-dba6"
-                  }
-                ],
-                "selectionEntries": [
-                  {
-                    "infoLinks": [
-                      {
-                        "name": "Twin-linked",
-                        "id": "ebd6-1b41-1365-a908",
-                        "hidden": false,
-                        "type": "rule",
-                        "targetId": "cf93-ad4d-2f08-a79d"
-                      }
-                    ],
-                    "profiles": [
-                      {
-                        "characteristics": [
-                          {
-                            "$text": "Melee",
-                            "name": "Range",
-                            "typeId": "914c-b413-91e3-a132"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "A",
-                            "typeId": "2337-daa1-6682-b110"
-                          },
-                          {
-                            "$text": "2+",
-                            "name": "WS",
-                            "typeId": "95d1-95f-45b4-11d6"
-                          },
-                          {
-                            "$text": "5",
-                            "name": "S",
-                            "typeId": "ab33-d393-96ce-ccba"
-                          },
-                          {
-                            "$text": "-2",
-                            "name": "AP",
-                            "typeId": "41a0-1301-112a-e2f2"
-                          },
-                          {
-                            "$text": "1",
-                            "name": "D",
-                            "typeId": "3254-9fe6-d824-513e"
-                          },
-                          {
-                            "$text": "Twin-linked",
-                            "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
-                          }
-                        ],
-                        "name": "Twin Lightning Claws",
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
-                        "hidden": false,
-                        "id": "9954-2c3a-9c2c-622b"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "79d3-0cd2-dd51-91e7-min",
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "79d3-0cd2-dd51-91e7-max",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Upgrades",
-                        "hidden": false,
-                        "id": "c1af-1105-be21-9bbe",
-                        "type": "selectionEntryGroup",
-                        "targetId": "8cf2-a48c-58d2-cb4e"
-                      }
-                    ],
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Twin Lightning Claws",
-                    "hidden": false,
-                    "id": "50a1-c9b6-a9b5-a355"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Sword Brother w/ Twin Lightning Claws",
-                "hidden": false,
-                "id": "3378-f713-ff02-3d7c"
               },
               {
                 "type": "model",
@@ -13586,9 +13457,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll; if failed, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, each time that unit is selected as a Target, take a Leadership test for that unit: if Failed, until the end of the phase, each time a model in that unit Takes an Attack, That model has Feel no pain 6+ Along with Invulnerable Save of 5+, If Passed is active, that unit has Feel no pain 5+ Along with Invulnerable Save of 4+. "
               }
             ],
             "name": "Vehement Aggression",
@@ -13600,9 +13471,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 2+, you gain 1 CP"
               }
             ],
             "name": "Prioritised Eradication",
