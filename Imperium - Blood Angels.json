@@ -24383,38 +24383,39 @@
                             "id": "cf36-80e5-70bb-e790",
                             "characteristics": [
                               {
-                                "$text": "48\"",
                                 "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
+                                "typeId": "9896-9419-16a1-92fc",
+                                "$text": "48\""
                               },
                               {
-                                "$text": "2",
                                 "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
+                                "typeId": "3bb-c35f-f54-fb08",
+                                "$text": "1"
                               },
                               {
-                                "$text": "3",
                                 "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
+                                "typeId": "94d-8a98-cf90-183e",
+                                "$text": "3+"
                               },
                               {
-                                "$text": "13",
                                 "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
+                                "typeId": "2229-f494-25db-c5d3",
+                                "$text": "13"
                               },
                               {
-                                "$text": "-3",
                                 "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
+                                "typeId": "9ead-8a10-520-de15",
+                                "$text": "-3"
                               },
                               {
-                                "$text": "D6+1",
                                 "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
+                                "typeId": "a354-c1c8-a745-f9e3",
+                                "$text": "D6+1"
                               },
                               {
                                 "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
+                                "typeId": "7f1b-8591-2fcf-d01c",
+                                "$text": "-"
                               }
                             ]
                           }
@@ -24799,7 +24800,7 @@
                               {
                                 "name": "A",
                                 "typeId": "3bb-c35f-f54-fb08",
-                                "$text": "2"
+                                "$text": "1"
                               },
                               {
                                 "name": "BS",
@@ -24809,7 +24810,7 @@
                               {
                                 "name": "S",
                                 "typeId": "2229-f494-25db-c5d3",
-                                "$text": "12"
+                                "$text": "13"
                               },
                               {
                                 "name": "AP",
@@ -24824,7 +24825,7 @@
                               {
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c",
-                                "$text": ""
+                                "$text": "-"
                               }
                             ]
                           }
