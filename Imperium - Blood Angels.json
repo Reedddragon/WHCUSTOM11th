@@ -21068,14 +21068,86 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ],
+                    "selectionEntryGroups": [
                       {
-                        "type": "upgrade",
-                        "import": true,
                         "name": "Built in Gun",
+                        "id": "e405-9426-e187-3d1a",
                         "hidden": false,
-                        "id": "1926-5b36-f06c-daa4",
                         "selectionEntries": [
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "heavy flamer",
+                            "hidden": false,
+                            "id": "b6e8-16b1-fa7c-f466",
+                            "profiles": [
+                              {
+                                "name": "Heavy flamer",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "005f-983d-7b0c-38c0",
+                                "characteristics": [
+                                  {
+                                    "$text": "12\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "D6+3",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "N/A",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "6",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Twin-linked, Torrent",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Twin-linked",
+                                "id": "4f5c-e345-48af-e79a",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "cf93-ad4d-2f08-a79d"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "5031-eef3-8482-92bd"
+                              }
+                            ]
+                          },
                           {
                             "type": "upgrade",
                             "import": true,
@@ -21219,78 +21291,6 @@
                                 "id": "961c-9d82-f8f9-12f2"
                               }
                             ]
-                          },
-                          {
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "heavy flamer",
-                            "hidden": false,
-                            "id": "b6e8-16b1-fa7c-f466",
-                            "profiles": [
-                              {
-                                "name": "Heavy flamer",
-                                "typeId": "f77d-b953-8fa4-b762",
-                                "typeName": "Ranged Weapons",
-                                "hidden": false,
-                                "id": "005f-983d-7b0c-38c0",
-                                "characteristics": [
-                                  {
-                                    "$text": "12\"",
-                                    "name": "Range",
-                                    "typeId": "9896-9419-16a1-92fc"
-                                  },
-                                  {
-                                    "$text": "D6+3",
-                                    "name": "A",
-                                    "typeId": "3bb-c35f-f54-fb08"
-                                  },
-                                  {
-                                    "$text": "N/A",
-                                    "name": "BS",
-                                    "typeId": "94d-8a98-cf90-183e"
-                                  },
-                                  {
-                                    "$text": "6",
-                                    "name": "S",
-                                    "typeId": "2229-f494-25db-c5d3"
-                                  },
-                                  {
-                                    "$text": "-2",
-                                    "name": "AP",
-                                    "typeId": "9ead-8a10-520-de15"
-                                  },
-                                  {
-                                    "$text": "1",
-                                    "name": "D",
-                                    "typeId": "a354-c1c8-a745-f9e3"
-                                  },
-                                  {
-                                    "$text": "Twin-linked, Torrent",
-                                    "name": "Keywords",
-                                    "typeId": "7f1b-8591-2fcf-d01c"
-                                  }
-                                ]
-                              }
-                            ],
-                            "infoLinks": [
-                              {
-                                "name": "Twin-linked",
-                                "id": "4f5c-e345-48af-e79a",
-                                "hidden": false,
-                                "type": "rule",
-                                "targetId": "cf93-ad4d-2f08-a79d"
-                              }
-                            ],
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "5031-eef3-8482-92bd"
-                              }
-                            ]
                           }
                         ],
                         "constraints": [
@@ -21300,7 +21300,7 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "5e64-c15b-adef-9d28"
+                            "id": "0bef-c6e3-4dba-4e6a"
                           },
                           {
                             "type": "max",
@@ -21308,7 +21308,7 @@
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "0515-1089-eea8-c378"
+                            "id": "95dd-4c92-60b1-9523"
                           }
                         ]
                       }
@@ -21400,171 +21400,27 @@
                             ]
                           }
                         ]
-                      },
+                      }
+                    ],
+                    "selectionEntryGroups": [
                       {
-                        "type": "upgrade",
-                        "import": true,
                         "name": "Built in Gun",
+                        "id": "b058-b20b-7e9d-200c",
                         "hidden": false,
-                        "id": "2ae2-4b88-de80-95df",
                         "selectionEntries": [
-                          {
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Iliastus Assault Cannon",
-                            "hidden": false,
-                            "id": "c72f-fa92-8cf2-a67f",
-                            "profiles": [
-                              {
-                                "name": "Iliastus Assault Cannon",
-                                "typeId": "f77d-b953-8fa4-b762",
-                                "typeName": "Ranged Weapons",
-                                "hidden": false,
-                                "id": "30c8-43c0-93f8-17c0",
-                                "characteristics": [
-                                  {
-                                    "$text": "36\"",
-                                    "name": "Range",
-                                    "typeId": "9896-9419-16a1-92fc"
-                                  },
-                                  {
-                                    "$text": "6",
-                                    "name": "A",
-                                    "typeId": "3bb-c35f-f54-fb08"
-                                  },
-                                  {
-                                    "$text": "3+",
-                                    "name": "BS",
-                                    "typeId": "94d-8a98-cf90-183e"
-                                  },
-                                  {
-                                    "$text": "4",
-                                    "name": "S",
-                                    "typeId": "2229-f494-25db-c5d3"
-                                  },
-                                  {
-                                    "$text": "-1",
-                                    "name": "AP",
-                                    "typeId": "9ead-8a10-520-de15"
-                                  },
-                                  {
-                                    "$text": "2",
-                                    "name": "D",
-                                    "typeId": "a354-c1c8-a745-f9e3"
-                                  },
-                                  {
-                                    "$text": "Twin-linked, Devastating Wounds",
-                                    "name": "Keywords",
-                                    "typeId": "7f1b-8591-2fcf-d01c"
-                                  }
-                                ]
-                              }
-                            ],
-                            "infoLinks": [
-                              {
-                                "name": "Twin-linked",
-                                "id": "25e1-9042-d548-2a61",
-                                "hidden": false,
-                                "type": "rule",
-                                "targetId": "cf93-ad4d-2f08-a79d"
-                              }
-                            ],
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "6976-8609-3f15-f338"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "upgrade",
-                            "import": true,
-                            "name": "Meltagun",
-                            "hidden": false,
-                            "id": "eff4-ba3f-c301-ace8",
-                            "profiles": [
-                              {
-                                "name": "Meltagun",
-                                "typeId": "f77d-b953-8fa4-b762",
-                                "typeName": "Ranged Weapons",
-                                "hidden": false,
-                                "id": "0d40-7826-7e6e-2236",
-                                "characteristics": [
-                                  {
-                                    "$text": "18\"",
-                                    "name": "Range",
-                                    "typeId": "9896-9419-16a1-92fc"
-                                  },
-                                  {
-                                    "$text": "2",
-                                    "name": "A",
-                                    "typeId": "3bb-c35f-f54-fb08"
-                                  },
-                                  {
-                                    "$text": "3+",
-                                    "name": "BS",
-                                    "typeId": "94d-8a98-cf90-183e"
-                                  },
-                                  {
-                                    "$text": "9",
-                                    "name": "S",
-                                    "typeId": "2229-f494-25db-c5d3"
-                                  },
-                                  {
-                                    "$text": "-4",
-                                    "name": "AP",
-                                    "typeId": "9ead-8a10-520-de15"
-                                  },
-                                  {
-                                    "$text": "D6",
-                                    "name": "D",
-                                    "typeId": "a354-c1c8-a745-f9e3"
-                                  },
-                                  {
-                                    "$text": "Melta 2, Twin-linked",
-                                    "name": "Keywords",
-                                    "typeId": "7f1b-8591-2fcf-d01c"
-                                  }
-                                ]
-                              }
-                            ],
-                            "infoLinks": [
-                              {
-                                "name": "Twin-linked",
-                                "id": "fd39-d655-543f-54de",
-                                "hidden": false,
-                                "type": "rule",
-                                "targetId": "cf93-ad4d-2f08-a79d"
-                              }
-                            ],
-                            "constraints": [
-                              {
-                                "type": "max",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "parent",
-                                "shared": true,
-                                "id": "bfc3-8734-909c-dbe0"
-                              }
-                            ]
-                          },
                           {
                             "type": "upgrade",
                             "import": true,
                             "name": "heavy flamer",
                             "hidden": false,
-                            "id": "3fe5-7c06-75ad-4e73",
+                            "id": "3e78-6112-b1ea-9956",
                             "profiles": [
                               {
                                 "name": "Heavy flamer",
                                 "typeId": "f77d-b953-8fa4-b762",
                                 "typeName": "Ranged Weapons",
                                 "hidden": false,
-                                "id": "e894-4dea-b916-c4d0",
+                                "id": "1021-f569-1292-0446",
                                 "characteristics": [
                                   {
                                     "$text": "12\"",
@@ -21607,7 +21463,7 @@
                             "infoLinks": [
                               {
                                 "name": "Twin-linked",
-                                "id": "be4a-32a5-a606-e1be",
+                                "id": "1483-3006-4618-6050",
                                 "hidden": false,
                                 "type": "rule",
                                 "targetId": "cf93-ad4d-2f08-a79d"
@@ -21620,27 +21476,171 @@
                                 "field": "selections",
                                 "scope": "parent",
                                 "shared": true,
-                                "id": "97bb-cec7-1596-1021"
+                                "id": "837b-6670-3d91-7a06"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Iliastus Assault Cannon",
+                            "hidden": false,
+                            "id": "5f15-fe29-3d94-6300",
+                            "profiles": [
+                              {
+                                "name": "Iliastus Assault Cannon",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "5c83-9360-8c83-e99b",
+                                "characteristics": [
+                                  {
+                                    "$text": "36\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "6",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-1",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Twin-linked, Devastating Wounds",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Twin-linked",
+                                "id": "1fbf-13db-678e-43d8",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "cf93-ad4d-2f08-a79d"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "0df5-cd28-757a-9b92"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Meltagun",
+                            "hidden": false,
+                            "id": "7227-5663-0073-8368",
+                            "profiles": [
+                              {
+                                "name": "Meltagun",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "90bd-397d-98e1-4fa6",
+                                "characteristics": [
+                                  {
+                                    "$text": "18\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "9",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-4",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "D6",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Melta 2, Twin-linked",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Twin-linked",
+                                "id": "973b-7b52-44aa-6769",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "cf93-ad4d-2f08-a79d"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "c065-47fb-6ff1-1587"
                               }
                             ]
                           }
                         ],
                         "constraints": [
                           {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "3c1a-4b10-500d-9048"
-                          },
-                          {
                             "type": "min",
                             "value": 1,
                             "field": "selections",
                             "scope": "parent",
                             "shared": true,
-                            "id": "a5e3-c418-5bc3-63ea"
+                            "id": "9124-aa1b-a514-2f7f"
+                          },
+                          {
+                            "type": "max",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "09f2-e61a-9bee-bff4"
                           }
                         ]
                       }
