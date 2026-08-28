@@ -5863,7 +5863,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -7149,7 +7149,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -15314,48 +15314,8 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "d937-bd7d-618d-4e2d",
-                        "shared": true,
-                        "childName": "Wulfen"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -17438,7 +17398,7 @@
               }
             ],
             "type": "set",
-            "value": 160,
+            "value": 150,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -17787,7 +17747,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 5
+                        "value": 0
                       }
                     ]
                   },
@@ -35687,7 +35647,7 @@
               }
             ],
             "type": "set",
-            "value": 220,
+            "value": 180,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35717,7 +35677,7 @@
               }
             ],
             "type": "set",
-            "value": 100,
+            "value": 90,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35733,7 +35693,7 @@
               }
             ],
             "type": "set",
-            "value": 220,
+            "value": 180,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35938,7 +35898,7 @@
               }
             ],
             "type": "set",
-            "value": 200,
+            "value": 180,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35955,46 +35915,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "4c72-3f0c-7f94-af96",
-                        "shared": true,
-                        "childName": "Wulfen with Storm Shields"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
