@@ -23,7 +23,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "e44f-a5c6-e78-cce4",
-        "targetId": "f99a-af49-64c0-9bed"
+        "targetId": "f99a-af49-64c0-9bed",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 100
+          }
+        ]
       },
       {
         "import": true,
@@ -71,7 +78,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "e32b-d49a-e848-2274",
-        "targetId": "2311-9feb-9d0a-8154"
+        "targetId": "2311-9feb-9d0a-8154",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 80
+          }
+        ]
       },
       {
         "import": true,
@@ -188,7 +202,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "70b6-9051-a20e-365f",
-        "targetId": "b5a9-c802-10f0-6768"
+        "targetId": "b5a9-c802-10f0-6768",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 40
+          }
+        ]
       },
       {
         "import": true,
@@ -250,7 +271,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "a387-bbe1-7b73-2dd9",
-        "targetId": "edca-1a1b-902d-421a"
+        "targetId": "edca-1a1b-902d-421a",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 80
+          }
+        ]
       },
       {
         "import": true,

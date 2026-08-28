@@ -64973,7 +64973,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 160
           },
           {
             "conditions": [
@@ -64989,46 +64989,6 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2311-9feb-9d0a-8154",
-                        "shared": true,
-                        "childName": "Hellions"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -73780,7 +73740,7 @@
             ],
             "type": "set",
             "field": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 140
           },
           {
             "conditions": [
@@ -73796,46 +73756,6 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "2c3a-9752-2516-69ab",
-                        "shared": true,
-                        "childName": "Reavers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -73947,52 +73867,12 @@
               {
                 "constraints": [
                   {
-                    "type": "min",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "b88f-f1fe-c6bf-ffee"
-                  },
-                  {
                     "type": "max",
                     "value": 5,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
                     "id": "6d3c-c75f-1ea6-fbf8"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "3095-279e-8a92-446c",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "atLeast",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "8c2-3607-9b28-8c43",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "or"
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "b88f-f1fe-c6bf-ffee"
                   }
                 ],
                 "selectionEntries": [
@@ -74290,37 +74170,6 @@
                 ],
                 "entryLinks": [
                   {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "shared": true,
-                        "id": "03c8-aab4-cc42-7f43",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 6,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "model",
-                            "shared": true,
-                            "percentValue": false,
-                            "includeChildSelections": true,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "03c8-aab4-cc42-7f43"
-                      }
-                    ],
                     "import": true,
                     "name": "Reaver Wargear",
                     "hidden": false,
@@ -74358,62 +74207,22 @@
                 ],
                 "modifiers": [
                   {
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "8c2-3607-9b28-8c43",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "b3f7-b615-91c3-4259",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "6f83-c6e1-22e8-f954",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "7f9e-a625-e094-8676"
-                  },
-                  {
+                    "type": "set",
+                    "value": 2,
+                    "field": "7f9e-a625-e094-8676",
                     "conditions": [
                       {
+                        "type": "greaterThan",
+                        "value": 3,
                         "field": "selections",
                         "scope": "2c3a-9752-2516-69ab",
-                        "value": 6,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": false,
                         "childId": "model",
-                        "type": "equalTo"
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": false
                       }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "7f9e-a625-e094-8676"
+                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -74704,37 +74513,6 @@
                 ],
                 "entryLinks": [
                   {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "shared": true,
-                        "id": "b8da-a3e3-42b8-dbe6",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 6,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "model",
-                            "shared": true,
-                            "percentValue": false,
-                            "includeChildSelections": true,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "b8da-a3e3-42b8-dbe6"
-                      }
-                    ],
                     "import": true,
                     "name": "Reaver Wargear",
                     "hidden": false,
@@ -74771,62 +74549,22 @@
                 ],
                 "modifiers": [
                   {
+                    "type": "set",
+                    "value": 2,
+                    "field": "3cd7-3d27-94f2-603a",
                     "conditions": [
                       {
+                        "type": "greaterThan",
+                        "value": 3,
                         "field": "selections",
                         "scope": "2c3a-9752-2516-69ab",
-                        "value": 6,
-                        "percentValue": false,
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": false,
                         "childId": "model",
-                        "type": "equalTo"
+                        "shared": true,
+                        "percentValue": false,
+                        "includeChildSelections": true,
+                        "includeChildForces": false
                       }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "3cd7-3d27-94f2-603a"
-                  },
-                  {
-                    "repeats": [
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "3095-279e-8a92-446c",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "b3f7-b615-91c3-4259",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      },
-                      {
-                        "value": 1,
-                        "repeats": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "childId": "6f83-c6e1-22e8-f954",
-                        "shared": true,
-                        "roundUp": false,
-                        "id": "8621-f408-a5e9-abf7",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "3cd7-3d27-94f2-603a"
+                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -75133,37 +74871,6 @@
                 ],
                 "entryLinks": [
                   {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "shared": true,
-                        "id": "5c16-ce80-ceb6-6f5d",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 6,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "model",
-                            "shared": true,
-                            "percentValue": false,
-                            "includeChildSelections": true,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "5c16-ce80-ceb6-6f5d"
-                      }
-                    ],
                     "import": true,
                     "name": "Reaver Wargear",
                     "hidden": false,
@@ -75431,240 +75138,57 @@
                     "name": "Bladevanes",
                     "hidden": false,
                     "id": "6cb-3dba-c399-35e0"
-                  }
-                ],
-                "selectionEntryGroups": [
+                  },
                   {
-                    "selectionEntries": [
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Splinter Rifle",
+                    "hidden": false,
+                    "id": "500a-f23f-792b-213",
+                    "profiles": [
                       {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "24\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Anti-Infantry 3+, Assault",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Splinter Rifle",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "b2ee-d034-7f0c-ce4c"
-                          }
-                        ],
-                        "constraints": [
-                          {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "9a32-f74e-dc2a-8c53"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "0bbc-107a-94be-20f9",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
                         "name": "Splinter Rifle",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
                         "hidden": false,
-                        "id": "500a-f23f-792b-213",
-                        "collective": false
-                      },
-                      {
-                        "profiles": [
+                        "id": "b2ee-d034-7f0c-ce4c",
+                        "characteristics": [
                           {
-                            "characteristics": [
-                              {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "8",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-4",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "D6+1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Assault",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Blaster",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "279d-98bf-5b55-6292"
-                          }
-                        ],
-                        "constraints": [
+                            "$text": "24\"",
+                            "name": "Range",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
                           {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "fba3-3ca6-13cb-f623"
-                          }
-                        ],
-                        "entryLinks": [
+                            "$text": "2",
+                            "name": "A",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
                           {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "302b-e1ba-4db8-cf5e",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Blaster",
-                        "hidden": false,
-                        "id": "b3f7-b615-91c3-4259",
-                        "collective": false
-                      },
-                      {
-                        "profiles": [
+                            "$text": "3+",
+                            "name": "BS",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
                           {
-                            "characteristics": [
-                              {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "14",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-4",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "D6",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Assault, Melta 3",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Heat Lance",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "944f-56c1-8fdf-417a"
-                          }
-                        ],
-                        "constraints": [
+                            "$text": "2",
+                            "name": "S",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
                           {
-                            "type": "max",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "parent",
-                            "shared": true,
-                            "id": "2d88-3974-0461-0733"
-                          }
-                        ],
-                        "entryLinks": [
+                            "$text": "0",
+                            "name": "AP",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
                           {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "7a38-d9b2-d23d-1375",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "categoryLinks": [
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
                           {
-                            "name": "Damage Dx Weapon",
-                            "hidden": false,
-                            "id": "a095-95ae-73dd-757a",
-                            "targetId": "4986-bf86-beb4-13ac",
-                            "primary": false
+                            "$text": "Anti-Infantry 3+, Assault",
+                            "name": "Keywords",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Heat Lance",
-                        "hidden": false,
-                        "id": "6f83-c6e1-22e8-f954"
+                        ]
                       }
                     ],
                     "constraints": [
@@ -75685,45 +75209,21 @@
                         "id": "c343-a7c-63c5-41dc"
                       }
                     ],
-                    "name": "Bike Weapon",
-                    "id": "921d-37d4-2243-fef9",
-                    "hidden": false,
-                    "defaultSelectionEntryId": "500a-f23f-792b-213"
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Weapon Modifications",
+                        "hidden": false,
+                        "id": "0bbc-107a-94be-20f9",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ],
+                    "collective": false
                   }
                 ],
                 "entryLinks": [
                   {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "2c3a-9752-2516-69ab",
-                        "shared": true,
-                        "id": "0fe5-53b5-ff18-4c4c",
-                        "includeChildSelections": true
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 6,
-                            "field": "selections",
-                            "scope": "2c3a-9752-2516-69ab",
-                            "childId": "model",
-                            "shared": true,
-                            "percentValue": false,
-                            "includeChildSelections": true,
-                            "includeChildForces": false
-                          }
-                        ],
-                        "type": "increment",
-                        "value": 1,
-                        "field": "0fe5-53b5-ff18-4c4c"
-                      }
-                    ],
                     "import": true,
                     "name": "Reaver Wargear",
                     "hidden": false,
@@ -142712,7 +142212,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "39b3-01b0-cb6d-c219"
+                "id": "3afd-a10b-863c-6a2a"
               }
             ],
             "type": "upgrade",
@@ -142745,7 +142245,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "49f5-3064-63dc-0750"
+                "id": "77f0-b2e8-59e9-63d9"
               }
             ],
             "infoLinks": [
@@ -142771,7 +142271,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "ffe2-70f9-a7de-30d8"
+            "id": "eb73-39f7-5ae1-ddfe"
           }
         ],
         "name": "Reaver Wargear",
