@@ -7489,11 +7489,6 @@
             ],
             "costs": [
               {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 10
-              },
-              {
                 "name": "Crusade Points",
                 "typeId": "b03b-c239-15a5-da55",
                 "value": 0
@@ -7516,6 +7511,16 @@
               {
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               }
             ],
@@ -7647,11 +7652,6 @@
             ],
             "costs": [
               {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 10
-              },
-              {
                 "name": "Crusade Points",
                 "typeId": "b03b-c239-15a5-da55",
                 "value": 0
@@ -7674,6 +7674,16 @@
               {
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               }
             ],
@@ -15706,7 +15716,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -15726,6 +15736,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -28852,7 +28877,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -29192,48 +29217,8 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 140,
             "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "66e-26f2-7c38-e4d8",
-                        "shared": true,
-                        "childName": "Skorpekh Destroyers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -29504,7 +29489,8 @@
         "import": true,
         "name": "Skorpekh Destroyers",
         "hidden": false,
-        "id": "66e-26f2-7c38-e4d8"
+        "id": "66e-26f2-7c38-e4d8",
+        "collective": true
       },
       {
         "costs": [
@@ -34289,7 +34275,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -34391,7 +34377,7 @@
               }
             ],
             "type": "set",
-            "value": 120,
+            "value": 100,
             "field": "51b2-306e-1021-d207"
           }
         ],
@@ -55650,7 +55636,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -56248,7 +56234,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -56273,6 +56259,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -56756,22 +56752,6 @@
           }
         ],
         "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "be60-a5ae-6c7c-df47",
-                "childId": "d560-01eb-5b16-b8a4",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207"
-          },
           {
             "conditions": [
               {
