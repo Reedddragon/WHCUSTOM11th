@@ -40851,7 +40851,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 25
+                "value": 15
               },
               {
                 "name": "Crusade Points",
@@ -40876,6 +40876,16 @@
               {
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               },
               {
@@ -41074,7 +41084,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 25
+                "value": 15
               },
               {
                 "name": "Crusade Points",
@@ -41099,6 +41109,16 @@
               {
                 "name": "Blackstone Fragments",
                 "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               },
               {
