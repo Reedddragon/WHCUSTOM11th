@@ -14746,7 +14746,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 250
           },
           {
             "name": "Crusade Points",
@@ -14921,16 +14921,30 @@
           {
             "characteristics": [
               {
-                "$text": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly NECRONS INFANTRY CHARACTER model on the battlefield (excluding SKORPEKH LORD or EPIC HERO models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put\nin its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your shooting phase, When a non-character and non-titanic unit is below half-strength, You can throw a pokeball at them and Capture them as your own unit, They must take a leadership test to see if they can escape the pokeball upon capture. You can only use your captured unit when your trazyn's collection unit is also dead."
               }
             ],
-            "name": "Surrogate Hosts",
+            "name": "Pokeball",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
             "id": "4bc-1a26-267-ad58"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this model is included in your army, Include 200 points of any unit of any army and add to your reserves it even if it does not contain the Necron keyword. You can pull this model out of reserves only wholly within 6\" from this model at the reinforcement stage. Added units do no have access to their army rule, or detachment rule only their datasheet. Give the added unit TRAZYN'S COLLECTION keyword."
+              }
+            ],
+            "name": "Trazyn's Collection",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "798d-bebb-2532-f066"
           }
         ],
         "selectionEntries": [
@@ -29403,7 +29417,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -30259,49 +30273,7 @@
         "import": true,
         "name": "Triarch Stalker",
         "hidden": false,
-        "id": "14fa-6813-e51b-7942",
-        "modifiers": [
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "14fa-6813-e51b-7942",
-                        "shared": true,
-                        "childName": "Triarch Stalker"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "id": "14fa-6813-e51b-7942"
       },
       {
         "costs": [
@@ -36051,7 +36023,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -36152,7 +36124,7 @@
               }
             ],
             "type": "set",
-            "value": 160,
+            "value": 140,
             "field": "51b2-306e-1021-d207"
           }
         ],
@@ -41496,9 +41468,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON WARRIORS units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON WARRIORS units; that unit’s Reanimation Protocols activate. The same NECRON WARRIORS unit cannot be selected for this ability more than once per turn.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON BATTLELINE units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON BATTLELINE units; that unit’s Reanimation Protocols activate. The same NECRON WARRIORS unit cannot be selected for this ability more than once per turn."
               }
             ],
             "name": "Repair Barge",
@@ -43255,7 +43227,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 220
+            "value": 200
           },
           {
             "name": "Crusade Points",
@@ -44085,7 +44057,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 325
+            "value": 285
           },
           {
             "name": "Crusade Points",
@@ -44931,7 +44903,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 300
+            "value": 280
           },
           {
             "name": "Crusade Points",
