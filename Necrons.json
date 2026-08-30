@@ -11701,7 +11701,12 @@
                   {
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
-                    "value": 3
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
                   }
                 ],
                 "constraints": [
