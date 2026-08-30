@@ -3272,7 +3272,7 @@
                 ],
                 "id": "4204-82d0-908c-a62a",
                 "name": "3. Onslaught (3000 Point limit)",
-                "hidden": true,
+                "hidden": false,
                 "collective": false,
                 "import": true,
                 "type": "upgrade",
