@@ -9049,6 +9049,109 @@
             "type": "set",
             "value": true,
             "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "f26b-79db-80e0-3a3b",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "d265-877b-e03d-30ca",
+                    "shared": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "46d8-abc8-ef3a-9f85",
+                    "shared": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "c8da-e875-58f7-f6d6",
+                    "shared": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "5108-f98-63c2-53cb",
+                    "shared": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "1069-10ff-3ba9-873b",
+                    "shared": true
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "df9a-59b2-f464-59ad",
+                    "shared": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "comment": "Imperium"
+      },
+      {
+        "import": true,
+        "name": "Warmaster Iconoclast Titan",
+        "hidden": false,
+        "id": "183a-e298-30ad-5c95",
+        "targetId": "9c7b-535b-9a21-905f",
+        "type": "selectionEntry",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "f26b-79db-80e0-3a3b",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
             "conditionGroups": [
               {
                 "type": "and",
@@ -9104,109 +9207,6 @@
                 ]
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": true,
-            "field": "hidden",
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "f26b-79db-80e0-3a3b",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
-          }
-        ],
-        "comment": "Imperium"
-      },
-      {
-        "import": true,
-        "name": "Warmaster Iconoclast Titan",
-        "hidden": false,
-        "id": "183a-e298-30ad-5c95",
-        "targetId": "9c7b-535b-9a21-905f",
-        "type": "selectionEntry",
-        "modifiers": [
-          {
-            "type": "set",
-            "value": true,
-            "field": "hidden",
-            "conditionGroups": [
-              {
-                "type": "or",
-                "conditions": [
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "46d8-abc8-ef3a-9f85",
-                    "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "c8da-e875-58f7-f6d6",
-                    "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "5108-f98-63c2-53cb",
-                    "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "1069-10ff-3ba9-873b",
-                    "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "df9a-59b2-f464-59ad",
-                    "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "d265-877b-e03d-30ca",
-                    "shared": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": true,
-            "field": "hidden",
-            "conditions": [
-              {
-                "type": "lessThan",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "f26b-79db-80e0-3a3b",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ]
           }
         ],
         "categoryLinks": [
@@ -9258,15 +9258,7 @@
             "name": "Imperium"
           }
         ],
-        "comment": "Imperium"
-      },
-      {
-        "import": true,
-        "name": "Warmaster Titan",
-        "hidden": false,
-        "id": "48fb-fa8c-28d2-1bb8",
-        "targetId": "008d-7fdf-502c-2f0d",
-        "type": "selectionEntry",
+        "comment": "Imperium",
         "modifiers": [
           {
             "type": "set",
@@ -9276,6 +9268,14 @@
               {
                 "type": "or",
                 "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "d265-877b-e03d-30ca",
+                    "shared": true
+                  },
                   {
                     "type": "instanceOf",
                     "value": 1,
@@ -9315,19 +9315,21 @@
                     "scope": "primary-catalogue",
                     "childId": "df9a-59b2-f464-59ad",
                     "shared": true
-                  },
-                  {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "d265-877b-e03d-30ca",
-                    "shared": true
                   }
                 ]
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "import": true,
+        "name": "Warmaster Titan",
+        "hidden": false,
+        "id": "48fb-fa8c-28d2-1bb8",
+        "targetId": "008d-7fdf-502c-2f0d",
+        "type": "selectionEntry",
+        "modifiers": [
           {
             "type": "set",
             "value": true,
@@ -9341,6 +9343,66 @@
                 "childId": "f26b-79db-80e0-3a3b",
                 "shared": true,
                 "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "d265-877b-e03d-30ca",
+                    "shared": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "46d8-abc8-ef3a-9f85",
+                    "shared": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "c8da-e875-58f7-f6d6",
+                    "shared": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "5108-f98-63c2-53cb",
+                    "shared": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "1069-10ff-3ba9-873b",
+                    "shared": true
+                  },
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "df9a-59b2-f464-59ad",
+                    "shared": true
+                  }
+                ]
               }
             ]
           }
