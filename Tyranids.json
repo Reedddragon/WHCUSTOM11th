@@ -19812,46 +19812,6 @@
         "id": "1705-379b-330d-36d4",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "1705-379b-330d-36d4",
-                        "shared": true,
-                        "childName": "Tyrannofex"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "37d7-c167-9241-35a9",
