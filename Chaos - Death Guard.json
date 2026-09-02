@@ -28114,6 +28114,94 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Combi-bolter",
+                    "hidden": false,
+                    "id": "31aa-4f81-e1a6-76a2",
+                    "collective": true,
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "0b49-2728-3172-d501"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "945c-bea2-c945-e548"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Lethal Hits",
+                        "id": "9888-d36c-56e8-2917",
+                        "hidden": false,
+                        "targetId": "d1d1-611e-5191-1095",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Rapid Fire",
+                        "id": "b9da-81b8-bded-6d9a",
+                        "hidden": false,
+                        "targetId": "c5c8-8b58-b8b6-7786",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Combi-bolter",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "hidden": false,
+                        "id": "7d79-56be-d2e6-45d9",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "24\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "3+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "4",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "0",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits, Rapid Fire 2",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
