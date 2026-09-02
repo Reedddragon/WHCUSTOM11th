@@ -260,7 +260,7 @@
           {
             "field": "5087-d6a0-994a-08b9",
             "type": "set",
-            "value": 500,
+            "value": 1000,
             "conditions": [
               {
                 "childId": "d62d-db22-4893-4bc0",
@@ -276,7 +276,7 @@
           {
             "field": "5087-d6a0-994a-08b9",
             "type": "set",
-            "value": 1000,
+            "value": 2000,
             "conditions": [
               {
                 "childId": "baf8-997f-e323-a090",
@@ -292,7 +292,7 @@
           {
             "field": "5087-d6a0-994a-08b9",
             "type": "set",
-            "value": 1500,
+            "value": 3000,
             "conditions": [
               {
                 "childId": "4204-82d0-908c-a62a",
