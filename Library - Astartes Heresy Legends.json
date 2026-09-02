@@ -22738,7 +22738,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -22790,12 +22825,12 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "9"
+                "$text": "10"
               },
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": "3+"
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -23070,44 +23105,44 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "Melee",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
                       },
                       {
-                        "$text": "4",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "4"
                       },
                       {
-                        "$text": "3+",
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "6",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "6"
                       },
                       {
-                        "$text": "-1",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
                       },
                       {
-                        "$text": "1",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
                       },
                       {
-                        "$text": "Lethal Hits",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Lethal Hits"
                       }
                     ],
                     "name": "Greater plague probe",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
                     "hidden": false,
                     "id": "45db-1d49-44fa-9c5b"
                   }
