@@ -21917,9 +21917,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if it is an eligible target.\n- Declare a charge against that unit (note that even if this charge is successful, this model does not receive any Charge bonus this turn).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if it is an eligible target.\n- Declare a charge against that unit."
               }
             ],
             "name": "Unleash Wrath",
@@ -22356,7 +22356,14 @@
                     "type": "selectionEntry",
                     "name": "Hades lascannon",
                     "hidden": false,
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -22366,7 +22373,14 @@
                     "targetId": "8e4e-08dd-0af5-398c",
                     "type": "selectionEntry",
                     "collective": false,
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy missile launcher",
@@ -22710,7 +22724,14 @@
                     "name": "Heavy reaper autocannon",
                     "hidden": false,
                     "collective": false,
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -22728,7 +22749,14 @@
                     "id": "f10d-0f8f-b354-fda3",
                     "targetId": "1097-7d15-14e0-f8c7",
                     "type": "selectionEntry",
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy baleflamer",
@@ -22997,7 +23025,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 270
+            "value": 200
           },
           {
             "name": "Crusade Points",
@@ -23262,46 +23290,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 40,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ea51-5575-9e74-9346",
-                        "shared": true,
-                        "childName": "Defiler"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -27646,7 +27634,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -27920,46 +27908,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "a619-8a52-be03-3bd5",
-                        "shared": true,
-                        "childName": "Maulerfiend"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
