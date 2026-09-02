@@ -8099,6 +8099,14 @@
         "id": "1e44-8951-2009-da4c",
         "targetId": "8983-37f3-2ecc-d435",
         "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Bloodmaster",
+        "hidden": false,
+        "id": "06ce-5714-1ee5-3513",
+        "targetId": "3bfe-4515-b718-8f75",
+        "type": "selectionEntry"
       }
     ],
     "sharedSelectionEntries": [
@@ -42695,7 +42703,7 @@
         "constraints": [
           {
             "type": "max",
-            "value": 3,
+            "value": 1,
             "field": "selections",
             "scope": "force",
             "shared": true,
@@ -44646,7 +44654,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Bloodthirster",
+        "name": "Bloodmaster",
         "hidden": false,
         "id": "3bfe-4515-b718-8f75",
         "collective": false
