@@ -42356,7 +42356,7 @@
             "hidden": false,
             "id": "6dc7-2d48-b559-791b",
             "targetId": "9cfd-1c32-585f-7d5c",
-            "primary": false
+            "primary": true
           },
           {
             "name": "Chaos",
@@ -42392,12 +42392,6 @@
             "id": "98c1-a088-cc03-5fcb",
             "targetId": "086e-5f18-3aa3-0aef",
             "primary": false
-          },
-          {
-            "targetId": "4f3a-f0f7-6647-348d",
-            "id": "abd3-6b58-9f08-5d13",
-            "primary": true,
-            "name": "Epic Hero"
           },
           {
             "targetId": "cf47-a0d7-7207-29dc",
