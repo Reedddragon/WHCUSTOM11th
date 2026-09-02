@@ -43293,13 +43293,6 @@
             "primary": false
           },
           {
-            "name": "Khorne non-Battleline",
-            "hidden": false,
-            "id": "10d2-dece-bc3b-e86a",
-            "targetId": "2308-7f1a-2beb-1e16",
-            "primary": false
-          },
-          {
             "targetId": "18a4-7d13-9553-d947",
             "id": "4a45-8e4f-9fc3-77a0",
             "primary": false,
@@ -43819,13 +43812,6 @@
             "hidden": false,
             "id": "e134-62b0-194a-5e69",
             "targetId": "4bd-5ee0-f179-2fc5",
-            "primary": false
-          },
-          {
-            "name": "Khorne non-Battleline",
-            "hidden": false,
-            "id": "bed9-787c-873c-38c8",
-            "targetId": "2308-7f1a-2beb-1e16",
             "primary": false
           },
           {
