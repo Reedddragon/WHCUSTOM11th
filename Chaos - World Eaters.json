@@ -6145,7 +6145,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "4ef1-a5e1-ce64-d13",
-        "targetId": "f564-7bc-21a6-7796"
+        "targetId": "f564-7bc-21a6-7796",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 320
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -6672,7 +6679,14 @@
         "hidden": false,
         "type": "selectionEntry",
         "id": "f630-edc9-339d-a309",
-        "targetId": "6c76-b4e-4437-27e2"
+        "targetId": "6c76-b4e-4437-27e2",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 280
+          }
+        ]
       },
       {
         "import": true,
@@ -30046,7 +30060,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 440
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -30311,46 +30325,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "increment",
-            "value": 30,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "836c-f65b-6bcb-9663",
-                        "shared": true,
-                        "childName": "Khorne Lord of Skulls"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
