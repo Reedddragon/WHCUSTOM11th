@@ -46850,7 +46850,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 8
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -48897,7 +48897,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 30
+            "value": 20
           },
           {
             "name": "Crusade Points",
@@ -48955,7 +48955,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 60,
+            "value": 40,
             "conditions": [
               {
                 "childId": "model",
