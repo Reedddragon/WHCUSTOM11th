@@ -40531,7 +40531,7 @@
                   },
                   {
                     "$text": "2+",
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da"
                   },
                   {
@@ -40560,7 +40560,7 @@
               {
                 "name": "Saga of Hel [Aura]",
                 "typeId": "6128-0fe9-bc6b-7164",
-                "typeName": "Wolf King of Fenris",
+                "typeName": "Saga of Wolf King of Fenris",
                 "hidden": false,
                 "id": "93a3-c7b7-8546-4cba",
                 "characteristics": [
@@ -40575,7 +40575,7 @@
               {
                 "name": "Saga of Odin [Aura]",
                 "typeId": "6128-0fe9-bc6b-7164",
-                "typeName": "Wolf King of Fenris",
+                "typeName": "Saga of Wolf King of Fenris",
                 "hidden": false,
                 "id": "7cab-c813-366a-32cc",
                 "characteristics": [
@@ -40590,7 +40590,7 @@
               {
                 "name": "Saga of Thor [Aura]",
                 "typeId": "6128-0fe9-bc6b-7164",
-                "typeName": "Wolf King of Fenris",
+                "typeName": "Saga of Wolf King of Fenris",
                 "hidden": false,
                 "id": "96e0-cd59-84d5-9edf",
                 "characteristics": [
@@ -40773,7 +40773,7 @@
                   },
                   {
                     "$text": "4+",
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da"
                   },
                   {
@@ -41006,7 +41006,7 @@
                   },
                   {
                     "$text": "4+",
-                    "name": "SV",
+                    "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da"
                   },
                   {
