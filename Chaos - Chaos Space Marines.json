@@ -40232,6 +40232,27 @@
                     "collective": false,
                     "targetId": "5541-daf-9f4a-ce3d",
                     "type": "selectionEntry"
+                  },
+                  {
+                    "import": true,
+                    "name": "Boltgun",
+                    "hidden": false,
+                    "id": "0f4b-99a8-b51e-d0ea",
+                    "type": "selectionEntry",
+                    "targetId": "96f5-8be7-2cd8-f84f",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "7c7c-9266-62a0-cd8c",
+                        "percentValue": false,
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ]
                   }
                 ],
                 "costs": [
