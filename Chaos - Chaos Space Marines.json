@@ -12350,7 +12350,25 @@
             "name": "Leader",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
+            "typeName": "Abilities",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "This model can be attached to the following units:\n■ RAPTORS\n■ Atramentar Flay-clade",
+                "field": "9b8f-694b-e5e-b573",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           },
           {
             "characteristics": [
@@ -12394,7 +12412,25 @@
             "name": "Haarken Worldclaimer",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit"
+            "typeName": "Unit",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "Sevatar",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           },
           {
             "characteristics": [
@@ -12408,7 +12444,25 @@
             "name": "Head Taker",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
+            "typeName": "Abilities",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "The Condemned",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           },
           {
             "characteristics": [
@@ -12422,7 +12476,25 @@
             "name": "Herald of the Apocalypse (Aura)",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities"
+            "typeName": "Abilities",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "The Prince of Crows(Aura)",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -12582,7 +12654,25 @@
                 "name": "Hellspear",
                 "hidden": false,
                 "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons"
+                "typeName": "Ranged Weapons",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Night's Whisper",
+                    "field": "name",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "fcbf-b11d-26fb-2281",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "characteristics": [
@@ -12626,7 +12716,25 @@
                 "name": "Hellspear",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons"
+                "typeName": "Melee Weapons",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Night's Whisper",
+                    "field": "name",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "fcbf-b11d-26fb-2281",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "infoLinks": [
@@ -12680,7 +12788,25 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "type": "upgrade"
+            "type": "upgrade",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "Night's Whisper",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
           },
           {
             "constraints": [
@@ -12750,7 +12876,25 @@
                 "name": "Herald's Talon",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
-                "typeName": "Melee Weapons"
+                "typeName": "Melee Weapons",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Sevatar's Bitch Slap",
+                    "field": "name",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "fcbf-b11d-26fb-2281",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "infoLinks": [
@@ -12774,7 +12918,90 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "type": "upgrade"
+            "type": "upgrade",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "Sevatar's Bitch Slap",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "fcbf-b11d-26fb-2281",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Jago Sevatarion",
+            "hidden": false,
+            "id": "fcbf-b11d-26fb-2281",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "927b-50b8-6e0a-c1eb"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Dirty Fighter",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "3a4d-e9fd-93f7-ebf2",
+                "characteristics": [
+                  {
+                    "$text": "When in Engagement Range of an enemy unit, You can roll a D6 to fight dirty, on a 3+ This model's unit gets Fights First ability.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 10
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -105371,9 +105598,9 @@
             "id": "be39-aa26-cb77-a2d2",
             "characteristics": [
               {
-                "$text": "After Attacking a unit, That unit must take a battle-shock test with minus 4 to the roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "After Attacking a unit, That unit must take a battle-shock test with minus 3 to the roll."
               }
             ]
           },
@@ -105399,9 +105626,9 @@
             "id": "5e5b-b171-f26e-5b44",
             "characteristics": [
               {
-                "$text": "While enemy units is within 6” of this model, For every Leadership or Battle-shock test they take, reduce those rolls by 3; If that unit has a character model, reduce those rolls by 2 instead.",
                 "name": "Ability",
-                "typeId": "6fed-ae12-6017-da66"
+                "typeId": "6fed-ae12-6017-da66",
+                "$text": "While enemy units is within 6” of this model, For every Leadership or Battle-shock test they take, reduce those rolls by 2; If that unit has a character model, reduce those rolls by 1 instead."
               }
             ]
           },
@@ -105413,9 +105640,9 @@
             "id": "c6ea-4aad-c3f4-ecc1",
             "characteristics": [
               {
-                "$text": "While a friendly Heretic Astartes unit is within 6” of this model, When targeting a Battle-Shocked unit. You can Re-roll the Hit and wound roll on that target.",
                 "name": "Ability",
-                "typeId": "6fed-ae12-6017-da66"
+                "typeId": "6fed-ae12-6017-da66",
+                "$text": "While a friendly Heretic Astartes unit is within 6” of this model, When targeting a Battle-Shocked unit. You can Re-roll the Hit of 1 and wound roll of 1 on that target."
               }
             ]
           },
@@ -105618,39 +105845,39 @@
                 "id": "264d-9e4d-fc98-6c74",
                 "characteristics": [
                   {
-                    "$text": "12\"",
                     "name": "Range",
-                    "typeId": "9896-9419-16a1-92fc"
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
                   },
                   {
-                    "$text": "6",
                     "name": "A",
-                    "typeId": "3bb-c35f-f54-fb08"
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "6"
                   },
                   {
-                    "$text": "2+",
                     "name": "BS",
-                    "typeId": "94d-8a98-cf90-183e"
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "6",
                     "name": "S",
-                    "typeId": "2229-f494-25db-c5d3"
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
                   },
                   {
-                    "$text": "-2",
                     "name": "AP",
-                    "typeId": "9ead-8a10-520-de15"
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
                   },
                   {
-                    "$text": "2",
                     "name": "D",
-                    "typeId": "a354-c1c8-a745-f9e3"
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
                   },
                   {
-                    "$text": "Sustained Hits 1, Precision",
                     "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Precision"
                   }
                 ]
               },
@@ -105662,39 +105889,39 @@
                 "id": "f916-e42c-97de-f828",
                 "characteristics": [
                   {
-                    "$text": "Melee",
                     "name": "Range",
-                    "typeId": "914c-b413-91e3-a132"
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
                   },
                   {
-                    "$text": "6",
                     "name": "A",
-                    "typeId": "2337-daa1-6682-b110"
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "4"
                   },
                   {
-                    "$text": "2+",
                     "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6"
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "6",
                     "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba"
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
                   },
                   {
-                    "$text": "-2",
                     "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2"
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
                   },
                   {
-                    "$text": "2",
                     "name": "D",
-                    "typeId": "3254-9fe6-d824-513e"
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
                   },
                   {
-                    "$text": "Sustained Hits 1, Precision, Extra Attacks",
                     "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e"
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "Precision, Extra Attacks"
                   }
                 ]
               }
@@ -105763,39 +105990,39 @@
                 "id": "c554-f8ec-3f79-8348",
                 "characteristics": [
                   {
-                    "$text": "Melee",
                     "name": "Range",
-                    "typeId": "914c-b413-91e3-a132"
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
                   },
                   {
-                    "$text": "5",
                     "name": "A",
-                    "typeId": "2337-daa1-6682-b110"
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
                   },
                   {
-                    "$text": "2+",
                     "name": "WS",
-                    "typeId": "95d1-95f-45b4-11d6"
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "12",
                     "name": "S",
-                    "typeId": "ab33-d393-96ce-ccba"
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "12"
                   },
                   {
-                    "$text": "-4",
                     "name": "AP",
-                    "typeId": "41a0-1301-112a-e2f2"
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-4"
                   },
                   {
-                    "$text": "4",
                     "name": "D",
-                    "typeId": "3254-9fe6-d824-513e"
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "4"
                   },
                   {
-                    "$text": "Anti-Character 3+, Precision, Twin-Linked",
                     "name": "Keywords",
-                    "typeId": "893f-9000-ccf7-648e"
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "Anti-Character 3+, Precision, Twin-Linked"
                   }
                 ]
               },
