@@ -5671,7 +5671,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 110
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "categoryLinks": [
@@ -5799,7 +5844,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "6+",
+                "value": "5+",
                 "field": "name"
               }
             ],
@@ -6151,7 +6196,7 @@
               }
             ],
             "type": "set",
-            "value": 250,
+            "value": 220,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -19340,7 +19385,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "6+",
+                "value": "5+",
                 "field": "name"
               }
             ],
@@ -20122,7 +20167,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 140
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -20142,6 +20187,31 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
             "value": 0
           }
         ],
@@ -20275,7 +20345,7 @@
             "modifiers": [
               {
                 "type": "append",
-                "value": "6+",
+                "value": "5+",
                 "field": "name"
               }
             ],
@@ -20634,7 +20704,7 @@
               }
             ],
             "type": "set",
-            "value": 280,
+            "value": 240,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -23103,9 +23173,9 @@
             "id": "b0b7-84a0-f9b7-c1a7",
             "characteristics": [
               {
-                "$text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If a Leader model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
               }
             ]
           }
@@ -24111,9 +24181,9 @@
             "id": "2ef7-925c-ae48-8a65",
             "characteristics": [
               {
-                "$text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If a Leader model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
               }
             ]
           }
@@ -24523,7 +24593,7 @@
                       },
                       {
                         "$text": "3+",
-                        "name": "SV",
+                        "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da"
                       },
                       {
@@ -24891,7 +24961,7 @@
                       },
                       {
                         "$text": "3+",
-                        "name": "SV",
+                        "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da"
                       },
                       {
@@ -25230,7 +25300,7 @@
               },
               {
                 "$text": "2+",
-                "name": "SV",
+                "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da"
               },
               {

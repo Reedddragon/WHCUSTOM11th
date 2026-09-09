@@ -32,6 +32,21 @@
         "id": "b74a-bcb9-3e72-83e4",
         "name": "Crimson King",
         "sortIndex": 10
+      },
+      {
+        "name": "Rituals",
+        "id": "2cb4-0125-c00a-83b5",
+        "hidden": false,
+        "characteristicTypes": [
+          {
+            "name": "Cabal points",
+            "id": "26a8-d5dd-f4e7-72cb"
+          },
+          {
+            "name": "Effect",
+            "id": "251d-9068-b4ec-9a30"
+          }
+        ]
       }
     ],
     "categoryEntries": [
@@ -470,7 +485,201 @@
         "collective": false,
         "import": true,
         "type": "upgrade",
-        "defaultAmount": 1
+        "defaultAmount": 1,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "Grand Coven"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Grand Coven Rituals reference",
+        "hidden": true,
+        "id": "d310-6f07-2262-2a33",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "d023-8ebe-d9d3-cd0f",
+            "percentValue": false,
+            "includeChildSelections": false,
+            "includeChildForces": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Weaver of Fates (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "51d4-1c39-1c34-82bf",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of any phase. Once during that phase, when a saving throw is failed for a friendly Thousand Sons model whose unit is within 18\" of this Psyker, you can re-roll that saving throw."
+              }
+            ]
+          },
+          {
+            "name": "Temporal Surge (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "684d-d3f9-5b5d-249f",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "5"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of your Shooting phase. Select one friendly Thousand Sons unit within 18\" of this Psyker; unless that unit is within Engagement Range of one or more enemy units, it can make a Normal move. If it does, that unit is not eligible to declare a charge this turn. The same unit cannot be selected for this Ritual more than once per phase."
+              }
+            ]
+          },
+          {
+            "name": "Doombolt (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "d1ed-4fe1-3f9a-94f5",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "7"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of your Shooting phase. Select one enemy unit within 18\" of and visible to this Psyker (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this Psyker) and roll one D6: on a 1, that enemy unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D3+3 mortal wounds; on a 6, that enemy unit suffers D3+6 mortal wounds. "
+              }
+            ]
+          },
+          {
+            "name": "Twist of Fate (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "42b1-32f4-ec13-6cb1",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "9"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of your Shooting phase. Select one enemy unit within 18\" of and visible to this Psyker; until the end of the phase, each time a Thousand Sons model from your army makes a ranged attack that targets that unit, improve the Armour Penetration characteristic of that attack by 2"
+              }
+            ]
+          },
+          {
+            "name": "Echoes From The Warp (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "3b3b-4600-56e0-df38",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "6"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of any phase. Once this phase, you can select this Psyker’s unit as the target of a Stratagem for 0CP, even if you have already used that Stratagem this phase"
+              }
+            ]
+          },
+          {
+            "name": "Destiny's Ruin (Psychic)",
+            "typeId": "2cb4-0125-c00a-83b5",
+            "typeName": "Rituals",
+            "hidden": false,
+            "id": "774d-96f0-e768-4cf3",
+            "characteristics": [
+              {
+                "name": "Cabal points",
+                "typeId": "26a8-d5dd-f4e7-72cb",
+                "$text": "10"
+              },
+              {
+                "name": "Effect",
+                "typeId": "251d-9068-b4ec-9a30",
+                "$text": "Use this Ritual at the start of your Shooting phase. Select one enemy unit within 24\" of and visible to this Psyker (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this Psyker) and roll one D6: on a 1, that unit can reroll hits roll of 1; on a 2-5, that unit can reroll hits and wound roll of 1; on a 6, that unit can reroll all hit roll and wound roll of 1."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Configuration",
+            "hidden": false,
+            "id": "da7b-c02a-fff8-51f3",
+            "targetId": "4ac9-fd30-1e3d-b249",
+            "primary": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "collective": false,
+        "defaultAmount": 1,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": false,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "Grand Coven"
+              }
+            ]
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -7196,6 +7405,12 @@
                     "name": "Kindred Sorcery",
                     "id": "59b7-88a6-8e96-f854",
                     "hidden": false
+                  },
+                  {
+                    "name": "Eldritch Wrath",
+                    "id": "4aac-2149-4217-afd7",
+                    "hidden": false,
+                    "description": "Instead of Cabal of Sorcerers, You have Eldritch Wrath ability. When an ability Adds to The psychic test, you can instead reduce the amount of cabal points needed for that spell by how much the ability reduces the test."
                   }
                 ],
                 "type": "upgrade",
@@ -7592,7 +7807,7 @@
                     "name": "Sorcerous Invigoration",
                     "id": "4d68-e2b3-070a-c5a8",
                     "hidden": false,
-                    "description": "(Once per turn, per unit) When a friendly **THOUSAND SONS PSYKER** unit (excluding **MONSTER** units) successfully manifests a **Ritual**, that unit **heals** D3 wounds."
+                    "description": "(Once per turn, per unit) When a friendly **THOUSAND SONS PSYKER** unit successfully manifests a **Ritual**, that unit **heals** D3 wounds."
                   }
                 ],
                 "costs": [
@@ -8389,7 +8604,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 3,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -12381,7 +12615,42 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 50
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -14238,6 +14507,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -15333,6 +15619,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
               }
             ]
           }
@@ -19719,6 +20022,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -20568,7 +20888,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 4,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -22369,6 +22708,49 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 1,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 1,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              },
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "5d3d-e13b-8b76-dad3",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
               }
             ]
           }
@@ -24290,6 +24672,49 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 1,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 1,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              },
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "b1cf-c5-5121-92a4",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
               }
             ]
           }
@@ -26760,6 +27185,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -27516,6 +27958,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
               }
             ]
           }
@@ -28516,6 +28975,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
           }
         ]
       },
@@ -29441,6 +29917,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
               }
             ]
           }
@@ -34553,6 +35046,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
               }
             ]
           }
@@ -43416,6 +43926,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "675c-0318-963a-2f84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
               }
             ]
           }
@@ -60698,7 +61225,36 @@
         "description": "If your army Faction is ^^**Thousand Sons^^**, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test by following the sequence below:\n\n1. Roll 2D6\n2. Optionally, roll one additional D6 (Channel the Warp). Then, if one or more doubles or triples were rolled during this test, that model's unit suffers D3 mortal wounds.\n3. If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects.",
         "name": "Cabal of Sorcerers",
         "id": "b280-6105-5358-ba2e",
-        "hidden": false
+        "hidden": false,
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "Eldritch Wrath",
+                "field": "name"
+              },
+              {
+                "type": "set",
+                "value": "If your Army Faction is Thousand Sons, at the end of your Command phase, each model from your army with this ability that is on the battlefield (excluding Battle-shocked models) generates you a number of Cabal points equal to the number shown in its New recruit Cost. The combined total of these is your Cabal points pool. During the battle round, you can use Rituals from the list below, deducting the Cabal points cost of each one from your Cabal points pool. If you do not have enough Cabal points for a Ritual, you cannot use it. Each Ritual can only be used once per phase. At the start of your next Command phase, your Cabal points pool resets to zero. Each time you use a Ritual, select one Thousand Sons Psyker model from your army, then apply that Ritual’s effect using that Psyker.",
+                "field": "description"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "9aba-cb08-cd38-9e01",
+                "shared": true,
+                "childName": "Grand Coven",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
@@ -60709,6 +61265,47 @@
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "type": "catalogue"
+    "type": "catalogue",
+    "costTypes": [
+      {
+        "name": "Cabal Points",
+        "id": "675c-0318-963a-2f84",
+        "defaultCostLimit": -1,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "forces",
+                    "scope": "roster",
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "7510-5cb8-60fe-61a0",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Rubricae Phalanx"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
