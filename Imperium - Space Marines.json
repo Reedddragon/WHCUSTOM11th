@@ -36617,466 +36617,655 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 110
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
           }
         ],
         "selectionEntryGroups": [
           {
+            "name": "Relic Terminators",
+            "id": "e165-675e-79b2-120d",
+            "hidden": false,
             "selectionEntries": [
               {
-                "constraints": [
-                  {
-                    "type": "min",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "136a-6f8e-9fc2-cf75"
-                  },
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "8795-ade5-e492-ac76"
-                  }
-                ],
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a755-dcba-9786-da2c"
-                      }
-                    ],
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "ca99-e1b4-a1e6-3a61",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Twin lightning claws",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "a886-4848-eb-9959",
-                    "targetId": "130e-9b77-584-a15b"
-                  },
-                  {
-                    "import": true,
-                    "name": "Terminator Honours upgrade",
-                    "hidden": false,
-                    "id": "4078-2f7b-150e-ed6c",
-                    "type": "selectionEntry",
-                    "targetId": "e7f9-66f5-9b9e-c587"
-                  }
-                ],
+                "type": "model",
+                "import": true,
+                "name": "Cataphractii Terminator",
+                "hidden": false,
+                "id": "f0c0-da4a-2975-f30",
                 "selectionEntryGroups": [
                   {
-                    "constraints": [
+                    "name": "Wargear",
+                    "id": "b5f6-4c1c-5265-6b5c",
+                    "hidden": false,
+                    "selectionEntryGroups": [
                       {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "4e01-bec8-7306-e06d"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "7fc5-f44e-ed6c-d404"
-                      }
-                    ],
-                    "selectionEntries": [
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "5",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "0",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Devastating Wounds",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Volkite Charger",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "7c18-d2ec-6ca2-6b4b"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Devastating Wounds",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "ea39-7153-21ab-d0c0",
-                            "targetId": "be1e-ac8e-1e2c-3528"
-                          }
-                        ],
+                        "name": "Melee Weapon",
+                        "id": "a023-9681-3f8d-5cf5",
+                        "hidden": false,
                         "entryLinks": [
                           {
                             "import": true,
-                            "name": "Weapon Modifications",
+                            "name": "Power fist",
                             "hidden": false,
-                            "id": "a8b4-40d7-a73f-4476",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Volkite Charger",
-                        "hidden": false,
-                        "id": "8752-c07a-6bc1-f23"
-                      },
-                      {
-                        "profiles": [
-                          {
-                            "characteristics": [
+                            "id": "efa2-0537-af05-469a",
+                            "constraints": [
                               {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "7",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-2",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "-",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "926a-9843-5d3d-e864"
                               }
                             ],
-                            "name": "➤ Plasma Blaster - Standard",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
+                            "type": "selectionEntry",
+                            "targetId": "f8d8-7e77-4b71-faac"
+                          }
+                        ],
+                        "selectionEntries": [
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Lighting Claw",
                             "hidden": false,
-                            "id": "2bc0-39f9-e462-fe2a"
+                            "id": "5946-8934-6459-92f2",
+                            "profiles": [
+                              {
+                                "name": "Lightning Claws",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "a655-e38c-791a-e4f6",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ],
+                                "modifierGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {
+                                        "type": "atLeast",
+                                        "value": 2,
+                                        "field": "selections",
+                                        "scope": "a023-9681-3f8d-5cf5",
+                                        "childId": "5946-8934-6459-92f2",
+                                        "shared": true
+                                      }
+                                    ],
+                                    "modifiers": [
+                                      {
+                                        "type": "set",
+                                        "value": "Twin Lighting Claws",
+                                        "field": "name"
+                                      },
+                                      {
+                                        "type": "set",
+                                        "value": "Twin-Linked",
+                                        "field": "893f-9000-ccf7-648e"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 2,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "95bb-ba84-92b7-3c68"
+                              }
+                            ]
                           },
                           {
-                            "characteristics": [
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Power Weapon",
+                            "hidden": false,
+                            "id": "1106-d67a-0730-520e",
+                            "profiles": [
                               {
-                                "$text": "18\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "8",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-3",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "2",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Hazardous",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
+                                "name": "Power Weapon",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "c008-9f57-24d7-09c9",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "-",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
                               }
                             ],
-                            "name": "➤ Plasma Blaster - Supercharge",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "4944-1b64-be1a-3a36"
-                          }
-                        ],
-                        "infoLinks": [
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "4408-9f6b-1efc-ac5b"
+                              }
+                            ]
+                          },
                           {
-                            "name": "Hazardous",
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Chainfist",
                             "hidden": false,
-                            "type": "rule",
-                            "id": "3535-20cb-8038-d905",
-                            "targetId": "8367-374c-f87-c627"
+                            "id": "0445-0adb-c780-01e1",
+                            "profiles": [
+                              {
+                                "name": "Chainfist",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "a03d-b550-b538-876a",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "3",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "4+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "8",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "Anti-Vehicle 3+, Anti-Monster 3+",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Anti",
+                                "id": "57fe-7cc7-3c5a-9e62",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "4111-82e3-9444-e942"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "c69e-bcbf-608b-d344"
+                              }
+                            ]
                           }
                         ],
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "d673-909f-cbd3-e773"
+                          },
+                          {
+                            "type": "max",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "0641-7a42-dde5-0801"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": 1,
+                            "field": "0641-7a42-dde5-0801",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "b5f6-4c1c-5265-6b5c",
+                                    "childId": "0445-0adb-c780-01e1",
+                                    "shared": true
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "b5f6-4c1c-5265-6b5c",
+                                    "childId": "efa2-0537-af05-469a",
+                                    "shared": true
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "b5f6-4c1c-5265-6b5c",
+                                    "childId": "1106-d67a-0730-520e",
+                                    "shared": true
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Ranged Weapon",
+                        "id": "a908-e12b-8329-2dc4",
+                        "hidden": false,
                         "entryLinks": [
                           {
                             "import": true,
-                            "name": "Weapon Modifications",
+                            "name": "Heavy Flamer",
                             "hidden": false,
-                            "id": "f6db-6cc3-9d7b-8fe5",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
+                            "id": "f276-45e6-48c8-b12b",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "9684-a750-f8d7-4fa8"
+                              }
+                            ],
+                            "type": "selectionEntry",
+                            "targetId": "b3e6-f7a7-8357-2055"
                           }
                         ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Plasma Blaster",
-                        "hidden": false,
-                        "id": "d516-cee5-1e37-2d88",
-                        "categoryLinks": [
+                        "selectionEntries": [
                           {
-                            "targetId": "cb29-f4bb-ff15-6b11",
-                            "id": "cc3c-8732-3520-7351",
-                            "primary": false,
-                            "name": "Plasma"
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Reaper Autocannon",
+                            "hidden": false,
+                            "id": "e0dd-90cf-76bb-dad0",
+                            "profiles": [
+                              {
+                                "name": "Reaper Autocannon",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "1d62-6874-f884-c034",
+                                "characteristics": [
+                                  {
+                                    "$text": "36\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "7",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-1",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Devastating Wounds, Sustained Hits 1",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Devastating Wounds",
+                                "id": "ca9c-8b60-9acd-fe75",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "be1e-ac8e-1e2c-3528"
+                              },
+                              {
+                                "name": "Sustained Hits",
+                                "id": "dfd7-f43d-caf0-0619",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "1897-c22c-9597-12b1"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "ad3e-092a-e9b6-d1b2"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Master-Crafted Combi-bolter",
+                            "hidden": false,
+                            "id": "eb23-36a0-7b53-f521",
+                            "profiles": [
+                              {
+                                "name": "Master-Crafted Combi-bolter",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "e84e-bbfc-33da-0752",
+                                "characteristics": [
+                                  {
+                                    "$text": "24\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-1",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Rapid Fire 2",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Rapid Fire",
+                                "id": "28fe-a1ba-3f25-eeed",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "c5c8-8b58-b8b6-7786"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "aa64-c3a8-63c0-cd35"
+                              }
+                            ]
                           }
                         ]
                       }
                     ],
-                    "modifiers": [
+                    "constraints": [
                       {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "f0c0-da4a-2975-f30",
-                            "childId": "130e-9b77-584-a15b",
-                            "shared": true,
-                            "id": "a3fc-c2f1-a6d0-6cda"
-                          }
-                        ],
-                        "type": "set",
-                        "value": 0,
-                        "field": "7fc5-f44e-ed6c-d404"
+                        "type": "min",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2107-a593-3416-c047"
                       },
                       {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "f0c0-da4a-2975-f30",
-                            "childId": "130e-9b77-584-a15b",
-                            "shared": true,
-                            "id": "a3fc-c2f1-a6d0-6cda"
-                          }
-                        ],
-                        "type": "set",
-                        "value": 0,
-                        "field": "4e01-bec8-7306-e06d"
+                        "type": "max",
+                        "value": 2,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "9c66-b660-c7d4-3279"
                       }
-                    ],
-                    "entryLinks": [
-                      {
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "f9f3-227e-ca0d-9a71",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Combi-bolter",
-                        "hidden": false,
-                        "id": "3065-9640-be09-4470",
-                        "type": "selectionEntry",
-                        "targetId": "a6ec-ebc1-6f23-20c4"
-                      }
-                    ],
-                    "name": "Ranged Weapon Option",
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Cataphractii Terminator",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
                     "hidden": false,
-                    "id": "e8de-672d-7a99-11d",
-                    "defaultSelectionEntryId": "5e9e-6e42-64e5-8209"
+                    "id": "ba17-b427-95fd-ec2c",
+                    "characteristics": [
+                      {
+                        "$text": "4\"",
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "$text": "7",
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "$text": "2+",
+                        "name": "SV",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "$text": "4",
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "$text": "6+",
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
                   },
                   {
-                    "entryLinks": [
-                      {
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "3739-196a-3381-6e6f",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Power fist",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "8ffa-d63e-201-ab45",
-                        "targetId": "f8d8-7e77-4b71-faac"
-                      },
-                      {
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "2bd9-12b5-3244-f465",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Power weapon",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "30b1-2bf9-6089-3bff",
-                        "targetId": "50dd-3e76-d993-4d1a"
-                      },
-                      {
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "f698-3895-82f0-30c1",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "import": true,
-                        "name": "Chainfist",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "518a-1bf2-a821-5032",
-                        "targetId": "cb6c-970e-444a-3ec3"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5001-248d-dcae-72b3"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "14b0-8677-55cc-f57e"
-                      }
-                    ],
-                    "modifiers": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "f0c0-da4a-2975-f30",
-                            "childId": "130e-9b77-584-a15b",
-                            "shared": true,
-                            "id": "a3fc-c2f1-a6d0-6cda"
-                          }
-                        ],
-                        "type": "set",
-                        "value": 0,
-                        "field": "5001-248d-dcae-72b3"
-                      },
-                      {
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "f0c0-da4a-2975-f30",
-                            "childId": "130e-9b77-584-a15b",
-                            "shared": true,
-                            "id": "a3fc-c2f1-a6d0-6cda"
-                          }
-                        ],
-                        "type": "set",
-                        "value": 0,
-                        "field": "14b0-8677-55cc-f57e"
-                      }
-                    ],
-                    "name": "Melee Weapon Option",
+                    "name": "Cataphractii Defensive Force barrier",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
                     "hidden": false,
-                    "id": "484f-5918-44c-eaeb",
-                    "defaultSelectionEntryId": "8ffa-d63e-201-ab45"
-                  }
-                ],
-                "profiles": [
-                  {
+                    "id": "7c1d-af75-25d1-5ce2",
                     "characteristics": [
                       {
-                        "$text": "5\"",
+                        "$text": "When an attack greater than this model's toughness is allocated to this model, Reduce Wound roll by 1.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Tartaros Terminator",
+                "hidden": false,
+                "id": "4dd1-c681-bbff-6335",
+                "profiles": [
+                  {
+                    "name": "Tartaros Terminator",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "ac64-1951-df95-0ade",
+                    "characteristics": [
+                      {
+                        "$text": "6\"",
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1"
                       },
@@ -37087,7 +37276,7 @@
                       },
                       {
                         "$text": "2+",
-                        "name": "Sv",
+                        "name": "SV",
                         "typeId": "450-a17e-9d5e-29da"
                       },
                       {
@@ -37110,664 +37299,541 @@
                         "typeId": "55a7-5b54-c60d-11dc",
                         "$text": ""
                       }
-                    ],
-                    "name": "Relic Terminator Sergeant",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "ba17-b427-95fd-ec2c"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator Sergeant",
-                "hidden": false,
-                "id": "f0c0-da4a-2975-f30"
-              },
-              {
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "17d6-6ea4-7968-c34b"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5c1b-45d-f147-8588"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Power fist",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "72d7-208f-407f-6070",
-                    "targetId": "f8d8-7e77-4b71-faac"
+                    ]
                   },
                   {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "3355-72db-d8a4-bac7"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "24dd-7a4c-b2ea-1261"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Combi-bolter",
+                    "name": "Tartaros Advance Mechanics",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
                     "hidden": false,
-                    "id": "ed1b-2616-52be-7671",
-                    "type": "selectionEntry",
-                    "targetId": "a6ec-ebc1-6f23-20c4"
-                  }
-                ],
-                "profiles": [
-                  {
+                    "id": "8efc-58fc-23d4-5952",
                     "characteristics": [
                       {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "When this model makes a Advance or Charge move, Add 2 to the roll.",
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573"
                       }
-                    ],
-                    "name": "Relic Terminator Squad",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "66ab-7d6c-c630-53ca"
+                    ]
                   }
                 ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator w/ Power Fist",
-                "hidden": false,
-                "id": "3d0b-d48a-591d-cd05"
-              },
-              {
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "fcf5-8704-13c9-455c"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "a755-dcba-9786-da2c"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Twin lightning claws",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "25d0-d8c6-bb66-dbc7",
-                    "targetId": "130e-9b77-584-a15b"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Relic Terminator Squad",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "4103-29e5-2849-7a46"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator w/ Twin Lightning Claws",
-                "hidden": false,
-                "id": "d53e-61ca-d969-3d37"
-              },
-              {
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c729-9549-8ae1-4c91"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "1792-9e91-be15-fea1"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Combi-bolter",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "3be7-40a4-1314-69fa",
-                    "targetId": "a6ec-ebc1-6f23-20c4"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "af93-39eb-7fb7-dd0e"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5e2e-df48-3752-8c77"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Power weapon",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "b840-c56-58e6-a718",
-                    "targetId": "50dd-3e76-d993-4d1a"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Relic Terminator Squad",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "1df9-cdc3-9cd4-3e17"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator w/ Power Weapon",
-                "hidden": false,
-                "id": "689d-7aa0-4ea8-4c64"
-              },
-              {
-                "entryLinks": [
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "ce82-c44-5cd5-2266"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "d440-4cc0-3bf3-52e8"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Combi-bolter",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "f405-e047-c41e-79ac",
-                    "targetId": "a6ec-ebc1-6f23-20c4"
-                  },
-                  {
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "c48e-22d0-9e81-6bcb"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "949f-e7fc-bc3c-b0d3"
-                      }
-                    ],
-                    "import": true,
-                    "name": "Chainfist",
-                    "hidden": false,
-                    "type": "selectionEntry",
-                    "id": "2024-d0f1-61d-5406",
-                    "targetId": "cb6c-970e-444a-3ec3"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Relic Terminator Squad",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "ae1c-0374-5666-0b0d"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator w/ Chain Fist",
-                "hidden": false,
-                "id": "ed0f-aa1e-b42a-8e24"
-              },
-              {
                 "selectionEntryGroups": [
                   {
-                    "selectionEntries": [
+                    "name": "Wargear",
+                    "id": "abe7-3409-5585-4773",
+                    "hidden": false,
+                    "selectionEntryGroups": [
                       {
-                        "profiles": [
+                        "name": "Melee Weapon",
+                        "id": "ec66-f884-ce6b-8a61",
+                        "hidden": false,
+                        "entryLinks": [
                           {
-                            "characteristics": [
+                            "import": true,
+                            "name": "Power fist",
+                            "hidden": false,
+                            "id": "7a98-65b5-d522-91fb",
+                            "constraints": [
                               {
-                                "$text": "36\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "4",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "7",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "1",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Devastating Wounds, Sustained Hits 1",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "c131-eb9c-c4c0-91da"
                               }
                             ],
-                            "name": "Reaper Autocannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "febd-8669-ec08-708a"
+                            "type": "selectionEntry",
+                            "targetId": "f8d8-7e77-4b71-faac"
                           }
                         ],
-                        "infoLinks": [
+                        "selectionEntries": [
                           {
-                            "name": "Devastating Wounds",
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Lighting Claw",
                             "hidden": false,
-                            "type": "rule",
-                            "id": "45ca-9af7-c555-bf10",
-                            "targetId": "be1e-ac8e-1e2c-3528"
+                            "id": "d0db-b312-856b-4251",
+                            "profiles": [
+                              {
+                                "name": "Lightning Claws",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "995b-7c22-20b4-7d2a",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ],
+                                "modifierGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {
+                                        "type": "atLeast",
+                                        "value": 2,
+                                        "field": "selections",
+                                        "scope": "ec66-f884-ce6b-8a61",
+                                        "childId": "d0db-b312-856b-4251",
+                                        "shared": true
+                                      }
+                                    ],
+                                    "modifiers": [
+                                      {
+                                        "type": "set",
+                                        "value": "Twin Lighting Claws",
+                                        "field": "name"
+                                      },
+                                      {
+                                        "type": "set",
+                                        "value": "Twin-Linked",
+                                        "field": "893f-9000-ccf7-648e"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 2,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "d4f6-ba58-8564-c062"
+                              }
+                            ]
                           },
                           {
-                            "name": "Sustained Hits",
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Power Weapon",
                             "hidden": false,
-                            "type": "rule",
-                            "id": "3be5-6fda-b939-e178",
-                            "targetId": "1897-c22c-9597-12b1"
+                            "id": "3402-2ef0-1f28-2c94",
+                            "profiles": [
+                              {
+                                "name": "Power Weapon",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "71c8-ea62-cb41-2458",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "5",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "-",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "eb0d-011a-998d-f94f"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Chainfist",
+                            "hidden": false,
+                            "id": "5508-21bd-a51a-83d6",
+                            "profiles": [
+                              {
+                                "name": "Chainfist",
+                                "typeId": "8a40-4aaa-c780-9046",
+                                "typeName": "Melee Weapons",
+                                "hidden": false,
+                                "id": "86f7-31c3-d5fa-896b",
+                                "characteristics": [
+                                  {
+                                    "$text": "Melee",
+                                    "name": "Range",
+                                    "typeId": "914c-b413-91e3-a132"
+                                  },
+                                  {
+                                    "$text": "3",
+                                    "name": "A",
+                                    "typeId": "2337-daa1-6682-b110"
+                                  },
+                                  {
+                                    "$text": "4+",
+                                    "name": "WS",
+                                    "typeId": "95d1-95f-45b4-11d6"
+                                  },
+                                  {
+                                    "$text": "8",
+                                    "name": "S",
+                                    "typeId": "ab33-d393-96ce-ccba"
+                                  },
+                                  {
+                                    "$text": "-2",
+                                    "name": "AP",
+                                    "typeId": "41a0-1301-112a-e2f2"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "3254-9fe6-d824-513e"
+                                  },
+                                  {
+                                    "$text": "Anti-Vehicle 3+, Anti-Monster 3+",
+                                    "name": "Keywords",
+                                    "typeId": "893f-9000-ccf7-648e"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Anti",
+                                "id": "67f5-45e1-828a-faf2",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "4111-82e3-9444-e942"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "0a07-3059-e894-eea8"
+                              }
+                            ]
                           }
                         ],
-                        "type": "upgrade",
-                        "import": true,
-                        "name": "Reaper Autocannon",
+                        "constraints": [
+                          {
+                            "type": "min",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "cec6-a245-f31b-2011"
+                          },
+                          {
+                            "type": "max",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "parent",
+                            "shared": true,
+                            "id": "a7fd-d471-1b65-6aeb"
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "type": "set",
+                            "value": 1,
+                            "field": "a7fd-d471-1b65-6aeb",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "abe7-3409-5585-4773",
+                                    "childId": "5508-21bd-a51a-83d6",
+                                    "shared": true
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "abe7-3409-5585-4773",
+                                    "childId": "7a98-65b5-d522-91fb",
+                                    "shared": true
+                                  },
+                                  {
+                                    "type": "atLeast",
+                                    "value": 1,
+                                    "field": "selections",
+                                    "scope": "abe7-3409-5585-4773",
+                                    "childId": "3402-2ef0-1f28-2c94",
+                                    "shared": true
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Ranged Weapon",
+                        "id": "8779-a717-5d63-24da",
                         "hidden": false,
-                        "id": "8306-7e81-3768-7def"
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Heavy Flamer",
+                            "hidden": false,
+                            "id": "2b2d-e69b-0a0e-e654",
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "14cd-dfb2-5958-d8c6"
+                              }
+                            ],
+                            "type": "selectionEntry",
+                            "targetId": "b3e6-f7a7-8357-2055"
+                          }
+                        ],
+                        "selectionEntries": [
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Reaper Autocannon",
+                            "hidden": false,
+                            "id": "848a-45e4-9d1e-258c",
+                            "profiles": [
+                              {
+                                "name": "Reaper Autocannon",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "5963-1973-a26f-00a2",
+                                "characteristics": [
+                                  {
+                                    "$text": "36\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "7",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-1",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "1",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Devastating Wounds, Sustained Hits 1",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Devastating Wounds",
+                                "id": "8c62-9902-6d2b-5b78",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "be1e-ac8e-1e2c-3528"
+                              },
+                              {
+                                "name": "Sustained Hits",
+                                "id": "dc63-de6b-5f28-dc9c",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "1897-c22c-9597-12b1"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "3510-1bc6-86dd-7ece"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "upgrade",
+                            "import": true,
+                            "name": "Master-Crafted Combi-bolter",
+                            "hidden": false,
+                            "id": "bd32-34e3-3a74-32ea",
+                            "profiles": [
+                              {
+                                "name": "Master-Crafted Combi-bolter",
+                                "typeId": "f77d-b953-8fa4-b762",
+                                "typeName": "Ranged Weapons",
+                                "hidden": false,
+                                "id": "d955-a5b2-89cc-bdb4",
+                                "characteristics": [
+                                  {
+                                    "$text": "24\"",
+                                    "name": "Range",
+                                    "typeId": "9896-9419-16a1-92fc"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "A",
+                                    "typeId": "3bb-c35f-f54-fb08"
+                                  },
+                                  {
+                                    "$text": "3+",
+                                    "name": "BS",
+                                    "typeId": "94d-8a98-cf90-183e"
+                                  },
+                                  {
+                                    "$text": "4",
+                                    "name": "S",
+                                    "typeId": "2229-f494-25db-c5d3"
+                                  },
+                                  {
+                                    "$text": "-1",
+                                    "name": "AP",
+                                    "typeId": "9ead-8a10-520-de15"
+                                  },
+                                  {
+                                    "$text": "2",
+                                    "name": "D",
+                                    "typeId": "a354-c1c8-a745-f9e3"
+                                  },
+                                  {
+                                    "$text": "Rapid Fire 2",
+                                    "name": "Keywords",
+                                    "typeId": "7f1b-8591-2fcf-d01c"
+                                  }
+                                ]
+                              }
+                            ],
+                            "infoLinks": [
+                              {
+                                "name": "Rapid Fire",
+                                "id": "5df8-4c2e-7332-a1c5",
+                                "hidden": false,
+                                "type": "rule",
+                                "targetId": "c5c8-8b58-b8b6-7786"
+                              }
+                            ],
+                            "constraints": [
+                              {
+                                "type": "max",
+                                "value": 1,
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "id": "792f-c375-2ea4-d20b"
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
                       {
                         "type": "min",
-                        "value": 1,
+                        "value": 2,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "6325-4eb2-c795-a8a4"
+                        "id": "5181-e58f-cac4-073a"
                       },
                       {
                         "type": "max",
-                        "value": 1,
+                        "value": 2,
                         "field": "selections",
                         "scope": "parent",
                         "shared": true,
-                        "id": "1e38-4e-4401-d80"
+                        "id": "3dbb-3e11-a6a8-2981"
                       }
-                    ],
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Heavy Flamer",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "2bd4-404e-f556-58f7",
-                        "targetId": "b3e6-f7a7-8357-2055"
-                      }
-                    ],
-                    "name": "Ranged Weapon Option",
-                    "hidden": false,
-                    "id": "4e03-932d-a96a-4049"
-                  },
-                  {
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Power fist",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "7d2a-eb98-9b3e-676a",
-                        "targetId": "f8d8-7e77-4b71-faac"
-                      },
-                      {
-                        "import": true,
-                        "name": "Power weapon",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "99-6b3f-77c8-b0cf",
-                        "targetId": "50dd-3e76-d993-4d1a"
-                      },
-                      {
-                        "import": true,
-                        "name": "Chainfist",
-                        "hidden": false,
-                        "type": "selectionEntry",
-                        "id": "66ca-9bf-5055-581c",
-                        "targetId": "cb6c-970e-444a-3ec3"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "min",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "5001-248d-dcae-72b3"
-                      },
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "14b0-8677-55cc-f57e"
-                      }
-                    ],
-                    "name": "Melee Weapon Option",
-                    "hidden": false,
-                    "id": "6d3f-6bce-8e46-d9f0",
-                    "defaultSelectionEntryId": "7d2a-eb98-9b3e-676a"
+                    ]
                   }
-                ],
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "id": "f322-649a-9ab6-5c6a"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "equalTo",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "e165-675e-79b2-120d",
-                        "shared": true,
-                        "id": "359-e65a-e69e-60ad"
-                      }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "f322-649a-9ab6-5c6a"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Relic Terminator Squad",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "6187-5660-f360-09a6"
-                  }
-                ],
-                "type": "model",
-                "import": true,
-                "name": "Relic Terminator w/ Heavy Weapon",
-                "hidden": false,
-                "id": "709d-da50-e020-1885"
+                ]
               }
             ],
             "constraints": [
               {
                 "type": "min",
-                "value": 5,
+                "value": 3,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -37775,18 +37841,14 @@
               },
               {
                 "type": "max",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
                 "id": "2c69-2f1c-fba0-db66"
               }
             ],
-            "name": "Relic Terminators",
-            "hidden": false,
-            "id": "e165-675e-79b2-120d",
-            "defaultSelectionEntryId": "3d0b-d48a-591d-cd05",
-            "sortIndex": 3
+            "defaultSelectionEntryId": "3d0b-d48a-591d-cd05"
           }
         ],
         "modifiers": [
@@ -37794,7 +37856,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "9d3f-134e-1f5b-531a",
                 "childId": "e165-675e-79b2-120d",
@@ -37803,7 +37865,7 @@
               }
             ],
             "type": "set",
-            "value": 400,
+            "value": 220,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -140163,17 +140225,6 @@
             "modifierGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "lessThan",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "model",
-                    "childId": "3215-5e-8e7e-efb8",
-                    "shared": true,
-                    "childName": "Storm Shield"
-                  }
-                ],
                 "modifiers": [
                   {
                     "type": "set",
@@ -140194,6 +140245,32 @@
                     "type": "set",
                     "value": "Master Crafted Power Weapon",
                     "field": "name"
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "model",
+                        "childId": "0abb-9211-106e-471d",
+                        "shared": true,
+                        "childName": "Storm Shield"
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "model",
+                        "childId": "3215-5e-8e7e-efb8",
+                        "shared": true,
+                        "childName": "Storm Shield",
+                        "sortIndex": 1
+                      }
+                    ]
                   }
                 ]
               }
