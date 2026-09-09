@@ -138810,7 +138810,7 @@
               },
               {
                 "$text": "4+",
-                "name": "SV",
+                "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da"
               },
               {
@@ -139200,6 +139200,834 @@
         "publicationId": "1427-7c5c-863f-ac94",
         "page": 7,
         "collective": false
+      },
+      {
+        "categoryLinks": [
+          {
+            "id": "4daf-75b6-0e53-7960",
+            "name": "Wraithlord",
+            "hidden": false,
+            "targetId": "7f16-61bf-d694-a0c6",
+            "primary": false
+          },
+          {
+            "id": "6115-a71d-95f3-b5f8",
+            "name": "Wraith Construct",
+            "hidden": false,
+            "targetId": "c250-f6c5-ffc8-bcd5",
+            "primary": false
+          },
+          {
+            "id": "494b-6e7d-33f2-c6ec",
+            "name": "Monster",
+            "hidden": false,
+            "targetId": "9693-cf84-fe69-37a9",
+            "primary": false
+          },
+          {
+            "id": "15f3-8647-f490-1b73",
+            "name": "Walker",
+            "hidden": false,
+            "targetId": "6dda-e157-334d-e93a",
+            "primary": false
+          },
+          {
+            "id": "2831-a358-03dd-a24a",
+            "name": "Faction: Asuryani",
+            "hidden": false,
+            "targetId": "4378-1827-4988-be4e",
+            "primary": false
+          },
+          {
+            "targetId": "e035-51fc-813a-1313",
+            "id": "9c4d-6d8a-fb80-5fa5",
+            "primary": false,
+            "name": "Aeldari"
+          },
+          {
+            "targetId": "9032-f917-9bc5-fd47",
+            "id": "9b83-ce52-17c4-26ae",
+            "primary": false,
+            "name": "Ynnari"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "2d51-0c0d-38b0-277a",
+            "primary": true,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "6a56-b861-9fcd-1188",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "355c-0ee6-3cde-6c71",
+            "id": "a55f-9453-f296-ab8d",
+            "primary": false,
+            "name": "Mobile"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 150
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          }
+        ],
+        "infoLinks": [
+          {
+            "modifiers": [
+              {
+                "type": "append",
+                "field": "name",
+                "value": 1
+              }
+            ],
+            "id": "27d6-ddeb-6af1-386e",
+            "name": "Deadly Demise",
+            "hidden": false,
+            "targetId": "b68a-5ded-65ac-98c",
+            "type": "rule"
+          }
+        ],
+        "profiles": [
+          {
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "4+"
+              }
+            ],
+            "name": "Arthanis",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "9b98-f766-8726-52fb"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the opponent's Fight Phase, This model can use this ability at a friendly Unit or Self, When this ability is used, that unit is returned to reserves with the ability Deep Strike."
+              }
+            ],
+            "name": "Phase Spear",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "f501-92ad-6ece-cd57"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can consolidate 6\" after fighting, and Can fight again if this model made a charge move this turn."
+              }
+            ],
+            "name": "Lightning Dash",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "d2c5-08e1-2ea7-39be"
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When this model is below Starting Strength, This model can use this ability at the end of The Fight phase, This model gains D3 Wounds. If this model Fought in this Phase, gain 3 Wounds instead."
+              }
+            ],
+            "name": "Protean Shield",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5ed4-e733-4ec8-bf94"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "selectionEntries": [
+              {
+                "profiles": [
+                  {
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "12"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-4"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Sustained Hits 2, Twin-Linked"
+                      }
+                    ],
+                    "name": "➤  Twilight Blades - Strike",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "c86f-377d-e109-76fe"
+                  },
+                  {
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "10"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Sustained Hits 2, Twin-Linked"
+                      }
+                    ],
+                    "name": "➤ Twilight Blades - Sweep",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "4303-6edf-aa42-f447"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e495-651e-dc11-7d78"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "114e-3ef2-8fd5-231b"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "3b70-1914-0dd3-33e1",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "type": "upgrade",
+                "import": true,
+                "name": "Twilight Blades",
+                "hidden": false,
+                "id": "f571-f29a-21d8-63a8"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Spear of Adun Weapons",
+                "hidden": false,
+                "id": "dbff-1357-6d7b-c9b0",
+                "profiles": [
+                  {
+                    "name": "➤ Spear of Adun - Purifier Beam",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "6ab9-7750-cb1b-308f",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "12"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-3"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "D6"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast 2, Indirect Fire"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Spear of Adun - Suppression Blast",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "4838-b817-bcf5-d36a",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast 2, Indirect Fire"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d3e7-6ebc-79f6-fcd9"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "93d1-63a2-220d-422f"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Phase Prism",
+                "hidden": false,
+                "id": "c445-0c4c-db5d-9a63",
+                "profiles": [
+                  {
+                    "name": "Phase Prisim",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "5676-1957-240d-1e72",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "12\""
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "8"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Devastating Wounds, Phase Prisim"
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Phase Prisim",
+                    "id": "5114-14c2-a964-1abe",
+                    "hidden": false,
+                    "description": "When hitting an enemy unit with Phase Prism, They are being Phased, when an enemy unit is phased, Charge rolls are +2 against that unit for this model. If they try to do a normal move, Reduce 2 to the Movement stat of that unit."
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fcd5-11ee-bee1-80a0"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "55e3-737c-e5e1-6411"
+                  }
+                ]
+              }
+            ],
+            "name": "Wargear",
+            "id": "00d5-c07a-9f1e-d465",
+            "hidden": false,
+            "sortIndex": 2
+          }
+        ],
+        "modifiers": [
+          {
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "forces",
+                "scope": "roster",
+                "childId": "1d6e-2579-8e7f-1ed4",
+                "shared": true
+              }
+            ],
+            "type": "set",
+            "value": true,
+            "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "be6c-7fb0-dcf0-ae38",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "75bb-ded1-c86d-bdf0",
+            "scope": "self",
+            "shared": true,
+            "id": "a35d-c2a7-84cc-3549",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "9cfa-c3bd-57ae-5a54",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "5f49-1114-1051-535c",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "be6c-7fb0-dcf0-ae38",
+            "includeChildSelections": true
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Crusade",
+            "hidden": false,
+            "id": "8a6c-6c28-17c4-172e",
+            "type": "selectionEntryGroup",
+            "targetId": "eef3-eae9-ce7c-7765",
+            "sortIndex": 1
+          }
+        ],
+        "modifierGroups": [
+          {
+            "modifiers": [
+              {
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "set",
+                "value": 6,
+                "field": "a35d-c2a7-84cc-3549"
+              },
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "9cfa-c3bd-57ae-5a54"
+              },
+              {
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "increment",
+                "value": 2,
+                "field": "5f49-1114-1051-535c"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-ready)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Blooded)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "field": "name"
+              },
+              {
+                "conditionGroups": [
+                  {
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 50,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "append",
+                "value": "(Heroic)",
+                "field": "name"
+              },
+              {
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 50,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ],
+                "type": "append",
+                "value": "(Legendary)",
+                "field": "name"
+              }
+            ],
+            "comment": "Crusade modifiers",
+            "type": "and"
+          }
+        ],
+        "id": "7635-6f6e-0ed0-ec6d",
+        "name": "Arthanis",
+        "hidden": false,
+        "collective": false,
+        "import": true,
+        "type": "model"
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -172566,6 +173394,16 @@
             ]
           }
         ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Arthanis",
+        "hidden": false,
+        "id": "0da3-29fc-1c6b-bcaa",
+        "targetId": "7635-6f6e-0ed0-ec6d",
+        "type": "selectionEntry"
       }
     ]
   }
