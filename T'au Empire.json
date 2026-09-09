@@ -11382,7 +11382,7 @@
               }
             ],
             "type": "set",
-            "value": 130,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -12749,38 +12749,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "equalTo",
-                "value": 2,
-                "field": "selections",
-                "scope": "self",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 60,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "self",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 90,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "4640-145e-7b2c-b28f",
@@ -12794,6 +12762,38 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 40,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 2,
+                "field": "selections",
+                "scope": "self",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 70,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "self",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
               }
             ]
           }
@@ -12856,7 +12856,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -23182,7 +23182,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 30
           },
           {
             "name": "Crusade Points",
@@ -23244,7 +23244,7 @@
               }
             ],
             "type": "set",
-            "value": 65,
+            "value": 60,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -35048,46 +35048,6 @@
         ],
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "72f2-7d0b-80f9-43b7",
-                        "shared": true,
-                        "childName": "Kroot Farstalkers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "725b-8a16-73a6-a7f4",
@@ -46311,7 +46271,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -47926,7 +47931,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 40
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -53753,7 +53803,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -54622,7 +54672,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -55279,7 +55329,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -55299,6 +55349,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -56268,7 +56333,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -56288,6 +56353,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -56905,7 +56985,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -56925,6 +57005,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -56952,7 +57047,7 @@
               }
             ],
             "type": "set",
-            "value": 170,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -56971,46 +57066,6 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "7f73-6728-df6f-1446",
-                        "shared": true,
-                        "childName": "Krootox Rampagers"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
