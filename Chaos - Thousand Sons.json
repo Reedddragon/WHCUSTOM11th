@@ -25650,38 +25650,6 @@
                     "includeChildSelections": false
                   }
                 ],
-                "modifiers": [
-                  {
-                    "conditionGroups": [
-                      {
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 10,
-                            "field": "selections",
-                            "scope": "b1cf-c5-5121-92a4",
-                            "childId": "model",
-                            "shared": true,
-                            "includeChildSelections": true
-                          },
-                          {
-                            "type": "greaterThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "b1cf-c5-5121-92a4",
-                            "childId": "b7c1-a071-542e-a06d",
-                            "shared": true,
-                            "includeChildSelections": true
-                          }
-                        ],
-                        "type": "and"
-                      }
-                    ],
-                    "type": "add",
-                    "value": "Max 2 heavy weapon per 5 models",
-                    "field": "error"
-                  }
-                ],
                 "name": "Heavy weapons",
                 "id": "b7c1-a071-542e-a06d",
                 "hidden": false
