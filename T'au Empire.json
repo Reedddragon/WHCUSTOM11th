@@ -819,7 +819,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "selectionEntryGroups": [
@@ -1320,7 +1365,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -2269,7 +2314,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 75
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -3357,7 +3447,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 75
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -4447,7 +4582,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 75
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -13547,7 +13727,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 100
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -13564,7 +13789,7 @@
               }
             ],
             "type": "set",
-            "value": 400,
+            "value": 200,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -15411,7 +15636,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -15436,6 +15661,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           },
           {
@@ -15779,46 +16014,6 @@
         "hidden": false,
         "id": "5d3a-803e-7cbc-b2f1",
         "modifiers": [
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "5d3a-803e-7cbc-b2f1",
-                        "shared": true,
-                        "childName": "Stealth Battlesuits"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "type": "set",
             "value": 2,
@@ -16503,7 +16698,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 15
+                        "value": 10
                       },
                       {
                         "name": "Crusade Points",
@@ -17075,46 +17270,6 @@
             "type": "remove",
             "value": "6df-937-16bc-8c1a",
             "field": "category"
-          },
-          {
-            "type": "increment",
-            "value": 15,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 2,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "5268-6e9-8f5c-c810",
-                        "shared": true,
-                        "childName": "Ghostkeel Battlesuit"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -24849,39 +25004,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "36\"",
                             "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "36\""
                           },
                           {
-                            "$text": "12",
                             "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "18"
                           },
                           {
-                            "$text": "4+",
                             "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
                           },
                           {
-                            "$text": "6",
                             "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "6"
                           },
                           {
-                            "$text": "-1",
                             "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
                           },
                           {
-                            "$text": "2",
                             "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "2"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "-"
                           }
                         ],
                         "name": "Heavy burst cannon",
@@ -25023,11 +25178,6 @@
                     "hidden": false,
                     "id": "fac9-3d5c-53c2-b08c",
                     "costs": [
-                      {
-                        "name": "pts",
-                        "typeId": "51b2-306e-1021-d207",
-                        "value": 25
-                      },
                       {
                         "name": "Crusade Points",
                         "typeId": "b03b-c239-15a5-da55",
@@ -25695,46 +25845,6 @@
         "hidden": false,
         "id": "5d8f-5530-263d-651b",
         "modifiers": [
-          {
-            "type": "increment",
-            "value": 30,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "5d8f-5530-263d-651b",
-                        "shared": true,
-                        "childName": "Riptide Battlesuit"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "type": "set",
             "value": 2,
@@ -32346,7 +32456,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 375
+            "value": 300
           },
           {
             "name": "Crusade Points",
@@ -32732,46 +32842,6 @@
         "hidden": false,
         "id": "439b-e08-4466-e162",
         "modifiers": [
-          {
-            "type": "increment",
-            "value": 25,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "439b-e08-4466-e162",
-                        "shared": true,
-                        "childName": "Stormsurge"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "type": "set",
             "value": 2,
@@ -35613,6 +35683,32 @@
                 "id": "b1b0-dcf9-e549-e6d3",
                 "type": "selectionEntry",
                 "targetId": "97a2-336f-a2a9-f28d"
+              },
+              {
+                "import": true,
+                "name": "Heavy rail rifle",
+                "hidden": false,
+                "id": "8bfe-2407-270a-65a3",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0afe-8034-cb9d-0dda"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bf85-1b7e-51de-a678"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "f0e1-43ac-1c85-4430"
               }
             ],
             "name": "Wargear",
@@ -36335,39 +36431,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "18\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
-                        "$text": "D6+1",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D6+6"
                       },
                       {
-                        "$text": "4+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
                       },
                       {
-                        "$text": "7",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "7"
                       },
                       {
-                        "$text": "-1",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
                       },
                       {
-                        "$text": "2",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
                       },
                       {
-                        "$text": "Blast",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast"
                       }
                     ],
                     "name": "➤ Ionic discharge cannon - standard",
@@ -36379,39 +36475,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "18\"",
                         "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
-                        "$text": "D6+1",
                         "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D6+6"
                       },
                       {
-                        "$text": "4+",
                         "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "4+"
                       },
                       {
-                        "$text": "8",
                         "name": "S",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "8"
                       },
                       {
-                        "$text": "-2",
                         "name": "AP",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
                       },
                       {
-                        "$text": "3",
                         "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "3"
                       },
                       {
-                        "$text": "Blast, Hazardous",
                         "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Hazardous"
                       }
                     ],
                     "name": "➤ Ionic discharge cannon - overcharge",
@@ -36601,7 +36697,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 200
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -39429,7 +39570,52 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 790
+            "value": 550
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Diplomatic Power",
+            "typeId": "4d7c-04b6-8a79-837f",
+            "value": 0
+          },
+          {
+            "name": "Military Power",
+            "typeId": "1cbe-d9c9-86a8-2d41",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -39644,46 +39830,6 @@
             "type": "set",
             "value": true,
             "field": "hidden"
-          },
-          {
-            "type": "increment",
-            "value": 100,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "16d6-79b5-817d-f084",
-                        "shared": true,
-                        "childName": "Ta'unar Supremacy Armour"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "type": "set",
@@ -48796,7 +48942,7 @@
             "constraints": [
               {
                 "type": "max",
-                "value": 2,
+                "value": 9,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -48804,7 +48950,7 @@
               },
               {
                 "type": "min",
-                "value": 1,
+                "value": 3,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -49139,7 +49285,52 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 55
+                    "value": 45
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Diplomatic Power",
+                    "typeId": "4d7c-04b6-8a79-837f",
+                    "value": 0
+                  },
+                  {
+                    "name": "Military Power",
+                    "typeId": "1cbe-d9c9-86a8-2d41",
+                    "value": 0
                   }
                 ],
                 "profiles": [
@@ -51177,46 +51368,6 @@
         "id": "e88f-bc7a-c3f5-8e47",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "e88f-bc7a-c3f5-8e47",
-                        "shared": true,
-                        "childName": "Crisis Sunforge Battlesuits"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "774d-05b5-dd67-63b3",
@@ -51420,14 +51571,7 @@
                         "id": "0ea4-6323-6103-5675",
                         "type": "selectionEntry",
                         "targetId": "8290-c852-cce9-d50e",
-                        "defaultAmount": 1,
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          }
-                        ]
+                        "defaultAmount": 1
                       }
                     ],
                     "constraints": [
@@ -51715,14 +51859,7 @@
                             "id": "0926-4604-2901-2eae",
                             "type": "selectionEntry",
                             "targetId": "8290-c852-cce9-d50e",
-                            "defaultAmount": 1,
-                            "costs": [
-                              {
-                                "name": "pts",
-                                "typeId": "51b2-306e-1021-d207",
-                                "value": 5
-                              }
-                            ]
+                            "defaultAmount": 1
                           },
                           {
                             "constraints": [
@@ -52265,46 +52402,6 @@
         "id": "9373-d0b3-94c9-e47",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "9373-d0b3-94c9-e47",
-                        "shared": true,
-                        "childName": "Crisis Fireknife Battlesuits"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "770a-3150-2919-73f4",
@@ -52540,14 +52637,7 @@
                         "id": "aec0-6731-a113-a8c5",
                         "type": "selectionEntry",
                         "targetId": "6e8-cf2e-cedd-9028",
-                        "defaultAmount": 1,
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 5
-                          }
-                        ]
+                        "defaultAmount": 1
                       }
                     ],
                     "constraints": [
@@ -52864,14 +52954,7 @@
                             "id": "7988-2344-a087-e5a0",
                             "type": "selectionEntry",
                             "targetId": "6e8-cf2e-cedd-9028",
-                            "defaultAmount": 1,
-                            "costs": [
-                              {
-                                "name": "pts",
-                                "typeId": "51b2-306e-1021-d207",
-                                "value": 5
-                              }
-                            ]
+                            "defaultAmount": 1
                           }
                         ],
                         "name": "Weapons",
@@ -53383,46 +53466,6 @@
         "hidden": false,
         "id": "fb32-c683-b38f-d339",
         "modifiers": [
-          {
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "any",
-                        "shared": true
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "fb32-c683-b38f-d339",
-                        "shared": true,
-                        "childName": "Crisis Starscythe Battlesuits"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "type": "set",
             "value": 2,
@@ -63764,7 +63807,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 220
+            "value": 160
           },
           {
             "name": "Crusade Points",
