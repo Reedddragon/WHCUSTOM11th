@@ -56800,9 +56800,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
               }
             ],
             "name": "Psychic Guidance",
@@ -58248,9 +58248,9 @@
           {
             "characteristics": [
               {
-                "$text": "While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
               }
             ],
             "name": "Psychic Guidance",
@@ -139267,6 +139267,12 @@
             "id": "a55f-9453-f296-ab8d",
             "primary": false,
             "name": "Mobile"
+          },
+          {
+            "targetId": "13bf-2bee-3ae0-b414",
+            "id": "a55b-f5ef-1777-f975",
+            "primary": false,
+            "name": "Psyker"
           }
         ],
         "costs": [
