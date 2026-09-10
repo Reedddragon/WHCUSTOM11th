@@ -1325,7 +1325,7 @@
       },
       {
         "import": true,
-        "name": "Vanguard Veteran Squad [Legends]",
+        "name": "Vanguard Veteran Squad",
         "hidden": false,
         "type": "selectionEntry",
         "id": "aa6a-a87a-8ec3-6aa5",
@@ -10230,7 +10230,7 @@
       },
       {
         "import": true,
-        "name": "Caestus Assault Ram [Legends]",
+        "name": "Caestus Assault Ram",
         "hidden": false,
         "type": "selectionEntry",
         "id": "2b90-3730-69d-d0c0",
@@ -14592,7 +14592,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 66
+            "value": 65
           },
           {
             "name": "Crusade Points",
@@ -14894,23 +14894,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "increment",
-            "value": 5,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "instanceOf",
-                "value": 1,
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "childId": "4ef9-15ce-e3e6-36de",
-                "shared": true,
-                "childName": "Imperium - Adeptus Astartes - Blood Angels"
-              }
-            ],
-            "comment": "Blood Angels tax"
           }
         ]
       },
