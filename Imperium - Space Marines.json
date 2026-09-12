@@ -11520,7 +11520,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -12375,7 +12375,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -13213,7 +13213,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -14592,7 +14592,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -19801,7 +19801,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -19864,7 +19864,7 @@
               }
             ],
             "type": "set",
-            "value": 200,
+            "value": 150,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -32755,7 +32755,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -33753,7 +33753,7 @@
               }
             ],
             "type": "set",
-            "value": 150,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -55869,7 +55869,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -56812,7 +56812,7 @@
               }
             ],
             "type": "set",
-            "value": 220,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -62942,7 +62942,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -63604,7 +63604,7 @@
               }
             ],
             "type": "set",
-            "value": 160,
+            "value": 120,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -87391,7 +87391,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           },
           {
             "name": "Crusade Points",
@@ -99793,7 +99793,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -105167,7 +105167,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -134225,7 +134225,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 40
           },
           {
             "name": "Crusade Points",
@@ -139393,7 +139393,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 50
           },
           {
             "name": "Crusade Points",
