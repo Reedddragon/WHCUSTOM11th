@@ -25652,20 +25652,20 @@
                 ],
                 "rules": [
                   {
-                    "name": "Flare Shields",
+                    "name": "Aerial Supremacy",
                     "id": "af31-35de-fdc6-1850",
-                    "description": "Friendly ^^**Grav-Assault**^^ units and Mounted Units have -1 to Hit toll against ranged attacks.",
+                    "description": "**Evasive Manoeuvres:** Each time a friendly ^^**Adeptus Custodes Mounted**^^ or ^^**Adeptus Custodes Venatari**^^ unit finishes a Normal, Advance, Fall Back, or Ingress move, until the end of the battle round, subtract 1 from Hit rolls made for ranged attacks that target that unit.\n\n**Converging Talons:** In your Shooting phase, each time a friendly ^^**Adeptus Custodes Mounted**^^ or ^^**Adeptus Custodes Venatari**^^ unit scores one or more hits against an enemy unit with ranged attacks, that enemy unit becomes **Marked Prey** for friendly units of the opposite category until the end of your turn (Mounted marks for Venatari; Venatari marks for Mounted).\n\nEach time a friendly unit of the opposite category that made a Charge move this turn makes a melee attack against that **Marked Prey** unit, re-roll Wound rolls of 1 for that attack.",
                     "hidden": false
                   }
                 ],
                 "profiles": [
                   {
-                    "name": "Victory Before Death",
+                    "name": "Coordinated Dive",
                     "id": "7e2f-1025-d107-0001",
                     "hidden": false,
                     "typeId": "7e2f-1026-f100-0001",
                     "typeName": "Detachment Stratagems",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
                     "characteristics": [
                       {
                         "name": "CP",
@@ -25674,28 +25674,28 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Any phase; a friendly Grav-Assault unit controlling an objective is destroyed.",
+                        "$text": "Your Shooting phase, immediately after a friendly Adeptus Custodes Mounted or Venatari unit finishes shooting and scores one or more hits against an enemy unit.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
                         "name": "Target",
-                        "$text": "That destroyed unit.",
+                        "$text": "One friendly Adeptus Custodes unit of the opposite category (Mounted if the shooting unit is Venatari, or Venatari if the shooting unit is Mounted) within 12\" of that enemy unit.",
                         "typeId": "7e2f-1026-f101-0003"
                       },
                       {
                         "name": "Effect",
-                        "$text": "Secure the objective if it has no enemy non-Aircraft units in range.",
+                        "$text": "Until the end of your turn, add 2 to Charge rolls made by that friendly unit when it declares a charge that includes that enemy unit. This does not allow otherwise ineligible charges.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
                   },
                   {
-                    "name": "Advanced Stabilisers",
+                    "name": "Strike and Disappear",
                     "id": "7e2f-1025-d107-0002",
                     "hidden": false,
                     "typeId": "7e2f-1026-f100-0001",
                     "typeName": "Detachment Stratagems",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
                     "characteristics": [
                       {
                         "name": "CP",
@@ -25704,28 +25704,28 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting; a Grav-Assault unit shoots.",
+                        "$text": "End of the Fight phase.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
                         "name": "Target",
-                        "$text": "That Grav-Assault unit.",
+                        "$text": "One friendly Adeptus Custodes Mounted or Venatari unit that fought this phase and is unengaged.",
                         "typeId": "7e2f-1026-f101-0003"
                       },
                       {
                         "name": "Effect",
-                        "$text": "Its ranged attacks have Assault.",
+                        "$text": "That unit can make a Normal move of up to 8\". It cannot end this move within Engagement Range of an enemy unit.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
                   },
                   {
-                    "name": "Inevitable Annihilation",
+                    "name": "Suppressive Pass",
                     "id": "7e2f-1025-d107-0003",
                     "hidden": false,
                     "typeId": "7e2f-1026-f100-0001",
                     "typeName": "Detachment Stratagems",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
                     "characteristics": [
                       {
                         "name": "CP",
@@ -25734,17 +25734,17 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting; a Grav-Assault unit shoots.",
+                        "$text": "Your Shooting phase, immediately after a friendly Adeptus Custodes Mounted or Venatari unit finishes shooting.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
                         "name": "Target",
-                        "$text": "That Grav-Assault unit.",
+                        "$text": "One enemy unit hit by one or more ranged attacks made by that friendly unit.",
                         "typeId": "7e2f-1026-f101-0003"
                       },
                       {
                         "name": "Effect",
-                        "$text": "Ignore modifiers to Ballistic Skill and hit rolls.",
+                        "$text": "Until the end of your turn, that enemy unit cannot make Snap Shooting attacks against friendly Adeptus Custodes Mounted or Venatari units.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
