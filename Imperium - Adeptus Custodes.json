@@ -604,6 +604,13 @@
         "id": "9d06-8fd4-4fbf-55cc",
         "targetId": "c17d-8028-3e06-ac49",
         "type": "selectionEntry"
+      },
+      {
+        "id": "7e2f-1025-c000-0003",
+        "name": "Stratagems",
+        "targetId": "7e2f-1025-c000-0001",
+        "type": "selectionEntry",
+        "import": true
       }
     ],
     "sharedSelectionEntries": [
@@ -29819,18 +29826,6 @@
                     "name": "Assemblage of Might",
                     "id": "9eb2-2cdd-3df7-a94e",
                     "hidden": false
-                  },
-                  {
-                    "description": "**1 CP | Auric Champions Stratagem (reference)**\n**WHEN:** Any phase; after a friendly Custodes Character has used a once-per-battle datasheet ability.\n**TARGET:** That Custodes Character model.\n**EFFECT:** Use that ability one more time, in a different phase.\n**RESTRICTIONS:** Only once per battle on that model.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "name": "STRATAGEM | Gilded Champion [1 CP]",
-                    "id": "7e2f-1025-a01a-0001",
-                    "hidden": false
-                  },
-                  {
-                    "description": "**1 CP | Auric Champions Stratagem (reference)**\n**WHEN:** Fight phase; when an enemy targets one of your Custodes units.\n**TARGET:** The targeted Custodes unit.\n**EFFECT:** For destroyed models that have not yet fought, roll D6 (+1 for a Character). On 3+, they remain until they fight or the phase ends.\n**RESTRICTIONS:** Only the affected models receive this effect.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "name": "STRATAGEM | Duty Unto Death [1 CP]",
-                    "id": "7e2f-1025-a01a-0002",
-                    "hidden": false
                   }
                 ],
                 "type": "upgrade",
@@ -30152,24 +30147,6 @@
                     "id": "364e-dc9e-6d15-e3a8",
                     "hidden": false,
                     "description": "Friendly **ADEPTUS CUSTODES WALKER** units: \n- Have +2\" **M**. \n- Have +1 to **advance rolls** and **charge rolls**."
-                  },
-                  {
-                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Shooting phase or the Fight phase.\n**TARGET:** One friendly Custodes Dreadnought.\n**EFFECT:** The Dreadnought gives nearby friendly Custodes units within 6 inches an aura for re-rolling hit rolls of 1.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "name": "STRATAGEM | Honoured Interred [1 CP]",
-                    "id": "7e2f-1025-b02b-0001",
-                    "hidden": false
-                  },
-                  {
-                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Movement phase; after a friendly Custodes Dreadnought advances.\n**TARGET:** That Dreadnought.\n**EFFECT:** Its ranged attacks gain Assault for the turn, and it may still declare a charge.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "name": "STRATAGEM | Unceasing Onslaught [1 CP]",
-                    "id": "7e2f-1025-b02b-0002",
-                    "hidden": false
-                  },
-                  {
-                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Movement or Charge phase; when a friendly Custodes Dreadnought moves or declares a charge.\n**TARGET:** That Dreadnought.\n**EFFECT:** It gains the MOBILE ability.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "name": "STRATAGEM | Unstoppable Momentum [1 CP]",
-                    "id": "7e2f-1025-b02b-0003",
-                    "hidden": false
                   }
                 ],
                 "modifiers": [
@@ -33822,6 +33799,105 @@
             "id": "fe75-c9fc-5329-8c56",
             "primary": false,
             "name": "Character"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Stratagems",
+        "hidden": false,
+        "id": "7e2f-1025-c000-0001",
+        "selectionEntryGroups": [
+          {
+            "name": "Stratagems",
+            "id": "7e2f-1025-c000-0002",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Auric Champions — Stratagems",
+                "hidden": false,
+                "id": "7e2f-1025-c100-0001",
+                "rules": [
+                  {
+                    "description": "**1 CP | Auric Champions Stratagem (reference)**\n**WHEN:** Any phase; after a friendly Custodes Character has used a once-per-battle datasheet ability.\n**TARGET:** That Custodes Character model.\n**EFFECT:** Use that ability one more time, in a different phase.\n**RESTRICTIONS:** Only once per battle on that model.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "name": "STRATAGEM | Gilded Champion [1 CP]",
+                    "id": "7e2f-1025-a01a-0001",
+                    "hidden": false
+                  },
+                  {
+                    "description": "**1 CP | Auric Champions Stratagem (reference)**\n**WHEN:** Fight phase; when an enemy targets one of your Custodes units.\n**TARGET:** The targeted Custodes unit.\n**EFFECT:** For destroyed models that have not yet fought, roll D6 (+1 for a Character). On 3+, they remain until they fight or the phase ends.\n**RESTRICTIONS:** Only the affected models receive this effect.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "name": "STRATAGEM | Duty Unto Death [1 CP]",
+                    "id": "7e2f-1025-a01a-0002",
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "hidden",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Might of the Moritoi — Stratagems",
+                "hidden": false,
+                "id": "7e2f-1025-c100-0002",
+                "rules": [
+                  {
+                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Shooting phase or the Fight phase.\n**TARGET:** One friendly Custodes Dreadnought.\n**EFFECT:** The Dreadnought gives nearby friendly Custodes units within 6 inches an aura for re-rolling hit rolls of 1.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "name": "STRATAGEM | Honoured Interred [1 CP]",
+                    "id": "7e2f-1025-b02b-0001",
+                    "hidden": false
+                  },
+                  {
+                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Movement phase; after a friendly Custodes Dreadnought advances.\n**TARGET:** That Dreadnought.\n**EFFECT:** Its ranged attacks gain Assault for the turn, and it may still declare a charge.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "name": "STRATAGEM | Unceasing Onslaught [1 CP]",
+                    "id": "7e2f-1025-b02b-0002",
+                    "hidden": false
+                  },
+                  {
+                    "description": "**1 CP | Might of the Moritoi Stratagem (reference)**\n**WHEN:** Your Movement or Charge phase; when a friendly Custodes Dreadnought moves or declares a charge.\n**TARGET:** That Dreadnought.\n**EFFECT:** It gains the MOBILE ability.\n**SOURCE:** https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+                    "name": "STRATAGEM | Unstoppable Momentum [1 CP]",
+                    "id": "7e2f-1025-b02b-0003",
+                    "hidden": false
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "field": "hidden",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 0,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "1bb5-5aba-6c8f-7afc",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
