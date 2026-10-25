@@ -446,14 +446,6 @@
       },
       {"name": "Sentinel Guard Sodality", "id": "dc83-9680-c6e7-d451", "hidden": false, "import": true, "targetId": "df80-bbdc-bd0a-3428", "type": "selectionEntry"},
       {
-        "name": "Aquilon Terminators with Solarite Power Gauntlets",
-        "id": "7474-dad2-f999-2a9e",
-        "hidden": false,
-        "import": true,
-        "targetId": "9d57-6156-aebd-73e9",
-        "type": "selectionEntry"
-      },
-      {
         "name": "Aquilon Terminators with Solarite Power Talons",
         "id": "de9a-cd58-f9c4-f80d",
         "hidden": false,
@@ -1238,31 +1230,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "5386-42fc-f4d0-7d64", "childName": "Allarus Custodians", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           },
@@ -16494,364 +16461,7 @@
         ]
       },
       {
-        "name": "Aquilon Terminators with Solarite Power Gauntlets",
-        "id": "9d57-6156-aebd-73e9",
-        "hidden": false,
-        "import": true,
-        "type": "unit",
-        "categoryLinks": [
-          {"name": "Faction: Adeptus Custodes", "id": "352b-4464-10b6-7a0b", "hidden": false, "primary": false, "targetId": "eea5-aeaf-bbf0-d5ee"},
-          {"name": "Infantry", "id": "e496-ae99-2081-e3ca", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Imperium", "id": "e3d1-a739-62c7-4645", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Terminator", "id": "c545-2123-db0f-01a7", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
-          {"name": "Aquilon Terminators with Solarite Power Gauntlets", "id": "e29a-56eb-1bf9-4afe", "hidden": false, "primary": false, "targetId": "0e7c-3823-acfc-651e"},
-          {"name": "Emissaries", "id": "69be-2d95-4c12-1909", "hidden": false, "primary": false, "targetId": "1070-413c-cf8f-338f"}
-        ],
-        "constraints": [
-          {
-            "id": "982b-02ea-6032-a433",
-            "field": "selections",
-            "includeChildForces": false,
-            "includeChildSelections": true,
-            "percentValue": false,
-            "scope": "force",
-            "shared": true,
-            "type": "max",
-            "value": 3
-          },
-          {"id": "6438-ca72-6e72-5d95", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
-          {"id": "5fd9-b3a3-0d7f-3faa", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
-          {"id": "c4fa-9bc6-fcfd-5bec", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0},
-          {
-            "id": "cee1-cbf6-4342-e4d5",
-            "childId": "any",
-            "field": "f759-1bc4-cb3a-f0d2",
-            "includeChildForces": false,
-            "includeChildSelections": true,
-            "message": "An Attached Unit can only take 1 Enhancement.",
-            "scope": "root-entry",
-            "shared": true,
-            "traverseAssociationGroup": true,
-            "type": "max",
-            "value": 1
-          },
-          {
-            "id": "4ce1-d3c4-0a83-25a9",
-            "childId": "1556-9b56-fba6-4370",
-            "childName": "Leader",
-            "field": "associations",
-            "includeChildForces": false,
-            "scope": "self",
-            "shared": true,
-            "traverseAssociationGroup": false,
-            "type": "max",
-            "value": 1
-          }
-        ],
-        "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 285},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
-          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-        ],
-        "entryLinks": [
-          {
-            "name": "Crusade",
-            "id": "4f85-d5a7-687e-66aa",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 1,
-            "targetId": "dffe-91f2-f156-0566",
-            "type": "selectionEntryGroup"
-          }
-        ],
-        "infoLinks": [
-          {"name": "Aegis of the Emperor", "id": "4e58-b564-956a-b586", "hidden": false, "targetId": "a398-0a1d-ef92-162b", "type": "rule"},
-          {"name": "Feel No Pain 5+*", "id": "80f0-7218-9e86-119b", "hidden": false, "targetId": "faec-8b1b-5a21-0087", "type": "rule"},
-          {"name": "Deep Strike", "id": "0ec3-45a9-54fb-acc2", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
-          {"name": "Martial Ka'tah", "id": "cbdb-fc6a-95ea-eaef", "hidden": false, "targetId": "e348-7090-3aff-ee2c", "type": "rule"}
-        ],
-        "modifierGroups": [
-          {
-            "comment": "Crusade modifiers",
-            "type": "and",
-            "modifiers": [
-              {
-                "field": "6438-ca72-6e72-5d95",
-                "type": "set",
-                "value": 6,
-                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
-              },
-              {
-                "field": "5fd9-b3a3-0d7f-3faa",
-                "type": "increment",
-                "value": 2,
-                "repeats": [
-                  {
-                    "childId": "d1a5-4297-168b-11cd",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "roundUp": false,
-                    "scope": "self",
-                    "shared": true,
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "c4fa-9bc6-fcfd-5bec",
-                "type": "increment",
-                "value": 2,
-                "repeats": [
-                  {
-                    "childId": "d1a5-4297-168b-11cd",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "roundUp": false,
-                    "scope": "self",
-                    "shared": true,
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "name",
-                "type": "append",
-                "value": "(Battle-ready)",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
-                      {
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "field": "forces",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "name",
-                "type": "append",
-                "value": "(Blooded)",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "name",
-                "type": "append",
-                "value": "(Battle-hardened)",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "name",
-                "type": "append",
-                "value": "(Heroic)",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "name",
-                "type": "append",
-                "value": "(Legendary)",
-                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
-              }
-            ]
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "982b-02ea-6032-a433",
-            "type": "set",
-            "value": 2,
-            "conditions": [
-              {
-                "childId": "d62d-db22-4893-4bc0",
-                "childName": "1. Incursion (1000 Point limit)",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "9d57-6156-aebd-73e9",
-                        "childName": "Aquilon Terminators with Solarite Power Gauntlets",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Dread Foe",
-            "id": "009f-62d6-dbd0-513a",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This unit's melee attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP.", "typeId": "9b8f-694b-e5e-b573"}]
-          }
-        ],
-        "selectionEntries": [
-          {
-            "name": "Aquilon Terminator",
-            "id": "2e55-b005-ab5c-f0ce",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 2,
-            "type": "model",
-            "constraints": [
-              {"id": "27e3-ab4d-0939-9367-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
-              {"id": "27e3-ab4d-0939-9367-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
-            ],
-            "profiles": [
-              {
-                "name": "Aquilon Terminator",
-                "id": "4fa7-ea14-9648-dde4",
-                "hidden": false,
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
-                "characteristics": [
-                  {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                  {"name": "T", "$text": "8", "typeId": "d29d-cf75-fc2d-34a4"},
-                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
-                  {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
-                  {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "50mm", "typeId": "nr-base-size"}
-                ]
-              }
-            ],
-            "selectionEntries": [
-              {
-                "name": "Adrathic Combi-destructor",
-                "id": "a65a-1668-f74b-5f6f",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {"id": "5fc2-231e-52d3-13c5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "5fc2-231e-52d3-13c5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "profiles": [
-                  {
-                    "name": "Adrathic Combi-destructor",
-                    "id": "cbf7-ecd2-72fe-4ba7",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-                      {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-                      {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                      {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                      {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Solarite Power Gauntlet",
-                "id": "db57-2604-e4c2-65bb",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {"id": "b0bd-9b9e-9d5f-730a-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "b0bd-9b9e-9d5f-730a-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "profiles": [
-                  {
-                    "name": "Solarite Power Gauntlet",
-                    "id": "4199-cb2e-861f-e51a",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                      {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
-                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
-                      {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
-                      {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                      {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
-                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Aquilon Terminators with Solarite Power Talons",
+        "name": "Aquilon Custodians",
         "id": "67a7-0ebe-3c5f-c0f9",
         "hidden": false,
         "import": true,
@@ -16906,7 +16516,7 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 275},
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 270},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
           {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
           {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
@@ -17068,71 +16678,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "error",
-            "type": "add",
-            "value": "All models must be equipped with the same weapon",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "94b3-ef7f-f71f-c86e",
-                    "childName": "Castellan Axe",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "unit-self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "ab4a-1a4f-5898-70db",
-                    "childName": "Guardian Spear",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "unit-self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "67a7-0ebe-3c5f-c0f9",
-                        "childName": "Aquilon Terminators with Solarite Power Talons",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -17149,11 +16694,19 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Dread Foe",
+            "id": "009f-62d6-dbd0-513a",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit's melee attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP.", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntries": [
           {
-            "name": "Aquilon Terminator",
+            "name": "Aquilon Custodians",
             "id": "30be-d530-6161-4795",
             "hidden": false,
             "import": true,
@@ -17179,38 +16732,6 @@
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "50mm", "typeId": "nr-base-size"}
-                ]
-              }
-            ],
-            "selectionEntries": [
-              {
-                "name": "Solarite Power Talons",
-                "id": "f372-9d72-c77e-6c2d",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {"id": "36ae-9114-a8f2-cc03-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "36ae-9114-a8f2-cc03-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "infoLinks": [{"name": "Sustained Hits", "id": "daaf-42b1-aa35-e35b", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}],
-                "profiles": [
-                  {
-                    "name": "Solarite Power Talons",
-                    "id": "0889-9bc4-ecdb-ed41",
-                    "hidden": false,
-                    "typeId": "8a40-4aaa-c780-9046",
-                    "typeName": "Melee Weapons",
-                    "characteristics": [
-                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                      {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
-                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
-                      {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
-                      {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                      {"name": "Keywords", "$text": "Sustained Hits 2", "typeId": "893f-9000-ccf7-648e"}
-                    ]
-                  }
                 ]
               }
             ],
@@ -17280,6 +16801,99 @@
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Rapid Fire 3", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Adrathic Combi-destructor",
+                    "id": "a65a-1668-f74b-5f6f",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 3,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "5fc2-231e-52d3-13c5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "5fc2-231e-52d3-13c5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Adrathic Combi-destructor",
+                        "id": "cbf7-ecd2-72fe-4ba7",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Melee weapon",
+                "id": "4d7d-54c2-ca72-1c88",
+                "defaultSelectionEntryId": "9129-2fbf-5725-98a6",
+                "hidden": false,
+                "constraints": [
+                  {"id": "62bf-726b-f675-bb6f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "25f1-5866-6ba3-292c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Solarite Power Talons",
+                    "id": "f372-9d72-c77e-6c2d",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "infoLinks": [{"name": "Sustained Hits", "id": "daaf-42b1-aa35-e35b", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}],
+                    "profiles": [
+                      {
+                        "name": "Solarite Power Talons",
+                        "id": "0889-9bc4-ecdb-ed41",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                          {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                          {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                          {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                          {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                          {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                          {"name": "Keywords", "$text": "Sustained Hits 2", "typeId": "893f-9000-ccf7-648e"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Solarite Power Gauntlet",
+                    "id": "db57-2604-e4c2-65bb",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "profiles": [
+                      {
+                        "name": "Solarite Power Gauntlet",
+                        "id": "4199-cb2e-861f-e51a",
+                        "hidden": false,
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                          {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                          {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                          {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+                          {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                          {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                          {"name": "Keywords", "$text": "\n", "typeId": "893f-9000-ccf7-648e"}
                         ]
                       }
                     ]
