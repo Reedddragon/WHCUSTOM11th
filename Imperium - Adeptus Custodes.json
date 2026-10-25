@@ -18250,7 +18250,7 @@
               },
               {
                 "name": "T",
-                "$text": "10",
+                "$text": "11",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -18576,7 +18576,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 230
+            "value": 220
           },
           {
             "name": "Crusade Points",
@@ -20991,7 +20991,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 280
+            "value": 260
           },
           {
             "name": "Crusade Points",
