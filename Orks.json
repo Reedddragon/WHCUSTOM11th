@@ -78143,6 +78143,98 @@
                 "description": "Friendly **BEAST SNAGGA** units' attacks that targets a **MONSTER/VEHICLE** unit have +1 **AP**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Where D'Ya Fink You're Going?",
+                "id": "7e2f-1026-f240-0101",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Movement phase, when an enemy engaged with BEAST SNAGGA units is selected to Fall Back.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One engaged friendly BEAST SNAGGA unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The enemy must use Desperate Escape. MONSTER or VEHICLE units make three extra hazard rolls for each BEAST SNAGGA unit engaging them; subtract 1 from those rolls if Battle-shocked.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Goaded Into Action",
+                "id": "7e2f-1026-f240-0102",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Shooting phase, after an enemy unit has shot.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One unengaged friendly BEAST SNAGGA unit that lost a wound from those attacks.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Make a surge move of up to D6 inches, re-rolling the D6 if riled up.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Instinctive Hunters",
+                "id": "7e2f-1026-f240-0103",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "End of opponent's Fight phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One unengaged friendly BEAST SNAGGA unit within 6 inches of a battlefield edge.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Place the unit into Strategic Reserves.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78751,6 +78843,98 @@
                 "description": "- Friendly **WARBIKERS** units have **BATTLELINE**.\n- When a friendly **SPEED FREEKS** unit is selected to make an **advance/fall-back move**:\n    - That unit's ranged attacks have **[ASSAULT]** until the end of the turn.\n    - That move does not prevent that unit from being **eligible to declare a charge**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Delicious Eating Squigs",
+                "id": "7e2f-1026-f240-0501",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly RUKKATRUKK SQUIGBUGGIES unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Choose any number of friendly ORKS INFANTRY units within 3 inches of it; each heals 3 wounds.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Dakkastorm",
+                "id": "7e2f-1026-f240-0502",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when a friendly SPEED FREEKS unit shoots.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That SPEED FREEKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Its ranged attacks gain [SUSTAINED HITS 1].",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Speediest Freeks",
+                "id": "7e2f-1026-f240-0503",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Shooting phase, when an enemy targets a friendly SPEED FREEKS unit.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That SPEED FREEKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Ranged attacks against it fail on unmodified Hit rolls of 1-3.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78846,6 +79030,98 @@
                 "description": "Friendly **STORMBOYZ** units have **BATTLELINE**.\n- When a friendly **BOYZ/KOMMANDOS/STORMBOYZ** unit is selected to make an **fall‑back move**, that **fall-back move** does not prevent that unit from being **eligible to declare a charge**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Dubious Restraint",
+                "id": "7e2f-1026-f240-0201",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Start or end of your Movement phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly BOYZ, KOMMANDOS, or STORMBOYZ unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Secure one objective that unit controls.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Mind Mostly on the Mission",
+                "id": "7e2f-1026-f240-0202",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, when an eligible BOYZ, KOMMANDOS, or STORMBOYZ unit Advances or Falls Back.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "This move does not stop the unit from starting an action.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "While Their Backs Are Turned",
+                "id": "7e2f-1026-f240-0203",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "End of opponent's Movement phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One unengaged BOYZ, KOMMANDOS, or STORMBOYZ unit that was engaged at the start of the phase.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The unit makes a Normal move up to 6 inches.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78918,6 +79194,68 @@
                 "description": "Each time an attack targets an **^^Orks^^** unit from your army (excluding **^^Grots^^** units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that **^^Orks^^** unit, subtract 1 from the Wound roll.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Pile Through",
+                "id": "7e2f-1026-f240-0701",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, just after an ORKS unit opens a Hatchway.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The unit gains Fights First until the end of the turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Ramboyz Rampage",
+                "id": "7e2f-1026-f240-0702",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One BOYZ unit not yet selected to move.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "This turn the unit can charge after Advancing. Its Advance adds 6 inches to Move rather than rolling.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78983,6 +79321,128 @@
                 "id": "c6cf-4eb3-0f1f-aee9",
                 "description": "In your Movement phase, Desperate Escape tests taken for **^^Orks^^** models from your army are automatically passed and each time an **^^Orks^^** unit from your army makes a Normal, Advance or Fall Back move, it can move through other models as if they were not there, provided those other models have a lower Toughness characteristic than it.",
                 "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Loot on the Move",
+                "id": "7e2f-1026-f240-0801",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, just after an ORKS unit opens a Hatchway.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The Hatchway cannot be closed for the rest of the battle. Worsen AP of attacks against this unit by 1 until end of turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Pile Through",
+                "id": "7e2f-1026-f240-0802",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, just after an ORKS unit opens a Hatchway.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The unit gains Fights First until end of turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Pit Fighter",
+                "id": "7e2f-1026-f240-0803",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Charge phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly WARBOSS model.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "The model can charge despite having Fallen Back this turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Cornered and Krumped",
+                "id": "7e2f-1026-f240-0804",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Movement phase, immediately after an enemy unit is selected to Fall Back.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One ORKS unit engaged with that enemy.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Fight against that enemy as in the Fight phase; only unmodified Hit rolls of 6 score hits.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ]
           },
@@ -79078,6 +79538,98 @@
                 "id": "5742-4494-1463-2670",
                 "description": "- Friendly **WAGON** units can re-roll **charge rolls**.\n- When a friendly **WAGON** unit is selected to make an **advance move**, that unit can change **advance rolls** to a 6.",
                 "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Keep It Runnin'",
+                "id": "7e2f-1026-f240-0401",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "End of Fight phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One unengaged ORKS INFANTRY unit eligible to fight this phase and wholly within 6 inches of an eligible friendly TRANSPORT.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "That INFANTRY unit embarks in the TRANSPORT.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Readied Brawlers",
+                "id": "7e2f-1026-f240-0402",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, just after a friendly WAGON completes a Normal move.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That WAGON.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Units embarked in the WAGON can make an Assault Disembark move.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Impending Krunch",
+                "id": "7e2f-1026-f240-0403",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Charge phase, after a friendly WAGON finishes a Charge move.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That WAGON.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Enemy units engaged with it make a Battle-shock roll, subtracting 1 from the roll.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ]
           },
@@ -79548,6 +80100,98 @@
                 "description": "In your Shooting phase, when a friendly **BREAKA BOYZ/FLASH GITZ/TANKBUSTAS** unit is **selected to shoot**, if any of the following apply, that unit's attacks can re-roll **hit rolls** of 1:\n- That unit is within range of an **objective**.\n- The target of that attack is within range of an **objective**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Drive-by Bustin'",
+                "id": "7e2f-1026-f240-0301",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when an ORKS TRANSPORT shoots.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly ORKS TRANSPORT.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Add 1 to Hit rolls with ranged weapons selected through Firing Deck.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Grab It",
+                "id": "7e2f-1026-f240-0302",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, after an unengaged BREAKA BOYZ, FLASH GITZ, or TANKBUSTAS unit shoots.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Make a Normal move up to 6 inches, ending within range of an objective. The unit cannot charge this turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Gun-crazy Show-offs",
+                "id": "7e2f-1026-f240-0303",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Shooting phase, after an enemy unit shoots.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly FLASH GITZ or TANKBUSTAS unit hit by its attacks.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Shoot normally, but only targeting that enemy unit.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -79809,6 +80453,98 @@
                 "id": "7974-f931-6a81-8b1f",
                 "description": "- Friendly **ORKS AIRCRAFT** do not count towards the combined points value of your **strategic reserves** units.\n- While a friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit is **riled up**, this unit's ranged attacks have +1 to **hit rolls**.",
                 "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Flyin' Headbutt",
+                "id": "7e2f-1026-f240-0601",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Any phase, when a friendly ORKS AIRCRAFT unit is destroyed, before Deadly Demise.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That destroyed ORKS AIRCRAFT.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Ignore Deadly Demise. Choose an enemy unit within 12 inches and roll eight D6; each 4+ inflicts 1 mortal wound. Remove the aircraft.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Long, Uncontrolled Bursts",
+                "id": "7e2f-1026-f240-0602",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when a friendly ORKS AIRCRAFT or DEFFKOPTAS unit shoots.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Ranged attacks against FLY units can re-roll Hit rolls.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Whirligig Evasion",
+                "id": "7e2f-1026-f240-0603",
+                "hidden": false,
+                "comment": "Source: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Movement phase, after an enemy unit completes a move.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One unengaged DEFFKOPTAS unit within 8 inches of that enemy.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Make a Normal move up to D6 inches, or up to 6 inches if riled up.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ]
           },
