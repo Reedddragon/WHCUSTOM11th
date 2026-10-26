@@ -78377,6 +78377,98 @@
                 "description": "- Friendly **BOYZ** units' melee attacks have **[SUSTAINED HITS 1]**.\n- If a friendly **ORKS INFANTRY** unit made a **charge move** this turn, that unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Unbridled Carnage",
+                "id": "7e2f-1026-f201-0101",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Fight phase, when a BOYZ unit that charged is selected to fight.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That BOYZ unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Add 1 to the Attacks characteristic of its melee weapons until the end of the phase.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Mob Mentality",
+                "id": "7e2f-1026-f201-0102",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Start of the Battle-shock step of your Command phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly ORKS INFANTRY unit with 13 or more models.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "One visible friendly ORKS unit within 12 inches automatically passes Battle-shock rolls this step.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "'Ere We Go",
+                "id": "7e2f-1026-f201-0103",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, when a friendly BOYZ or BEAST SNAGGA BOYZ unit is selected to move.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Add 2 to Advance rolls made for that unit.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78471,6 +78563,98 @@
                 "id": "2195-4d6e-a1f1-1b63",
                 "description": "Friendly **MEGANOBZ/NOBZ** units' melee attacks have **[SUSTAINED HITS 1]**.",
                 "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Too Arrogant to Die",
+                "id": "7e2f-1026-f201-0201",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Fight phase, when an enemy unit targets friendly NOBZ or MEGANOBZ.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That NOBZ or MEGANOBZ unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "For each destroyed model before this unit fights, roll a D6 (+1 if riled up). On a 4+, the model remains until it fights or the phase ends, then is removed.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Armed to Da Teef",
+                "id": "7e2f-1026-f201-0202",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase or the Fight phase, when friendly NOBZ or MEGANOBZ are selected to attack.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That NOBZ or MEGANOBZ unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Re-roll Hit rolls of 1 for attacks made by that unit; if riled up, re-roll all Hit rolls instead.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Hulking Brutes",
+                "id": "7e2f-1026-f201-0203",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP / 2 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Shooting phase, when a friendly NOBZ or MEGANOBZ unit is targeted.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That NOBZ or MEGANOBZ unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "For 1 CP, subtract 1 from Wound rolls for ranged attacks with Strength greater than this unit's Toughness. For 2 CP, subtract 1 from Wound rolls for all ranged attacks targeting this unit.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ]
           },
