@@ -24053,7 +24053,7 @@
                       },
                       {
                         "name": "Effect",
-                        "$text": "Your unit gains the MOBILE ability for that move or charge.",
+                        "$text": "Your unit gains the MOBILE ability.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
