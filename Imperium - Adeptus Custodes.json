@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 29,
+    "revision": 30,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1457,38 +1457,6 @@
             "field": "add-info",
             "type": "add",
             "value": "24-c886-e8ba-5a89"
-          },
-          {
-            "comment": "Elite Among Elite (Absolute Silence): +40 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 40,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -1580,55 +1548,6 @@
                 "name": "Description",
                 "$text": "This model can be attached to the following units: PROSECUTORS, VIGILATORS, WITCHSEEKERS",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Absolute Silence",
-            "id": "7e2f-1026-a200-0009",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+40 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select up to two friendly ADEPTUS CUSTODES CHARACTER models within 9\" of this model. Until the start of your next Command phase, those models have the Lone Operative ability.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -1751,6 +1670,161 @@
                 "import": true,
                 "targetId": "f842-6e90-bc5a-80f1",
                 "type": "selectionEntryGroup"
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0001",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0001",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "9e42-7207-9c30-6122",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Absolute Silence",
+                "id": "7e2f-1026-b200-0001",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 40
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "9e42-7207-9c30-6122",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "9e42-7207-9c30-6122",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Absolute Silence",
+                    "id": "7e2f-1026-a200-0009",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "This model has the Lone Operative ability. In your Command phase, select up to two friendly ADEPTUS CUSTODES CHARACTER models within 9\" of this model. Until the start of your next Command phase, those models have the Lone Operative ability.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
+                  }
+                ]
               }
             ]
           }
@@ -3594,38 +3668,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Blades): +35 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -3717,104 +3759,6 @@
                 "name": "Description",
                 "$text": "This unit is eligible to declare a charge in a turn in which it Advanced. You can re-roll Advance and Charge rolls made for this unit.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Golden Stance",
-            "id": "7e2f-1026-a100-0003",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, during the Fight phase, if it is within Engagement Range of one or more enemy units, this model is **readied**.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Golden Blades",
-            "id": "7e2f-1026-a200-0002",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, this model's Vaultswords have the following Attacks characteristics before applying other modifiers: Victus 9, Hurricanis 12 and Behemor 6.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -3954,6 +3898,16 @@
                                 "value": 1
                               },
                               {
+                                "childId": "7e2f-1026-b200-0002",
+                                "childName": "Golden Blades & Golden Stance",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "48b7-e713-d5b1-f11c",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
                                 "childId": "any",
                                 "field": "associations",
                                 "includeChildSelections": false,
@@ -4027,6 +3981,16 @@
                                 "field": "selections",
                                 "includeChildSelections": true,
                                 "scope": "force",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "7e2f-1026-b200-0002",
+                                "childName": "Golden Blades & Golden Stance",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "48b7-e713-d5b1-f11c",
                                 "shared": true,
                                 "type": "atLeast",
                                 "value": 1
@@ -4110,6 +4074,16 @@
                                 "value": 1
                               },
                               {
+                                "childId": "7e2f-1026-b200-0002",
+                                "childName": "Golden Blades & Golden Stance",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "48b7-e713-d5b1-f11c",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
                                 "childId": "any",
                                 "field": "associations",
                                 "includeChildSelections": false,
@@ -4149,6 +4123,176 @@
                         "type": "selectionEntryGroup"
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0002",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0002",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "48b7-e713-d5b1-f11c",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Blades & Golden Stance",
+                "id": "7e2f-1026-b200-0002",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 35
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "48b7-e713-d5b1-f11c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "48b7-e713-d5b1-f11c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Stance",
+                    "id": "7e2f-1026-a100-0003",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "During the Fight phase, if it is within Engagement Range of one or more enemy units, this model is **readied**.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
+                  },
+                  {
+                    "name": "Golden Blades",
+                    "id": "7e2f-1026-a200-0002",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "This model's Vaultswords have the following Attacks characteristics before applying other modifiers: Victus 9, Hurricanis 12 and Behemor 6.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -6165,38 +6309,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Null Void): +10 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -6283,55 +6395,6 @@
                 "name": "Description",
                 "$text": "When an enemy unit (excluding MONSTERS/VEHICLES) **engaged** with this unit makes a **fall-back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle-shocked**, -1 from those **hazard rolls**.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Null Void",
-            "id": "7e2f-1026-a200-0010",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+10 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your opponent's Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -6824,6 +6887,161 @@
                         ]
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0003",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0003",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "7099-71b-56e8-7191",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Null Void",
+                "id": "7e2f-1026-b200-0003",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7099-71b-56e8-7191",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7099-71b-56e8-7191",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Null Void",
+                    "id": "7e2f-1026-a200-0010",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "This model has the Lone Operative ability. In your opponent's Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -8105,38 +8323,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Blur): +45 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 45,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -8214,55 +8400,6 @@
                 "name": "Description",
                 "$text": "(Once per battle, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\"",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Golden Blur",
-            "id": "7e2f-1026-a200-0003",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+45 pts):** While this model is not leading a unit, once per battle, after this model has fought, it can make a Consolidation move of up to 6\" in any direction. If it ends that move within Engagement Range of a different enemy unit, this model can immediately fight again, but can only target enemy units it has not fought this phase.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -8686,6 +8823,161 @@
                         "type": "selectionEntryGroup"
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0004",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0004",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "b61c-b815-65c0-b1cc",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Blur",
+                "id": "7e2f-1026-b200-0004",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 45
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Blur",
+                    "id": "7e2f-1026-a200-0003",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Once per battle, after this model has fought, it can make a Consolidation move of up to 6\" in any direction. If it ends that move within Engagement Range of a different enemy unit, this model can immediately fight again, but can only target enemy units it has not fought this phase.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -9170,38 +9462,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Defence): +35 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -9279,55 +9539,6 @@
                 "name": "Description",
                 "$text": "(Once per battle, per army)\nIn your Movement phase, if this unit is **unengaged** and has not been **selected to move** this phase, you can use this ability. If you do, place this unit in **strategic reserves** and this unit must make an **ingress move** this phase.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Golden Defence",
-            "id": "7e2f-1026-a200-0004",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, once per battle, at the start of any phase, select one of the following effects to apply to this model until the end of that phase: subtract 1 from Hit and Wound rolls made for attacks that target it; or it has a 3+ invulnerable save.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -9416,6 +9627,161 @@
                     "import": true,
                     "targetId": "53df-e02f-5f3e-6a1d",
                     "type": "selectionEntry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0005",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0005",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "6319-eeba-b717-bd86",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Defence",
+                "id": "7e2f-1026-b200-0005",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 35
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Defence",
+                    "id": "7e2f-1026-a200-0004",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Once per battle, at the start of any phase, select one of the following effects to apply to this model until the end of that phase: subtract 1 from Hit and Wound rolls made for attacks that target it; or it has a 3+ invulnerable save.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -9890,38 +10256,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Lance): +30 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -9999,55 +10333,6 @@
                 "name": "Base",
                 "$text": "75x42mm Oval",
                 "typeId": "nr-base-size"
-              }
-            ]
-          },
-          {
-            "name": "Golden Lance",
-            "id": "7e2f-1026-a200-0005",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+30 pts):** While this model is not leading a unit, each time this model makes a Charge move, add 2 to the Attacks characteristic of its melee weapons until the end of the turn. If the unmodified Charge roll was 9+, add 1 to the Damage characteristic of those weapons until the end of the turn.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -10225,6 +10510,161 @@
                     "sortIndex": 1,
                     "targetId": "1576-174e-e5d6-82ea",
                     "type": "selectionEntry"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0006",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0006",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "58fa-4a25-a5af-1144",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Lance",
+                "id": "7e2f-1026-b200-0006",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "58fa-4a25-a5af-1144",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "58fa-4a25-a5af-1144",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Lance",
+                    "id": "7e2f-1026-a200-0005",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "each time this model makes a Charge move, add 2 to the Attacks characteristic of its melee weapons until the end of the turn. If the unmodified Charge roll was 9+, add 1 to the Damage characteristic of those weapons until the end of the turn.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -10638,55 +11078,6 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
-          },
-          {
-            "name": "God-Emperor's Golden Gift",
-            "id": "7e2f-1026-a200-0001",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+80 pts):** While this model is not leading a unit, it has the Feel No Pain 4+ ability. At the start of each battle round, when you select an ability for your army using **Gods Among Mortals**, select one additional, different ability from that rule for this model. Until the start of the next battle round, this model benefits from both abilities. In addition, when this model uses its **Moment Shackle** ability, both listed effects apply instead of one.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "selectionEntries": [
@@ -10878,17 +11269,30 @@
                 "type": "selectionEntryGroup"
               }
             ]
-          }
-        ],
-        "modifiers": [
+          },
           {
-            "comment": "Elite Among Elite (God-Emperor's Golden Gift): +80 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 80,
-            "conditionGroups": [
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0007",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
               {
-                "type": "and",
+                "id": "7e2f-1026-b300-0007",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
                 "conditions": [
                   {
                     "childId": "a36b-bb22-1a15-2a48",
@@ -10897,23 +11301,132 @@
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "atLeast",
+                    "type": "lessThan",
                     "value": 1
-                  },
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
                   {
                     "childId": "any",
                     "field": "associations",
                     "includeChildSelections": false,
-                    "scope": "self",
+                    "scope": "7d7c-c212-47a3-38e4",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "God-Emperor's Golden Gift",
+                "id": "7e2f-1026-b200-0007",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 80
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7d7c-c212-47a3-38e4",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7d7c-c212-47a3-38e4",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "God-Emperor's Golden Gift",
+                    "id": "7e2f-1026-a200-0001",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "it has the Feel No Pain 4+ ability. At the start of each battle round, when you select an ability for your army using **Gods Among Mortals**, select one additional, different ability from that rule for this model. Until the start of the next battle round, this model benefits from both abilities. In addition, when this model uses its **Moment Shackle** ability, both listed effects apply instead of one.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
             ]
           }
-        ]
+        ],
+        "modifiers": []
       },
       {
         "name": "Valerian [Legends]",
@@ -11208,38 +11721,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Gun): +15 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -11331,55 +11812,6 @@
                 "name": "Description",
                 "$text": "(Once per battle, per unit)\nAfter making a hit roll, wound roll or save roll for this model, you can change the result to an unmodified 6.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Golden Gun",
-            "id": "7e2f-1026-a200-0006",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+15 pts):** While this model is not leading a unit, ranged attacks made by this model with Gnosis have the Lethal Hits ability.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  }
-                ]
               }
             ]
           }
@@ -11532,6 +11964,161 @@
                 "import": true,
                 "targetId": "f842-6e90-bc5a-80f1",
                 "type": "selectionEntryGroup"
+              }
+            ]
+          },
+          {
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0008",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
+              {
+                "id": "7e2f-1026-b300-0008",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "8103-2e01-5d6a-b761",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Gun",
+                "id": "7e2f-1026-b200-0008",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "8103-2e01-5d6a-b761",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "8103-2e01-5d6a-b761",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Gun",
+                    "id": "7e2f-1026-a200-0006",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "ranged attacks made by this model with Gnosis have the Lethal Hits ability.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
+                  }
+                ]
               }
             ]
           }
@@ -24565,7 +25152,7 @@
                   {
                     "name": "Elite Among Elite",
                     "id": "7e2f-1026-a100-0002",
-                    "description": "While an ADEPTUS CUSTODES CHARACTER model from your army is not leading a unit, its corresponding **Elite Among Elite** ability is active. While it is leading a unit, that ability has no effect. The model retains its Leader ability.",
+                    "description": "Eligible ADEPTUS CUSTODES CHARACTER models in this Detachment can take their listed **Elite Among Elite** upgrades at the points cost shown on each upgrade. A model only benefits from its selected Elite Among Elite abilities while it is not leading a unit. These upgrades do not replace the model's Leader ability.",
                     "hidden": false
                   }
                 ]
@@ -28040,38 +28627,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Guardian): +25 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 25,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -28169,18 +28724,25 @@
                 "typeId": "nr-base-size"
               }
             ]
-          },
+          }
+        ],
+        "selectionEntryGroups": [
           {
-            "name": "Golden Guardian",
-            "id": "7e2f-1026-a200-0007",
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0009",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
               {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+25 pts):** While this model is not leading a unit, while this model is within range of an objective marker, each time it makes an attack, re-roll a Wound roll of 1. Once per phase, you can re-roll one failed saving throw made for this model.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "id": "7e2f-1026-b300-0009",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ],
             "modifiers": [
@@ -28210,10 +28772,111 @@
                     "childId": "any",
                     "field": "associations",
                     "includeChildSelections": false,
-                    "scope": "self",
+                    "scope": "de0b-37e9-b9f5-d3a6",
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Guardian",
+                "id": "7e2f-1026-b200-0009",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "de0b-37e9-b9f5-d3a6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "de0b-37e9-b9f5-d3a6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Guardian",
+                    "id": "7e2f-1026-a200-0007",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "While this model is within range of an objective marker, each time it makes an attack, re-roll a Wound roll of 1. Once per phase, you can re-roll one failed saving throw made for this model.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -28755,38 +29418,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Void Null): +10 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -28861,18 +29492,25 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
-          },
+          }
+        ],
+        "selectionEntryGroups": [
           {
-            "name": "Void Null",
-            "id": "7e2f-1026-a200-0011",
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0010",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
               {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+10 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "id": "7e2f-1026-b300-0010",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ],
             "modifiers": [
@@ -28902,10 +29540,111 @@
                     "childId": "any",
                     "field": "associations",
                     "includeChildSelections": false,
-                    "scope": "self",
+                    "scope": "e58d-17d4-71f8-4137",
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Void Null",
+                "id": "7e2f-1026-b200-0010",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "e58d-17d4-71f8-4137",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "e58d-17d4-71f8-4137",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Void Null",
+                    "id": "7e2f-1026-a200-0011",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "This model has the Lone Operative ability. In your Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
@@ -29453,38 +30192,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Elite Among Elite (Golden Charge): +25 pts when unled in Auric Champions",
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 25,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "a36b-bb22-1a15-2a48",
-                    "childName": "Auric Champions",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "force",
-                    "shared": true,
-                    "type": "atLeast",
-                    "value": 1
-                  },
-                  {
-                    "childId": "any",
-                    "field": "associations",
-                    "includeChildSelections": false,
-                    "scope": "self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -29564,18 +30271,25 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
-          },
+          }
+        ],
+        "selectionEntryGroups": [
           {
-            "name": "Golden Charge",
-            "id": "7e2f-1026-a200-0008",
+            "name": "Elite Among Elite",
+            "id": "7e2f-1026-b100-0011",
             "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
+            "import": true,
+            "sortIndex": 4,
+            "constraints": [
               {
-                "name": "Description",
-                "$text": "**Elite Among Elite (+25 pts):** While this model is not leading a unit, add 2 to Charge rolls made for this model. Once per battle, when this model makes a Charge roll, you can add 5 to that roll instead of 2. This bonus is not cumulative with other bonuses to Charge rolls.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "id": "7e2f-1026-b300-0011",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ],
             "modifiers": [
@@ -29605,10 +30319,111 @@
                     "childId": "any",
                     "field": "associations",
                     "includeChildSelections": false,
-                    "scope": "self",
+                    "scope": "c11a-f70a-2877-ed27",
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Golden Charge",
+                "id": "7e2f-1026-b200-0011",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "c11a-f70a-2877-ed27",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "51b2-306e-1021-d207",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "c11a-f70a-2877-ed27",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Golden Charge",
+                    "id": "7e2f-1026-a200-0008",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "add 2 to Charge rolls made for this model. Once per battle, when this model makes a Charge roll, you can add 5 to that roll instead of 2. This bonus is not cumulative with other bonuses to Charge rolls.",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ],
+                    "modifiers": []
                   }
                 ]
               }
