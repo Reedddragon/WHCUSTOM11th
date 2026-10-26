@@ -3602,7 +3602,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This unit can:\n- Re-roll **advance rolls**.\n- Re-roll **charge rolls**.",
+                "$text": "This unit is eligible to declare a charge in a turn in which it Advanced. You can re-roll Advance and Charge rolls made for this unit.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
