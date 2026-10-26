@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 30,
+    "revision": 31,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1689,6 +1689,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0001",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -1722,6 +1732,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0001",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "9e42-7207-9c30-6122",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -1826,7 +1868,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0001"
           }
         ]
       },
@@ -4144,6 +4187,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0002",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -4177,6 +4230,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0002",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "48b7-e713-d5b1-f11c",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -4296,7 +4381,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0002"
           }
         ]
       },
@@ -6908,6 +6994,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0003",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -6941,6 +7037,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0003",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7099-71b-56e8-7191",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -7045,7 +7173,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0003"
           }
         ]
       },
@@ -8844,6 +8973,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0004",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -8877,6 +9016,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0004",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -8981,7 +9152,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0004"
           }
         ]
       },
@@ -9648,6 +9820,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0005",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -9681,6 +9863,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0005",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -9785,7 +9999,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0005"
           }
         ]
       },
@@ -10531,6 +10746,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0006",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -10564,6 +10789,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0006",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "58fa-4a25-a5af-1144",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -10668,7 +10925,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0006"
           }
         ]
       },
@@ -11286,6 +11544,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0007",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -11319,6 +11587,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0007",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "7d7c-c212-47a3-38e4",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -11423,7 +11723,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0007"
           }
         ],
         "modifiers": []
@@ -11983,6 +12284,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0008",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -12016,6 +12327,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0008",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "8103-2e01-5d6a-b761",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -12120,7 +12463,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0008"
           }
         ]
       },
@@ -28743,6 +29087,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0009",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -28776,6 +29130,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0009",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "de0b-37e9-b9f5-d3a6",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -28880,7 +29266,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0009"
           }
         ]
       },
@@ -29511,6 +29898,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0010",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -29544,6 +29941,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0010",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "e58d-17d4-71f8-4137",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -29648,7 +30077,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0010"
           }
         ]
       },
@@ -30290,6 +30720,16 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
+              },
+              {
+                "id": "7e2f-1026-b400-0011",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
               }
             ],
             "modifiers": [
@@ -30323,6 +30763,38 @@
                     "shared": true,
                     "type": "atLeast",
                     "value": 1
+                  }
+                ]
+              },
+              {
+                "comment": "Automatically require this Elite Among Elite upgrade only in Auric Champions when not leading a unit.",
+                "field": "7e2f-1026-b400-0011",
+                "type": "set",
+                "value": 1,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "a36b-bb22-1a15-2a48",
+                        "childName": "Auric Champions",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "any",
+                        "field": "associations",
+                        "includeChildSelections": false,
+                        "scope": "c11a-f70a-2877-ed27",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -30427,7 +30899,8 @@
                   }
                 ]
               }
-            ]
+            ],
+            "defaultSelectionEntryId": "7e2f-1026-b200-0011"
           }
         ]
       },
