@@ -4,7 +4,7 @@
     "id": "sys-352e-adc2-7639-d610",
     "battleScribeVersion": 2.03,
     "readme": "",
-    "revision": 18,
+    "revision": 19,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -1598,6 +1598,23 @@
             "value": 4,
             "conditions": [
               {
+                "childId": "7b62-2500-48df-9a51",
+                "childName": "3. Grand Strike (2500 Point limit; 4 DP)",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "95c5-effd-74f1-c8f4",
+            "type": "set",
+            "value": 4,
+            "conditions": [
+              {
                 "childId": "4204-82d0-908c-a62a",
                 "childName": "3. Onslaught (3000 Point limit)",
                 "field": "selections",
@@ -1636,6 +1653,38 @@
                     "shared": true,
                     "type": "equalTo",
                     "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "a00c-6979-992f-046b",
+            "type": "set",
+            "value": 2500,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "c6ea-562c-984f-6c25",
+                    "childName": "Override points limit?",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  },
+                  {
+                    "childId": "7b62-2500-48df-9a51",
+                    "childName": "3. Grand Strike (2500 Point limit; 4 DP)",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               }
@@ -2853,6 +2902,23 @@
                   {
                     "field": "defaultAmount",
                     "type": "set",
+                    "value": "2500",
+                    "conditions": [
+                      {
+                        "childId": "7b62-2500-48df-9a51",
+                        "childName": "3. Grand Strike (2500 Point limit; 4 DP)",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "564e-fbc6-5266-3ea4",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "defaultAmount",
+                    "type": "set",
                     "value": "3000",
                     "conditions": [
                       {
@@ -2932,6 +2998,16 @@
                 "import": true,
                 "type": "upgrade",
                 "constraints": [{"id": "1eba-8598-9e8b-7a6e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}]
+              },
+              {
+                "name": "3. Grand Strike (2500 Point limit; 4 DP)",
+                "id": "7b62-2500-48df-9a51",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "7b62-2500-48df-9a52", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}]
               },
               {
