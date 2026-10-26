@@ -3606,6 +3606,55 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Golden Stance",
+            "id": "7e2f-1026-a100-0003",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite:** While this model is not leading a unit, during the Fight phase, if it is within Engagement Range of one or more enemy units, this model is **readied**.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -23703,17 +23752,46 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+                        "$text": "Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army is destroyed.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
                         "name": "Target",
-                        "$text": "That friendly ADEPTUS CUSTODES unit.",
+                        "$text": "That ADEPTUS CUSTODES CHARACTER model.",
                         "typeId": "7e2f-1026-f101-0003"
                       },
                       {
                         "name": "Effect",
-                        "$text": "Until the end of the phase, each time a model in your unit is destroyed before it has fought, roll one D6, adding 1 if it is a CHARACTER model. On a 3+, do not remove that model until it has fought or the phase ends.",
+                        "$text": "Roll one D6. On a 3+, set that model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with half its Starting Wounds remaining (rounding up).\n\n**RESTRICTIONS:** You can only use this Stratagem once per battle for each model.",
+                        "typeId": "7e2f-1026-f101-0004"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Assemblage of Might",
+                    "id": "7e2f-1025-a01a-0003",
+                    "hidden": false,
+                    "typeId": "7e2f-1026-f100-0001",
+                    "typeName": "Detachment Stratagems",
+                    "characteristics": [
+                      {
+                        "name": "CP",
+                        "$text": "1 CP",
+                        "typeId": "7e2f-1026-f101-0001"
+                      },
+                      {
+                        "name": "When",
+                        "$text": "Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.",
+                        "typeId": "7e2f-1026-f101-0002"
+                      },
+                      {
+                        "name": "Target",
+                        "$text": "That ADEPTUS CUSTODES CHARACTER model.",
+                        "typeId": "7e2f-1026-f101-0003"
+                      },
+                      {
+                        "name": "Effect",
+                        "$text": "Select one enemy unit. Until the end of the phase, each time that CHARACTER model makes an attack that targets that enemy unit, add 1 to the Wound roll.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
@@ -23721,9 +23799,15 @@
                 ],
                 "rules": [
                   {
-                    "name": "Assemblage of Might",
-                    "id": "9eb2-2cdd-3df7-a94e",
-                    "description": "In your Command phase, you can select one enemy unit to be a **dreadful foe** unit until the start of your next Command phase. Friendly ^^**Adeptus Custodes Character** models' attacks that target a **dreadful foe** unit have +1 to **wound rolls**.",
+                    "name": "Golden Wrath",
+                    "id": "7e2f-1026-a100-0001",
+                    "description": "Each time an ADEPTUS CUSTODES CHARACTER model from your army fights, if it made a Charge move this turn, add 2 to the Strength and Attacks characteristics of melee weapons equipped by that model until the end of the phase.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Elite Among Elite",
+                    "id": "7e2f-1026-a100-0002",
+                    "description": "While an ADEPTUS CUSTODES CHARACTER model from your army is not leading a unit, its corresponding **Elite Among Elite** ability is active. While it is leading a unit, that ability has no effect. The model retains its Leader ability.",
                     "hidden": false
                   }
                 ]
@@ -26695,16 +26779,6 @@
                     "type": "and",
                     "conditions": [
                       {
-                        "childId": "5386-42fc-f4d0-7d64",
-                        "childName": "Allarus Custodians",
-                        "field": "selections",
-                        "queryFromSelf": false,
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
                         "childId": "4d7f-9fc0-6ee6-4abc",
                         "childName": "Allarus Terminator Armour",
                         "field": "selections",
@@ -26713,6 +26787,33 @@
                         "shared": true,
                         "type": "atLeast",
                         "value": 1
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "5386-42fc-f4d0-7d64",
+                            "childName": "Allarus Custodians",
+                            "field": "selections",
+                            "queryFromSelf": false,
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "ae2d-485c-9435-b04d",
+                            "childName": "Aquilon Terminators with Solarite Power Talons",
+                            "field": "selections",
+                            "queryFromSelf": false,
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   }
@@ -41701,7 +41802,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "This model can be attached to the following units: ^^**Allarus Custodians**^^",
+                    "$text": "This model can be attached to the following units: ^^**Allarus Custodians, Aquilon Custodians**^^",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
