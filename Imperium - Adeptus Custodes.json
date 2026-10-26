@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 28,
+    "revision": 29,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -3932,6 +3932,40 @@
                         "$text": "Precision",
                         "typeId": "893f-9000-ccf7-648e"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Golden Blades: enhanced attacks in Auric Champions while unattached",
+                        "field": "2337-daa1-6682-b110",
+                        "type": "set",
+                        "value": "9",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "a36b-bb22-1a15-2a48",
+                                "childName": "Auric Champions",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "any",
+                                "field": "associations",
+                                "includeChildSelections": false,
+                                "scope": "48b7-e713-d5b1-f11c",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -3976,6 +4010,40 @@
                         "$text": "Cleave 1, Sustained Hits 1",
                         "typeId": "893f-9000-ccf7-648e"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Golden Blades: enhanced attacks in Auric Champions while unattached",
+                        "field": "2337-daa1-6682-b110",
+                        "type": "set",
+                        "value": "12",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "a36b-bb22-1a15-2a48",
+                                "childName": "Auric Champions",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "any",
+                                "field": "associations",
+                                "includeChildSelections": false,
+                                "scope": "48b7-e713-d5b1-f11c",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     ]
                   },
                   {
@@ -4019,6 +4087,40 @@
                         "name": "Keywords",
                         "$text": "Devastating Wounds",
                         "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Golden Blades: enhanced attacks in Auric Champions while unattached",
+                        "field": "2337-daa1-6682-b110",
+                        "type": "set",
+                        "value": "6",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "a36b-bb22-1a15-2a48",
+                                "childName": "Auric Champions",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "any",
+                                "field": "associations",
+                                "includeChildSelections": false,
+                                "scope": "48b7-e713-d5b1-f11c",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
@@ -6065,10 +6167,10 @@
             ]
           },
           {
-            "comment": "Elite Among Elite (Null Void): +20 pts when unled in Auric Champions",
+            "comment": "Elite Among Elite (Null Void): +10 pts when unled in Auric Champions",
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 10,
             "conditionGroups": [
               {
                 "type": "and",
@@ -6193,7 +6295,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "**Elite Among Elite (+20 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your opponent's Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                "$text": "**Elite Among Elite (+10 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your opponent's Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -10546,7 +10648,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "**Elite Among Elite (+80 pts):** While this model is not leading a unit, this model has the Feel No Pain 4+ ability. When this model uses its Moment Shackle ability, both listed effects apply instead of one.",
+                "$text": "**Elite Among Elite (+80 pts):** While this model is not leading a unit, it has the Feel No Pain 4+ ability. At the start of each battle round, when you select an ability for your army using **Gods Among Mortals**, select one additional, different ability from that rule for this model. Until the start of the next battle round, this model benefits from both abilities. In addition, when this model uses its **Moment Shackle** ability, both listed effects apply instead of one.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -24449,9 +24551,15 @@
                 ],
                 "rules": [
                   {
+                    "name": "Gods Among Mortals",
+                    "id": "7e2f-1026-a100-0004",
+                    "description": "At the start of each battle round, select one of the following abilities. Until the start of the next battle round, friendly **ADEPTUS CUSTODES CHARACTER** models from your army benefit from that ability:\n\n**Tactical Adaptation:** This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. You can re-roll Advance and Charge rolls made for this model.\n\n**Golden Wrath:** This model benefits from the Golden Wrath rule.\n\n**Immortal Will:** This model has the Feel No Pain 5+ ability. Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model's Toughness characteristic, subtract 1 from the Wound roll.\n\nSelect only one ability for your army each battle round, unless a rule specifies otherwise.",
+                    "hidden": false
+                  },
+                  {
                     "name": "Golden Wrath",
                     "id": "7e2f-1026-a100-0001",
-                    "description": "Each time an ADEPTUS CUSTODES CHARACTER model from your army fights, if it made a Charge move this turn, add 2 to the Strength and Attacks characteristics of melee weapons equipped by that model until the end of the phase.",
+                    "description": "While **Golden Wrath** is active, each time a friendly ADEPTUS CUSTODES CHARACTER model fights, if it made a Charge move this turn, add 2 to the Strength and Attacks characteristics of melee weapons equipped by that model until the end of the phase.",
                     "hidden": false
                   },
                   {
@@ -28649,10 +28757,10 @@
             ]
           },
           {
-            "comment": "Elite Among Elite (Void Null): +20 pts when unled in Auric Champions",
+            "comment": "Elite Among Elite (Void Null): +10 pts when unled in Auric Champions",
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 10,
             "conditionGroups": [
               {
                 "type": "and",
@@ -28763,7 +28871,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "**Elite Among Elite (+20 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                "$text": "**Elite Among Elite (+10 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
