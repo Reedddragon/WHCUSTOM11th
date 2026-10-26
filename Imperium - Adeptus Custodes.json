@@ -1457,6 +1457,38 @@
             "field": "add-info",
             "type": "add",
             "value": "24-c886-e8ba-5a89"
+          },
+          {
+            "comment": "Elite Among Elite (Absolute Silence): +40 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 40,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -1548,6 +1580,55 @@
                 "name": "Description",
                 "$text": "This model can be attached to the following units: PROSECUTORS, VIGILATORS, WITCHSEEKERS",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Absolute Silence",
+            "id": "7e2f-1026-a200-0009",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+40 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select up to two friendly ADEPTUS CUSTODES CHARACTER models within 9\" of this model. Until the start of your next Command phase, those models have the Lone Operative ability.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -3513,6 +3594,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Blades): +35 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 35,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -3616,7 +3729,56 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "**Elite Among Elite:** While this model is not leading a unit, during the Fight phase, if it is within Engagement Range of one or more enemy units, this model is **readied**.",
+                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, during the Fight phase, if it is within Engagement Range of one or more enemy units, this model is **readied**.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Golden Blades",
+            "id": "7e2f-1026-a200-0002",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, this model's Vaultswords have the following Attacks characteristics before applying other modifiers: Victus 9, Hurricanis 12 and Behemor 6.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
@@ -5901,6 +6063,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Null Void): +20 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -5987,6 +6181,55 @@
                 "name": "Description",
                 "$text": "When an enemy unit (excluding MONSTERS/VEHICLES) **engaged** with this unit makes a **fall-back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle-shocked**, -1 from those **hazard rolls**.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Null Void",
+            "id": "7e2f-1026-a200-0010",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+20 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your opponent's Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -7760,6 +8003,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Blur): +45 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 45,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -7837,6 +8112,55 @@
                 "name": "Description",
                 "$text": "(Once per battle, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\"",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Golden Blur",
+            "id": "7e2f-1026-a200-0003",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+45 pts):** While this model is not leading a unit, once per battle, after this model has fought, it can make a Consolidation move of up to 6\" in any direction. If it ends that move within Engagement Range of a different enemy unit, this model can immediately fight again, but can only target enemy units it has not fought this phase.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -8744,6 +9068,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Defence): +35 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 35,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -8821,6 +9177,55 @@
                 "name": "Description",
                 "$text": "(Once per battle, per army)\nIn your Movement phase, if this unit is **unengaged** and has not been **selected to move** this phase, you can use this ability. If you do, place this unit in **strategic reserves** and this unit must make an **ingress move** this phase.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Golden Defence",
+            "id": "7e2f-1026-a200-0004",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+35 pts):** While this model is not leading a unit, once per battle, at the start of any phase, select one of the following effects to apply to this model until the end of that phase: subtract 1 from Hit and Wound rolls made for attacks that target it; or it has a 3+ invulnerable save.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -9383,6 +9788,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Lance): +30 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 30,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -9460,6 +9897,55 @@
                 "name": "Base",
                 "$text": "75x42mm Oval",
                 "typeId": "nr-base-size"
+              }
+            ]
+          },
+          {
+            "name": "Golden Lance",
+            "id": "7e2f-1026-a200-0005",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+30 pts):** While this model is not leading a unit, each time this model makes a Charge move, add 2 to the Attacks characteristic of its melee weapons until the end of the turn. If the unmodified Charge roll was 9+, add 1 to the Damage characteristic of those weapons until the end of the turn.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -10050,6 +10536,55 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "God-Emperor's Golden Gift",
+            "id": "7e2f-1026-a200-0001",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+80 pts):** While this model is not leading a unit, this model has the Feel No Pain 4+ ability. When this model uses its Moment Shackle ability, both listed effects apply instead of one.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -10239,6 +10774,40 @@
                 "import": true,
                 "targetId": "f842-6e90-bc5a-80f1",
                 "type": "selectionEntryGroup"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Elite Among Elite (God-Emperor's Golden Gift): +80 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 80,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -10537,6 +11106,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Gun): +15 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 15,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -10628,6 +11229,55 @@
                 "name": "Description",
                 "$text": "(Once per battle, per unit)\nAfter making a hit roll, wound roll or save roll for this model, you can change the result to an unmodified 6.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Golden Gun",
+            "id": "7e2f-1026-a200-0006",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+15 pts):** While this model is not leading a unit, ranged attacks made by this model with Gnosis have the Lethal Hits ability.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -27282,6 +27932,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Guardian): +25 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -27377,6 +28059,55 @@
                 "name": "Base",
                 "$text": "40mm",
                 "typeId": "nr-base-size"
+              }
+            ]
+          },
+          {
+            "name": "Golden Guardian",
+            "id": "7e2f-1026-a200-0007",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+25 pts):** While this model is not leading a unit, while this model is within range of an objective marker, each time it makes an attack, re-roll a Wound roll of 1. Once per phase, you can re-roll one failed saving throw made for this model.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -27916,6 +28647,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Void Null): +20 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 20,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -27988,6 +28751,55 @@
                 "name": "Description",
                 "$text": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Void Null",
+            "id": "7e2f-1026-a200-0011",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+20 pts):** While this model is not leading a unit, this model has the Lone Operative ability. In your Command phase, select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 2 from the result.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -28533,6 +29345,38 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Elite Among Elite (Golden Charge): +25 pts when unled in Auric Champions",
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 25,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -28610,6 +29454,55 @@
                 "name": "Description",
                 "$text": "Each time this model makes an attack that targets a ^^**Monster**^^ or ^^**Vehicle**^^ unit, you can re-roll the Wound roll.",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Golden Charge",
+            "id": "7e2f-1026-a200-0008",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Elite Among Elite (+25 pts):** While this model is not leading a unit, add 2 to Charge rolls made for this model. Once per battle, when this model makes a Charge roll, you can add 5 to that roll instead of 2. This bonus is not cumulative with other bonuses to Charge rolls.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a36b-bb22-1a15-2a48",
+                    "childName": "Auric Champions",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "any",
+                    "field": "associations",
+                    "includeChildSelections": false,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
