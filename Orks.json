@@ -79174,6 +79174,98 @@
                 "description": "- Friendly **GRETCHIN** units have **BATTLELINE**.\n- When a friendly **GRETCHIN** unit is selected to make an **advance/fall-back move**, that move does not prevent this unit from being **eligible to start an action**.",
                 "hidden": false
               }
+            ],
+            "profiles": [
+              {
+                "name": "Infested War Zone",
+                "id": "7e2f-1026-f202-0101",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "2 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Any phase, just after an enemy unit has attacked.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "A friendly GRETCHIN unit just destroyed.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Add an identical full-strength GRETCHIN unit to Strategic Reserves, even though the targeted unit was destroyed.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Scarper!",
+                "id": "7e2f-1026-f202-0102",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Movement phase, after an enemy ends a move within 8 inches of unengaged GRETCHIN.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly GRETCHIN unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Make a Normal move of up to D6 inches, or up to 6 inches if Attached.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Grot Shields",
+                "id": "7e2f-1026-f202-0103",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Opponent's Shooting phase, when an enemy targets friendly non-GRETCHIN ORKS INFANTRY.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "A GRETCHIN unit within 3 inches of the target.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Each successful hit instead ends its attack sequence and inflicts 1 mortal wound on the GRETCHIN unit, if it has models remaining.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -79268,6 +79360,98 @@
                 "id": "c7d1-e5c7-5a19-ce4c",
                 "description": "Friendly **ORKS INFANTRY** units’ ranged attacks have **[ASSAULT]**.\n- While this unit is **riled up**, +3\" **R**.",
                 "hidden": false
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Kustom Dakka",
+                "id": "7e2f-1026-f202-0201",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when ORKS INFANTRY are selected to shoot.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly ORKS INFANTRY unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Add 1 to Wound rolls against units other than MONSTERS and VEHICLES.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Glowin' Dakka",
+                "id": "7e2f-1026-f202-0202",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when ORKS INFANTRY are selected to shoot.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly ORKS INFANTRY unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Improve ranged Armour Penetration by 1 against units within 9 inches.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Never Enough Dakka",
+                "id": "7e2f-1026-f202-0203",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/ (paraphrased)",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Shooting phase, when ORKS INFANTRY are selected to shoot.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That friendly ORKS INFANTRY unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Ranged attacks gain [SUSTAINED HITS 1] until the end of the phase.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ]
           },
