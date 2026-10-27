@@ -6871,6 +6871,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Trazyn's Collection",
+            "id": "798d-bebb-2532-f066",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If your army includes this model, you can include up to 200 points of units from any faction in Strategic Reserves. These units do not need the NECRONS keyword, but gain the TRAZYN'S COLLECTION keyword. In the Reinforcements step of your Movement phase, one such unit can be set up wholly within 6\" of this model, following the normal restrictions for setting up units. These units cannot use their original faction or detachment rules; they retain their datasheet abilities.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntries": [
