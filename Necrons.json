@@ -6514,49 +6514,6 @@
             "profiles": [
               {
                 "name": "Staff of light",
-                "id": "cecc-a1d5-2c1-7e0b",
-                "hidden": false,
-                "typeId": "f77d-b953-8fa4-b762",
-                "typeName": "Ranged Weapons",
-                "characteristics": [
-                  {
-                    "name": "Range",
-                    "$text": "18\"",
-                    "typeId": "9896-9419-16a1-92fc"
-                  },
-                  {
-                    "name": "A",
-                    "$text": "3",
-                    "typeId": "3bb-c35f-f54-fb08"
-                  },
-                  {
-                    "name": "BS",
-                    "$text": "3+",
-                    "typeId": "94d-8a98-cf90-183e"
-                  },
-                  {
-                    "name": "S",
-                    "$text": "5",
-                    "typeId": "2229-f494-25db-c5d3"
-                  },
-                  {
-                    "name": "AP",
-                    "$text": "-2",
-                    "typeId": "9ead-8a10-520-de15"
-                  },
-                  {
-                    "name": "D",
-                    "$text": "1",
-                    "typeId": "a354-c1c8-a745-f9e3"
-                  },
-                  {
-                    "name": "Keywords",
-                    "typeId": "7f1b-8591-2fcf-d01c"
-                  }
-                ]
-              },
-              {
-                "name": "Staff of light",
                 "id": "679a-7b7b-e0e8-1de5",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",
@@ -6594,7 +6551,96 @@
                   },
                   {
                     "name": "Keywords",
+                    "$text": "-",
                     "typeId": "893f-9000-ccf7-648e"
+                  }
+                ]
+              },
+              {
+                "name": "➤ Staff of light - Dispersed Beam",
+                "id": "bc4d-0aa4-8249-b859",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "36\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "6",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "6",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-2",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "2",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Lethal Hits",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
+              },
+              {
+                "name": "➤ Staff of light - Focused Beam",
+                "id": "6255-c6fb-dd4e-969e",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "$text": "48\"",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "2",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2+",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "14",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "name": "AP",
+                    "$text": "-4",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "name": "D",
+                    "$text": "6",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "$text": "Lethal Hits",
+                    "typeId": "7f1b-8591-2fcf-d01c"
                   }
                 ]
               }
@@ -9241,49 +9287,6 @@
                     "profiles": [
                       {
                         "name": "Staff of light",
-                        "id": "3bb9-cfd3-a1f4-1d39",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "18\"",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "3",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "name": "BS",
-                            "$text": "2+",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "5",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "1",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Staff of light",
                         "id": "7403-f6-6b4-944f",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -9321,7 +9324,96 @@
                           },
                           {
                             "name": "Keywords",
+                            "$text": "-",
                             "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "id": "c969-c1e9-00de-7310",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "id": "3bb9-cfd3-a1f4-1d39",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "14",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-4",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
                       }
@@ -10146,49 +10238,6 @@
                     "profiles": [
                       {
                         "name": "Staff of light",
-                        "id": "6094-47a9-660d-d482",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "18\"",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "3",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "name": "BS",
-                            "$text": "3+",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "5",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "1",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Staff of light",
                         "id": "8101-4101-e60c-f5ce",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -10226,7 +10275,96 @@
                           },
                           {
                             "name": "Keywords",
+                            "$text": "-",
                             "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "id": "916f-3e9f-b458-8a14",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "id": "6744-1848-d46f-7787",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "14",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-4",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
                       }
@@ -11090,49 +11228,6 @@
                     "profiles": [
                       {
                         "name": "Staff of light",
-                        "id": "4a5a-85ae-3c45-8954",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "18\"",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "3",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "name": "BS",
-                            "$text": "2+",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "5",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "1",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Staff of light",
                         "id": "9844-84db-6dcd-7d05",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -11170,7 +11265,96 @@
                           },
                           {
                             "name": "Keywords",
+                            "$text": "-",
                             "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "id": "8c86-70c9-1bb0-6e82",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "id": "3d2c-6df3-e3eb-a9e5",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "14",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-4",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
                       }
@@ -12116,49 +12300,6 @@
                     "profiles": [
                       {
                         "name": "Staff of light",
-                        "id": "20d7-fc7b-d23a-1537",
-                        "hidden": false,
-                        "typeId": "f77d-b953-8fa4-b762",
-                        "typeName": "Ranged Weapons",
-                        "characteristics": [
-                          {
-                            "name": "Range",
-                            "$text": "18\"",
-                            "typeId": "9896-9419-16a1-92fc"
-                          },
-                          {
-                            "name": "A",
-                            "$text": "3",
-                            "typeId": "3bb-c35f-f54-fb08"
-                          },
-                          {
-                            "name": "BS",
-                            "$text": "2+",
-                            "typeId": "94d-8a98-cf90-183e"
-                          },
-                          {
-                            "name": "S",
-                            "$text": "5",
-                            "typeId": "2229-f494-25db-c5d3"
-                          },
-                          {
-                            "name": "AP",
-                            "$text": "-2",
-                            "typeId": "9ead-8a10-520-de15"
-                          },
-                          {
-                            "name": "D",
-                            "$text": "1",
-                            "typeId": "a354-c1c8-a745-f9e3"
-                          },
-                          {
-                            "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Staff of light",
                         "id": "8f1e-30b0-111-bccf",
                         "hidden": false,
                         "typeId": "8a40-4aaa-c780-9046",
@@ -12196,6 +12337,7 @@
                           },
                           {
                             "name": "Keywords",
+                            "$text": "-",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -12215,6 +12357,94 @@
                                 "value": 1
                               }
                             ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Dispersed Beam",
+                        "id": "da73-6790-690f-bfa4",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Staff of light - Focused Beam",
+                        "id": "1fd8-8adc-329d-648e",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "2",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "2+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "14",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-4",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Lethal Hits",
+                            "typeId": "7f1b-8591-2fcf-d01c"
                           }
                         ]
                       }
@@ -12373,6 +12603,83 @@
                 "name": "Keywords",
                 "$text": "One Shot",
                 "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Agnes Tachyon Eternal Arrow",
+            "id": "0b0e-6803-4196-1cf3",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "b0c1-a2f4-2c62-ff59",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 0
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Agnes Tachyon Eternal Arrow",
+                "id": "d6f0-f5b8-7e3e-fdfd",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Remove One shot Limitation.",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
               }
             ]
           }
@@ -13055,49 +13362,6 @@
                 "profiles": [
                   {
                     "name": "Staff of light",
-                    "id": "542b-4858-7bca-539e",
-                    "hidden": false,
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "$text": "18\"",
-                        "typeId": "9896-9419-16a1-92fc"
-                      },
-                      {
-                        "name": "A",
-                        "$text": "3",
-                        "typeId": "3bb-c35f-f54-fb08"
-                      },
-                      {
-                        "name": "BS",
-                        "$text": "4+",
-                        "typeId": "94d-8a98-cf90-183e"
-                      },
-                      {
-                        "name": "S",
-                        "$text": "5",
-                        "typeId": "2229-f494-25db-c5d3"
-                      },
-                      {
-                        "name": "AP",
-                        "$text": "-2",
-                        "typeId": "9ead-8a10-520-de15"
-                      },
-                      {
-                        "name": "D",
-                        "$text": "1",
-                        "typeId": "a354-c1c8-a745-f9e3"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Staff of light",
                     "id": "b711-1774-efa4-2a82",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -13135,7 +13399,96 @@
                       },
                       {
                         "name": "Keywords",
+                        "$text": "-",
                         "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Staff of light - Dispersed Beam",
+                    "id": "4464-5bfc-f1e3-8fe3",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "6",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "2+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "6",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Lethal Hits",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Staff of light - Focused Beam",
+                    "id": "d06b-3900-5e5a-aaf5",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "48\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "2",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "2+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "14",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-4",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "6",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Lethal Hits",
+                        "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
                   }
@@ -62110,20 +62463,20 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Staff of light",
-                    "id": "8dc2-0cec-a0e2-2cfb",
+                    "name": "➤ Staff of light - Dispersed Beam",
+                    "id": "5e01-de1a-d07b-929a",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
                     "typeName": "Ranged Weapons",
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "18\"",
+                        "$text": "36\"",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
                         "name": "A",
-                        "$text": "3",
+                        "$text": "6",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -62133,7 +62486,7 @@
                       },
                       {
                         "name": "S",
-                        "$text": "5",
+                        "$text": "6",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
@@ -62143,11 +62496,56 @@
                       },
                       {
                         "name": "D",
-                        "$text": "1",
+                        "$text": "2",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
                         "name": "Keywords",
+                        "$text": "Lethal Hits",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Staff of light - Focused Beam",
+                    "id": "f502-5dbc-63f5-9048",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "48\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "2",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "2+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "14",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-4",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "6",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Lethal Hits",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -62231,6 +62629,92 @@
                         "name": "Keywords",
                         "$text": "One Shot",
                         "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Agnes Tachyon Eternal Arrow",
+                    "id": "1104-50d7-0b35-c253",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "a0e6-f768-3045-a57c",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "affects": "self.entries.profiles.Ranged Weapons",
+                        "field": "7f1b-8591-2fcf-d01c",
+                        "scope": "9a5d-4aa6-6149-cd18",
+                        "type": "set",
+                        "value": ""
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Agnes Tachyon Eternal Arrow",
+                        "id": "1b20-2069-ae89-780f",
+                        "hidden": false,
+                        "typeId": "9cc3-6d83-4dd3-9b64",
+                        "typeName": "Abilities",
+                        "characteristics": [
+                          {
+                            "name": "Description",
+                            "$text": "Remove One shot Limitation.",
+                            "typeId": "9b8f-694b-e5e-b573"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -63375,6 +63859,7 @@
                       },
                       {
                         "name": "Keywords",
+                        "$text": "-",
                         "typeId": "893f-9000-ccf7-648e"
                       }
                     ]
