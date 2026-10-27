@@ -8095,46 +8095,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c401-d95f-c5ce-7738",
-                        "childName": "Skorpekh Lord",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -12905,48 +12865,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "852a-ba39-e93f-6b62",
-                        "childName": "Technomancer",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "profiles": [
           {
             "name": "Support",
@@ -14452,46 +14371,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "5b7d-54ea-f7a8-9688",
-                        "childName": "Chronomancer",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           },
@@ -20240,46 +20119,6 @@
                 "value": 6
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "b7d7-14c9-63c1-ded5",
-                        "childName": "Deathmarks",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -22184,46 +22023,6 @@
                 "value": 4
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "66e-26f2-7c38-e4d8",
-                        "childName": "Skorpekh Destroyers",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -22870,46 +22669,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "14fa-6813-e51b-7942",
-                        "childName": "Triarch Stalker",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "field": "7dce-3d35-13a2-c07e",
             "type": "set",
@@ -25570,48 +25329,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "276e-bc21-e1d0-3c41",
-                        "childName": "Transcendent C'tan",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "profiles": [
           {
             "name": "Transcendent C'tan",
@@ -27787,46 +27505,6 @@
                 "value": 4
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "c6db-9736-4d53-3ef6",
-                        "childName": "Ophydian Destroyers",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -28494,46 +28172,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 4
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "77d-d442-a3-422c",
-                        "childName": "Tomb Blades",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -30462,46 +30100,6 @@
                 "value": 4
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "a022-9bf6-f08b-c416",
-                        "childName": "Canoptek Wraiths",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -32261,48 +31859,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "e046-8220-d8a2-1d19",
-                        "childName": "Doomsday Ark",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "profiles": [
           {
             "name": "Damaged: 1-5 wounds remaining",
@@ -33178,46 +32735,6 @@
                 "value": 4
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "6f72-b8f7-fd8d-5c2c",
-                        "childName": "Lokhust Destroyers",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -33960,46 +33477,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "d9ea-2965-24-d3a3",
-                        "childName": "Lokhust Heavy Destroyers",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
@@ -37533,46 +37010,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "256d-92cd-5d14-bbab",
-                        "childName": "Obelisk",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -38398,46 +37835,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 40,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "5451-67b5-a66c-71d2",
-                        "childName": "Tesseract Vault",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -39295,46 +38692,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "db10-2662-da6a-516e",
-                        "childName": "Monolith",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -44090,48 +43447,7 @@
             ]
           }
         ],
-        "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {
-                        "childId": "any",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "before",
-                        "value": 1
-                      },
-                      {
-                        "childId": "fa11-cd65-fcf6-427c",
-                        "childName": "Seraptek Heavy Construct",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "modifiers": [],
         "profiles": [
           {
             "name": "Seraptek Heavy Construct",
