@@ -4365,7 +4365,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound.",
+                "$text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound. You can Ignore all modifiers after using this ability.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4380,6 +4380,20 @@
               {
                 "name": "Description",
                 "$text": "This model can be attached to the following units: IMMORTALS, NECRON WARRIORS\n",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Time Travel",
+            "id": "8a73-e759-ae77-ad91",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Each time this unit is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -6859,7 +6873,7 @@
             ]
           },
           {
-            "name": "Surrogate Hosts",
+            "name": "Pokeball",
             "id": "4bc-1a26-267-ad58",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -6867,7 +6881,21 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your Command phase, if this model is on the battlefield, you can select one other friendly NECRONS INFANTRY CHARACTER model on the battlefield (excluding SKORPEKH LORD or EPIC HERO models). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is put in its place, with all of its wounds remaining (if the selected model was leading a unit, this model now attaches to that unit as its Leader).",
+                "$text": "In your shooting phase, When a non-character and non-titanic unit is below half-strength, You can throw a pokeball at them and Capture them as your own unit, They must take a leadership test to see if they can escape the pokeball upon capture. You can only use your captured unit when your trazyn's collection unit is also dead.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Trazyn's Collection",
+            "id": "798d-bebb-2532-f066",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If this model is included in your army, Include 200 points of any unit of any army and add to your reserves it even if it does not contain the Necron keyword. You can pull this model out of reserves only wholly within 6\" from this model at the reinforcement stage. Added units do no have access to their army rule, or detachment rule only their datasheet. Give the added unit TRAZYN'S COLLECTION keyword.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -18081,7 +18109,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While a friendly NECRONS unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds.",
+                "$text": "While a friendly NECRONS unit is within 9\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -23728,6 +23756,26 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "a3d2-e0e2-b5ed-b7d6",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "82a6-4bc8-9355-fe79",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -24264,6 +24312,26 @@
                 "import": true,
                 "targetId": "f842-6e90-bc5a-80f1",
                 "type": "selectionEntryGroup"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "bc62-5ded-9e7d-9c17",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "00dc-97c7-151f-7d16",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ]
           }
@@ -24956,6 +25024,26 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "ffe7-5c13-66c9-e71b",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "1b04-7668-4ab4-927e",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -25076,6 +25164,24 @@
             "sortIndex": 1,
             "targetId": "34da-c1ba-b0f2-1ba6",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Necrodermis Hardening",
+            "id": "6e9c-d8f0-58cf-b9a2",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "0af2-72f5-9e51-f492",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -35125,7 +35231,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON WARRIORS units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON WARRIORS units; that unit’s Reanimation Protocols activate. The same NECRON WARRIORS unit cannot be selected for this ability more than once per turn.",
+                "$text": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON BATTLELINE units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON BATTLELINE units; that unit’s Reanimation Protocols activate. The same NECRON BATTLELINE unit cannot be selected for this ability more than once per turn.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -52477,6 +52583,38 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Necrodermis Hardening",
+        "id": "6778-22f0-321c-3bfb",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "aa16-70ad-d64c-f838",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This Model's Necrodermis ability now reduces Damage by Half instead of 1, But reduce the wound count of this model to 11.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Unit",
+                "field": "750a-a2ec-90d3-21fe",
+                "scope": "model",
+                "type": "set",
+                "value": "12"
               }
             ]
           }
