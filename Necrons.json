@@ -23969,6 +23969,26 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "a3d2-e0e2-b5ed-b7d6",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "82a6-4bc8-9355-fe79",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -24505,6 +24525,26 @@
                 "import": true,
                 "targetId": "f842-6e90-bc5a-80f1",
                 "type": "selectionEntryGroup"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "bc62-5ded-9e7d-9c17",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "00dc-97c7-151f-7d16",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
               }
             ]
           }
@@ -25197,6 +25237,26 @@
               }
             ]
           }
+        ],
+        "entryLinks": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "ffe7-5c13-66c9-e71b",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "1b04-7668-4ab4-927e",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -25317,6 +25377,24 @@
             "sortIndex": 1,
             "targetId": "34da-c1ba-b0f2-1ba6",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Necrodermis Hardening",
+            "id": "6e9c-d8f0-58cf-b9a2",
+            "hidden": false,
+            "import": true,
+            "targetId": "6778-22f0-321c-3bfb",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "0af2-72f5-9e51-f492",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -53161,6 +53239,38 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Necrodermis Hardening",
+        "id": "6778-22f0-321c-3bfb",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Necrodermis Hardening",
+            "id": "aa16-70ad-d64c-f838",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Replace this model's Necrodermis damage reduction of 1 with halving the Damage characteristic of each attack allocated to this model (rounding up). This model's Wounds characteristic is 11.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Unit",
+                "field": "750a-a2ec-90d3-21fe",
+                "scope": "model",
+                "type": "set",
+                "value": "11"
               }
             ]
           }
