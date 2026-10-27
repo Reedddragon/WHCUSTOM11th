@@ -6885,6 +6885,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Pokeball",
+            "id": "f9ed-ec27-27ab-2026",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "In your Shooting phase, select one enemy unit (excluding CHARACTER and TITANIC units) that is Below Half-strength. That unit takes a Leadership test. If the test is failed, it is captured and becomes a unit under your control. Captured units cannot be used until your TRAZYN'S COLLECTION unit has been destroyed.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntries": [
