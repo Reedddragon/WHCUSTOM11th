@@ -15847,7 +15847,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 190,
+            "value": 140,
             "conditions": [
               {
                 "id": "db70-3966-b824-3330",
@@ -16972,7 +16972,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 130,
+            "value": 100,
             "conditions": [
               {
                 "id": "db70-3966-b824-3330",
@@ -19296,7 +19296,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 160,
+            "value": 150,
             "conditions": [
               {
                 "id": "db70-3966-b824-3330",
@@ -20743,7 +20743,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 100,
+            "value": 80,
             "conditions": [
               {
                 "id": "db70-3966-b824-3330",
@@ -22010,7 +22010,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 170,
+            "value": 140,
             "conditions": [
               {
                 "id": "ef32-2f6b-da53-db48",
@@ -26138,7 +26138,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 110,
+            "value": 80,
             "conditions": [
               {
                 "childId": "model",
@@ -26856,7 +26856,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 80,
+            "value": 40,
             "conditions": [
               {
                 "id": "a9ae-d3af-8847-b3be",
@@ -27492,7 +27492,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 150,
+            "value": 100,
             "conditions": [
               {
                 "id": "db70-3966-b824-3330",
@@ -28162,7 +28162,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 140,
+            "value": 100,
             "conditions": [
               {
                 "childId": "model",
@@ -29295,7 +29295,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 160,
+            "value": 140,
             "conditions": [
               {
                 "childId": "model",
@@ -30087,7 +30087,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 220,
+            "value": 180,
             "conditions": [
               {
                 "id": "f080-bdee-2b3b-843d",
@@ -32688,7 +32688,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 55,
+            "value": 40,
             "conditions": [
               {
                 "id": "37a3-66bd-b138-9f7f",
@@ -32705,7 +32705,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 80,
+            "value": 60,
             "conditions": [
               {
                 "id": "37a3-66bd-b138-9f7f",
@@ -32722,7 +32722,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 190,
+            "value": 120,
             "conditions": [
               {
                 "id": "37a3-66bd-b138-9f7f",
@@ -33480,7 +33480,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 50,
+            "value": 40,
             "conditions": [
               {
                 "childId": "model",
@@ -33497,7 +33497,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 65,
+            "value": 40,
             "conditions": [
               {
                 "childId": "model",
@@ -41841,7 +41841,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 170,
+            "value": 85,
             "conditions": [
               {
                 "id": "8f66-a632-ad59-81d4",
