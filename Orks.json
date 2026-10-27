@@ -77205,6 +77205,96 @@
                     "typeId": "dcd0-b896-8ccf-ea83"
                   }
                 ]
+              },
+              {
+                "name": "Crazed Rampage",
+                "id": "7e2f-1026-f200-9101",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Fight phase, when an enemy unit targets a friendly ORKS WALKER unit (excluding TITANIC units).",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS WALKER unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, adding 3 if your unit has DEFF DREAD. On a 4+, do not remove that model from the battlefield. Remove it when your unit has fought or at the end of the phase, whichever comes first.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Dread Power",
+                "id": "7e2f-1026-f200-9102",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly ORKS WALKER unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Your unit is riled up until the start of your next turn.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Stomping Juggernaut",
+                "id": "7e2f-1026-f200-9103",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement or Charge phase, when a friendly ORKS WALKER unit is selected to move or declares a charge.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS WALKER unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Your unit has MOBILE.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
               }
             ],
             "rules": [
@@ -78092,6 +78182,66 @@
                   {
                     "name": "Effect",
                     "$text": "This turn the unit can charge after Advancing. Its Advance adds 6 inches to Move rather than rolling.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Eager to Fight",
+                "id": "7e2f-1026-f200-9104",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your Movement phase, in the Reinforcements step, just after a friendly ORKS unit is set up in an Entry Zone.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "That ORKS unit.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Your unit can make an Advance move.",
+                    "typeId": "7e2f-1026-f101-0004"
+                  }
+                ]
+              },
+              {
+                "name": "Enraged Rush",
+                "id": "7e2f-1026-f200-9105",
+                "hidden": false,
+                "comment": "Reference: https://wahapedia.ru/wh40k11ed/factions/orks/",
+                "typeId": "7e2f-1026-f100-0001",
+                "typeName": "Detachment Stratagems",
+                "characteristics": [
+                  {
+                    "name": "CP",
+                    "$text": "1 CP",
+                    "typeId": "7e2f-1026-f101-0001"
+                  },
+                  {
+                    "name": "When",
+                    "$text": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+                    "typeId": "7e2f-1026-f101-0002"
+                  },
+                  {
+                    "name": "Target",
+                    "$text": "One friendly BOYZ unit that was targeted by one or more of that enemy unit's attacks.",
+                    "typeId": "7e2f-1026-f101-0003"
+                  },
+                  {
+                    "name": "Effect",
+                    "$text": "Your unit can make an Enraged Rush move. Roll one D6; models in your unit can move up to that many inches, but must end as close as possible to the attacking unit. They can move within Engagement Range of that enemy unit, but not of other enemy units.",
                     "typeId": "7e2f-1026-f101-0004"
                   }
                 ]
