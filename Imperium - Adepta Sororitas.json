@@ -5320,7 +5320,7 @@
               },
               {
                 "name": "A",
-                "$text": "3",
+                "$text": "4",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -5340,7 +5340,7 @@
               },
               {
                 "name": "D",
-                "$text": "2",
+                "$text": "3",
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
@@ -5405,7 +5405,7 @@
               },
               {
                 "name": "A",
-                "$text": "D6",
+                "$text": "D6+1",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -5420,7 +5420,7 @@
               },
               {
                 "name": "AP",
-                "$text": "0",
+                "$text": "-1",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -5485,12 +5485,12 @@
             "characteristics": [
               {
                 "name": "Range",
-                "$text": "12\"",
+                "$text": "18\"",
                 "typeId": "9896-9419-16a1-92fc"
               },
               {
                 "name": "A",
-                "$text": "D6",
+                "$text": "D6+2",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -5505,7 +5505,7 @@
               },
               {
                 "name": "AP",
-                "$text": "-1",
+                "$text": "-2",
                 "typeId": "9ead-8a10-520-de15"
               },
               {
@@ -5568,7 +5568,7 @@
               },
               {
                 "name": "A",
-                "$text": "2",
+                "$text": "3",
                 "typeId": "3bb-c35f-f54-fb08"
               },
               {
@@ -8600,7 +8600,7 @@
               },
               {
                 "name": "A",
-                "$text": "3",
+                "$text": "5",
                 "typeId": "2337-daa1-6682-b110"
               },
               {
@@ -8674,12 +8674,12 @@
               },
               {
                 "name": "S",
-                "$text": "4",
+                "$text": "5",
                 "typeId": "ab33-d393-96ce-ccba"
               },
               {
                 "name": "AP",
-                "$text": "-1",
+                "$text": "-2",
                 "typeId": "41a0-1301-112a-e2f2"
               },
               {
@@ -9355,7 +9355,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "3",
+                            "$text": "4",
                             "typeId": "2337-daa1-6682-b110"
                           },
                           {
@@ -9380,7 +9380,8 @@
                           },
                           {
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Sustained Hits 1, Lethal Hits"
                           }
                         ]
                       }
@@ -20919,7 +20920,8 @@
                           },
                           {
                             "name": "Keywords",
-                            "typeId": "893f-9000-ccf7-648e"
+                            "typeId": "893f-9000-ccf7-648e",
+                            "$text": "Cleave 1"
                           }
                         ]
                       }
@@ -20971,7 +20973,7 @@
                           },
                           {
                             "name": "AP",
-                            "$text": "-1",
+                            "$text": "-2",
                             "typeId": "41a0-1301-112a-e2f2"
                           },
                           {
@@ -21073,7 +21075,7 @@
                           },
                           {
                             "name": "A",
-                            "$text": "3",
+                            "$text": "4",
                             "typeId": "3bb-c35f-f54-fb08"
                           },
                           {
@@ -21093,7 +21095,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "2",
+                            "$text": "3",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -21667,7 +21669,8 @@
                               },
                               {
                                 "name": "Keywords",
-                                "typeId": "893f-9000-ccf7-648e"
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": "Cleave 1"
                               }
                             ]
                           }
@@ -21729,7 +21732,7 @@
                               },
                               {
                                 "name": "AP",
-                                "$text": "-1",
+                                "$text": "-2",
                                 "typeId": "41a0-1301-112a-e2f2"
                               },
                               {
@@ -21841,7 +21844,7 @@
                               },
                               {
                                 "name": "A",
-                                "$text": "3",
+                                "$text": "4",
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
@@ -21861,7 +21864,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "2",
+                                "$text": "3",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
@@ -30881,7 +30884,7 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "ab33-d393-96ce-ccba"
                       },
                       {
@@ -31146,7 +31149,7 @@
                       },
                       {
                         "name": "S",
-                        "$text": "4",
+                        "$text": "5",
                         "typeId": "ab33-d393-96ce-ccba"
                       },
                       {
@@ -35302,7 +35305,7 @@
                   },
                   {
                     "name": "A",
-                    "$text": "4",
+                    "$text": "6",
                     "typeId": "2337-daa1-6682-b110"
                   },
                   {
@@ -38520,7 +38523,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "Lethal Hits",
+                            "$text": "Lethal Hits, Anti-PSYKER 4+, Devastating Wounds",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ]
@@ -42999,7 +43002,7 @@
                   },
                   {
                     "name": "AP",
-                    "$text": "0",
+                    "$text": "-1",
                     "typeId": "9ead-8a10-520-de15"
                   },
                   {
