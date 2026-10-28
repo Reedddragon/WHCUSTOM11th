@@ -8599,6 +8599,46 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Skulltaker",
+        "id": "we-khorne-8872-785a-1efa-7ca1",
+        "hidden": false,
+        "import": true,
+        "targetId": "8872-785a-1efa-7ca1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Karanak",
+        "id": "we-khorne-8436-cec1-e65a-d1a7",
+        "hidden": false,
+        "import": true,
+        "targetId": "8436-cec1-e65a-d1a7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Bloodmaster",
+        "id": "we-khorne-ccae-b5f1-8787-4c7d",
+        "hidden": false,
+        "import": true,
+        "targetId": "ccae-b5f1-8787-4c7d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Skullmaster",
+        "id": "we-khorne-dd30-ba4c-34a4-e788",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd30-ba4c-34a4-e788",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Rendmaster on Blood Throne",
+        "id": "we-khorne-d1cc-e17a-f1a1-4349",
+        "hidden": false,
+        "import": true,
+        "targetId": "d1cc-e17a-f1a1-4349",
+        "type": "selectionEntry"
       }
     ],
     "profileTypes": [
