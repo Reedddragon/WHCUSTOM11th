@@ -4889,6 +4889,55 @@
     ],
     "sharedProfiles": [
       {
+        "name": "Khorne Elite Berzerker",
+        "id": "4d90-c0ad-d7bf-e113",
+        "hidden": false,
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "characteristics": [
+          {
+            "name": "M",
+            "$text": "8\"",
+            "typeId": "e703-ecb6-5ce7-aec1"
+          },
+          {
+            "name": "T",
+            "$text": "5",
+            "typeId": "d29d-cf75-fc2d-34a4"
+          },
+          {
+            "name": "Sv",
+            "$text": "3+",
+            "typeId": "450-a17e-9d5e-29da"
+          },
+          {
+            "name": "W",
+            "$text": "2",
+            "typeId": "750a-a2ec-90d3-21fe"
+          },
+          {
+            "name": "LD",
+            "$text": "6+",
+            "typeId": "58d2-b879-49c7-43bc"
+          },
+          {
+            "name": "OC",
+            "$text": "2",
+            "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "$text": "",
+            "typeId": "55a7-5b54-c60d-11dc"
+          },
+          {
+            "name": "Base",
+            "$text": "32mm",
+            "typeId": "nr-base-size"
+          }
+        ]
+      },
+      {
         "name": "Chainblades",
         "id": "d339-6968-9063-f383",
         "hidden": false,
@@ -5302,52 +5351,6 @@
                 "includeChildForces": false
               }
             ],
-            "profiles": [
-              {
-                "name": "Khorne Berzerker",
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
-                "hidden": false,
-                "id": "a706-4637-89c3-85aa",
-                "characteristics": [
-                  {
-                    "$text": "8\"",
-                    "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
-                  },
-                  {
-                    "$text": "4",
-                    "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
-                  },
-                  {
-                    "$text": "3+",
-                    "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
-                  },
-                  {
-                    "$text": "2",
-                    "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
-                  },
-                  {
-                    "$text": "6+",
-                    "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
-                  },
-                  {
-                    "$text": "2",
-                    "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
-                  },
-                  {
-                    "name": "InSv",
-                    "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
-                  }
-                ]
-              }
-            ],
             "selectionEntryGroups": [
               {
                 "name": "Pistol",
@@ -5450,7 +5453,16 @@
               }
             ],
             "collective": false,
-            "sortIndex": 2
+            "sortIndex": 2,
+            "infoLinks": [
+              {
+                "name": "Khorne Elite Berzerker",
+                "id": "e1b7-8bec-0f60-11c1",
+                "hidden": false,
+                "targetId": "4d90-c0ad-d7bf-e113",
+                "type": "profile"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -5657,7 +5669,16 @@
                         "collective": false
                       }
                     ],
-                    "collective": false
+                    "collective": false,
+                    "infoLinks": [
+                      {
+                        "name": "Khorne Elite Berzerker",
+                        "id": "7a91-5e2f-438d-12f7",
+                        "hidden": false,
+                        "targetId": "4d90-c0ad-d7bf-e113",
+                        "type": "profile"
+                      }
+                    ]
                   }
                 ]
               }
