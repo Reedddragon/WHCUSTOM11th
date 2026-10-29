@@ -706,7 +706,7 @@
                   },
                   {
                     "name": "T",
-                    "$text": "11",
+                    "$text": "12",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
                   {
@@ -750,8 +750,8 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Each time this model makes an attack, an unmodified successful Hit roll of 5+ scores a Critical Hit."
                   }
                 ]
               },
@@ -764,8 +764,8 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "Once per turn, when you target this model with a stratagem, you may reduce the CP cost of that use of that stratagem by 1CP.",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase."
                   }
                 ]
               }
@@ -1445,7 +1445,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           }
         ],
         "costs": [
@@ -2012,7 +2012,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -2396,7 +2396,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           }
         ],
         "costs": [
@@ -2978,7 +2978,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -3659,7 +3659,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -4449,7 +4449,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -5072,7 +5072,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -6002,7 +6002,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -6694,7 +6694,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -7111,13 +7111,7 @@
                             "value": 1
                           }
                         ],
-                        "costs": [
-                          {
-                            "name": "pts",
-                            "typeId": "51b2-306e-1021-d207",
-                            "value": 15
-                          }
-                        ],
+                        "costs": [],
                         "selectionEntryGroups": [
                           {
                             "name": "Weapon Upgrades",
@@ -7634,7 +7628,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -8580,7 +8574,7 @@
               },
               {
                 "name": "T",
-                "$text": "12",
+                "$text": "13",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -9534,7 +9528,7 @@
               },
               {
                 "name": "T",
-                "$text": "12",
+                "$text": "13",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -11393,6 +11387,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "8e91-03ea-5f3c-98db",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -11500,38 +11508,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "48\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
                         "name": "A",
-                        "$text": "3",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "16",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "16"
                       },
                       {
                         "name": "AP",
-                        "$text": "-2",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
                       },
                       {
                         "name": "D",
-                        "$text": "6",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "4"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Conversion, Twin-linked, Sustained Hits D3",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Conversion, Twin-linked, Sustained Hits D3"
                       }
                     ]
                   }
@@ -11599,38 +11607,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "24\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "24\""
                       },
                       {
                         "name": "A",
-                        "$text": "6",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "6",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "0"
                       },
                       {
                         "name": "D",
-                        "$text": "2",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "2"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Devastating Wounds",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Devastating Wounds"
                       }
                     ]
                   }
@@ -11710,38 +11718,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "48\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
                         "name": "A",
-                        "$text": "D6+3",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "6"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "6",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "6"
                       },
                       {
                         "name": "AP",
-                        "$text": "-1",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-1"
                       },
                       {
                         "name": "D",
-                        "$text": "1",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "1"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Anti-Infantry 2+, Blast, Ignores Cover, Indirect Fire",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Anti-Infantry 2+, Blast 2, Ignores Cover, Indirect Fire"
                       }
                     ]
                   }
@@ -12289,6 +12297,20 @@
                 "typeId": "nr-base-size"
               }
             ]
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5c78-1840-5e14-f605",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -12337,7 +12359,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Twin magna lascannon",
+                "name": "Twin Magna Volcano Cannon",
                 "id": "1d9a-57f1-78bd-f342",
                 "hidden": false,
                 "import": true,
@@ -12381,7 +12403,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Twin magna lascannon",
+                    "name": "Twin Magna Volcano Cannon",
                     "id": "6f32-c97f-e3e-8dc0",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -12389,38 +12411,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "72\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "72\""
                       },
                       {
                         "name": "A",
-                        "$text": "D6",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D3+3"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "18",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "22"
                       },
                       {
                         "name": "AP",
-                        "$text": "-4",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-5"
                       },
                       {
                         "name": "D",
-                        "$text": "D6+6",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "D6+8"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Blast, Twin-linked",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Twin-linked"
                       }
                     ]
                   }
@@ -13507,7 +13529,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -14304,7 +14326,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -15135,7 +15157,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -16305,7 +16327,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -17323,7 +17345,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -18291,7 +18313,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -19061,7 +19083,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           }
         ],
         "costs": [
@@ -19631,7 +19653,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -21203,7 +21225,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -22620,7 +22642,7 @@
               },
               {
                 "name": "T",
-                "$text": "10",
+                "$text": "11",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -22678,8 +22700,8 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model. and Once per game, Bellatus Reaper Chainsword gains Extra Attacks ability after doing a successful charge move"
               }
             ]
           },

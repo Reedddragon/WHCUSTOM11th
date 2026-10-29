@@ -1212,7 +1212,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "aa78-eab0-fd2d-f76d",
@@ -1779,7 +1779,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -2764,7 +2764,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "4c18-504d-51e7-64c9",
@@ -3204,7 +3204,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -3542,7 +3542,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "1899-280c-9930-534b",
@@ -3966,7 +3966,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -4354,7 +4354,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "6a4b-917b-b0c2-c3e9",
@@ -4778,7 +4778,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -5079,7 +5079,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "4dad-11ae-d9ca-1f20",
@@ -5660,7 +5660,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -6345,7 +6345,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -8878,7 +8878,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -9779,7 +9779,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -10732,7 +10732,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -11719,7 +11719,7 @@
               },
               {
                 "name": "T",
-                "$text": "12",
+                "$text": "13",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -14469,6 +14469,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "f1cf-eb2a-583d-ee2f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -14565,38 +14579,38 @@
                     "typeName": "Ranged Weapons",
                     "characteristics": [
                       {
-                        "name": "Range",
                         "$text": "24\"",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
-                        "name": "A",
                         "$text": "6",
+                        "name": "A",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
-                        "name": "BS",
                         "$text": "3+",
+                        "name": "BS",
                         "typeId": "94d-8a98-cf90-183e"
                       },
                       {
-                        "name": "S",
                         "$text": "6",
+                        "name": "S",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
-                        "name": "AP",
                         "$text": "0",
+                        "name": "AP",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
-                        "name": "D",
                         "$text": "2",
+                        "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "name": "Keywords",
                         "$text": "Devastating Wounds",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -14690,38 +14704,38 @@
                     "typeName": "Ranged Weapons",
                     "characteristics": [
                       {
-                        "name": "Range",
                         "$text": "48\"",
+                        "name": "Range",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
-                        "name": "A",
                         "$text": "D6+3",
+                        "name": "A",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
-                        "name": "BS",
                         "$text": "3+",
+                        "name": "BS",
                         "typeId": "94d-8a98-cf90-183e"
                       },
                       {
-                        "name": "S",
                         "$text": "6",
+                        "name": "S",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
-                        "name": "AP",
                         "$text": "-1",
+                        "name": "AP",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
-                        "name": "D",
                         "$text": "1",
+                        "name": "D",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "name": "Keywords",
                         "$text": "Anti-INFANTRY 2+, Blast, Ignores Cover, Indirect Fire",
+                        "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -14802,38 +14816,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "48\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "48\""
                       },
                       {
                         "name": "A",
-                        "$text": "3",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "8"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "16",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "16"
                       },
                       {
                         "name": "AP",
-                        "$text": "-2",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-2"
                       },
                       {
                         "name": "D",
-                        "$text": "6",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "4"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Conversion, Twin-linked, Sustained Hits D3",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Conversion, Twin-linked, Sustained Hits D3"
                       }
                     ]
                   }
@@ -15436,6 +15450,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "name": "Acastus Armor",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "cfc0-6fef-f01c-8b21",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When an attack is allocated to this model, Reduce wound roll by 1"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -15467,7 +15495,7 @@
             ],
             "selectionEntries": [
               {
-                "name": "Twin magna lascannon",
+                "name": "Twin Magna Volcano Cannon",
                 "id": "ab22-ae06-7c8c-48c5",
                 "collective": false,
                 "hidden": false,
@@ -15525,7 +15553,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Twin magna lascannon",
+                    "name": "Twin Magna Volcano Cannon",
                     "id": "f407-c2ad-122e-228c",
                     "hidden": false,
                     "typeId": "f77d-b953-8fa4-b762",
@@ -15533,38 +15561,38 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "72\"",
-                        "typeId": "9896-9419-16a1-92fc"
+                        "typeId": "9896-9419-16a1-92fc",
+                        "$text": "72\""
                       },
                       {
                         "name": "A",
-                        "$text": "D6",
-                        "typeId": "3bb-c35f-f54-fb08"
+                        "typeId": "3bb-c35f-f54-fb08",
+                        "$text": "D3+3"
                       },
                       {
                         "name": "BS",
-                        "$text": "3+",
-                        "typeId": "94d-8a98-cf90-183e"
+                        "typeId": "94d-8a98-cf90-183e",
+                        "$text": "3+"
                       },
                       {
                         "name": "S",
-                        "$text": "18",
-                        "typeId": "2229-f494-25db-c5d3"
+                        "typeId": "2229-f494-25db-c5d3",
+                        "$text": "22"
                       },
                       {
                         "name": "AP",
-                        "$text": "-4",
-                        "typeId": "9ead-8a10-520-de15"
+                        "typeId": "9ead-8a10-520-de15",
+                        "$text": "-5"
                       },
                       {
                         "name": "D",
-                        "$text": "D6+6",
-                        "typeId": "a354-c1c8-a745-f9e3"
+                        "typeId": "a354-c1c8-a745-f9e3",
+                        "$text": "D6+8"
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Blast, Twin-linked",
-                        "typeId": "7f1b-8591-2fcf-d01c"
+                        "typeId": "7f1b-8591-2fcf-d01c",
+                        "$text": "Blast, Twin-linked"
                       }
                     ]
                   }
@@ -16457,7 +16485,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -17244,7 +17272,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -18067,7 +18095,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -19051,7 +19079,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -20068,7 +20096,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -21250,7 +21278,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -22022,7 +22050,7 @@
             "scope": "force",
             "shared": true,
             "type": "max",
-            "value": 3
+            "value": 6
           },
           {
             "id": "31d4-b53d-ec7e-c258",
@@ -22431,7 +22459,7 @@
               },
               {
                 "name": "T",
-                "$text": "9",
+                "$text": "10",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
@@ -23689,7 +23717,7 @@
               },
               {
                 "name": "T",
-                "$text": "11",
+                "$text": "12",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
               {
