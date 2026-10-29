@@ -6580,6 +6580,13 @@
               }
             ]
           }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 320
+          }
         ]
       },
       {
@@ -7148,6 +7155,13 @@
                 "value": 1
               }
             ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 280
           }
         ]
       },
@@ -26263,7 +26277,14 @@
                     "hidden": false,
                     "sortIndex": 2,
                     "targetId": "1097-7d15-14e0-f8c7",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "name": "Heavy reaper autocannon",
@@ -26273,7 +26294,14 @@
                     "import": true,
                     "sortIndex": 3,
                     "targetId": "8e4e-08dd-0af5-398c",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -26675,7 +26703,14 @@
                     "hidden": false,
                     "sortIndex": 3,
                     "targetId": "8e4e-08dd-0af5-398c",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "name": "Electroscourge",
@@ -26693,7 +26728,14 @@
                     "import": true,
                     "sortIndex": 2,
                     "targetId": "1097-7d15-14e0-f8c7",
-                    "type": "selectionEntry"
+                    "type": "selectionEntry",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "selectionEntries": [
