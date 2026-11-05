@@ -16863,18 +16863,9 @@
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "infoLinks": [
-                  {
-                    "name": "Anti",
-                    "id": "b812-6b8e-b04f-26a6",
-                    "hidden": false,
-                    "targetId": "4111-82e3-9444-e942",
-                    "type": "rule"
-                  }
-                ],
                 "profiles": [
                   {
-                    "name": "Chainfist",
+                    "name": "Chainfist - Standard",
                     "id": "dcfc-ab95-c8c-7749",
                     "hidden": false,
                     "typeId": "8a40-4aaa-c780-9046",
@@ -16890,7 +16881,7 @@
                       {
                         "name": "A",
                         "id": "3bbd-5691-bb47-8b28",
-                        "$text": "3",
+                        "$text": "2",
                         "hidden": false,
                         "typeId": "2337-daa1-6682-b110"
                       },
@@ -16925,9 +16916,83 @@
                       {
                         "name": "Keywords",
                         "id": "28ab-1cc3-1ec5-4dd5",
-                        "$text": "Anti-Vehicle 3+",
+                        "$text": "-",
                         "hidden": false,
                         "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chainfist - Hunter",
+                    "id": "d426-c0de-2026-0912",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "id": "d426-c0de-2026-0913",
+                        "$text": "Melee",
+                        "hidden": false,
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "name": "A",
+                        "id": "d426-c0de-2026-0914",
+                        "$text": "3",
+                        "hidden": false,
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "name": "WS",
+                        "id": "d426-c0de-2026-0915",
+                        "$text": "3+",
+                        "hidden": false,
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "name": "S",
+                        "id": "d426-c0de-2026-0916",
+                        "$text": "12",
+                        "hidden": false,
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "name": "AP",
+                        "id": "d426-c0de-2026-0917",
+                        "$text": "-2",
+                        "hidden": false,
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "name": "D",
+                        "id": "d426-c0de-2026-0918",
+                        "$text": "3",
+                        "hidden": false,
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "id": "d426-c0de-2026-0919",
+                        "$text": "Hunter: Monster/Vehicle",
+                        "hidden": false,
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chainfist Profiles",
+                    "id": "d426-c0de-2026-091a",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "id": "d426-c0de-2026-091b",
+                        "hidden": false,
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Before selecting targets for this weapon, select one of its eligible profiles to make attacks with. The Hunter profile can only target MONSTER or VEHICLE units."
                       }
                     ]
                   }
