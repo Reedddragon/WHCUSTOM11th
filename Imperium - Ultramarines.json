@@ -3943,39 +3943,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "9b89-f132-4fef-8e51",
-                        "childName": "Victrix Honour Guard",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -4011,39 +3978,7 @@
             "sortIndex": 4,
             "constraints": [{"id": "d2d7-4c5c-c7cb-8821", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 6}],
             "modifiers": [
-              {
-                "field": "51b2-306e-1021-d207",
-                "type": "increment",
-                "value": 20,
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "localConditionGroups": [
-                      {
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "scope": "parent",
-                        "type": "atLeast",
-                        "value": 1,
-                        "conditions": [
-                          {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                          {
-                            "childId": "9b89-f132-4fef-8e51",
-                            "childName": "Victrix Honour Guard",
-                            "field": "selections",
-                            "scope": "self",
-                            "shared": true,
-                            "type": "instanceOf",
-                            "value": 1
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
+              
             ],
             "selectionEntries": [
               {

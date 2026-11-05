@@ -1078,31 +1078,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "7b4c-dfe0-6a0a-304a", "childName": "Lord Exultant", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -2998,39 +2973,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "ad59-b823-900d-ee2d",
-                        "childName": "Daemon Prince of Slaanesh",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -3443,39 +3385,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "e452-08be-33e6-3864",
-                        "childName": "Daemon Prince of Slaanesh with Wings",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -7530,31 +7439,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "f10c-5f3e-c09d-0b12", "childName": "Chaos Land Raider", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -8105,31 +7989,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "5817-0d6c-973c-68f8", "childName": "Noise Marines", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -9269,31 +9128,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "656c-8b78-8e59-0591", "childName": "Maulerfiend", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -9712,31 +9546,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "8ae1-aa47-e1d1-1b31", "childName": "Chaos Rhino", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -10752,31 +10561,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "7b2b-4508-263d-f20f", "childName": "Keeper of Secrets", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -14700,31 +14484,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 50,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "b541-3292-a5cc-dbeb", "childName": "Defiler", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }

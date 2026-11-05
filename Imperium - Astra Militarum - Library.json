@@ -1740,31 +1740,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "2299-bed9-3e-2b60", "childName": "Attilan Rough Riders", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "7a2c-2b6f-749d-6e80",
             "type": "set",
@@ -2340,31 +2316,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "a6a1-1612-f982-31", "childName": "Baneblade", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "e348-32a3-f032-6a2d",
             "type": "set",
@@ -2814,31 +2766,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "d10-48db-3241-ec72", "childName": "Banehammer", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "a940-0a62-ef47-44a9",
             "type": "set",
@@ -3247,31 +3175,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "30f5-d90a-9811-d763", "childName": "Banesword", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "80de-431f-5aaf-4c04",
             "type": "set",
@@ -3606,31 +3510,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "bf53-4ab3-ff75-9aa0", "childName": "Basilisk", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "4b68-a2fa-b183-da87",
             "type": "set",
@@ -4057,31 +3937,7 @@
             "value": true,
             "conditions": [{"childId": "b0ae-12a5-c84-ea45", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "37ad-63e5-1786-87cf", "childName": "Bullgryn Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "4aa1-c327-c2d5-db67",
             "type": "set",
@@ -7283,31 +7139,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "cf23-58db-8ba4-9ec8", "childName": "Chimera", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -9739,31 +9570,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 20,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "e19f-b9b8-75d5-8520", "childName": "Deathstrike", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "8232-f063-e349-a1e1",
             "type": "set",
@@ -10149,31 +9956,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "8342-57dd-69d3-e698", "childName": "Doomhammer", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "3fef-97fa-1480-96e9",
             "type": "set",
@@ -12209,31 +11992,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "8277-6399-5d74-760d", "childName": "Hellhammer", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "657e-1ad8-218b-aa2d",
             "type": "set",
@@ -12636,31 +12395,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "c28b-c3af-38b2-8865", "childName": "Hellhound", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "3469-a8f0-6bb6-d7db",
             "type": "set",
@@ -13865,31 +13600,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "abe4-ca71-d5a7-3883", "childName": "Kasrkin", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "a6a5-b9c1-53cc-f708",
             "type": "set",
@@ -14658,39 +14369,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "c581-3ab5-49a0-9ec0",
-                        "childName": "Leman Russ Battle Tank",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "6650-8d29-3a20-58d8",
             "type": "set",
@@ -14967,39 +14646,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "cbcc-e0ad-4b9-2c76",
-                        "childName": "Leman Russ Demolisher",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "94ae-79e3-b5d7-510b",
             "type": "set",
@@ -15276,39 +14923,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "286e-8e39-b807-5981",
-                        "childName": "Leman Russ Eradicator",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "d281-8f77-c727-fb91",
             "type": "set",
@@ -15585,39 +15200,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "c8fc-b9fa-d126-a296",
-                        "childName": "Leman Russ Executioner",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "336a-65f0-d46e-717b",
             "type": "set",
@@ -15894,39 +15477,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "d8c8-ea02-21bf-de0b",
-                        "childName": "Leman Russ Exterminator",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "09a5-996d-7581-7ad5",
             "type": "set",
@@ -16227,31 +15778,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "e529-5853-d7e2-17ad", "childName": "Leman Russ Punisher", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "e252-3862-c410-d2ab",
             "type": "set",
@@ -16512,39 +16039,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "ddf2-228b-edd9-7e83",
-                        "childName": "Leman Russ Vanquisher",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "661c-3fab-99ae-8352",
             "type": "set",
@@ -17119,31 +16614,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "41be-48c9-5476-f47a", "childName": "Manticore", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "42bf-c994-13d6-d46d",
             "type": "set",
@@ -17586,39 +17057,7 @@
             "value": true,
             "conditions": [{"childId": "b0ae-12a5-c84-ea45", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "497-36ad-8ecb-f7c7",
-                        "childName": "Militarum Tempestus Command Squad",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "3347-8298-3a6d-4341",
             "type": "set",
@@ -21507,39 +20946,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "2127-efcc-1f62-7fab",
-                        "childName": "Rogal Dorn Battle Tank",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "7ef6-c8ae-814f-ff59",
             "type": "set",
@@ -22945,31 +22352,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "1b48-2f2-8e9c-1308", "childName": "Shadowsword", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "9c87-855b-6067-8daa",
             "type": "set",
@@ -23608,31 +22991,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "892b-678c-72e6-ee58", "childName": "Stormlord", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "c1b0-3ad9-f5e6-fdb1",
             "type": "set",
@@ -24056,31 +23415,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 35,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "67bc-a760-7ed5-9952", "childName": "Stormsword", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "ca29-d6fb-0927-8852",
             "type": "set",
@@ -24590,31 +23925,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "5430-18e-d7b0-1d54", "childName": "Leman Russ Commander", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "ce80-784d-5dcb-cdbd",
             "type": "set",
@@ -25185,31 +24496,6 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "11e5-d4ab-d140-ac38", "childName": "Taurox", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
           }
         ],
         "profiles": [
@@ -25545,31 +24831,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "4b67-f814-358e-f776", "childName": "Taurox Prime", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }
@@ -26429,31 +25690,7 @@
             "value": true,
             "conditions": [{"childId": "b0ae-12a5-c84-ea45", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "679b-f37f-2388-748", "childName": "Tempestus Scions", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "88ba-54e3-3c8d-6d8f",
             "type": "set",
@@ -27388,31 +26625,7 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "9665-3160-8a04-d2bc", "childName": "Valkyrie", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "bc69-6109-6639-57a6",
             "type": "set",
@@ -27830,31 +27043,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 30,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "d11b-c49d-41bf-1f36", "childName": "Wyvern", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "aa06-5cba-888f-b192",
             "type": "set",
@@ -31642,39 +30831,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "95b4-68d6-26cf-188e",
-                        "childName": "Cyclops Demolition Vehicle",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "cfe3-128b-67f2-6236",
             "type": "set",
@@ -58309,39 +57466,7 @@
             "value": "8247-35f6-ec2a-7caa",
             "conditions": [{"childId": "3bdf-a114-5035-c6ac", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 15,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 1,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "78b6-f280-bba9-0594",
-                        "childName": "Rogal Dorn Commander",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "d08c-5a81-5975-0f8c",
             "type": "set",
@@ -59496,39 +58621,7 @@
             "value": 95,
             "conditions": [{"childId": "model", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5}]
           },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 2,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {
-                        "childId": "3e90-9359-2aaa-205e",
-                        "childName": "Krieg Combat Engineers",
-                        "field": "selections",
-                        "scope": "self",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
+          
           {
             "field": "9c87-34c3-8dba-97c3",
             "type": "set",
@@ -66210,31 +65303,6 @@
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
-              }
-            ]
-          },
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 10,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "localConditionGroups": [
-                  {
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "repeats": 1,
-                    "scope": "parent",
-                    "type": "atLeast",
-                    "value": 3,
-                    "conditions": [
-                      {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
-                      {"childId": "c871-4769-71ed-c4b3", "childName": "Centaur RSV", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
-                    ]
-                  }
-                ]
               }
             ]
           }
