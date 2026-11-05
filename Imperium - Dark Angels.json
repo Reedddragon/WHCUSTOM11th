@@ -10493,22 +10493,6 @@
         ],
         "modifiers": [
           {
-            "field": "51b2-306e-1021-d207",
-            "type": "set",
-            "value": 480,
-            "conditions": [
-              {
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "a6cc-9a65-dbf1-71b0",
-                "shared": true,
-                "type": "greaterThan",
-                "value": 5
-              }
-            ]
-          },
-          {
             "field": "1f39-d57f-1a24-e67d",
             "type": "set",
             "value": 2,
