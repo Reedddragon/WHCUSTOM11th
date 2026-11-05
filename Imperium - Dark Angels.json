@@ -10520,7 +10520,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "- Attacks that target this unit have -1D.\n- This unit cannot be targeted with the Tactical Dreadnought Fortitude stratagem.",
+                "$text": "- Attacks that target this unit have -1D.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -14572,7 +14572,7 @@
       {
         "name": "Deathwing Strikemaster [Legends]",
         "id": "ebd0-6939-6305-6d16",
-        "hidden": true,
+        "hidden": false,
         "import": true,
         "type": "model",
         "associations": [
@@ -14952,24 +14952,6 @@
           }
         ],
         "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "id": "b61-59e9-c946-1835",
-                "childId": "9ed-cbf4-bfe5-90bf",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "lessThan",
-                "value": 1
-              }
-            ]
-          },
           {
             "field": "8e3b-8b49-eb1c-173d",
             "type": "set",
