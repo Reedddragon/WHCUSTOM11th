@@ -10493,6 +10493,22 @@
         ],
         "modifiers": [
           {
+            "field": "51b2-306e-1021-d207",
+            "type": "set",
+            "value": 480,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "a6cc-9a65-dbf1-71b0",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 5
+              }
+            ]
+          },
+          {
             "field": "1f39-d57f-1a24-e67d",
             "type": "set",
             "value": 2,
@@ -10618,7 +10634,7 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 4
+                    "value": 9
                   }
                 ],
                 "profiles": [
@@ -11085,6 +11101,26 @@
                     ]
                   }
                 ]
+              }
+            ],
+            "constraints": [
+              {
+                "id": "d426-c0de-2026-0910",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 5
+              },
+              {
+                "id": "d426-c0de-2026-0911",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 10
               }
             ]
           }
@@ -16015,7 +16051,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 100
           }
         ],
         "entryLinks": [
