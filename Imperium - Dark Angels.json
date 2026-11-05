@@ -11850,7 +11850,7 @@
                                       {
                                         "name": "pts",
                                         "typeId": "51b2-306e-1021-d207",
-                                        "value": 10
+                                        "value": 0
                                       }
                                     ]
                                   },
@@ -12099,7 +12099,7 @@
                               {
                                 "name": "pts",
                                 "typeId": "51b2-306e-1021-d207",
-                                "value": 5
+                                "value": 0
                               },
                               {
                                 "name": "Crusade Points",
@@ -12287,7 +12287,7 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
+                    "value": 9
                   }
                 ],
                 "infoLinks": [
@@ -12297,37 +12297,6 @@
                     "hidden": false,
                     "targetId": "2081-666b-15c3-57cc",
                     "type": "profile"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "error",
-                    "type": "add",
-                    "value": "Max 1 Heavy weapon per 5 models",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "lessThan",
-                            "value": 10
-                          },
-                          {
-                            "childId": "5e6d-5b97-f4b5-7cd9",
-                            "childName": "Deathwing Terminator w/ Heavy Weapon",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "greaterThan",
-                            "value": 1
-                          }
-                        ]
-                      }
-                    ]
                   }
                 ],
                 "selectionEntryGroups": [
@@ -12461,7 +12430,7 @@
                               {
                                 "name": "pts",
                                 "typeId": "51b2-306e-1021-d207",
-                                "value": 10
+                                "value": 0
                               }
                             ]
                           },
@@ -12559,37 +12528,6 @@
                   }
                 ],
                 "infoLinks": [],
-                "modifiers": [
-                  {
-                    "field": "error",
-                    "type": "add",
-                    "value": "Max 1 Heavy weapon per 5 models",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "lessThan",
-                            "value": 10
-                          },
-                          {
-                            "childId": "d426-c0de-2026-0038",
-                            "childName": "Deathwing Terminator w/ Heavy Weapon",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "greaterThan",
-                            "value": 1
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
                 "selectionEntryGroups": [],
                 "selectionEntries": [
                   {
@@ -12754,7 +12692,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 5
+                        "value": 0
                       },
                       {
                         "name": "Crusade Points",
@@ -12895,37 +12833,6 @@
                     "hidden": false,
                     "targetId": "2081-666b-15c3-57cc",
                     "type": "profile"
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "error",
-                    "type": "add",
-                    "value": "Max 1 Heavy weapon per 5 models",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "childId": "model",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "lessThan",
-                            "value": 10
-                          },
-                          {
-                            "childId": "d426-c0de-2026-005f",
-                            "childName": "Deathwing Terminator w/ Heavy Weapon",
-                            "field": "selections",
-                            "scope": "6135-d842-8e61-889d",
-                            "shared": true,
-                            "type": "greaterThan",
-                            "value": 1
-                          }
-                        ]
-                      }
-                    ]
                   }
                 ],
                 "selectionEntryGroups": [],
