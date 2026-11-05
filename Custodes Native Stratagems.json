@@ -1,0 +1,89 @@
+{
+  "catalogue": {
+    "id": "105",
+    "name": "WHCUSTOM11th Custodes Native Stratagem Experiment",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 19,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "library": true
+  },
+  "data": {
+    "stratagems": [
+      {
+        "id": "7e2f-1025-d108-0001",
+        "name": "Manoeuvre and Fire",
+        "detachment": "Aquilan Shield",
+        "faction_id": "AC",
+        "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+        "cp_cost": 1,
+        "phase": "Movement phase",
+        "turn": "Your turn",
+        "description": "<b>WHEN:</b> Your Movement phase, when a friendly ADEPTUS CUSTODES unit Falls Back.<br><b>TARGET:</b> That ADEPTUS CUSTODES unit.<br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot and declare a charge."
+      },
+      {
+        "id": "7e2f-1025-d108-0002",
+        "name": "Tip of the Talon",
+        "detachment": "Aquilan Shield",
+        "faction_id": "AC",
+        "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+        "cp_cost": 1,
+        "phase": "Shooting phase",
+        "turn": "Your turn",
+        "description": "<b>WHEN:</b> Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.<br><b>TARGET:</b> That ADEPTUS CUSTODES unit.<br><b>EFFECT:</b> Until the end of the phase, add 2 to the Strength characteristic of ranged attacks made by your unit that target an enemy within Half Range."
+      },
+      {
+        "id": "7e2f-1025-d108-0003",
+        "name": "Rapid Reactions",
+        "detachment": "Aquilan Shield",
+        "faction_id": "AC",
+        "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+        "cp_cost": 1,
+        "phase": "Movement phase",
+        "turn": "Opponent's turn",
+        "description": "<b>WHEN:</b> Your opponent&#x27;s Movement phase, just after an enemy unit Falls Back from a friendly ADEPTUS CUSTODES INFANTRY unit.<br><b>TARGET:</b> That friendly INFANTRY unit.<br><b>EFFECT:</b> Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit."
+      }
+    ],
+    "custom": {
+      "Imperium - Adeptus Custodes": [
+        {
+          "id": "7e2f-1025-d108-0001",
+          "name": "Manoeuvre and Fire",
+          "detachment": "Aquilan Shield",
+          "faction_id": "AC",
+          "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+          "cp_cost": 1,
+          "phase": "Movement phase",
+          "turn": "Your turn",
+          "description": "<b>WHEN:</b> Your Movement phase, when a friendly ADEPTUS CUSTODES unit Falls Back.<br><b>TARGET:</b> That ADEPTUS CUSTODES unit.<br><b>EFFECT:</b> Until the end of the turn, your unit is eligible to shoot and declare a charge."
+        },
+        {
+          "id": "7e2f-1025-d108-0002",
+          "name": "Tip of the Talon",
+          "detachment": "Aquilan Shield",
+          "faction_id": "AC",
+          "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+          "cp_cost": 1,
+          "phase": "Shooting phase",
+          "turn": "Your turn",
+          "description": "<b>WHEN:</b> Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.<br><b>TARGET:</b> That ADEPTUS CUSTODES unit.<br><b>EFFECT:</b> Until the end of the phase, add 2 to the Strength characteristic of ranged attacks made by your unit that target an enemy within Half Range."
+        },
+        {
+          "id": "7e2f-1025-d108-0003",
+          "name": "Rapid Reactions",
+          "detachment": "Aquilan Shield",
+          "faction_id": "AC",
+          "type": "WHCUSTOM11th \u2013 Detachment Stratagem",
+          "cp_cost": 1,
+          "phase": "Movement phase",
+          "turn": "Opponent's turn",
+          "description": "<b>WHEN:</b> Your opponent&#x27;s Movement phase, just after an enemy unit Falls Back from a friendly ADEPTUS CUSTODES INFANTRY unit.<br><b>TARGET:</b> That friendly INFANTRY unit.<br><b>EFFECT:</b> Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit."
+        }
+      ]
+    },
+    "units": [],
+    "keywords": {},
+    "alias": {},
+    "conditional": {}
+  }
+}
