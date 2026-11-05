@@ -22117,7 +22117,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Ranged attacks that target this unit have -1 D.",
+                "$text": "Each time an attack targets this unit, subtract 1 from the Damage characteristic of that attack.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
