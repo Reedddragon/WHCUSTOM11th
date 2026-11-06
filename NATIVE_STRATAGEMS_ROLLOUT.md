@@ -1,5 +1,14 @@
 # WHCUSTOM11th — native Stratagems viewer rollout
 
+## Core stratagem visibility and refresh (2026-11-06)
+
+Book 105 has been regenerated at **revision 3** with all 11 core entries as `type: "Core – Stratagem"`, `faction_id: ""`, and `detachment: ""`. The 240 custom detachment records are preserved. New Recruit 37.14 uses `type.startsWith("Core –")` to select global core cards. Its extracted native matching method returned **14 Grav-Assault Force cards: 3 custom + 11 core**.
+
+New Recruit also caches the loaded stratagem book by game system short name (`wh40k-11e`). Keeping both main and one or more separate experimental copies imported can retain stale Book 105 contents within an application session.
+
+**If custom cards appear but core is missing:** update the imported experiment in My Systems, fully close and reopen New Recruit, and choose the **All phases** filter/chip in the roster Stratagems panel. Verify both **Coordinated Dive** (custom) and **Command Re-roll** / **Counteroffensive** (core). On the dedicated system-wide Stratagems reference page, choose **Core Stratagems** in the faction dropdown.
+
+The format and native matching path are validated. Rendering of the regenerated Book 105 revision 3 still needs a logged-in interactive test.
 ## Current verified result (2026-11-06)
 
 The Custodes Book 105 experiment was reported working in New Recruit's native Stratagems viewer. Using the same schema, this **test branch** now generates a single `WHCUSTOM11th Native Stratagems.json` book (id `105`) for the structured stratagems currently in the repository.
