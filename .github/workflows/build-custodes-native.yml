@@ -1,0 +1,69 @@
+name: Build All Custodes Native Stratagems
+on:
+  push:
+    branches:
+      - experiment/custodes-native-stratagems
+    paths:
+      - .github/workflows/build-custodes-native.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate native Book 105 from the current Custodes catalogue
+        run: |
+          python - <<'PY'
+          import json,re,html,collections
+          from pathlib import Path
+          source=json.loads(Path('Imperium - Adeptus Custodes.json').read_text(encoding='utf-8'))['catalogue']
+          detachments=['Null Maiden Vigil','Auric Champions','Lions of the Emperor','Might of the Moritoi','Guardians of the Throne','Honoured Companions','Grav-Assault Force','Aquilan Shield','Dread Host','Emissaries Imperatus',"Emperor's Chosen",'Shadow Keepers','Solar Watch']
+          out=[]
+          def markup(t):
+            s=html.escape(str(t),quote=True)
+            s=re.sub(r'\*\*(.+?)\*\*',r'<b>\1</b>',s,flags=re.S)
+            return s.replace('\r\n','\n').replace('\n','<br>')
+          def walk(node, ancestors=()):
+            if isinstance(node,list):
+              for v in node: walk(v,ancestors)
+            elif isinstance(node,dict):
+              name=node.get('name')
+              if node.get('typeName')=='Detachment Stratagems':
+                d=next((x for x in reversed(ancestors) if x in detachments),None)
+                if not d: raise ValueError('No detachment for '+str(name))
+                ch={x['name'].lower():x.get('$text','') for x in node.get('characteristics',[])}
+                if set(('cp','when','target','effect'))-set(ch):raise ValueError('Missing fields for '+str(name))
+                cp=re.search(r'\d+',str(ch['cp']))
+                if not cp:raise ValueError('Missing CP cost for '+str(name))
+                when=str(ch['when'])
+                phases=[p+' phase' for p in ('Command','Movement','Shooting','Charge','Fight') if re.search(r'\b'+p+r' phase\b',when,re.I)]
+                phase=phases[0] if len(phases)==1 else 'Any phase'
+                turn=("Opponent's turn" if "your opponent's" in when.lower() else "Your turn" if when.lower().startswith('your ') else 'Either turn')
+                out.append(dict(id=node['id'],name=name,detachment=d,faction_id='AC',type='WHCUSTOM11th – Detachment Stratagem',cp_cost=int(cp.group()),phase=phase,turn=turn,description='<b>WHEN:</b> '+markup(when)+'<br><b>TARGET:</b> '+markup(ch['target'])+'<br><b>EFFECT:</b> '+markup(ch['effect'])))
+              chain=ancestors+((name,) if isinstance(name,str) else ())
+              for v in node.values():
+                if isinstance(v,(dict,list)):walk(v,chain)
+          walk(source)
+          counts=collections.Counter(x['detachment'] for x in out)
+          if len(out)!=42 or set(counts)!=set(detachments):
+            raise RuntimeError('Incomplete Custodes stratagems: '+str(counts))
+          if len({(x['detachment'],x['name']) for x in out})!=len(out):
+            raise RuntimeError('Duplicate Custodes stratagems')
+          # Isolated test book; DOES NOT preserve global/core books.
+          result={'catalogue':{'id':'105','name':'WHCUSTOM11th Custodes Native Stratagems','gameSystemId':source['gameSystemId'],'gameSystemRevision':19,'revision':2,'battleScribeVersion':'2.03','library':True},'data':{'stratagems':out,'custom':{'Imperium - Adeptus Custodes':out},'units':[],'keywords':{},'alias':{},'conditional':{}}}
+          Path('Custodes Native Stratagems.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('GENERATED',len(out),'native Custodes stratagems',dict(sorted(counts.items())))
+          assert any(x['detachment']=='Aquilan Shield' and x['name']=='Tip of the Talon' and 'Half Range' in x['description'] for x in out)
+          assert any(x['detachment']=='Dread Host' and x['name']=='Golden Light of the Moiraides' and x['cp_cost']==2 for x in out)
+          PY
+      - name: Commit generated Book 105 on experiment branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "Custodes Native Stratagems.json"
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate native Stratagems Book 105 for all 13 Custodes detachments"
+            git push
+          fi
