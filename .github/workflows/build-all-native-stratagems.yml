@@ -15,9 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate custom native Book 105 (incomplete core, experiment only)
+      - name: Generate core and custom native Book 105 (experiment only)
         run: |
-          python .github/scripts/build_native_stratagems.py --experimental-incomplete-base
+          curl --fail --location --retry 3 --silent --show-error \
+            "https://raw.githubusercontent.com/game-datacards/datasources/6f98bb1ce06e4dc2bed2c1c2cf27388cf7dbfa6a/11th/gdc/core.json" \
+            -o /tmp/whcustom-core-11e.json
+          python .github/scripts/build_native_stratagems.py --core-source /tmp/whcustom-core-11e.json --experimental-incomplete-base
       - name: Validate all source stratagems and placement
         run: |
           python - <<'PY'
@@ -38,14 +41,22 @@ jobs:
             'Xenos - Orks':47,
             'Xenos - Necrons':3,
           },totals
-          assert len(d['stratagems'])==sum(totals.values())==240
+          assert len(d['stratagems'])==sum(totals.values())+11==251
+          core=[r for r in d['stratagems'] if r['type']=='Core Stratagem']
+          assert len(core)==11
+          assert len({r['name'] for r in core})==11
+          assert all(r['detachment']=='' and r['faction_id'] is None for r in core)
+          assert all(r['id'] and r['cp_cost']>0 and r['phase'] and r['turn'] for r in core)
+          assert any(r['name']=='Heroic Intervention' and 'ALTERNATIVE' in r['description'] for r in core)
+          assert any(r['name']=='Insane Bravery' and 'RESTRICTIONS' in r['description'] for r in core)
+          assert any(r['name']=='New Orders' for r in core)
           for cat, rows in custom.items():
             for r in rows:
               assert r['id'] and r['detachment'] and r['cp_cost']>0
               assert r['description'].count('<b>WHEN:</b>')==1
               assert r['description'].count('<b>TARGET:</b>')==1
               assert r['description'].count('<b>EFFECT:</b>')==1
-          print('PASS native all-faction custom validation',totals)
+          print('PASS 11 core + 240 custom native stratagem validation',totals)
           PY
       - name: Commit test Book 105
         run: |
@@ -53,6 +64,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "WHCUSTOM11th Native Stratagems.json"
           if ! git diff --cached --quiet; then
-            git commit -m "Generate 240 native custom stratagems across four faction catalogues"
+            git commit -m "Generate 11 core and 240 native custom stratagems"
             git push
           fi
