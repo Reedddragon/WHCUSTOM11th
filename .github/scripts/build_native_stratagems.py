@@ -83,7 +83,7 @@ def core_records_from_source(path):
         displayed_phase = timing_phase if timing_phase != "Any phase" else ", ".join(phase_map[x] for x in phases)
         converted.append(dict(
             id=row["id"], name=name, detachment="", faction_id=None,
-            type="Core Stratagem", cp_cost=cost,
+            type="Core – Stratagem", cp_cost=cost,
             phase=displayed_phase,
             turn=turn_map[row["turn"]], description=desc
         ))
