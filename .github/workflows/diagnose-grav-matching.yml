@@ -151,3 +151,18 @@ jobs:
               m=re.search(re.escape(needle),q)
               if m:print('CHUNK_MATCH',n,needle,repr(q[max(0,m.start()-500):m.start()+2400]))
           PY
+
+      - name: Inspect roster phase filter and default native rendering
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request,re
+          url='https://www.newrecruit.eu/_nuxt/DwBoAHpr.js'
+          raw=urllib.request.urlopen(url,timeout=25).read().decode('utf8','replace')
+          print('ROSTER_UI_HEAD',raw[:4300])
+          for p in ['visibleStratagems()', 'selectedPhase()', 'isDetachmentStratagem:', 'const O=', 'function j(', 'filterByPhase:', 'pickedPhase:', 'const T=','function ne(', 'phases:O','this.stratagems=e.getDetachmentStratagems']:
+            match=list(re.finditer(re.escape(p),raw))
+            print('ROSTER_FILTER',p,'count',len(match))
+            for m in match[:2]:
+              print('ROSTER_CONTEXT',p,raw[max(m.start()-420,0):m.start()+1500])
+          PY
