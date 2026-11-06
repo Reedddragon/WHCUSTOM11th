@@ -26579,12 +26579,12 @@
                       },
                       {
                         "name": "Target",
-                        "$text": "One enemy unit hit by one or more of that friendly unit's ranged attacks.",
+                        "$text": "That friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit.",
                         "typeId": "7e2f-1026-f101-0003"
                       },
                       {
                         "name": "Effect",
-                        "$text": "Until the end of the turn, that enemy unit cannot make Snap Shooting attacks against friendly ADEPTUS CUSTODES MOUNTED or VENATARI units.",
+                        "$text": "Your unit can make a Normal move.",
                         "typeId": "7e2f-1026-f101-0004"
                       }
                     ]
