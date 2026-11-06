@@ -78,10 +78,13 @@ def core_records_from_source(path):
             restrict = (row["restrictions"] or {}).get("en", "")
             if restrict:
                 desc += "<br><b>RESTRICTIONS:</b> " + body(restrict)
+        # Use the actual WHEN timing if the source index disagrees (e.g. Insane Bravery).
+        timing_phase = phase_from_when(str(when))
+        displayed_phase = timing_phase if timing_phase != "Any phase" else ", ".join(phase_map[x] for x in phases)
         converted.append(dict(
             id=row["id"], name=name, detachment="", faction_id=None,
             type="Core Stratagem", cp_cost=cost,
-            phase=", ".join(phase_map[x] for x in phases),
+            phase=displayed_phase,
             turn=turn_map[row["turn"]], description=desc
         ))
     names = [x["name"].casefold() for x in converted]
