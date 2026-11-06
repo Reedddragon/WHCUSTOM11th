@@ -1,6 +1,6 @@
 # Custodes native stratagem experiment
 
-Status: imports into the live New Recruit web app; native card rendering is NOT yet verified because the test browser is unsigned-in and displays the supporter gate.
+Status: LIVE NATIVE VIEWER VERIFIED on 2026-11-06 in New Recruit 37.14 using the user's authorized supporter account. All three custom records appear in the native Stratagems panel, and Tip of the Talon opens as a native card with the custom effect. Reload persistence verified.
 
 This branch adds `Custodes Native Stratagems.json` only; existing catalogue rules and points are unchanged. The supplementary file is a library catalogue with string ID `105` and a sibling `data` object. New Recruit's native adapter requests book 105, then reads `data.stratagems` and `data.custom`.
 
@@ -17,7 +17,9 @@ This is deliberately a limited experiment: the replacement book contains only th
 - Verified Tip of the Talon's +2 Strength effect is preserved and Dread Host does not match these records.
 - Imported branch `experiment/custodes-native-stratagems` through New Recruit's GitHub importer, choosing Custom ref and Keep separate.
 - Created a Custodes test roster, selected Aquilan Shield, and opened the native Stratagems section (separate from Profiles).
-- The section shows Support New Recruit. This does not prove the custom book reached the renderer; a supporter-enabled UI test is still required.
+- With supporter access, the native section lists Manoeuvre and Fire, Tip of the Talon and Rapid Reactions at 1 CP each.
+- Opened Tip of the Talon: native card displays WHCUSTOM11th, Your turn, Shooting phase, and the exact +2 Strength within Half Range effect.
+- Reloaded the page, reopened Stratagems, and verified all three records and the Tip of the Talon card again.
 
 ## Reproduce in a supporter-enabled session
 
@@ -28,4 +30,4 @@ This is deliberately a limited experiment: the replacement book contains only th
 5. Open the native Stratagems section and check for all three names, 1 CP each, the Movement/Shooting phase labels, opponent-turn Rapid Reactions, and Tip of the Talon granting +2 Strength within Half Range.
 6. Reload and repeat to check persistence. Switch away from Aquilan Shield to check matching.
 
-Pending: supporter-enabled card rendering; reload persistence; unit eligibility filters; preserving the official core and other faction stratagems before any wider rollout.
+Pending: in-app detachment-switch and phase-filter tests; unit eligibility filters; preserving the official core and other faction stratagems before any wider rollout. No production merge has been made.
