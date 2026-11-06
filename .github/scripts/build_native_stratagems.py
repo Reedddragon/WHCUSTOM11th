@@ -217,3 +217,5 @@ if __name__ == "__main__":
     parser.add_argument("--experimental-incomplete-base", action="store_true")
     args = parser.parse_args()
     build(args.baseline, args.experimental_incomplete_base, args.core_source)
+
+# Regenerate after Custodes Suppressive Pass shoot-then-Normal-move update.
