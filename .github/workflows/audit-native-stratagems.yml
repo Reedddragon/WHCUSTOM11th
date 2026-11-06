@@ -1,0 +1,51 @@
+name: Audit Native Stratagem Coverage
+on:
+  push:
+    branches: [experiment/all-native-stratagems-20261106]
+    paths: ['.github/workflows/audit-native-stratagems.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventory faction stratagem profiles and detachment hierarchies
+        run: |
+          python - <<'PY'
+          import json,collections
+          from pathlib import Path
+          summaries=[]
+          for p in sorted(Path('.').glob('*.json')):
+            if any(k in p.stem for k in ['Library','Warhammer 40,000','Native Stratagems']):continue
+            try: c=json.loads(p.read_text(encoding='utf-8')).get('catalogue')
+            except Exception as e:
+              print('INVALID_JSON',p.name,str(e));continue
+            if not c:continue
+            profiles=[]; names={};types=collections.Counter();ancestors=[]
+            def walk(n,anc=()):
+              if isinstance(n,list):
+                for v in n: walk(v,anc)
+              elif isinstance(n,dict):
+                name=n.get('name')
+                typ=n.get('typeName','')
+                if 'stratagem' in str(typ).lower():
+                  fields={ch.get('name',''):ch.get('$text','') for ch in n.get('characteristics',[]) if isinstance(ch,dict)}
+                  profiles.append((name,n.get('id'),str(typ),tuple(anc[-7:]),tuple(fields),fields.get('CP','')))
+                  types[str(typ)]+=1
+                if isinstance(name,str) and ('detachment' in name.lower() or 'stratagem' in name.lower()):names[name]=names.get(name,0)+1
+                nex=anc+(name,) if isinstance(name,str) else anc
+                for k,v in n.items():
+                  if isinstance(v,(dict,list)):walk(v,nex)
+            walk(c)
+            totals=len(profiles)
+            if totals or any('stratagem' in n.lower() for n in names):
+              valid=[x for x in profiles if set(('CP','When','Target','Effect'))<=set(x[4])]
+              groups=collections.Counter('/'.join(x[3][-3:-1]) for x in profiles)
+              summaries.append((p.name,c.get('name'),totals,len(valid),types,names,groups,profiles))
+          for p,cat,n,valid,types,names,groups,profiles in summaries:
+            print('CAT',repr(p),'AS',repr(cat),'STRAT',n,'STRUCTURED',valid,'TYPES',dict(types),'NAMED',dict(list(names.items())[:12]))
+            print('SAMPLES',[(x[0],list(x[3][-4:]),x[4],x[5]) for x in profiles[:7]])
+          print('AUDIT_TOTAL',len(summaries),'catalogues with stratagem indicators',sum(s[2] for s in summaries),'stratagem profiles')
+          PY
