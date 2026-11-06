@@ -1,0 +1,43 @@
+name: Inspect Custodes Stratagem Profiles
+on:
+  push:
+    branches:
+      - experiment/custodes-native-stratagems
+    paths:
+      - .github/workflows/probe-custodes.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List catalogue stratagem structures
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          c=json.loads(Path('Imperium - Adeptus Custodes.json').read_text())['catalogue']
+          print('ROOT',list(c.keys()))
+          ent=[];prof=[]
+          def walk(x,anc=()):
+            if isinstance(x,list):
+              for z in x:walk(z,anc)
+            elif isinstance(x,dict):
+              name=x.get('name','')
+              typ=x.get('typeName','')
+              ln=anc+(str(name),) if isinstance(name,str) and name else anc
+              if isinstance(name,str) and ('stratagem' in name.lower() or 'detach' in name.lower()) and ('typeName' not in x):
+                if len(ent)<120:
+                  ent.append({'name':name,'anc':ln[-4:],'p':len(x.get('profiles',[])),'e':len(x.get('selectionEntries',[])),'g':len(x.get('selectionEntryGroups',[]))})
+              if isinstance(typ,str) and ('strat' in typ.lower() or ('strat' in str(name).lower())):
+                cs=x.get('characteristics',[])
+                if len(prof)<160:prof.append({'name':name,'type':typ,'anc':ln[-5:],'c':[{y.get('name'):str(y.get('$text',y.get('value','')))[:170]} for y in cs][:6]})
+              for v in x.values():
+                if isinstance(v,(dict,list)):walk(v,ln)
+          walk(c)
+          print('ENTRIES',json.dumps(ent,ensure_ascii=False)[:18000])
+          print('PROFILES',json.dumps(prof,ensure_ascii=False)[:25000])
+          PY
