@@ -22,8 +22,14 @@ jobs:
           import collections,json
           d=json.load(open('WHCUSTOM11th Native Stratagems.json',encoding='utf8'))['data']
           custom=d['custom']
-          assert len(custom)==4,custom.keys()
-          totals={cat:len(rows) for cat,rows in custom.items()}
+          assert len(custom)>=4,custom.keys()
+          totals={cat:len(rows) for cat,rows in custom.items() if cat in (
+            'Imperium - Adeptus Custodes',
+            'Imperium - Adeptus Astartes - Space Marines',
+            'Xenos - Orks',
+            'Xenos - Necrons',
+          )}
+          assert len(custom['Imperium - Adeptus Astartes - Dark Angels'])==148
           assert totals=={
             'Imperium - Adeptus Custodes':42,
             'Imperium - Adeptus Astartes - Space Marines':148,
