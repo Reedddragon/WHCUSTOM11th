@@ -19,7 +19,7 @@ They are sourced from the [Game Datacards 11th Edition core data](https://github
 
 The generator's custom-profile validation covers:
 - Adeptus Custodes: **42** entries, 13 detachments
-- Space Marines: **148** entries, 36 detachments (including the custom Deathwing Protocol, Xanax System)
+- Space Marines: **148** entries, 36 detachments (including the custom Deathwing Protocol)
 - Orks: **47** entries, 14 detachments
 - Necrons: **3** entries, 1 detachment
 
@@ -49,3 +49,7 @@ When a legal/current complete source is supplied, the script merges into `data.c
 The generator lives in `.github/scripts/build_native_stratagems.py` and the experiment-only GitHub workflow is `.github/workflows/build-all-native-stratagems.yml`. Changes to faction JSONs on this test branch regenerate the output automatically, except for output-file-only commits (avoids loops).
 
 When the preservation/merge behavior has been verified in a live app with core and unmodified factions, adapt the workflow for `main`, supply the baseline via a maintained approved data source, and remove the experimental-incomplete option. Do not silently replace official base records or assume the remote data will remain stable.
+
+## Deathwing Protocol naming (November 6, 2026)
+
+The actual detachment in `Imperium - Space Marines.json` is named **Deathwing Protocol** on both `main` and the native-viewer test branch. Book 105 uses the exact same name, with six existing custom stratagems mapped to that detachment. The temporary comma-name alias was removed. Source rules and conditional 1/2 CP costs are preserved.
