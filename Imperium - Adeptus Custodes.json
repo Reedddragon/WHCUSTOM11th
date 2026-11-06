@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 37,
+    "revision": 38,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -769,8 +769,7 @@
             "name": "Effect",
             "id": "7e2f-1026-f101-0004"
           }
-        ],
-        "kind": "rule"
+        ]
       }
     ],
     "selectionEntries": [
@@ -1130,6 +1129,1265 @@
             "name": "Description",
             "$text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**.",
             "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Anathema Blademastery",
+        "id": "7e2f-1025-d101-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when a friendly VIGILATOR SQUAD unit is selected to fight.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That VIGILATOR SQUAD unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, select either [SUSTAINED HITS 1] or [LETHAL HITS]. Melee weapons equipped by models in your unit have the selected ability.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Psy-Chaff Volley",
+        "id": "7e2f-1025-d101-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, just after a friendly PROSECUTOR SQUAD unit has shot.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That PROSECUTOR SQUAD unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Select one enemy unit hit by one or more of your unit's ranged attacks. Until the end of the turn, improve the Armour Penetration characteristic of attacks that target that enemy unit by 1.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Purgation Sweep",
+        "id": "7e2f-1025-d101-0003",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, when a friendly WITCHSEEKER SQUAD unit is selected to shoot.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That WITCHSEEKER SQUAD unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit, or add 2 instead when targeting a PSYKER or Battle-shocked unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Gilded Champion",
+        "id": "7e2f-1025-a01a-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Any phase, just after a friendly ADEPTUS CUSTODES CHARACTER model uses a once-per-battle datasheet ability.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That CHARACTER model.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "That model can use that ability once more at a legal opportunity in a different phase.\n\n**RESTRICTIONS:** Once per battle per model.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Duty Unto Death",
+        "id": "7e2f-1025-a01a-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army is destroyed.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES CHARACTER model.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Roll one D6. On a 3+, set that model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with half its Starting Wounds remaining (rounding up).\n\n**RESTRICTIONS:** You can only use this Stratagem once per battle for each model.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Assemblage of Might",
+        "id": "7e2f-1025-a01a-0003",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES CHARACTER model.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Select one enemy unit. Until the end of the phase, each time that CHARACTER model makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Vigil Unending",
+        "id": "7e2f-1025-d103-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "2 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TERMINATOR unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the attacking unit has finished making its attacks, subtract 1 from the Damage characteristic of attacks allocated to your unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Unleash the Lions",
+        "id": "7e2f-1025-d103-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Command phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES TERMINATOR unit containing two or more models.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Split your unit into separate units of one model each. Each new unit has a Starting Strength of 1.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Fury of the Emperor",
+        "id": "7e2f-1025-d103-0003",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Charge phase, when a friendly ADEPTUS CUSTODES TERMINATOR unit that made an Ingress move this turn declares a charge.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TERMINATOR unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Add 2 to Charge rolls made for your unit until the end of the phase.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Honoured Interred",
+        "id": "7e2f-1025-b02b-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase or the Fight phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES DREADNOUGHT unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, each time a friendly ADEPTUS CUSTODES unit within 6\" of your unit makes an attack, re-roll a Hit roll of 1.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Unceasing Onslaught",
+        "id": "7e2f-1025-b02b-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES DREADNOUGHT unit Advances.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That DREADNOUGHT unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Unstoppable Momentum",
+        "id": "7e2f-1025-b02b-0003",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase or your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move or declares a charge.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That DREADNOUGHT unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit gains the MOBILE ability.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Shield of Honour",
+        "id": "7e2f-1025-d105-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Start of the Fight phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES INFANTRY or MOUNTED unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, each time an enemy model within Engagement Range of your unit makes a melee attack that targets a different friendly unit, subtract 1 from the Hit roll and the Wound roll.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Superhuman Focus",
+        "id": "7e2f-1025-d105-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "End of any phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES unit that is not Readied.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "In Auramite Clad",
+        "id": "7e2f-1025-d105-0003",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Prime Target",
+        "id": "7e2f-1025-d105-0004",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, you can re-roll one Hit roll, one Wound roll and one Damage roll for ranged attacks made by your unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Unlimited Endurance",
+        "id": "7e2f-1025-d105-0005",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Swift as the Eagle",
+        "id": "7e2f-1025-d105-0006",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can make a Normal move of up to D3+3\".",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Emperor's Domain",
+        "id": "7e2f-1025-d106-0001",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when a friendly TRUSTED SENTINEL unit Consolidates.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can make an Objective Consolidation even if it does not meet the usual conditions for doing so.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Avenge the Fallen",
+        "id": "7e2f-1025-d106-0002",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when a friendly TRUSTED SENTINEL unit that is Below Starting Strength is selected to fight.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by non-CHARACTER models in your unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Swift as the Eagle",
+        "id": "7e2f-1025-d106-0003",
+        "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That TRUSTED SENTINEL unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can make a Normal move of up to D3+3\".",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Coordinated Dive",
+        "id": "7e2f-1025-d107-0001",
+        "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit shoots and scores one or more hits against an enemy unit.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly unit of the opposite type (MOUNTED or VENATARI) within 12\" of that enemy unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, add 2 to Charge rolls made for your unit if it declares a charge that includes that enemy unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Strike and Disappear",
+        "id": "7e2f-1025-d107-0002",
+        "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "End of the Fight phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit that fought this phase and is unengaged.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can make a Normal move of up to 8\".",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Suppressive Pass",
+        "id": "7e2f-1025-d107-0003",
+        "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit has shot.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can make a Normal move.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Manoeuvre and Fire",
+        "id": "7e2f-1025-d108-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit Falls Back.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Tip of the Talon",
+        "id": "7e2f-1025-d108-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, add 2 to the Strength characteristic of ranged attacks made by your unit that target an enemy within Half Range.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Rapid Reactions",
+        "id": "7e2f-1025-d108-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Movement phase, just after an enemy unit Falls Back from a friendly ADEPTUS CUSTODES INFANTRY unit.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly INFANTRY unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Lightning Wrath",
+        "id": "7e2f-1025-d109-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when a friendly ADEPTUS CUSTODES unit makes a Pile-in move.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can Pile In up to 6\".",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Golden Light of the Moiraides",
+        "id": "7e2f-1025-d109-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "2 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit makes an Ingress move.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the start of your next turn, subtract 1 from Hit rolls made for attacks that target your unit, and your unit cannot be targeted by Snap Shooting attacks.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Preternatural Rapidity",
+        "id": "7e2f-1025-d109-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit is eligible to declare a charge this turn.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Bearers of His Light",
+        "id": "7e2f-1025-d10a-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, melee attacks made by your unit ignore modifiers to Hit rolls and Wound rolls.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Impenetrable Bastion",
+        "id": "7e2f-1025-d10a-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "End of your Movement phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units).",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Secure one objective marker controlled by your unit.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Selfless Service",
+        "id": "7e2f-1025-d10a-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "End of your opponent's Charge phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly unengaged ADEPTUS CUSTODES unit within 6\" of an enemy unit. If it is a VEHICLE, it must be a CHARACTER or WALKER.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit can declare a charge against eligible enemy units within 6\".\n\n**RESTRICTIONS:** The Charge roll cannot exceed 6 after modifiers.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "In Auramite Clad",
+        "id": "7e2f-1025-d10b-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Superhuman Focus",
+        "id": "7e2f-1025-d10b-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "End of any phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES unit that is not Readied.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Golden Rush",
+        "id": "7e2f-1025-d10b-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Charge phase, just after a friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units) makes a Charge move.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly unit and one enemy unit within its Engagement Range.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Roll 2D6 for each model in your unit, to a maximum of 6D6. For each result of 4+, that enemy unit suffers 1 mortal wound.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Grim Responsibility",
+        "id": "7e2f-1025-d10c-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES INFANTRY unit as the target of its melee attacks.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly INFANTRY unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack before it has fought, roll one D6. On a 4+, that model can fight before being removed, or on a 2+ if your unit was within range of an objective marker when you used this Stratagem.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Unbreakable Aurumite",
+        "id": "7e2f-1025-d10c-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "2 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That friendly ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, models in your unit have Feel No Pain 5+.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Indomitable Guardians",
+        "id": "7e2f-1025-d10c-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your opponent's Fight phase, just after an enemy unit has fought.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly ADEPTUS CUSTODES unit within range of an objective marker that is eligible to fight and has not fought this phase.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, your unit has Fights First and must be the next eligible unit you select to fight.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Inexorable",
+        "id": "7e2f-1025-d10d-0001",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to move.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, ignore modifiers to your unit's Move characteristic, Advance rolls and Charge rolls.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "At Spear's Length",
+        "id": "7e2f-1025-d10d-0002",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit Advances or Falls Back.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "That ADEPTUS CUSTODES unit.",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+            "typeId": "7e2f-1026-f101-0004"
+          }
+        ]
+      },
+      {
+        "name": "Gravimetric Grenade",
+        "id": "7e2f-1025-d10d-0003",
+        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
+        "hidden": false,
+        "typeId": "7e2f-1026-f100-0001",
+        "typeName": "Detachment Stratagems",
+        "characteristics": [
+          {
+            "name": "CP",
+            "$text": "1 CP",
+            "typeId": "7e2f-1026-f101-0001"
+          },
+          {
+            "name": "When",
+            "$text": "Start of your opponent's Charge phase.",
+            "typeId": "7e2f-1026-f101-0002"
+          },
+          {
+            "name": "Target",
+            "$text": "One friendly unengaged ADEPTUS CUSTODES unit and one enemy unit visible to it within 12\".",
+            "typeId": "7e2f-1026-f101-0003"
+          },
+          {
+            "name": "Effect",
+            "$text": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+            "typeId": "7e2f-1026-f101-0004"
           }
         ]
       }
@@ -25364,103 +26622,32 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Anathema Blademastery",
-                    "id": "7e2f-1025-d101-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Fight phase, when a friendly VIGILATOR SQUAD unit is selected to fight.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That VIGILATOR SQUAD unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, select either [SUSTAINED HITS 1] or [LETHAL HITS]. Melee weapons equipped by models in your unit have the selected ability.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Psy-Chaff Volley",
-                    "id": "7e2f-1025-d101-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase, just after a friendly PROSECUTOR SQUAD unit has shot.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That PROSECUTOR SQUAD unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Select one enemy unit hit by one or more of your unit's ranged attacks. Until the end of the turn, improve the Armour Penetration characteristic of attacks that target that enemy unit by 1.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Purgation Sweep",
-                    "id": "7e2f-1025-d101-0003",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase, when a friendly WITCHSEEKER SQUAD unit is selected to shoot.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That WITCHSEEKER SQUAD unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit, or add 2 instead when targeting a PSYKER or Battle-shocked unit.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Silent Sisterhood",
                     "id": "bda3-9533-2380-a4e1",
                     "description": "- When mustering your army, you can select a friendly ^^**Anathema Psykana Character**^^ model to be your ^^**Warlord**^^.\n- Friendly ^^**Prosecutor Squad**^^ units have ^^**Battleline**^^.\n- Friendly ^^**Anathema Psykana**^^ units have the Creeping Dread ability.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Anathema Blademastery — 1 CP",
+                    "id": "e61d-5738-0001-0001",
+                    "description": "**WHEN:** Fight phase, when a friendly VIGILATOR SQUAD unit is selected to fight.\n\n**TARGET:** That VIGILATOR SQUAD unit.\n\n**EFFECT:** Until the end of the phase, select either [SUSTAINED HITS 1] or [LETHAL HITS]. Melee weapons equipped by models in your unit have the selected ability.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Psy-Chaff Volley — 1 CP",
+                    "id": "e61d-5738-0001-0002",
+                    "description": "**WHEN:** Your Shooting phase, just after a friendly PROSECUTOR SQUAD unit has shot.\n\n**TARGET:** That PROSECUTOR SQUAD unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of your unit's ranged attacks. Until the end of the turn, improve the Armour Penetration characteristic of attacks that target that enemy unit by 1.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Purgation Sweep — 1 CP",
+                    "id": "e61d-5738-0001-0003",
+                    "description": "**WHEN:** Your Shooting phase, when a friendly WITCHSEEKER SQUAD unit is selected to shoot.\n\n**TARGET:** That WITCHSEEKER SQUAD unit.\n\n**EFFECT:** Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit, or add 2 instead when targeting a PSYKER or Battle-shocked unit.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -25534,97 +26721,6 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Gilded Champion",
-                    "id": "7e2f-1025-a01a-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Any phase, just after a friendly ADEPTUS CUSTODES CHARACTER model uses a once-per-battle datasheet ability.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That CHARACTER model.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "That model can use that ability once more at a legal opportunity in a different phase.\n\n**RESTRICTIONS:** Once per battle per model.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Duty Unto Death",
-                    "id": "7e2f-1025-a01a-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army is destroyed.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That ADEPTUS CUSTODES CHARACTER model.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Roll one D6. On a 3+, set that model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with half its Starting Wounds remaining (rounding up).\n\n**RESTRICTIONS:** You can only use this Stratagem once per battle for each model.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Assemblage of Might",
-                    "id": "7e2f-1025-a01a-0003",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That ADEPTUS CUSTODES CHARACTER model.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Select one enemy unit. Until the end of the phase, each time that CHARACTER model makes an attack that targets that enemy unit, add 1 to the Wound roll.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Gods Among Mortals",
@@ -25642,6 +26738,27 @@
                     "name": "Elite Among Elite",
                     "id": "7e2f-1026-a100-0002",
                     "description": "Eligible ADEPTUS CUSTODES CHARACTER models in this Detachment can take their listed **Elite Among Elite** upgrades at the points cost shown on each upgrade. A model only benefits from its selected Elite Among Elite abilities while it is not leading a unit. These upgrades do not replace the model's Leader ability.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Gilded Champion — 1 CP",
+                    "id": "e61d-5738-0002-0001",
+                    "description": "**WHEN:** Any phase, just after a friendly ADEPTUS CUSTODES CHARACTER model uses a once-per-battle datasheet ability.\n\n**TARGET:** That CHARACTER model.\n\n**EFFECT:** That model can use that ability once more at a legal opportunity in a different phase.\n\n**RESTRICTIONS:** Once per battle per model.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Duty Unto Death — 1 CP",
+                    "id": "e61d-5738-0002-0002",
+                    "description": "**WHEN:** Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army is destroyed.\n\n**TARGET:** That ADEPTUS CUSTODES CHARACTER model.\n\n**EFFECT:** Roll one D6. On a 3+, set that model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with half its Starting Wounds remaining (rounding up).\n\n**RESTRICTIONS:** You can only use this Stratagem once per battle for each model.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Assemblage of Might — 1 CP",
+                    "id": "e61d-5738-0002-0003",
+                    "description": "**WHEN:** Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.\n\n**TARGET:** That ADEPTUS CUSTODES CHARACTER model.\n\n**EFFECT:** Select one enemy unit. Until the end of the phase, each time that CHARACTER model makes an attack that targets that enemy unit, add 1 to the Wound roll.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -25715,103 +26832,32 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Vigil Unending",
-                    "id": "7e2f-1025-d103-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "2 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TERMINATOR unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the attacking unit has finished making its attacks, subtract 1 from the Damage characteristic of attacks allocated to your unit.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Unleash the Lions",
-                    "id": "7e2f-1025-d103-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Command phase.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly ADEPTUS CUSTODES TERMINATOR unit containing two or more models.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Split your unit into separate units of one model each. Each new unit has a Starting Strength of 1.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Fury of the Emperor",
-                    "id": "7e2f-1025-d103-0003",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Charge phase, when a friendly ADEPTUS CUSTODES TERMINATOR unit that made an Ingress move this turn declares a charge.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TERMINATOR unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Add 2 to Charge rolls made for your unit until the end of the phase.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "On Gilded Wings",
                     "id": "ddd9-c874-560d-1edf",
                     "description": "At the end of your opponent's Fight phase, if a friendly ^^**Adeptus Custodes Terminator**^^ unit is **unengaged**, you can place that unit in **strategic reserves**.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Vigil Unending — 2 CP",
+                    "id": "e61d-5738-0003-0001",
+                    "description": "**WHEN:** Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.\n\n**TARGET:** That TERMINATOR unit.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, subtract 1 from the Damage characteristic of attacks allocated to your unit.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Unleash the Lions — 1 CP",
+                    "id": "e61d-5738-0003-0002",
+                    "description": "**WHEN:** Your Command phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES TERMINATOR unit containing two or more models.\n\n**EFFECT:** Split your unit into separate units of one model each. Each new unit has a Starting Strength of 1.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Fury of the Emperor — 1 CP",
+                    "id": "e61d-5738-0003-0003",
+                    "description": "**WHEN:** Your Charge phase, when a friendly ADEPTUS CUSTODES TERMINATOR unit that made an Ingress move this turn declares a charge.\n\n**TARGET:** That TERMINATOR unit.\n\n**EFFECT:** Add 2 to Charge rolls made for your unit until the end of the phase.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -25885,103 +26931,32 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Honoured Interred",
-                    "id": "7e2f-1025-b02b-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly ADEPTUS CUSTODES DREADNOUGHT unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, each time a friendly ADEPTUS CUSTODES unit within 6\" of your unit makes an attack, re-roll a Hit roll of 1.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Unceasing Onslaught",
-                    "id": "7e2f-1025-b02b-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES DREADNOUGHT unit Advances.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That DREADNOUGHT unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Unstoppable Momentum",
-                    "id": "7e2f-1025-b02b-0003",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Movement phase or your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move or declares a charge.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That DREADNOUGHT unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit gains the MOBILE ability.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Moritoi Ancients",
                     "id": "364e-dc9e-6d15-e3a8",
                     "description": "- While a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is at **starting strength**, that unit has +2 OC.\n- While a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is below **starting strength**, that unit's attacks can re-roll **hit rolls** of 1.\nWhile a friendly ^^**Adeptus Custodes Dreadnought**^^ unit is **below half-strength**, that unit's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Honoured Interred — 1 CP",
+                    "id": "e61d-5738-0004-0001",
+                    "description": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES DREADNOUGHT unit.\n\n**EFFECT:** Until the end of the phase, each time a friendly ADEPTUS CUSTODES unit within 6\" of your unit makes an attack, re-roll a Hit roll of 1.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Unceasing Onslaught — 1 CP",
+                    "id": "e61d-5738-0004-0002",
+                    "description": "**WHEN:** Your Movement phase, just after a friendly ADEPTUS CUSTODES DREADNOUGHT unit Advances.\n\n**TARGET:** That DREADNOUGHT unit.\n\n**EFFECT:** Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Unstoppable Momentum — 1 CP",
+                    "id": "e61d-5738-0004-0003",
+                    "description": "**WHEN:** Your Movement phase or your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move or declares a charge.\n\n**TARGET:** That DREADNOUGHT unit.\n\n**EFFECT:** Your unit gains the MOBILE ability.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -26069,193 +27044,53 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Shield of Honour",
-                    "id": "7e2f-1025-d105-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Start of the Fight phase.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly ADEPTUS CUSTODES INFANTRY or MOUNTED unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, each time an enemy model within Engagement Range of your unit makes a melee attack that targets a different friendly unit, subtract 1 from the Hit roll and the Wound roll.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Superhuman Focus",
-                    "id": "7e2f-1025-d105-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "End of any phase.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly ADEPTUS CUSTODES unit that is not Readied.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "In Auramite Clad",
-                    "id": "7e2f-1025-d105-0003",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That friendly ADEPTUS CUSTODES unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Prime Target",
-                    "id": "7e2f-1025-d105-0004",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That ADEPTUS CUSTODES unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, you can re-roll one Hit roll, one Wound roll and one Damage roll for ranged attacks made by your unit.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Unlimited Endurance",
-                    "id": "7e2f-1025-d105-0005",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That ADEPTUS CUSTODES unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Swift as the Eagle",
-                    "id": "7e2f-1025-d105-0006",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit can make a Normal move of up to D3+3\".",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Martial Mastery",
                     "id": "758f-0503-c9ac-db2f",
                     "description": "In the Fight phase, when a friendly ^^**Adeptus Custodes**^^ unit is **selected to fight**, that unit's melee attacks have:\n- [SUSTAINED HITS 1]\n- Or: [LETHAL HITS]",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Shield of Honour — 1 CP",
+                    "id": "e61d-5738-0005-0001",
+                    "description": "**WHEN:** Start of the Fight phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES INFANTRY or MOUNTED unit.\n\n**EFFECT:** Until the end of the phase, each time an enemy model within Engagement Range of your unit makes a melee attack that targets a different friendly unit, subtract 1 from the Hit roll and the Wound roll.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Superhuman Focus — 1 CP",
+                    "id": "e61d-5738-0005-0002",
+                    "description": "**WHEN:** End of any phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES unit that is not Readied.\n\n**EFFECT:** Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "In Auramite Clad — 1 CP",
+                    "id": "e61d-5738-0005-0003",
+                    "description": "**WHEN:** Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.\n\n**TARGET:** That friendly ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Prime Target — 1 CP",
+                    "id": "e61d-5738-0005-0004",
+                    "description": "**WHEN:** Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the phase, you can re-roll one Hit roll, one Wound roll and one Damage roll for ranged attacks made by your unit.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Unlimited Endurance — 1 CP",
+                    "id": "e61d-5738-0005-0005",
+                    "description": "**WHEN:** Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the turn, ranged weapons equipped by models in your unit have [ASSAULT], and your unit is eligible to declare a charge.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Swift as the Eagle — 1 CP",
+                    "id": "e61d-5738-0005-0006",
+                    "description": "**WHEN:** Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.\n\n**TARGET:** That TRUSTED SENTINEL unit.\n\n**EFFECT:** Your unit can make a Normal move of up to D3+3\".",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -26329,103 +27164,32 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Emperor's Domain",
-                    "id": "7e2f-1025-d106-0001",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Fight phase, when a friendly TRUSTED SENTINEL unit Consolidates.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit can make an Objective Consolidation even if it does not meet the usual conditions for doing so.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Avenge the Fallen",
-                    "id": "7e2f-1025-d106-0002",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Fight phase, when a friendly TRUSTED SENTINEL unit that is Below Starting Strength is selected to fight.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by non-CHARACTER models in your unit.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Swift as the Eagle",
-                    "id": "7e2f-1025-d106-0003",
-                    "comment": "Source/reference: https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That TRUSTED SENTINEL unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit can make a Normal move of up to D3+3\".",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Companion's Watch",
                     "id": "b96e-763e-ecc7-e9eb",
                     "description": "While a friendly ^^**Trusted Sentinel**^^ unit is within range of an **objective**, that unit's attacks can re-roll **wound rolls** of 1.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Emperor's Domain — 1 CP",
+                    "id": "e61d-5738-0006-0001",
+                    "description": "**WHEN:** Fight phase, when a friendly TRUSTED SENTINEL unit Consolidates.\n\n**TARGET:** That TRUSTED SENTINEL unit.\n\n**EFFECT:** Your unit can make an Objective Consolidation even if it does not meet the usual conditions for doing so.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Avenge the Fallen — 1 CP",
+                    "id": "e61d-5738-0006-0002",
+                    "description": "**WHEN:** Fight phase, when a friendly TRUSTED SENTINEL unit that is Below Starting Strength is selected to fight.\n\n**TARGET:** That TRUSTED SENTINEL unit.\n\n**EFFECT:** Until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by non-CHARACTER models in your unit.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Swift as the Eagle — 1 CP",
+                    "id": "e61d-5738-0006-0003",
+                    "description": "**WHEN:** Your opponent's Movement phase, just after an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.\n\n**TARGET:** That TRUSTED SENTINEL unit.\n\n**EFFECT:** Your unit can make a Normal move of up to D3+3\".",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -26499,103 +27263,32 @@
                     "value": 0
                   }
                 ],
-                "profiles": [
-                  {
-                    "name": "Coordinated Dive",
-                    "id": "7e2f-1025-d107-0001",
-                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit shoots and scores one or more hits against an enemy unit.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly unit of the opposite type (MOUNTED or VENATARI) within 12\" of that enemy unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Until the end of the turn, add 2 to Charge rolls made for your unit if it declares a charge that includes that enemy unit.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Strike and Disappear",
-                    "id": "7e2f-1025-d107-0002",
-                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "End of the Fight phase.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "One friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit that fought this phase and is unengaged.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit can make a Normal move of up to 8\".",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Suppressive Pass",
-                    "id": "7e2f-1025-d107-0003",
-                    "comment": "Custom Custodes 11th Edition Grav-Assault Force homebrew stratagem.",
-                    "hidden": false,
-                    "typeId": "7e2f-1026-f100-0001",
-                    "typeName": "Detachment Stratagems",
-                    "characteristics": [
-                      {
-                        "name": "CP",
-                        "$text": "1 CP",
-                        "typeId": "7e2f-1026-f101-0001"
-                      },
-                      {
-                        "name": "When",
-                        "$text": "Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit has shot.",
-                        "typeId": "7e2f-1026-f101-0002"
-                      },
-                      {
-                        "name": "Target",
-                        "$text": "That friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit.",
-                        "typeId": "7e2f-1026-f101-0003"
-                      },
-                      {
-                        "name": "Effect",
-                        "$text": "Your unit can make a Normal move.",
-                        "typeId": "7e2f-1026-f101-0004"
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {
                     "name": "Aerial Supremacy",
                     "id": "af31-35de-fdc6-1850",
                     "description": "**Evasive Manoeuvres:** Each time a friendly ^^**Adeptus Custodes Mounted**^^ or ^^**Adeptus Custodes Venatari**^^ unit finishes a Normal, Advance, Fall Back, or Ingress move, until the end of the battle round, subtract 1 from Hit rolls made for ranged attacks that target that unit.\n\n**Converging Talons:** In your Shooting phase, each time a friendly ^^**Adeptus Custodes Mounted**^^ or ^^**Adeptus Custodes Venatari**^^ unit scores one or more hits against an enemy unit with ranged attacks, that enemy unit becomes **Marked Prey** for friendly units of the opposite category until the end of your turn (Mounted marks for Venatari; Venatari marks for Mounted).\n\nEach time a friendly unit of the opposite category that made a Charge move this turn makes a melee attack against that **Marked Prey** unit, re-roll Wound rolls of 1 for that attack.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Coordinated Dive — 1 CP",
+                    "id": "e61d-5738-0007-0001",
+                    "description": "**WHEN:** Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit shoots and scores one or more hits against an enemy unit.\n\n**TARGET:** One friendly unit of the opposite type (MOUNTED or VENATARI) within 12\" of that enemy unit.\n\n**EFFECT:** Until the end of the turn, add 2 to Charge rolls made for your unit if it declares a charge that includes that enemy unit.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Strike and Disappear — 1 CP",
+                    "id": "e61d-5738-0007-0002",
+                    "description": "**WHEN:** End of the Fight phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit that fought this phase and is unengaged.\n\n**EFFECT:** Your unit can make a Normal move of up to 8\".",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Suppressive Pass — 1 CP",
+                    "id": "e61d-5738-0007-0003",
+                    "description": "**WHEN:** Your Shooting phase, just after a friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit has shot.\n\n**TARGET:** That friendly ADEPTUS CUSTODES MOUNTED or VENATARI unit.\n\n**EFFECT:** Your unit can make a Normal move.",
+                    "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                     "hidden": false
                   }
                 ]
@@ -26695,103 +27388,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "Manoeuvre and Fire",
-                        "id": "7e2f-1025-d108-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit Falls Back.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Tip of the Talon",
-                        "id": "7e2f-1025-d108-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, add 2 to the Strength characteristic of ranged attacks made by your unit that target an enemy within Half Range.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Rapid Reactions",
-                        "id": "7e2f-1025-d108-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your opponent's Movement phase, just after an enemy unit Falls Back from a friendly ADEPTUS CUSTODES INFANTRY unit.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That friendly INFANTRY unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Gilded Guardians",
                         "id": "5b87-bb5a-0d26-0109",
                         "description": "While a friendly ^^**Adeptus Custodes**^^ unit is within range of an **objective marker**, all ranged attacks that target that unit suffer -1 to **wound rolls**.\n\n**Favoured Ka'tah: SALVUS**\n**Additional Effect:** Until the end of the Shooting phase in which your unit uses Salvus, add 6\" to the Range characteristic of its ranged weapons.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Manoeuvre and Fire — 1 CP",
+                        "id": "e61d-5738-0008-0001",
+                        "description": "**WHEN:** Your Movement phase, when a friendly ADEPTUS CUSTODES unit Falls Back.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Tip of the Talon — 1 CP",
+                        "id": "e61d-5738-0008-0002",
+                        "description": "**WHEN:** Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the phase, add 2 to the Strength characteristic of ranged attacks made by your unit that target an enemy within Half Range.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Rapid Reactions — 1 CP",
+                        "id": "e61d-5738-0008-0003",
+                        "description": "**WHEN:** Your opponent's Movement phase, just after an enemy unit Falls Back from a friendly ADEPTUS CUSTODES INFANTRY unit.\n\n**TARGET:** That friendly INFANTRY unit.\n\n**EFFECT:** Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
@@ -26872,103 +27494,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "Lightning Wrath",
-                        "id": "7e2f-1025-d109-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Fight phase, when a friendly ADEPTUS CUSTODES unit makes a Pile-in move.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Your unit can Pile In up to 6\".",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Golden Light of the Moiraides",
-                        "id": "7e2f-1025-d109-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "2 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit makes an Ingress move.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the start of your next turn, subtract 1 from Hit rolls made for attacks that target your unit, and your unit cannot be targeted by Snap Shooting attacks.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Preternatural Rapidity",
-                        "id": "7e2f-1025-d109-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Your unit is eligible to declare a charge this turn.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Instruments of the Emperor's Wrath",
                         "id": "7a55-6e33-3670-9c81",
                         "description": "Friendly ^^**Adeptus Custodes**^^ units can re-roll **Charge rolls**.\n\n**Favoured Ka'tah: DACATARAI**\n**Additional Effect:** Until the end of the Fight phase in which your unit uses Dacatarai, if that unit made a Charge move this turn, improve the AP characteristic of its melee weapons by 1 (e.g. AP -2 becomes AP -3).",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Lightning Wrath — 1 CP",
+                        "id": "e61d-5738-0009-0001",
+                        "description": "**WHEN:** Fight phase, when a friendly ADEPTUS CUSTODES unit makes a Pile-in move.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Your unit can Pile In up to 6\".",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Golden Light of the Moiraides — 2 CP",
+                        "id": "e61d-5738-0009-0002",
+                        "description": "**WHEN:** Your Movement phase, when a friendly ADEPTUS CUSTODES unit makes an Ingress move.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the start of your next turn, subtract 1 from Hit rolls made for attacks that target your unit, and your unit cannot be targeted by Snap Shooting attacks.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Preternatural Rapidity — 1 CP",
+                        "id": "e61d-5738-0009-0003",
+                        "description": "**WHEN:** Your Movement phase, just after a friendly ADEPTUS CUSTODES unit Advances.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Your unit is eligible to declare a charge this turn.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
@@ -27049,103 +27600,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "Bearers of His Light",
-                        "id": "7e2f-1025-d10a-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, melee attacks made by your unit ignore modifiers to Hit rolls and Wound rolls.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Impenetrable Bastion",
-                        "id": "7e2f-1025-d10a-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "End of your Movement phase.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "One friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units).",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Secure one objective marker controlled by your unit.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Selfless Service",
-                        "id": "7e2f-1025-d10a-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "End of your opponent's Charge phase.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "One friendly unengaged ADEPTUS CUSTODES unit within 6\" of an enemy unit. If it is a VEHICLE, it must be a CHARACTER or WALKER.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Your unit can declare a charge against eligible enemy units within 6\".\n\n**RESTRICTIONS:** The Charge roll cannot exceed 6 after modifiers.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Heralds of the Throne",
                         "id": "20ef-ce2b-28a6-67d0",
                         "description": "Friendly ^^**Adeptus Custodes**^^ units have **Fights First**.\n\n**Favoured Ka'tah: CONSERVAI**\n**Additional Effect:** Until the end of the turn in which your unit uses Conservai, that unit remains eligible to start an action after Advancing or Falling Back. At the start of your Fight phase that turn, each enemy unit within Engagement Range of your unit must take a Battle-shock test with -1 to that test. Each enemy unit can be forced to take this test by this ability only once per battle round, even if engaged with multiple units benefiting from Conservai.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Bearers of His Light — 1 CP",
+                        "id": "e61d-5738-0010-0001",
+                        "description": "**WHEN:** Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the phase, melee attacks made by your unit ignore modifiers to Hit rolls and Wound rolls.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Impenetrable Bastion — 1 CP",
+                        "id": "e61d-5738-0010-0002",
+                        "description": "**WHEN:** End of your Movement phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units).\n\n**EFFECT:** Secure one objective marker controlled by your unit.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Selfless Service — 1 CP",
+                        "id": "e61d-5738-0010-0003",
+                        "description": "**WHEN:** End of your opponent's Charge phase.\n\n**TARGET:** One friendly unengaged ADEPTUS CUSTODES unit within 6\" of an enemy unit. If it is a VEHICLE, it must be a CHARACTER or WALKER.\n\n**EFFECT:** Your unit can declare a charge against eligible enemy units within 6\".\n\n**RESTRICTIONS:** The Charge roll cannot exceed 6 after modifiers.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
@@ -27226,103 +27706,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "In Auramite Clad",
-                        "id": "7e2f-1025-d10b-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That friendly ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Superhuman Focus",
-                        "id": "7e2f-1025-d10b-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "End of any phase.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "One friendly ADEPTUS CUSTODES unit that is not Readied.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Golden Rush",
-                        "id": "7e2f-1025-d10b-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Charge phase, just after a friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units) makes a Charge move.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That friendly unit and one enemy unit within its Engagement Range.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Roll 2D6 for each model in your unit, to a maximum of 6D6. For each result of 4+, that enemy unit suffers 1 mortal wound.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Magna Imperator",
                         "id": "4e0d-9757-de02-730b",
                         "description": "Each time a friendly ^^**Adeptus Custodes**^^ unit is selected to shoot or fight, it can re-roll one **hit roll** and one **wound roll** when resolving that unit's attacks.\n\n**Favoured Ka'tah: RENDAX**\n**Additional Effect:** When your unit uses Rendax, select one enemy ^^**Monster/Vehicle**^^ unit within Engagement Range of it and roll one D6. On a 1-2, the enemy suffers 1 mortal wound; on a 3-5, it suffers D3 mortal wounds; on a 6, it suffers 3 mortal wounds.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "In Auramite Clad — 1 CP",
+                        "id": "e61d-5738-0011-0001",
+                        "description": "**WHEN:** Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.\n\n**TARGET:** That friendly ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, worsen the Armour Penetration characteristic of those attacks by 1.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Superhuman Focus — 1 CP",
+                        "id": "e61d-5738-0011-0002",
+                        "description": "**WHEN:** End of any phase.\n\n**TARGET:** One friendly ADEPTUS CUSTODES unit that is not Readied.\n\n**EFFECT:** Your unit becomes Readied.\n\n**RESTRICTIONS:** You cannot target the same unit with this Stratagem more than once per battle round.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Golden Rush — 1 CP",
+                        "id": "e61d-5738-0011-0003",
+                        "description": "**WHEN:** Your Charge phase, just after a friendly ADEPTUS CUSTODES unit (excluding MONSTER and VEHICLE units) makes a Charge move.\n\n**TARGET:** That friendly unit and one enemy unit within its Engagement Range.\n\n**EFFECT:** Roll 2D6 for each model in your unit, to a maximum of 6D6. For each result of 4+, that enemy unit suffers 1 mortal wound.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
@@ -27403,103 +27812,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "Grim Responsibility",
-                        "id": "7e2f-1025-d10c-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES INFANTRY unit as the target of its melee attacks.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That friendly INFANTRY unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, each time a model in your unit is destroyed by a melee attack before it has fought, roll one D6. On a 4+, that model can fight before being removed, or on a 2+ if your unit was within range of an objective marker when you used this Stratagem.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Unbreakable Aurumite",
-                        "id": "7e2f-1025-d10c-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "2 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That friendly ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, models in your unit have Feel No Pain 5+.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Indomitable Guardians",
-                        "id": "7e2f-1025-d10c-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your opponent's Fight phase, just after an enemy unit has fought.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "One friendly ADEPTUS CUSTODES unit within range of an objective marker that is eligible to fight and has not fought this phase.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, your unit has Fights First and must be the next eligible unit you select to fight.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Wardens of the Dark Cells",
                         "id": "f693-707c-ec2e-a202",
                         "description": "While a friendly ^^**Adeptus Custodes**^^ unit is within range of an **objective marker**, all melee attacks that target that unit suffer -1 to **wound rolls**.\n\n**Favoured Ka'tah: KAPTARIS**\n**Additional Effect:** Until the start of your next Command phase after this unit uses Kaptaris, while this unit is within range of an objective marker, worsen the AP characteristic of **both ranged and melee attacks** targeting it by 1 (e.g. AP -3 becomes AP -2). This additional effect is active only after Kaptaris has been used.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Grim Responsibility — 1 CP",
+                        "id": "e61d-5738-0012-0001",
+                        "description": "**WHEN:** Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES INFANTRY unit as the target of its melee attacks.\n\n**TARGET:** That friendly INFANTRY unit.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed by a melee attack before it has fought, roll one D6. On a 4+, that model can fight before being removed, or on a 2+ if your unit was within range of an objective marker when you used this Stratagem.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Unbreakable Aurumite — 2 CP",
+                        "id": "e61d-5738-0012-0002",
+                        "description": "**WHEN:** Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.\n\n**TARGET:** That friendly ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the phase, models in your unit have Feel No Pain 5+.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Indomitable Guardians — 1 CP",
+                        "id": "e61d-5738-0012-0003",
+                        "description": "**WHEN:** Your opponent's Fight phase, just after an enemy unit has fought.\n\n**TARGET:** One friendly ADEPTUS CUSTODES unit within range of an objective marker that is eligible to fight and has not fought this phase.\n\n**EFFECT:** Until the end of the phase, your unit has Fights First and must be the next eligible unit you select to fight.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
@@ -27580,103 +27918,32 @@
                         "value": 0
                       }
                     ],
-                    "profiles": [
-                      {
-                        "name": "Inexorable",
-                        "id": "7e2f-1025-d10d-0001",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to move.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the turn, ignore modifiers to your unit's Move characteristic, Advance rolls and Charge rolls.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "At Spear's Length",
-                        "id": "7e2f-1025-d10d-0002",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit Advances or Falls Back.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "That ADEPTUS CUSTODES unit.",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Gravimetric Grenade",
-                        "id": "7e2f-1025-d10d-0003",
-                        "comment": "Source/reference: WHCUSTOM11th homebrew rework; not official rules.",
-                        "hidden": false,
-                        "typeId": "7e2f-1026-f100-0001",
-                        "typeName": "Detachment Stratagems",
-                        "characteristics": [
-                          {
-                            "name": "CP",
-                            "$text": "1 CP",
-                            "typeId": "7e2f-1026-f101-0001"
-                          },
-                          {
-                            "name": "When",
-                            "$text": "Start of your opponent's Charge phase.",
-                            "typeId": "7e2f-1026-f101-0002"
-                          },
-                          {
-                            "name": "Target",
-                            "$text": "One friendly unengaged ADEPTUS CUSTODES unit and one enemy unit visible to it within 12\".",
-                            "typeId": "7e2f-1026-f101-0003"
-                          },
-                          {
-                            "name": "Effect",
-                            "$text": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
-                            "typeId": "7e2f-1026-f101-0004"
-                          }
-                        ]
-                      }
-                    ],
                     "rules": [
                       {
                         "name": "Talon Sortie",
                         "id": "c39a-0ba0-0c34-84ee",
                         "description": "Friendly ^^**Adeptus Custodes**^^ units remain eligible to declare a charge after making a Fall Back move.\n\n**Favoured Ka'tah: CALISTUS**\n**Additional Effect:** When your unit uses Calistus, add 2\" to its Move characteristic for that move.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Inexorable — 1 CP",
+                        "id": "e61d-5738-0013-0001",
+                        "description": "**WHEN:** Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to move.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the turn, ignore modifiers to your unit's Move characteristic, Advance rolls and Charge rolls.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "At Spear's Length — 1 CP",
+                        "id": "e61d-5738-0013-0002",
+                        "description": "**WHEN:** Your Movement phase, when a friendly ADEPTUS CUSTODES unit Advances or Falls Back.\n\n**TARGET:** That ADEPTUS CUSTODES unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
+                        "hidden": false
+                      },
+                      {
+                        "name": "Gravimetric Grenade — 1 CP",
+                        "id": "e61d-5738-0013-0003",
+                        "description": "**WHEN:** Start of your opponent's Charge phase.\n\n**TARGET:** One friendly unengaged ADEPTUS CUSTODES unit and one enemy unit visible to it within 12\".\n\n**EFFECT:** Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+                        "comment": "Detachment stratagem reference; copied from preserved source profile. Homebrew where noted.",
                         "hidden": false
                       }
                     ]
