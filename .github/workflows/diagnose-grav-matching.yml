@@ -123,3 +123,31 @@ jobs:
                 i=m.start()
                 print('UI_SNIP',filename,needle,repr(src[max(0,i-500):i+1000]))
           PY
+
+      - name: Search roster UI chunks for stratagem render filters
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request,re,concurrent.futures,collections
+          base='https://www.newrecruit.eu/_nuxt/'
+          js=urllib.request.urlopen(base+'C97lo6qo.js',timeout=25).read().decode('utf8','replace')
+          files=list(dict.fromkeys(re.findall(r'["\x27]\./([a-zA-Z0-9_~.-]+\.js)["\x27]',js)))
+          print('CHUNK_COUNT',len(files))
+          if len(files)>700: files=files[:700]
+          markers=['getDetachmentStratagems','getUnitStratagems','getRosterDetachment','getStratagems','stratagemBook','coreStratagem','core_stratagem','Core –','Stratagems']
+          def fetch(n):
+            try:
+              q=urllib.request.urlopen(urllib.request.Request(base+n,headers={'User-Agent':'Mozilla/5.0'}),timeout=10).read().decode('utf8','replace')
+              hits=[m for m in markers if m in q]
+              return n,len(q),q,hits
+            except Exception as e:return n,0,'',[]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex:
+            records=list(ex.map(fetch,files))
+          print('FETCHED',sum(1 for x in records if x[1]),'of',len(records))
+          important=[(n,sz,q,hits) for n,sz,q,hits in records if any(h in hits for h in markers[:8])]
+          print('IMPORTANT',[(n,sz,hits) for n,sz,q,hits in important])
+          for n,sz,q,hits in important[:25]:
+            for needle in [x for x in hits if x in markers[:8]]:
+              m=re.search(re.escape(needle),q)
+              if m:print('CHUNK_MATCH',n,needle,repr(q[max(0,m.start()-500):m.start()+2400]))
+          PY
