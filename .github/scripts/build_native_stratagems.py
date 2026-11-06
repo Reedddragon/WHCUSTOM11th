@@ -3,7 +3,7 @@
 
 This deliberately requires an opt-in to build an incomplete base. A live New Recruit
 installation uses one global Book 105; replacing it without a complete baseline
-removes official core and other faction stratagem data.
+removes official faction stratagem data; core records can be supplied separately.
 """
 import argparse
 import collections
@@ -40,6 +40,54 @@ def turn_from_when(when):
     opponent = any(k in low for k in ("opponent's", "opponent’s", "opposing player's"))
     your = any(k in low for k in ("your command phase", "your movement phase", "your shooting phase", "your charge phase", "your fight phase"))
     return "Either turn" if (opponent and your) or (not opponent and not your) else "Opponent's turn" if opponent else "Your turn"
+
+
+def core_records_from_source(path):
+    """Convert pinned 11e core cards to the same New Recruit Book 105 record shape.
+
+    Core records are global, with no faction_id and no detachment assignment.
+    """
+    data = json.loads(path.read_text(encoding="utf-8"))
+    rows = data.get("stratagems")
+    if not isinstance(rows, list) or len(rows) != 11:
+        raise ValueError(f"{path}: expected exactly 11 11th-edition core stratagems")
+    turn_map = {"your": "Your turn", "opponents": "Opponent's turn", "either": "Either turn"}
+    phase_map = {"any": "Any phase", "command": "Command phase", "movement": "Movement phase",
+                 "shooting": "Shooting phase", "charge": "Charge phase", "fight": "Fight phase"}
+    converted = []
+    for row in rows:
+        name = (row.get("name") or {}).get("en")
+        when = (row.get("when") or {}).get("en")
+        target = (row.get("target") or {}).get("en")
+        effect = (row.get("effect") or {}).get("en")
+        phases = row.get("phase", [])
+        cost = row.get("cost")
+        if not (row.get("id") and name and when and target and effect and
+                isinstance(cost, int) and cost > 0 and isinstance(phases, list) and phases and
+                row.get("turn") in turn_map and all(p in phase_map for p in phases)):
+            raise ValueError(f"Malformed core stratagem: {name!r}")
+        # Preserve upstream HTML formatting, but convert nonstandard tag styling to bold.
+        def body(value):
+            return str(value).replace("<k>", "<b>").replace("</k>", "</b>").replace("<appref>", "").replace("</appref>", "")
+        desc = "<b>WHEN:</b> " + body(when) + "<br><b>TARGET:</b> " + body(target) + "<br><b>EFFECT:</b> " + body(effect)
+        if row.get("secondary_effect"):
+            alt = (row["secondary_effect"] or {}).get("en", "")
+            extra = row.get("secondary_effect_cost")
+            desc += "<br><b>ALTERNATIVE (" + ("+" + str(extra) + " CP" if extra else "no additional CP") + "):</b> " + body(alt)
+        if row.get("restrictions"):
+            restrict = (row["restrictions"] or {}).get("en", "")
+            if restrict:
+                desc += "<br><b>RESTRICTIONS:</b> " + body(restrict)
+        converted.append(dict(
+            id=row["id"], name=name, detachment="", faction_id=None,
+            type="Core Stratagem", cp_cost=cost,
+            phase=", ".join(phase_map[x] for x in phases),
+            turn=turn_map[row["turn"]], description=desc
+        ))
+    names = [x["name"].casefold() for x in converted]
+    if len(set(names)) != 11:
+        raise ValueError("Duplicate core stratagem names")
+    return converted
 
 def records_from_catalogue(path):
     document = json.loads(path.read_text(encoding="utf-8"))
@@ -82,7 +130,7 @@ def records_from_catalogue(path):
     walk(cat)
     return name, records, [x.get("name", "") for x in cat.get("catalogueLinks", [])]
 
-def build(baseline_path, permit_incomplete):
+def build(baseline_path, permit_incomplete, core_source):
     native = collections.defaultdict(list)
     marine_inheritors = []
     for path in sorted(ROOT.glob("*.json")):
@@ -94,6 +142,7 @@ def build(baseline_path, permit_incomplete):
         if records:
             native[cat_name].extend(records)
     all_records = [r for cat in sorted(native) for r in native[cat]]
+    core_records = core_records_from_source(core_source)
     # Imported Space Marine detachments appear in multiple chapter catalogues.
     # The native viewer matches custom rows by the roster's original catalogue name.
     view_custom = {cat: list(rows) for cat, rows in native.items()}
@@ -124,10 +173,17 @@ def build(baseline_path, permit_incomplete):
             custom[cat] = keep + rows
         result["custom"] = custom
         # Retain original global core/unmodified stratagems; add custom rows for native searching.
-        result["stratagems"] = list(base["stratagems"]) + all_records
+        original = list(base["stratagems"])
+        official_core_names = {x["name"].casefold() for x in core_records}
+        existing_names = {
+            str(x.get("name", "")).casefold()
+            for x in original if x.get("detachment", "") in ("", None)
+        }
+        missing_cores = [x for x in core_records if x["name"].casefold() not in existing_names]
+        result["stratagems"] = original + missing_cores + all_records
     elif permit_incomplete:
         result = {
-            "stratagems": all_records, "custom": view_custom, "units": [],
+            "stratagems": core_records + all_records, "custom": view_custom, "units": [],
             "keywords": {}, "alias": {}, "conditional": {},
         }
     else:
@@ -145,6 +201,7 @@ def build(baseline_path, permit_incomplete):
     dets = {cat: len({r["detachment"] for r in rows}) for cat, rows in native.items()}
     summary = {cat: {"stratagems": len(rows), "detachments": dets[cat]} for cat, rows in native.items()}
     print("GENERATED:", len(all_records), "custom stratagems across", len(native), "catalogues")
+    print("CORE:", len(core_records), "globally scoped stratagems:", [x["name"] for x in core_records])
     print(json.dumps(summary, ensure_ascii=False, sort_keys=True))
     print("CHAPTER ALIASES:", len(marine_inheritors), sorted(set(marine_inheritors)))
     print("BASE:", "preserved" if baseline_path else "INCOMPLETE; test branch only")
@@ -153,6 +210,7 @@ def build(baseline_path, permit_incomplete):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--baseline", type=Path, help="Complete original native Book 105 JSON, supplied with permission")
+    parser.add_argument("--core-source", type=Path, required=True, help="Pinned 11th-edition core JSON")
     parser.add_argument("--experimental-incomplete-base", action="store_true")
     args = parser.parse_args()
-    build(args.baseline, args.experimental_incomplete_base)
+    build(args.baseline, args.experimental_incomplete_base, args.core_source)
