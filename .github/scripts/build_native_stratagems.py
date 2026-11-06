@@ -24,6 +24,15 @@ FALLBACK_FIDS = {
     "Xenos - Necrons": "NE",
 }
 
+# New Recruit splits detachment selections on commas, even when a comma occurs
+# INSIDE an actual detachment's catalogue name. Map those names to a single
+# native-compatible token while preserving the roster's original visible name.
+# Using "Deathwing Protocol" matches the first token of
+# "Deathwing Protocol, Xanax System" and avoids duplicate cards.
+DETACHMENT_NATIVE_ALIASES = {
+    "Deathwing Protocol, Xanax System": "Deathwing Protocol",
+}
+
 def html_rules(value):
     escaped = html.escape(str(value), quote=True)
     escaped = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escaped, flags=re.S)
@@ -109,7 +118,7 @@ def records_from_catalogue(path):
                 parents = [x for x in ancestors if x not in IGNORE_NAMES]
                 if not parents or parents[-1] == name:
                     raise ValueError(f"{path}: unable to identify detachment for {title!r}, parents={parents}")
-                detachment = parents[-1]
+                detachment = DETACHMENT_NATIVE_ALIASES.get(parents[-1], parents[-1])
                 ch = {x.get("name"): x.get("$text", "") for x in node.get("characteristics", []) if isinstance(x, dict)}
                 if not REQUIRED.issubset(ch):
                     raise ValueError(f"{path}: {detachment}/{title} missing: {REQUIRED - set(ch)}")
@@ -196,7 +205,7 @@ def build(baseline_path, permit_incomplete, core_source):
         "catalogue": {
             "id": "105", "name": "WHCUSTOM11th Native Stratagems",
             "gameSystemId": SYS_ID, "gameSystemRevision": 19,
-            "revision": 3, "battleScribeVersion": "2.03", "library": True,
+            "revision": 4, "battleScribeVersion": "2.03", "library": True,
         },
         "data": result,
     }
