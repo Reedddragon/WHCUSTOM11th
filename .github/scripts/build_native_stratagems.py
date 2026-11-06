@@ -62,7 +62,7 @@ def records_from_catalogue(path):
                 ch = {x.get("name"): x.get("$text", "") for x in node.get("characteristics", []) if isinstance(x, dict)}
                 if not REQUIRED.issubset(ch):
                     raise ValueError(f"{path}: {detachment}/{title} missing: {REQUIRED - set(ch)}")
-                m = re.fullmatch(r"\s*(\d+)\s*CP\s*", str(ch["CP"]), flags=re.I)
+                m = re.search(r"(\d+)\s*CP\b", str(ch["CP"]), flags=re.I)
                 if not m:
                     raise ValueError(f"{path}: invalid CP cost on {detachment}/{title}: {ch['CP']!r}")
                 when = str(ch["When"])
@@ -71,7 +71,7 @@ def records_from_catalogue(path):
                     faction_id=FALLBACK_FIDS.get(name, name),
                     type="WHCUSTOM11th – Detachment Stratagem",
                     cp_cost=int(m.group(1)), phase=phase_from_when(when), turn=turn_from_when(when),
-                    description="<b>WHEN:</b> " + html_rules(when) +
+                    description=("<b>COST:</b> " + html_rules(ch["CP"]) + "<br>" if str(ch["CP"]).strip().casefold() != f"{m.group(1)} cp" else "") + "<b>WHEN:</b> " + html_rules(when) +
                                 "<br><b>TARGET:</b> " + html_rules(ch["Target"]) +
                                 "<br><b>EFFECT:</b> " + html_rules(ch["Effect"])
                 ))
