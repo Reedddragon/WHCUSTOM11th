@@ -60,3 +60,17 @@ jobs:
           except Exception as e:
             print('JS INSPECT ERROR',type(e).__name__,str(e)[:500])
           PY
+
+      - name: Find book fetch URL definitions
+        shell: bash
+        run: |
+          python - <<'PY'
+          import re,urllib.request
+          js=urllib.request.urlopen('https://www.newrecruit.eu/_nuxt/C97lo6qo.js',timeout=20).read().decode()
+          for p in ['bookFetch(','.bookFetch=','bookFetch:', 'bookFetch(e,t', 'getBookRaw(105','stratagemBook.stratagems']:
+            print('FETCH_PATTERN',p)
+            ix=[m.start() for m in re.finditer(re.escape(p),js,re.I)]
+            print('COUNT',len(ix))
+            for x in ix[:5]:
+              print('FETCH_CTX',repr(js[max(0,x-800):x+1200]))
+          PY
