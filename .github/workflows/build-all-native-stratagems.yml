@@ -1,0 +1,50 @@
+name: Build WHCUSTOM11th Native Stratagems (Experiment)
+on:
+  push:
+    branches: [experiment/all-native-stratagems-20261106]
+    paths:
+      - .github/scripts/build_native_stratagems.py
+      - .github/workflows/build-all-native-stratagems.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate custom native Book 105 (incomplete core, experiment only)
+        run: |
+          python .github/scripts/build_native_stratagems.py --experimental-incomplete-base
+      - name: Validate all source stratagems and placement
+        run: |
+          python - <<'PY'
+          import collections,json
+          d=json.load(open('WHCUSTOM11th Native Stratagems.json',encoding='utf8'))['data']
+          custom=d['custom']
+          assert len(custom)==4,custom.keys()
+          totals={cat:len(rows) for cat,rows in custom.items()}
+          assert totals=={
+            'Imperium - Adeptus Custodes':42,
+            'Imperium - Adeptus Astartes - Space Marines':148,
+            'Xenos - Orks':47,
+            'Xenos - Necrons':3,
+          },totals
+          assert len(d['stratagems'])==sum(totals.values())==240
+          for cat, rows in custom.items():
+            for r in rows:
+              assert r['id'] and r['detachment'] and r['cp_cost']>0
+              assert r['description'].count('<b>WHEN:</b>')==1
+              assert r['description'].count('<b>TARGET:</b>')==1
+              assert r['description'].count('<b>EFFECT:</b>')==1
+          print('PASS native all-faction custom validation',totals)
+          PY
+      - name: Commit test Book 105
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "WHCUSTOM11th Native Stratagems.json"
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate 240 native custom stratagems across four faction catalogues"
+            git push
+          fi
