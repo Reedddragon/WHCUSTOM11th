@@ -50,6 +50,9 @@ jobs:
           assert any(r['name']=='Heroic Intervention' and 'ALTERNATIVE' in r['description'] for r in core)
           assert any(r['name']=='Insane Bravery' and 'RESTRICTIONS' in r['description'] for r in core)
           assert any(r['name']=='New Orders' for r in core)
+          assert next(r['phase'] for r in core if r['name']=='Insane Bravery')=='Command phase'
+          assert next(r['cp_cost'] for r in core if r['name']=='Counteroffensive')==2
+          assert not any(r['detachment'] for r in core)
           for cat, rows in custom.items():
             for r in rows:
               assert r['id'] and r['detachment'] and r['cp_cost']>0
