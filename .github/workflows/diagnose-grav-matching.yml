@@ -104,3 +104,22 @@ jobs:
             }
           })().catch(e=>{console.error(e);process.exit(1)});
           JS
+
+      - name: Inspect native Stratagems page UI selection and filters
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request,re
+          base='https://www.newrecruit.eu/_nuxt/'
+          for filename in ['rHZyuD3F.js','C97lo6qo.js']:
+            req=urllib.request.Request(base+filename,headers={'User-Agent':'Mozilla/5.0'})
+            src=urllib.request.urlopen(req,timeout=25).read().decode('utf-8','replace')
+            print('UI_FILE',filename,'BYTES',len(src))
+            needles=['getDetachmentStratagems','getRosterDetachment','getUnitStratagems','getAllStratagems','getStratagems','type.startsWith("Core','stratagems', 'Core –', 'core_stratagems','Core Stratagem','filter(']
+            for needle in needles:
+              matches=list(re.finditer(re.escape(needle),src,re.I))
+              print('UI_HITS',filename,needle,len(matches))
+              for m in matches[:5]:
+                i=m.start()
+                print('UI_SNIP',filename,needle,repr(src[max(0,i-500):i+1000]))
+          PY
