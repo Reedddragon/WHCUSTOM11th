@@ -3,6 +3,8 @@ on:
   push:
     branches: [experiment/all-native-stratagems-20261106]
     paths:
+      - '*.json'
+      - '!WHCUSTOM11th Native Stratagems.json'
       - .github/scripts/build_native_stratagems.py
       - .github/workflows/build-all-native-stratagems.yml
   workflow_dispatch:
