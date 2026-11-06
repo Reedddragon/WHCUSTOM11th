@@ -1,0 +1,100 @@
+name: Rename Deathwing Protocol in Catalogue
+on:
+  push:
+    branches: [experiment/all-native-stratagems-20261106]
+    paths: [.github/workflows/rename-deathwing-protocol.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Rename exact detachment name on experiment branch
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          before="Deathwing Protocol, Xanax System"
+          after="Deathwing Protocol"
+          changes=[]
+          for path in sorted(Path(".").glob("*.json")):
+              if path.name=="WHCUSTOM11th Native Stratagems.json": continue
+              old=path.read_text(encoding="utf8")
+              hits=old.count(before)
+              if hits:
+                  new=old.replace(before,after)
+                  json.loads(new)
+                  path.write_text(new,encoding="utf8")
+                  changes.append((str(path),hits))
+          print("RENAMED_SOURCE_FILES",changes)
+          assert any(p=="Imperium - Space Marines.json" for p,n in changes),"The original source detachment name was not found"
+          c=json.loads(Path("Imperium - Space Marines.json").read_text(encoding="utf8"))["catalogue"]
+          dets=[]
+          def walk(v,parents=()):
+              if isinstance(v,dict):
+                  name=v.get("name","")
+                  if name==after and v.get("type") in ("upgrade","selectionEntry"):
+                      dets.append(v)
+                  for x in v.values():
+                      if isinstance(x,(list,dict)): walk(x,parents+(name,))
+              elif isinstance(v,list):
+                  for x in v: walk(x,parents)
+          walk(c)
+          print("RENAMED_DETACHMENT_PROFILES",[(x["name"], len([p for p in x.get("profiles",[]) if p.get("typeName")=="Detachment Stratagems"])) for x in dets])
+          assert len(dets)==1, "Should be one canonical Deathwing Protocol detachment"
+          assert len([p for p in dets[0].get("profiles",[]) if p.get("typeName")=="Detachment Stratagems"])==6
+          assert before not in Path("Imperium - Space Marines.json").read_text()
+          PY
+      - name: Commit updated catalogue on experiment branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.json'
+          git diff --cached --quiet || { git commit -m "Rename Deathwing Protocol detachment and preserve six custom stratagems"; git push; }
+      - name: Update main catalogue name only (no native Book 105)
+        shell: bash
+        run: |
+          git fetch origin main
+          git worktree add --detach /tmp/whcustom-main origin/main
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path("/tmp/whcustom-main")
+          before="Deathwing Protocol, Xanax System"
+          after="Deathwing Protocol"
+          changed=[]
+          for path in sorted(root.glob("*.json")):
+              if path.name=="WHCUSTOM11th Native Stratagems.json": continue
+              raw=path.read_text(encoding="utf8")
+              if before in raw:
+                  new=raw.replace(before,after)
+                  json.loads(new)
+                  path.write_text(new,encoding="utf8")
+                  changed.append(path.name)
+          print("MAIN_RENAMED_FILES",changed)
+          assert "Imperium - Space Marines.json" in changed, "Main source already renamed? inspect before proceeding"
+          cat=json.loads((root/"Imperium - Space Marines.json").read_text(encoding="utf8"))["catalogue"]
+          matches=[]
+          def walk(x):
+              if isinstance(x,list):
+                  for v in x:walk(v)
+              elif isinstance(x,dict):
+                  if x.get("name")==after and x.get("type") in ("upgrade","selectionEntry"):matches.append(x)
+                  for v in x.values():
+                      if isinstance(v,(dict,list)):walk(v)
+          walk(cat)
+          assert len(matches)==1 and sum(p.get("typeName")=="Detachment Stratagems" for p in matches[0].get("profiles",[]))==6
+          PY
+          git -C /tmp/whcustom-main config user.name "github-actions[bot]"
+          git -C /tmp/whcustom-main config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C /tmp/whcustom-main add -- '*.json'
+          git -C /tmp/whcustom-main diff --cached --quiet || {
+            git -C /tmp/whcustom-main commit -m "Rename Deathwing Protocol detachment without Xanax System"
+            git -C /tmp/whcustom-main push origin HEAD:main
+          }
