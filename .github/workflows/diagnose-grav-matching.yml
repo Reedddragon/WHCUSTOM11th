@@ -64,3 +64,43 @@ jobs:
               x=m.start()
               print('CHECK_CTX',needle,repr(js[max(0,x-300):x+2300]))
           PY
+
+      - name: Inspect option serializer and exercise real native stratagem matcher
+        run: |
+          python - <<'PY'
+          import urllib.request,re,json
+          s=urllib.request.urlopen('https://www.newrecruit.eu/_nuxt/C97lo6qo.js',timeout=20).read().decode()
+          locations=[m.start() for m in re.finditer(r'calcOptionsList\(',s)]
+          print('OPTION_CALLS',len(locations))
+          for i,x in enumerate(locations):
+            print('OPTION_CONTEXT',i,repr(s[max(0,x-240):x+800]))
+          matches=list(re.finditer(r'calcOptionsList\([^)]{0,150}\)\{',s))
+          print('OPTION_METHOD_DEF_COUNT',len(matches))
+          for m in matches:
+            print('OPTION_METHOD_DEF',repr(s[m.start():m.start()+3500]))
+          PY
+      - name: Directly test New Recruit native matching method with generated records
+        shell: bash
+        run: |
+          node <<'JS'
+          const fs=require('fs');
+          const data=JSON.parse(fs.readFileSync('WHCUSTOM11th Native Stratagems.json','utf8')).data;
+          (async () => {
+            const js=await (await fetch('https://www.newrecruit.eu/_nuxt/C97lo6qo.js')).text();
+            const marker='getDetachmentStratagemsForDetachment(e,t){';
+            let start=js.indexOf(marker), end=js.indexOf('getPossibleLeaders(e)',start);
+            if(start<0||end<0)throw Error('Cannot locate actual matching method');
+            let body=js.slice(start,end);
+            const Kt=x=>String(x??'').trim().toLowerCase();
+            const yo=(a,b)=>a.name.localeCompare(b.name);
+            const yV=x=>x.replace(/^(.*)\((.*)\)$/,(_,a,b)=>b+a);
+            const matcher=eval('({'+body+'})');
+            matcher.stratagemBook=data;
+            const cat='Imperium - Adeptus Custodes';
+            for(let det of ['Grav-Assault Force','Aquilan Shield','Dread Host']){
+              const rows=matcher.getDetachmentStratagemsForDetachment(det,cat);
+              console.log('NATIVE_MATCH',det,'found',rows.length,'cards',rows.map(x=>x.name).join(' | '));
+              if(det==='Grav-Assault Force' && rows.length!==14)throw Error('Grav should have 3 custom +11 core');
+            }
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
