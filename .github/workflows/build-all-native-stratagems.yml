@@ -42,7 +42,7 @@ jobs:
             'Xenos - Necrons':3,
           },totals
           assert len(d['stratagems'])==sum(totals.values())+11==251
-          core=[r for r in d['stratagems'] if r['type']=='Core Stratagem']
+          core=[r for r in d['stratagems'] if r['type'].startswith('Core –')]
           assert len(core)==11
           assert len({r['name'] for r in core})==11
           assert all(r['detachment']=='' and r['faction_id'] is None for r in core)
