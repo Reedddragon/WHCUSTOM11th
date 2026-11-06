@@ -1,8 +1,22 @@
-# Custodes native stratagem experiment
+# Custodes native stratagem integration — 13 detachment coverage
 
-Status: LIVE NATIVE VIEWER VERIFIED on 2026-11-06 in New Recruit 37.14 using the user's authorized supporter account. All three custom records appear in the native Stratagems panel, and Tip of the Talon opens as a native card with the custom effect. Reload persistence verified.
+## Expansion completed on test branch (2026-11-06)
 
-This branch adds `Custodes Native Stratagems.json` only; existing catalogue rules and points are unchanged. The supplementary file is a library catalogue with string ID `105` and a sibling `data` object. New Recruit's native adapter requests book 105, then reads `data.stratagems` and `data.custom`.
+The file `Custodes Native Stratagems.json` now contains **42 catalogue-derived stratagems across all 13 Custodes detachments**, including six Shield Hosts and seven Unit Detachments. A GitHub Actions job generated and validated all 42 directly from the current `Imperium - Adeptus Custodes.json`, without editing Custodes unit profiles, detachment rules, points, or enhancements.
+
+Counts: Aquilan Shield 3; Dread Host 3; Emissaries Imperatus 3; Emperor's Chosen 3; Shadow Keepers 3; Solar Watch 3; Null Maiden Vigil 3; Auric Champions 3; Lions of the Emperor 3; Might of the Moritoi 3; Guardians of the Throne 6; Honoured Companions 3; Grav-Assault Force 3.
+
+The generated file is a valid JSON catalogue-wrapped Book 105 with `data.stratagems`, `data.custom["Imperium - Adeptus Custodes"]`, and optional adapter fields. The same three Aquilan Shield records from the earlier visual test are present. Generation verified all expected CP/WHEN/TARGET/EFFECT fields, stable source ids, unique name-detachment pairs, and two specifically modified stratagems (Tip of the Talon and Golden Light of the Moiraides).
+
+**Validation scope:** Generation and structural checks succeeded. Previous live New Recruit 37.14 verification established native-card behavior for Aquilan Shield's three stratagems, but the full set of 42 has not yet been visually tested in the live app.
+
+**Important production safeguard:** This branch's Book 105 currently replaces the standard stratagem book with Custodes-only entries. It does **not** preserve core stratagems or unrelated factions' native stratagems. Therefore do not merge this file into `main` until the existing base Book 105 data can be retained and the combined book retested.
+
+## How to test
+
+Import `Reedddragon/WHCUSTOM11th` from GitHub using Custom ref `experiment/custodes-native-stratagems`, select **Keep separate**, then make a Custodes roster and select each detachment. Use the native Stratagems panel, not the catalogue Profiles panel.
+
+---
 
 ## Scope
 
