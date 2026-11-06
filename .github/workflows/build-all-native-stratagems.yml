@@ -45,7 +45,7 @@ jobs:
           core=[r for r in d['stratagems'] if r['type'].startswith('Core –')]
           assert len(core)==11
           assert len({r['name'] for r in core})==11
-          assert all(r['detachment']=='' and r['faction_id'] is None for r in core)
+          assert all(r['detachment']=='' and r['faction_id']=='' for r in core)
           assert all(r['id'] and r['cp_cost']>0 and r['phase'] and r['turn'] for r in core)
           assert any(r['name']=='Heroic Intervention' and 'ALTERNATIVE' in r['description'] for r in core)
           assert any(r['name']=='Insane Bravery' and 'RESTRICTIONS' in r['description'] for r in core)
