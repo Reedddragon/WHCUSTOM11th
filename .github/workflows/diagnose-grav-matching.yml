@@ -51,3 +51,16 @@ jobs:
             if start<0:start=js.find(key)
             print('MATCHER_KEY',key,'INDEX',start,'CTX',js[start:start+2600] if start>=0 else '')
           PY
+
+      - name: Inspect how roster options become detachment labels
+        run: |
+          python - <<'PY'
+          import urllib.request,re,json
+          u='https://www.newrecruit.eu/_nuxt/C97lo6qo.js'
+          js=urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'}),timeout=25).read().decode('utf-8','replace')
+          for needle in ['calcOptionsList(', 'calcOptionsList(e,t,s){', 'calcOptionsList(e=', 'getRosterDetachment(e){', 'stratagemCache[e]', 'type.startsWith("Core –")', 'getDetachmentStratagemsForDetachment(e,t){']:
+            print('CHECK',needle,'hits',js.count(needle))
+            for m in list(re.finditer(re.escape(needle),js))[-3:]:
+              x=m.start()
+              print('CHECK_CTX',needle,repr(js[max(0,x-300):x+2300]))
+          PY
