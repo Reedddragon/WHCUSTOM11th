@@ -45,7 +45,7 @@ def records_from_catalogue(path):
     document = json.loads(path.read_text(encoding="utf-8"))
     cat = document.get("catalogue")
     if not isinstance(cat, dict) or not cat.get("name"):
-        return None, []
+        return None, [], []
     name = cat["name"]
     records = []
     def walk(node, ancestors=()):
@@ -80,17 +80,26 @@ def records_from_catalogue(path):
                 if isinstance(v, (dict, list)):
                     walk(v, new_parents)
     walk(cat)
-    return name, records
+    return name, records, [x.get("name", "") for x in cat.get("catalogueLinks", [])]
 
 def build(baseline_path, permit_incomplete):
     native = collections.defaultdict(list)
+    marine_inheritors = []
     for path in sorted(ROOT.glob("*.json")):
         if path.name == OUTPUT.name:
             continue
-        cat_name, records = records_from_catalogue(path)
+        cat_name, records, links = records_from_catalogue(path)
+        if cat_name and cat_name != "Imperium - Adeptus Astartes - Space Marines" and "Imperium - Space Marines" in links:
+            marine_inheritors.append(cat_name)
         if records:
             native[cat_name].extend(records)
     all_records = [r for cat in sorted(native) for r in native[cat]]
+    # Imported Space Marine detachments appear in multiple chapter catalogues.
+    # The native viewer matches custom rows by the roster's original catalogue name.
+    view_custom = {cat: list(rows) for cat, rows in native.items()}
+    marine = native.get("Imperium - Adeptus Astartes - Space Marines", [])
+    for chapter in sorted(set(marine_inheritors)):
+        view_custom[chapter] = list(marine) + list(native.get(chapter, []))
     known = set()
     for cat, records in native.items():
         for row in records:
@@ -109,7 +118,7 @@ def build(baseline_path, permit_incomplete):
         result = {k: v for k, v in base.items()}
         custom = {k: list(v) for k, v in base.get("custom", {}).items()}
         # Keep official/default records for all unaffected detachments and catalogues.
-        for cat, rows in native.items():
+        for cat, rows in view_custom.items():
             overridden = {r["detachment"].casefold() for r in rows}
             keep = [s for s in custom.get(cat, []) if str(s.get("detachment", "")).casefold() not in overridden]
             custom[cat] = keep + rows
@@ -118,7 +127,7 @@ def build(baseline_path, permit_incomplete):
         result["stratagems"] = list(base["stratagems"]) + all_records
     elif permit_incomplete:
         result = {
-            "stratagems": all_records, "custom": dict(native), "units": [],
+            "stratagems": all_records, "custom": view_custom, "units": [],
             "keywords": {}, "alias": {}, "conditional": {},
         }
     else:
@@ -137,6 +146,7 @@ def build(baseline_path, permit_incomplete):
     summary = {cat: {"stratagems": len(rows), "detachments": dets[cat]} for cat, rows in native.items()}
     print("GENERATED:", len(all_records), "custom stratagems across", len(native), "catalogues")
     print(json.dumps(summary, ensure_ascii=False, sort_keys=True))
+    print("CHAPTER ALIASES:", len(marine_inheritors), sorted(set(marine_inheritors)))
     print("BASE:", "preserved" if baseline_path else "INCOMPLETE; test branch only")
     return len(all_records)
 
