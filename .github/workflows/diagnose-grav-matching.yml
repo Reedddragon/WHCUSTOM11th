@@ -1,0 +1,53 @@
+name: Diagnose Grav-Assault native stratagem matching
+on:
+  push:
+    branches: [experiment/all-native-stratagems-20261106]
+    paths: [.github/workflows/diagnose-grav-matching.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect catalogue and native matching functions
+        run: |
+          python - <<'PY'
+          import json,urllib.request,re
+          from pathlib import Path
+          c=json.loads(Path('Imperium - Adeptus Custodes.json').read_text())['catalogue']
+          print('CATALOGUE:',c.get('name'), 'CATID:',c.get('id'))
+          def walk(x,anc=()):
+            if isinstance(x,list):
+              for v in x:walk(v,anc)
+            elif isinstance(x,dict):
+              nm=x.get('name','')
+              if isinstance(nm,str) and nm in ('Grav-Assault Force','Aquilan Shield'):
+                print('ENTRY',nm,'PATH',' > '.join(anc[-8:]),'ID',x.get('id'),'KEYS',list(x.keys()), 'COSTS',x.get('costs'), 'CATEGORIES',x.get('categoryLinks'))
+                for key in ['modifiers','conditions','constraints','profiles','selectionEntries','selectionEntryGroups','entryLinks','infoLinks']:
+                  y=x.get(key)
+                  if y:print('ENTRY_DETAIL',key,json.dumps(y,ensure_ascii=False)[:1600])
+              if isinstance(nm,str) and ('grav-assault' in nm.lower() or nm=="Detachment"):
+                print('NAME_PATH',nm,'::',' > '.join(anc[-7:]), 'type',x.get('type',''))
+              next_anc=anc+((nm,) if isinstance(nm,str) and nm else ())
+              for v in x.values():
+                if isinstance(v,(dict,list)):walk(v,next_anc)
+          walk(c)
+          d=json.loads(Path('WHCUSTOM11th Native Stratagems.json').read_text())['data']
+          for group in ['Grav-Assault Force','Aquilan Shield']:
+            rows=[s for s in d['custom']['Imperium - Adeptus Custodes'] if s.get('detachment')==group]
+            print('NATIVE_ROWS',group,[(s['name'],s['id'],s['faction_id']) for s in rows])
+          u='https://www.newrecruit.eu/_nuxt/C97lo6qo.js'
+          req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'})
+          js=urllib.request.urlopen(req,timeout=25).read().decode('utf-8','replace')
+          print('LOADER_BYTES',len(js))
+          s=js.index('getRosterDetachment(e){')
+          e=js.find('hasStratagems()',s)
+          if e < 0:e=s+20000
+          print('MATCHER_IMPLEMENTATION',js[s:min(e+1000,s+18000)])
+          for key in ['getAllStratagems(){','getCustomStratagems(','useCustomStratagems(','getDetachmentStratagems(']:
+            start=js.find(key, s-1200)
+            if start<0:start=js.find(key)
+            print('MATCHER_KEY',key,'INDEX',start,'CTX',js[start:start+2600] if start>=0 else '')
+          PY
