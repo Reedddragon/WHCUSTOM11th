@@ -141,7 +141,7 @@ def build(baseline_path, permit_incomplete):
         },
         "data": result,
     }
-    OUTPUT.write_text(json.dumps(game, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    OUTPUT.write_text(json.dumps(game, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     dets = {cat: len({r["detachment"] for r in rows}) for cat, rows in native.items()}
     summary = {cat: {"stratagems": len(rows), "detachments": dets[cat]} for cat, rows in native.items()}
     print("GENERATED:", len(all_records), "custom stratagems across", len(native), "catalogues")
