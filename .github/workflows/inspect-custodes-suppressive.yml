@@ -1,0 +1,31 @@
+name: Inspect Custodes Suppressive Ability
+on:
+  push:
+    branches: [experiment/all-native-stratagems-20261106]
+    paths: [.github/workflows/inspect-custodes-suppressive.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect matching stratagem profiles
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          c=json.loads(Path('Imperium - Adeptus Custodes.json').read_text())['catalogue']
+          def walk(x,anc=()):
+            if isinstance(x,list):
+              for o in x:walk(o,anc)
+            elif isinstance(x,dict):
+              nm=x.get('name','')
+              text=' '.join(str(ch.get('$text','')) for ch in x.get('characteristics',[]))
+              if any(z in (nm+' '+text).lower() for z in ('suppressive','supressive','shoot and move','strike and disappear')) and nm not in ('Description','Effect'):
+                print('MATCH',repr(nm),'ANCESTORS',repr(anc[-6:]),'TYPE',repr(x.get('typeName')),'ID',repr(x.get('id')))
+                print('CHARS',json.dumps(x.get('characteristics',[]),ensure_ascii=False)[:6000])
+              for v in x.values():
+                if isinstance(v,(list,dict)):walk(v,anc+((nm,) if nm else ()))
+          walk(c)
+          PY
