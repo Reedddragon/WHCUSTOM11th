@@ -45,7 +45,7 @@ def turn_from_when(when):
 def core_records_from_source(path):
     """Convert pinned 11e core cards to the same New Recruit Book 105 record shape.
 
-    Core records are global, with no faction_id and no detachment assignment.
+    Core records are global, with empty faction_id and no detachment assignment.
     """
     data = json.loads(path.read_text(encoding="utf-8"))
     rows = data.get("stratagems")
@@ -82,7 +82,7 @@ def core_records_from_source(path):
         timing_phase = phase_from_when(str(when))
         displayed_phase = timing_phase if timing_phase != "Any phase" else ", ".join(phase_map[x] for x in phases)
         converted.append(dict(
-            id=row["id"], name=name, detachment="", faction_id=None,
+            id=row["id"], name=name, detachment="", faction_id="",
             type="Core – Stratagem", cp_cost=cost,
             phase=displayed_phase,
             turn=turn_map[row["turn"]], description=desc
@@ -196,7 +196,7 @@ def build(baseline_path, permit_incomplete, core_source):
         "catalogue": {
             "id": "105", "name": "WHCUSTOM11th Native Stratagems",
             "gameSystemId": SYS_ID, "gameSystemRevision": 19,
-            "revision": 1, "battleScribeVersion": "2.03", "library": True,
+            "revision": 3, "battleScribeVersion": "2.03", "library": True,
         },
         "data": result,
     }
