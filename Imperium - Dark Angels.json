@@ -6259,7 +6259,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "6",
+                        "$text": "12",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -6274,7 +6274,7 @@
                       },
                       {
                         "name": "AP",
-                        "$text": "0",
+                        "$text": "-1",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -6284,7 +6284,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Rapid Fire 12, Twin-Linked",
+                        "$text": "Rapid Fire 6, Twin-Linked",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
