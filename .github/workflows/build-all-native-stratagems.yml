@@ -34,7 +34,7 @@ jobs:
             'Xenos - Orks',
             'Xenos - Necrons',
           )}
-          assert len(custom['Imperium - Adeptus Astartes - Dark Angels'])==148
+          assert len(custom['Imperium - Adeptus Astartes - Dark Angels'])==154
           # Deathwing Protocol must use the same name in both catalogue and native viewer.
           dw=[r for r in custom['Imperium - Adeptus Astartes - Dark Angels'] if r['detachment']=='Deathwing Protocol']
           assert len(dw)==6,[r['name'] for r in dw]
@@ -48,13 +48,25 @@ jobs:
           }
           assert all('Xanax System' not in r['detachment'] for r in d['stratagems'])
           assert sum(r['detachment']=='Deathwing Protocol' for r in custom['Imperium - Adeptus Astartes - Space Marines'])==6
+          rw=[r for r in custom['Imperium - Adeptus Astartes - Dark Angels'] if r['detachment']=='Ravenwing Protocol']
+          assert len(rw)==6,[r['name'] for r in rw]
+          assert {r['name'] for r in rw}=={
+            "Hunters' Trail",
+            'On Black Wings of the Raven',
+            "Raven's Swiftness",
+            'Ride Hard, Ride Fast',
+            'Full Throttle',
+            'Black Strike',
+          }
+          assert all(r['cp_cost']==1 for r in rw)
+          assert sum(r['detachment']=='Ravenwing Protocol' for r in custom['Imperium - Adeptus Astartes - Space Marines'])==6
           assert totals=={
             'Imperium - Adeptus Custodes':42,
-            'Imperium - Adeptus Astartes - Space Marines':148,
+            'Imperium - Adeptus Astartes - Space Marines':154,
             'Xenos - Orks':47,
             'Xenos - Necrons':3,
           },totals
-          assert len(d['stratagems'])==sum(totals.values())+11==251
+          assert len(d['stratagems'])==sum(totals.values())+11==257
           core=[r for r in d['stratagems'] if r['type'].startswith('Core –')]
           assert len(core)==11
           assert len({r['name'] for r in core})==11
@@ -72,7 +84,7 @@ jobs:
               assert r['description'].count('<b>WHEN:</b>')==1
               assert r['description'].count('<b>TARGET:</b>')==1
               assert r['description'].count('<b>EFFECT:</b>')==1
-          print('PASS 11 core + 240 custom native stratagem validation',totals)
+          print('PASS 11 core + 246 custom native stratagem validation',totals)
           PY
       - name: Commit test Book 105
         run: |

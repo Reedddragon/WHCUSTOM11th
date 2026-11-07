@@ -53,3 +53,7 @@ When the preservation/merge behavior has been verified in a live app with core a
 ## Deathwing Protocol naming (November 6, 2026)
 
 The actual detachment in `Imperium - Space Marines.json` is named **Deathwing Protocol** on both `main` and the native-viewer test branch. Book 105 uses the exact same name, with six existing custom stratagems mapped to that detachment. The temporary comma-name alias was removed. Source rules and conditional 1/2 CP costs are preserved.
+
+## Ravenwing Protocol (November 8, 2026)
+
+Added a separate **Ravenwing Protocol** detachment to the Space Marines catalogue, using the original *Ravenwing, Nephilim Protocols* design. The 3DP detachment retains Hunters in Black, advancing/falling back and shooting, extra Mounted charge eligibility, Outrider Battleline, and six 1CP stratagems. Book 105 revision 6 maps the six native cards to the same detachment name for Dark Angels and inherited Space Marine chapter catalogues. Existing Darkflight Pursuit and Wrath of the Rock remain unchanged. This is still an experimental incomplete-baseline Book 105 pending live New Recruit validation.
