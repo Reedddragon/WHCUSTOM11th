@@ -1718,7 +1718,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -1973,7 +1973,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "- This unit has Mobile.\n- In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase.",
+                "$text": "This unit has Mobile.\nIn your Command phase, select one Combat Doctrine to be active for this unit until the start of your next Command phase.\nEach time this unit Advances or Falls Back, until the end of the turn, add 1 to Hit rolls for attacks made by models in this unit.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -2246,7 +2246,7 @@
                   },
                   {
                     "name": "Keywords",
-                    "$text": "Sustained Hits 2",
+                    "$text": "Sustained Hits 2, Devastating Wounds",
                     "typeId": "893f-9000-ccf7-648e"
                   }
                 ]
@@ -4960,7 +4960,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -5440,7 +5440,7 @@
                       },
                       {
                         "name": "S",
-                        "$text": "8",
+                        "$text": "12",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
@@ -5450,7 +5450,7 @@
                       },
                       {
                         "name": "D",
-                        "$text": "D3+2",
+                        "$text": "D6",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
@@ -5522,7 +5522,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "10",
+                        "$text": "12",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -5532,12 +5532,12 @@
                       },
                       {
                         "name": "S",
-                        "$text": "5",
+                        "$text": "6",
                         "typeId": "2229-f494-25db-c5d3"
                       },
                       {
                         "name": "AP",
-                        "$text": "-1",
+                        "$text": "-2",
                         "typeId": "9ead-8a10-520-de15"
                       },
                       {
@@ -5547,7 +5547,7 @@
                       },
                       {
                         "name": "Keywords",
-                        "$text": "Sustained Hits 1",
+                        "$text": "Sustained Hits 2",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
                     ]
@@ -5652,7 +5652,7 @@
                           },
                           {
                             "name": "S",
-                            "$text": "12",
+                            "$text": "14",
                             "typeId": "2229-f494-25db-c5d3"
                           },
                           {
@@ -5662,7 +5662,7 @@
                           },
                           {
                             "name": "D",
-                            "$text": "D3+3",
+                            "$text": "D3+4",
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
@@ -5779,7 +5779,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 150
           },
           {
             "name": "Crusade Points",
@@ -6259,7 +6259,7 @@
                       },
                       {
                         "name": "A",
-                        "$text": "6",
+                        "$text": "12",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -6353,12 +6353,12 @@
                     "characteristics": [
                       {
                         "name": "Range",
-                        "$text": "18\"",
+                        "$text": "24\"",
                         "typeId": "9896-9419-16a1-92fc"
                       },
                       {
                         "name": "A",
-                        "$text": "D3+1",
+                        "$text": "4",
                         "typeId": "3bb-c35f-f54-fb08"
                       },
                       {
@@ -6378,7 +6378,7 @@
                       },
                       {
                         "name": "D",
-                        "$text": "3",
+                        "$text": "4",
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
@@ -6500,7 +6500,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 130
           },
           {
             "name": "Crusade Points",
@@ -6873,7 +6873,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "(Once per turn, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if those attacks destroyed a friendly ^^**Dark Angels**^^ unit within 6\" of this unit, you can use this ability. If you do, this unit shoots using normal shooting but while doing so this unit can only target that enemy unit.",
+                "$text": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -7204,7 +7204,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -7541,7 +7541,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While a friendly ^^**Dark Angels**^^ unit is within 6\" of this unit, that unit has Stealth.",
+                "$text": "Friendly ADEPTUS ASTARTES units within 6\" of this unit have Stealth. Each time an attack targets one of those units, worsen the Armour Penetration characteristic of that attack by 1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -7807,7 +7807,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -8083,7 +8083,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 170,
+            "value": 150,
             "conditions": [
               {
                 "childId": "model",
@@ -8129,6 +8129,21 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "$text": "If a Character unit from your army with the Leader ability can be attached to an Outrider Squad, it can be attached to this unit instead.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "name": "Attached Unit",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "d659-103f-7990-1d94",
+            "page": 31
           }
         ],
         "selectionEntryGroups": [
@@ -8203,7 +8218,7 @@
                     "type": "selectionEntry"
                   },
                   {
-                    "name": "Corvus Hammers",
+                    "name": "Black Knight combat weapon",
                     "id": "97b0-ec10-4368-d69b",
                     "hidden": false,
                     "import": true,
@@ -8398,7 +8413,7 @@
                     ]
                   },
                   {
-                    "name": "Corvus Hammers",
+                    "name": "Black Knight combat weapon",
                     "id": "a4b0-0723-7b67-7b9d",
                     "hidden": false,
                     "import": true,
@@ -8624,7 +8639,7 @@
                     ]
                   },
                   {
-                    "name": "Corvus Hammers",
+                    "name": "Black Knight combat weapon",
                     "id": "a1c6-6573-c952-7a5f",
                     "hidden": false,
                     "import": true,
@@ -8975,7 +8990,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -9303,7 +9318,7 @@
             ],
             "entryLinks": [
               {
-                "name": "Corvus Hammers",
+                "name": "Black Knight combat weapon",
                 "id": "3995-c1dd-448f-9d1a",
                 "hidden": false,
                 "import": true,
@@ -9462,7 +9477,7 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Corvus Hammers",
+                "name": "Black Knight combat weapon",
                 "id": "e544-84b6-5e04-0a4d",
                 "hidden": false,
                 "import": true,
@@ -9533,7 +9548,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "While this unit contains a ^^**Ravenwing Apothecary**^^, in your Command phase, this unit heals D3+1 wounds.",
+                    "$text": "While this unit contains a Ravenwing Apothecary, once in each of your Command phases choose one: Revive - return one destroyed non-CHARACTER model to the Attached Unit with its full Wounds; or Restore - select one damaged model in the Attached Unit and restore it to its full Wounds characteristic.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -10013,7 +10028,7 @@
                           },
                           {
                             "name": "Keywords",
-                            "$text": "",
+                            "$text": "Devastating Wounds",
                             "typeId": "893f-9000-ccf7-648e"
                           }
                         ],
@@ -13927,6 +13942,13 @@
             "hidden": false,
             "targetId": "3b76-4053-ece9-6e7d",
             "type": "rule"
+          },
+          {
+            "name": "Lone Operative",
+            "id": "95e7-2c92-dd64-04d5",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "a8a0-8fe7-898-e0f3"
           }
         ],
         "modifierGroups": [
@@ -14192,20 +14214,6 @@
                 "name": "Base",
                 "$text": "120x92mm",
                 "typeId": "nr-base-size"
-              }
-            ]
-          },
-          {
-            "name": "Talonmaster",
-            "id": "9b3-3b90-f48c-380e",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "While this model is within 3\" of one or more other friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle units, this model has the Lone Operative ability.",
-                "typeId": "9b8f-694b-e5e-b573"
               }
             ]
           },
@@ -17371,7 +17379,7 @@
         ]
       },
       {
-        "name": "Corvus Hammers",
+        "name": "Black Knight combat weapon",
         "id": "bbf2-86fe-2cc4-7d97",
         "collective": true,
         "hidden": false,
@@ -17406,7 +17414,7 @@
         ],
         "profiles": [
           {
-            "name": "Corvus Hammers",
+            "name": "Black Knight combat weapon",
             "id": "7d10-cfe3-411d-4d4a",
             "hidden": false,
             "page": 31,
