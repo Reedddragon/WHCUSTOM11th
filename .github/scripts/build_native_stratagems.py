@@ -196,7 +196,7 @@ def build(baseline_path, permit_incomplete, core_source):
         "catalogue": {
             "id": "105", "name": "WHCUSTOM11th Native Stratagems",
             "gameSystemId": SYS_ID, "gameSystemRevision": 19,
-            "revision": 5, "battleScribeVersion": "2.03", "library": True,
+            "revision": 6, "battleScribeVersion": "2.03", "library": True,
         },
         "data": result,
     }
