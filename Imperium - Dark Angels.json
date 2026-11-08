@@ -18799,7 +18799,7 @@
                       {
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "6"
+                        "$text": "7"
                       },
                       {
                         "name": "Sv",
@@ -18878,7 +18878,7 @@
                             "typeId": "95d1-95f-45b4-11d6"
                           },
                           {
-                            "$text": "5",
+                            "$text": "6",
                             "name": "S",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
@@ -18971,7 +18971,7 @@
                       {
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "6"
+                        "$text": "7"
                       },
                       {
                         "name": "Sv",
@@ -19060,7 +19060,7 @@
                             "typeId": "95d1-95f-45b4-11d6"
                           },
                           {
-                            "$text": "5",
+                            "$text": "6",
                             "name": "S",
                             "typeId": "ab33-d393-96ce-ccba"
                           },
@@ -19566,7 +19566,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": "2+"
+                        "$text": "3+"
                       },
                       {
                         "name": "W",
@@ -19695,7 +19695,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": "2+"
+                        "$text": "3+"
                       },
                       {
                         "name": "W",
@@ -21086,7 +21086,7 @@
               {
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4",
-                "$text": "5"
+                "$text": "7"
               },
               {
                 "name": "Sv",
@@ -21378,7 +21378,7 @@
                     "typeId": "9896-9419-16a1-92fc"
                   },
                   {
-                    "$text": "D6",
+                    "$text": "4",
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08"
                   },
@@ -21403,7 +21403,7 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "Ignores Cover, Torrent, Devastating Wounds",
+                    "$text": "Ignores Cover, Torrent, Devastating Wounds, Blast 2",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -21856,7 +21856,7 @@
                     "typeId": "9896-9419-16a1-92fc"
                   },
                   {
-                    "$text": "D6",
+                    "$text": "4",
                     "name": "A",
                     "typeId": "3bb-c35f-f54-fb08"
                   },
@@ -21881,7 +21881,7 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "Ignores Cover, Torrent, Devastating Wounds, Hazardous",
+                    "$text": "Ignores Cover, Torrent, Devastating Wounds, Hazardous, Blast 2",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
