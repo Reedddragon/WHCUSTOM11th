@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 10,
+    "revision": 11,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -184,22 +184,6 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Land Speeder Vengeance",
-        "id": "56cf-ad9f-8a14-d354",
-        "hidden": false,
-        "import": true,
-        "targetId": "b4a0-d2fe-a988-f28b",
-        "type": "selectionEntry"
-      },
-      {
-        "name": "Ravenwing Darkshroud",
-        "id": "6aaa-b67c-6608-41cc",
-        "hidden": false,
-        "import": true,
-        "targetId": "152b-a271-df2b-21a9",
-        "type": "selectionEntry"
-      },
-      {
         "name": "Ravenwing Black Knights",
         "id": "8c41-ccbc-66dc-44bc",
         "hidden": false,
@@ -240,14 +224,6 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Ravenwing Talonmaster [Legends]",
-        "id": "4bae-848c-a666-2b2c",
-        "hidden": false,
-        "import": true,
-        "targetId": "a2b6-e35-67a8-d76e",
-        "type": "selectionEntry"
-      },
-      {
         "name": "Deathwing Strikemaster [Legends]",
         "id": "1a6b-3ca9-141c-a248",
         "hidden": false,
@@ -261,6 +237,14 @@
         "hidden": false,
         "import": true,
         "targetId": "48fb-ebd6-dd17-729b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ravenwing Vengeance Talonmaster",
+        "id": "cafe-0044-6100-8045",
+        "hidden": false,
+        "import": true,
+        "targetId": "cafe-0000-6100-8001",
         "type": "selectionEntry"
       }
     ],
@@ -17455,6 +17439,1139 @@
                 "name": "Keywords",
                 "$text": "Devastating Wounds",
                 "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ravenwing Vengeance Talonmaster",
+        "id": "cafe-0000-6100-8001",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {
+            "name": "Fly",
+            "id": "cafe-0001-6100-8002",
+            "primary": false,
+            "targetId": "c619-2086-bbcf-69c9"
+          },
+          {
+            "name": "Imperium",
+            "id": "cafe-0002-6100-8003",
+            "primary": false,
+            "targetId": "aff3-d6a3-2a95-9dc"
+          },
+          {
+            "name": "Vehicle",
+            "id": "cafe-0003-6100-8004",
+            "primary": false,
+            "targetId": "dbd4-63-af05-998"
+          },
+          {
+            "name": "Land Speeder Vengeance",
+            "id": "cafe-0004-6100-8005",
+            "primary": false,
+            "targetId": "e74d-4be2-7d3e-d993"
+          },
+          {
+            "name": "Faction: Adeptus Astartes",
+            "id": "cafe-0005-6100-8006",
+            "primary": false,
+            "targetId": "6e7-40c-58d9-e402"
+          },
+          {
+            "name": "Faction: Dark Angels",
+            "id": "cafe-0006-6100-8007",
+            "primary": false,
+            "targetId": "aab1-4f05-fabe-5ba5"
+          },
+          {
+            "name": "Ravenwing",
+            "id": "cafe-0007-6100-8008",
+            "primary": false,
+            "targetId": "e9c7-1590-1bda-bf7f"
+          },
+          {
+            "name": "Frame",
+            "id": "cafe-0008-6100-8009",
+            "primary": false,
+            "targetId": "b927-8eeb-7cc3-8dec"
+          },
+          {
+            "name": "Speeder",
+            "id": "cafe-0009-6100-800a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "966c-5300-a13d-f524"
+          },
+          {
+            "name": "Character",
+            "id": "cafe-000a-6100-800b",
+            "primary": true,
+            "targetId": "9cfd-1c32-585f-7d5c"
+          },
+          {
+            "name": "Darkshroud",
+            "id": "cafe-000b-6100-800c",
+            "primary": false,
+            "targetId": "294a-2f23-e0ce-386c"
+          },
+          {
+            "name": "Ravenwing Talonmaster",
+            "id": "cafe-000c-6100-800d",
+            "primary": false,
+            "targetId": "4b4e-689a-d721-df70"
+          }
+        ],
+        "constraints": [
+          {
+            "id": "cafe-000d-6100-800e",
+            "field": "75bb-ded1-c86d-bdf0",
+            "includeChildSelections": false,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          },
+          {
+            "id": "cafe-000e-6100-800f",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          },
+          {
+            "id": "cafe-000f-6100-8010",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          },
+          {
+            "id": "cafe-0010-6100-8011",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 100
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Crusade",
+            "id": "cafe-0011-6100-8012",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "9a99-f13c-a667-e698",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Enhancements",
+            "id": "cafe-0012-6100-8013",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Warlord",
+            "id": "cafe-0013-6100-8014",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "caa-f869-3cbd-b48e",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Darkflight Pursuit Enhancements",
+            "id": "cafe-0014-6100-8015",
+            "hidden": false,
+            "import": true,
+            "targetId": "d694-22cb-3e41-5b45",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Deadly Demise",
+            "id": "cafe-0015-6100-8016",
+            "hidden": false,
+            "targetId": "b68a-5ded-65ac-98c",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "append",
+                "value": "D3"
+              }
+            ]
+          },
+          {
+            "name": "Combat Doctrines",
+            "id": "cafe-0016-6100-8017",
+            "hidden": false,
+            "targetId": "3b76-4053-ece9-6e7d",
+            "type": "rule"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "cafe-0017-6100-8018",
+            "hidden": false,
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "type": "rule"
+          },
+          {
+            "name": "Lone Operative",
+            "id": "cafe-0018-6100-8019",
+            "hidden": false,
+            "targetId": "a8a0-8fe7-898-e0f3",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "append",
+                "value": "15\""
+              }
+            ]
+          }
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Crusade modifiers",
+            "type": "and",
+            "modifiers": [
+              {
+                "field": "80e3-6faa-79ea-bbef",
+                "type": "set",
+                "value": 6,
+                "conditions": [
+                  {
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "c897-f1d5-6cfd-0dbf",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "f803-3556-f3c1-24ad",
+                "type": "increment",
+                "value": 2,
+                "repeats": [
+                  {
+                    "childId": "d1a5-4297-168b-11cd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "self",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-ready)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 5
+                      },
+                      {
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "field": "forces",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Blooded)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 5
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 15
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 15
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 30
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Heroic)",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 30
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 50
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "append",
+                "value": "(Legendary)",
+                "conditions": [
+                  {
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 50
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "6612-f6f7-c1c0-0708",
+            "type": "set",
+            "value": 2,
+            "conditions": [
+              {
+                "childId": "d62d-db22-4893-4bc0",
+                "childName": "1. Incursion (1000 Point limit)",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ravenwing Vengeance Talonmaster",
+            "id": "cafe-0019-6100-801a",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {
+                "name": "M",
+                "$text": "16\"",
+                "typeId": "e703-ecb6-5ce7-aec1"
+              },
+              {
+                "name": "T",
+                "$text": "9",
+                "typeId": "d29d-cf75-fc2d-34a4"
+              },
+              {
+                "name": "Sv",
+                "$text": "3+",
+                "typeId": "450-a17e-9d5e-29da"
+              },
+              {
+                "name": "W",
+                "$text": "11",
+                "typeId": "750a-a2ec-90d3-21fe"
+              },
+              {
+                "name": "LD",
+                "$text": "6+",
+                "typeId": "58d2-b879-49c7-43bc"
+              },
+              {
+                "name": "OC",
+                "$text": "3",
+                "typeId": "bef7-942a-1a23-59f8"
+              },
+              {
+                "name": "InSv",
+                "$text": "5+",
+                "typeId": "55a7-5b54-c60d-11dc"
+              },
+              {
+                "name": "Base",
+                "$text": "60mm Flying",
+                "typeId": "nr-base-size"
+              }
+            ]
+          },
+          {
+            "name": "Storm of Vengeance",
+            "id": "cafe-001a-6100-801b",
+            "hidden": false,
+            "page": 35,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Icon of Old Caliban",
+            "id": "cafe-001b-6100-801c",
+            "hidden": false,
+            "page": 33,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Friendly ADEPTUS ASTARTES units within 6\" of this unit have Stealth. Each time an attack targets one of those units, worsen the Armour Penetration characteristic of that attack by 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Nowhere To Hide",
+            "id": "cafe-001c-6100-801d",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "While a friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Master of Manoeuvre",
+            "id": "cafe-001d-6100-801e",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, this model can make a Normal move of up to 6\".",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wargear",
+            "id": "cafe-001e-6100-801f",
+            "hidden": false,
+            "sortIndex": 2,
+            "entryLinks": [
+              {
+                "name": "Armoured Hull",
+                "id": "cafe-001f-6100-8020",
+                "hidden": false,
+                "import": true,
+                "targetId": "a879-624d-42ab-2b43",
+                "type": "selectionEntry"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Plasma storm battery",
+                "id": "cafe-0020-6100-8021",
+                "hidden": false,
+                "import": true,
+                "page": 35,
+                "type": "upgrade",
+                "categoryLinks": [
+                  {
+                    "name": "Plasma",
+                    "id": "cafe-0021-6100-8022",
+                    "hidden": false,
+                    "primary": false,
+                    "targetId": "cb29-f4bb-ff15-6b11"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "cafe-0022-6100-8023",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafe-0023-6100-8024",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "cafe-0024-6100-8025",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Blast",
+                    "id": "cafe-0025-6100-8026",
+                    "hidden": false,
+                    "targetId": "6c1f-1cf7-ff25-c99e",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Twin-linked",
+                    "id": "cafe-0026-6100-8027",
+                    "hidden": false,
+                    "targetId": "cf93-ad4d-2f08-a79d",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Hazardous",
+                    "id": "cafe-0027-6100-8028",
+                    "hidden": false,
+                    "targetId": "8367-374c-f87-c627",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "➤ Plasma storm battery - standard",
+                    "id": "cafe-0028-6100-8029",
+                    "hidden": false,
+                    "page": 35,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "D3+3",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "9",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Blast 1, Twin-Linked",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Plasma storm battery - supercharge",
+                    "id": "cafe-0029-6100-802a",
+                    "hidden": false,
+                    "page": 35,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "D3+3",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "10",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-3",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Blast 1, Hazardous, Twin-Linked",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Twin Heavy Bolter",
+                "id": "cafe-002a-6100-802b",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cafe-002b-6100-802c",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafe-002c-6100-802d",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Archeotech Armament upgrade",
+                    "id": "cafe-002d-6100-802e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "4485-e8e3-43a0-6c02",
+                    "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "cafe-002e-6100-802f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup",
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {
+                            "childId": "cafe-002d-6100-802e",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "upgrade",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Twin-linked",
+                    "id": "cafe-002f-6100-8030",
+                    "hidden": false,
+                    "targetId": "cf93-ad4d-2f08-a79d",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Sustained Hits",
+                    "id": "cafe-0030-6100-8031",
+                    "hidden": false,
+                    "targetId": "1897-c22c-9597-12b1",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Twin Heavy Bolter",
+                    "id": "cafe-0031-6100-8032",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "36\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "3",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "5",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-1",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Sustained Hits 1, Twin-Linked",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Power Weapon",
+                "id": "cafe-0032-6100-8033",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cafe-0033-6100-8034",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafe-0034-6100-8035",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "cafe-0035-6100-8036",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Power Weapon",
+                    "id": "cafe-0036-6100-8037",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "Melee",
+                        "typeId": "914c-b413-91e3-a132"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "5",
+                        "typeId": "2337-daa1-6682-b110"
+                      },
+                      {
+                        "name": "WS",
+                        "$text": "3+",
+                        "typeId": "95d1-95f-45b4-11d6"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "5",
+                        "typeId": "ab33-d393-96ce-ccba"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-2",
+                        "typeId": "41a0-1301-112a-e2f2"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Twin Assault Cannon",
+                "id": "cafe-0037-6100-8038",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cafe-0038-6100-8039",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafe-0039-6100-803a",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Archeotech Armament upgrade",
+                    "id": "cafe-003a-6100-803b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "4485-e8e3-43a0-6c02",
+                    "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "cafe-003b-6100-803c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup",
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {
+                            "childId": "cafe-003a-6100-803b",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "upgrade",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devastating Wounds",
+                    "id": "cafe-003c-6100-803d",
+                    "hidden": false,
+                    "targetId": "be1e-ac8e-1e2c-3528",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Twin-linked",
+                    "id": "cafe-003d-6100-803e",
+                    "hidden": false,
+                    "targetId": "cf93-ad4d-2f08-a79d",
+                    "type": "rule"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Twin Assault Cannon",
+                    "id": "cafe-003e-6100-803f",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "$text": "24\"",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "name": "A",
+                        "$text": "6",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "name": "BS",
+                        "$text": "3+",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "name": "S",
+                        "$text": "6",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "0",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "name": "Keywords",
+                        "$text": "Devastating Wounds, Twin-Linked",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Main Weapon",
+                "id": "cafe-003f-6100-8040",
+                "defaultSelectionEntryId": "c03c-8878-8ace-49f1",
+                "hidden": false,
+                "page": 35,
+                "constraints": [
+                  {
+                    "id": "cafe-0040-6100-8041",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafe-0041-6100-8042",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Assault Cannon",
+                    "id": "cafe-0042-6100-8043",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "29bd-1d55-6113-52c4",
+                    "type": "selectionEntry"
+                  },
+                  {
+                    "name": "Heavy Bolter",
+                    "id": "cafe-0043-6100-8044",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5610-e793-4bdc-84a4",
+                    "type": "selectionEntry"
+                  }
+                ]
               }
             ]
           }
