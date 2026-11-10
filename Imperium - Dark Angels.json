@@ -148,6 +148,11 @@
         "name": "Firewing Moritat",
         "id": "c691-b161-93eb-a3f5",
         "hidden": false
+      },
+      {
+        "name": "Stormwing",
+        "id": "74a8-baab-1166-df00",
+        "hidden": false
       }
     ],
     "entryLinks": [
@@ -399,6 +404,46 @@
         "hidden": false,
         "id": "e128-bbdb-cbbb-c033",
         "targetId": "3287-f646-82c9-f08d",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Stormwing Breechers",
+        "hidden": false,
+        "id": "39c9-c05b-dc19-b283",
+        "targetId": "5ce2-b38a-2de7-3acc",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Stormwing Despoilers",
+        "hidden": false,
+        "id": "2111-5562-03cc-7106",
+        "targetId": "21e6-ca79-d824-f965",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Stormwing Ravagers",
+        "hidden": false,
+        "id": "6eec-7e42-02ba-e4be",
+        "targetId": "1397-6af0-a99f-1d84",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Stormwing Whirlwind",
+        "hidden": false,
+        "id": "6e81-ca49-980d-0fbd",
+        "targetId": "64ab-1585-e7be-3509",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Calloson",
+        "hidden": false,
+        "id": "cb5b-002d-00e3-2293",
+        "targetId": "b107-bac0-11a3-d698",
         "type": "selectionEntry"
       }
     ],
@@ -24095,6 +24140,2760 @@
           }
         ],
         "page": 9
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Stormwing Breechers",
+        "hidden": false,
+        "id": "5ce2-b38a-2de7-3acc",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Breechers",
+            "id": "a630-bc87-3d5a-734a",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Veteran Breecher",
+                "hidden": false,
+                "id": "0ed1-614a-3f1b-be59",
+                "profiles": [
+                  {
+                    "name": "Veteran Breecher",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "b5f6-129b-ebf1-68f1",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a0b7-a305-2189-3bae"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c9fd-680b-1492-5a93"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Power Weapon",
+                    "hidden": false,
+                    "id": "e975-42d7-116c-563e",
+                    "profiles": [
+                      {
+                        "name": "Power Weapon",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "a4b8-bcec-e42b-02b7",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "4",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "23de-343a-819d-0983-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "23de-343a-819d-0983-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "aa72-c0c6-1e76-5e3e",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2e55-7bac-cb4f-78e9-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "2e55-7bac-cb4f-78e9-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Breecher",
+                "hidden": false,
+                "id": "33c9-d754-d4c2-65b8",
+                "profiles": [
+                  {
+                    "name": "Breecher",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "fd06-e892-d0ca-d491",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": "5+"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3dac-e8fe-2954-de6c"
+                  },
+                  {
+                    "type": "max",
+                    "value": 19,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "357d-ff64-cbc5-32a7"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Power Weapon",
+                    "hidden": false,
+                    "id": "5e90-40f4-cc87-8334",
+                    "profiles": [
+                      {
+                        "name": "Power Weapon",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "7466-49cc-bb7f-35f1",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "4",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "df4f-10b3-1966-09aa-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "df4f-10b3-1966-09aa-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "860d-1730-9fd7-307e",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "22f9-56ae-bdfe-4452-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "22f9-56ae-bdfe-4452-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Boarding Shields",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "b9e2-55b8-a106-2026",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Models in this unit have a 5+ invulnerable save."
+                  }
+                ]
+              },
+              {
+                "name": "Hold on",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "db78-77fb-1c2f-edb2",
+                "characteristics": [
+                  {
+                    "$text": "While this unit is within range of an objective marker, models in this unit have the Feel No Pain 6+ ability.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Stormwing Assault",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "2e7f-3dee-bb56-db51",
+                "characteristics": [
+                  {
+                    "$text": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "0546-4faa-e55a-95f4",
+            "includeChildSelections": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 10,
+                "field": "selections",
+                "scope": "5ce2-b38a-2de7-3acc",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "5ce2-b38a-2de7-3acc",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "type": "lessThan",
+                "value": 11,
+                "field": "selections",
+                "scope": "5ce2-b38a-2de7-3acc",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Oath of Moment",
+            "id": "72e6-82f6-249a-88bd",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "29bd-9b85-ab78-51ad",
+            "primary": true,
+            "name": "Battleline"
+          },
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "0c08-9b41-f341-fa4e",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "id": "d835-e75f-fb78-e4a4",
+            "primary": false,
+            "name": "Imperium"
+          },
+          {
+            "targetId": "aab1-4f05-fabe-5ba5",
+            "id": "607f-fdc6-c693-e710",
+            "primary": false,
+            "name": "Faction: Dark Angels"
+          },
+          {
+            "targetId": "74a8-baab-1166-df00",
+            "id": "d179-b6ab-8fdd-7823",
+            "primary": false,
+            "name": "Stormwing"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Stormwing Despoilers",
+        "hidden": false,
+        "id": "21e6-ca79-d824-f965",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Despoilers",
+            "id": "e1ff-42d1-7085-9dac",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Veteran Despoiler",
+                "hidden": false,
+                "id": "6af1-51cd-3bd9-c584",
+                "profiles": [
+                  {
+                    "name": "Veteran Despoiler",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "502d-a17b-afe2-e201",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1b45-9586-27ea-3d3a"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e05a-ccd6-38ec-d626"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Twin Chainsword",
+                    "hidden": false,
+                    "id": "4e69-eecb-6a66-bc85",
+                    "profiles": [
+                      {
+                        "name": "Twin Chainsword",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "fd24-11e9-29d6-00bb",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "4",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-1",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Sustained Hits 2, Twin-Linked",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Sustained Hits",
+                        "id": "70be-1511-16a8-48fd",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "1897-c22c-9597-12b1"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "ae86-d953-5a06-e167-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "ae86-d953-5a06-e167-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "6af9-7dec-d670-392a",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "afaa-1d8a-5f98-f144-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "afaa-1d8a-5f98-f144-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Despoiler",
+                "hidden": false,
+                "id": "e79b-3afb-974c-e879",
+                "profiles": [
+                  {
+                    "name": "Despoiler",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "a1e3-a64d-cf21-83f8",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "8\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "dd37-ab3c-9d17-243e"
+                  },
+                  {
+                    "type": "max",
+                    "value": 19,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a56b-64ed-54cc-084a"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Twin Chainsword",
+                    "hidden": false,
+                    "id": "36af-afcf-4358-606c",
+                    "profiles": [
+                      {
+                        "name": "Twin Chainsword",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "f5c6-0555-b3bc-97c0",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "4",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "5",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-1",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "1",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Sustained Hits 2, Twin-Linked",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Sustained Hits",
+                        "id": "5b7b-cb5f-7213-34da",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "1897-c22c-9597-12b1"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3b53-7c06-a0df-086f-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "3b53-7c06-a0df-086f-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "8452-7830-92d2-076a",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8605-076f-dbc9-0733-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8605-076f-dbc9-0733-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Art of the Dual wielding",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "8366-230c-7351-7830",
+                "characteristics": [
+                  {
+                    "$text": "Each time a model in this unit makes a melee attack, you can re-roll a Hit roll of 1.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Stormwing Assault",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "a19f-f1a4-e54f-deb4",
+                "characteristics": [
+                  {
+                    "$text": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Scouts",
+                "id": "bc18-b49d-1f21-a0ed",
+                "hidden": false,
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": 8,
+                    "field": "name"
+                  }
+                ],
+                "type": "rule",
+                "targetId": "ada6-bac1-ffe0-d6f7"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "c7ac-6a63-94fb-e1f4",
+            "includeChildSelections": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 10,
+                "field": "selections",
+                "scope": "21e6-ca79-d824-f965",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "21e6-ca79-d824-f965",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "type": "lessThan",
+                "value": 11,
+                "field": "selections",
+                "scope": "21e6-ca79-d824-f965",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Oath of Moment",
+            "id": "608d-1ccc-c080-cf9a",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "84dc-c93e-7dda-6edd",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "b1ab-fe9f-4d3d-402b",
+            "primary": true,
+            "name": "Battleline"
+          },
+          {
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "id": "71a3-3472-ea43-ed42",
+            "primary": false,
+            "name": "Imperium"
+          },
+          {
+            "targetId": "aab1-4f05-fabe-5ba5",
+            "id": "ae93-b95b-1918-9f59",
+            "primary": false,
+            "name": "Faction: Dark Angels"
+          },
+          {
+            "targetId": "74a8-baab-1166-df00",
+            "id": "4934-df2d-c2d3-ac58",
+            "primary": false,
+            "name": "Stormwing"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Stormwing Ravagers",
+        "hidden": false,
+        "id": "1397-6af0-a99f-1d84",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Ravagers",
+            "id": "34ce-a4af-db8a-6a40",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "model",
+                "import": true,
+                "name": "Veteran Ravagers",
+                "hidden": false,
+                "id": "6dd0-0e37-1b71-972e",
+                "profiles": [
+                  {
+                    "name": "Veteran Ravagers",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "61e2-f248-e8db-697e",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2f36-70ca-d3cd-d8df"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8fa9-f24b-d2b1-630d"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Eviscerator ",
+                    "hidden": false,
+                    "id": "c785-5930-27fd-9bdc",
+                    "profiles": [
+                      {
+                        "name": "Eviscerator ",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "e0c9-f640-f0cd-b324",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "3",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "9",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Lethal Hits",
+                        "id": "f9ef-aa94-034f-e5a1",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "d1d1-611e-5191-1095"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8356-14d7-6be2-5b92-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "8356-14d7-6be2-5b92-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "a472-a2ad-419a-8671",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a4d7-fa6a-6484-8d49-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "a4d7-fa6a-6484-8d49-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              },
+              {
+                "type": "model",
+                "import": true,
+                "name": "Ravagers",
+                "hidden": false,
+                "id": "2bf6-cd34-4982-5424",
+                "profiles": [
+                  {
+                    "name": "Ravagers",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "4121-4491-303c-8a32",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
+                      },
+                      {
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
+                      },
+                      {
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ee4e-e1e3-651a-8204"
+                  },
+                  {
+                    "type": "max",
+                    "value": 19,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6d64-3e3c-bca7-58b4"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Eviscerator ",
+                    "hidden": false,
+                    "id": "6e49-a48a-30d3-2737",
+                    "profiles": [
+                      {
+                        "name": "Eviscerator ",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "80ca-caf3-a445-ead4",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "3",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "9",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "$text": "Lethal Hits",
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Lethal Hits",
+                        "id": "0299-9854-e154-5b5b",
+                        "hidden": false,
+                        "type": "rule",
+                        "targetId": "d1d1-611e-5191-1095"
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "41d2-4122-2e8f-d88a-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "41d2-4122-2e8f-d88a-max"
+                      }
+                    ]
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Heavy Bolt Pistol",
+                    "hidden": false,
+                    "id": "a670-a1a7-a378-b545",
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "0bb9-2c0e-0e30-7d31-min"
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "0bb9-2c0e-0e30-7d31-max"
+                      }
+                    ],
+                    "type": "selectionEntry",
+                    "targetId": "83a1-feb8-d495-aa28"
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Strength of Steel",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "92c3-a799-6cff-03d5",
+                "characteristics": [
+                  {
+                    "$text": "Each time this unit makes a Charge move, its melee weapons have the Lance ability until the end of the turn.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Stormwing Assault",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "e245-7dea-80d7-c9eb",
+                "characteristics": [
+                  {
+                    "$text": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "56a3-8ee6-79bc-9fe4",
+            "includeChildSelections": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 5,
+                "field": "selections",
+                "scope": "1397-6af0-a99f-1d84",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              },
+              {
+                "type": "lessThan",
+                "value": 11,
+                "field": "selections",
+                "scope": "1397-6af0-a99f-1d84",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "greaterThan",
+                "value": 10,
+                "field": "selections",
+                "scope": "1397-6af0-a99f-1d84",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Oath of Moment",
+            "id": "9a25-e7b8-d7ac-6b93",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "74a8-baab-1166-df00",
+            "id": "e714-77f7-9daa-9cdc",
+            "primary": false,
+            "name": "Stormwing"
+          },
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "c440-b3fb-502e-2c1b",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "77a2-a7eb-abaa-1b75",
+            "primary": true,
+            "name": "Battleline"
+          },
+          {
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "id": "f59a-0475-83a6-f752",
+            "primary": false,
+            "name": "Imperium"
+          },
+          {
+            "targetId": "aab1-4f05-fabe-5ba5",
+            "id": "ab6b-05da-cf26-cfeb",
+            "primary": false,
+            "name": "Faction: Dark Angels"
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Stormwing Whirlwind",
+        "hidden": false,
+        "id": "64ab-1585-e7be-3509",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 150
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Imperium",
+            "hidden": false,
+            "id": "6c53-a9ba-9673-4da7",
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "primary": false
+          },
+          {
+            "name": "Vehicle",
+            "hidden": false,
+            "id": "a706-a61d-889f-9323",
+            "targetId": "dbd4-63-af05-998",
+            "primary": true
+          },
+          {
+            "name": "Smoke",
+            "hidden": false,
+            "id": "b4ba-6637-c805-0f9d",
+            "targetId": "6df-937-16bc-8c1a",
+            "primary": false
+          },
+          {
+            "name": "Faction: Adeptus Astartes",
+            "hidden": false,
+            "id": "f6af-db8a-2d49-96cd",
+            "targetId": "6e7-40c-58d9-e402",
+            "primary": false
+          },
+          {
+            "name": "Whirlwind",
+            "hidden": false,
+            "id": "0578-209e-483e-f3ef",
+            "targetId": "ffab-8c34-9da2-daf3",
+            "primary": false
+          },
+          {
+            "targetId": "74a8-baab-1166-df00",
+            "id": "edf1-ecf1-37ab-951d",
+            "primary": false,
+            "name": "Stormwing"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Stormwing Whirlwind",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "07e1-56c2-552c-4862",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "11"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Stormwing Bombardment",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "c479-22d3-ff89-72cd",
+            "characteristics": [
+              {
+                "$text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Stormwing Artillery Battery scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test and reduce 2 from that test.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Coordinated Fire",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "7bd6-b3d3-646c-8c2c",
+            "characteristics": [
+              {
+                "$text": "In your Shooting phase, each time this model targets an enemy unit with its Stormwing Artillery Battery, if that enemy unit is visible to another friendly Adeptus Astartes unit, the Stormwing Artillery Battery has the Ignores Cover ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Crusade",
+            "hidden": false,
+            "id": "e930-71da-4142-4799",
+            "type": "selectionEntryGroup",
+            "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Damaged: 1-4 Wounds Remaining",
+            "id": "cc94-b82f-a212-2a44",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "ee64-aaaf-75df-8da9"
+          },
+          {
+            "name": "Deadly Demise",
+            "id": "7f4a-b39a-2078-9afc",
+            "hidden": false,
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "D3",
+                "field": "name"
+              }
+            ],
+            "type": "rule",
+            "targetId": "b68a-5ded-65ac-98c"
+          },
+          {
+            "name": "Oath of Moment",
+            "id": "00c4-46c7-1345-d718",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "e589-22d0-d112-5ea4"
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "75bb-ded1-c86d-bdf0",
+            "scope": "self",
+            "shared": true,
+            "id": "fc0c-4737-44e8-7c9e",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "c832-8a8a-f930-3cd6",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 0,
+            "field": "716d-91b7-d55a-1022",
+            "scope": "self",
+            "shared": true,
+            "id": "d713-4ae2-e9cf-684a",
+            "includeChildSelections": true
+          }
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": 6,
+                "field": "fc0c-4737-44e8-7c9e",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "increment",
+                "value": 2,
+                "field": "c832-8a8a-f930-3cd6",
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "increment",
+                "value": 2,
+                "field": "d713-4ae2-e9cf-684a",
+                "repeats": [
+                  {
+                    "value": 1,
+                    "repeats": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "d1a5-4297-168b-11cd",
+                    "shared": true,
+                    "roundUp": false,
+                    "includeChildSelections": true
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Battle-ready)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "atMost",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Blooded)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 5,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Battle-hardened)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 15,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Heroic)",
+                "field": "name",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "greaterThan",
+                        "value": 30,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "atMost",
+                        "value": 50,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "shared": true,
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "append",
+                "value": "(Legendary)",
+                "field": "name",
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 50,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "shared": true,
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ],
+            "comment": "Crusade modifiers"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wargear",
+            "id": "aaf0-7cf5-4321-81f4",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "import": true,
+                "name": "Armoured Tracks",
+                "hidden": false,
+                "id": "f059-fc9b-d6fe-59d6",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2f28-6a15-f767-eff1"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f0b1-cbe4-12d5-f230"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "b896-e144-201c-a613",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "d3da-d5f3-70a9-50ed"
+              },
+              {
+                "import": true,
+                "name": "Hunter-killer missile",
+                "hidden": false,
+                "id": "3a90-dca3-7f19-5256",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ae7c-2b68-1b42-3ea6"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "4b22-391d-70de-2b20",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "2523-36d-531f-9910"
+              },
+              {
+                "import": true,
+                "name": "Storm bolter",
+                "hidden": false,
+                "id": "b2c9-5891-f4f3-5e61",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4dd3-215f-9451-2fc5"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "9c5b-0632-3f5e-14b8",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ],
+                "type": "selectionEntry",
+                "targetId": "eb61-5cd0-5242-74cc"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Stormwing Artillery Battery",
+                "hidden": false,
+                "id": "5c12-9bc7-97b6-0a14",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "23b0-d949-14d2-ff7b"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6b0c-ec9e-5fd0-2175"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "➤ Stormwing Artillery Battery  - Stormbreaker Shells",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "e158-2d68-df5e-8786",
+                    "characteristics": [
+                      {
+                        "$text": "72\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "12",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-3",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "D3+2",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Blast, Indirect Fire, Heavy",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "➤ Stormwing Artillery Battery  - Stormfire shells",
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "hidden": false,
+                    "id": "1447-022a-a8f6-f29d",
+                    "characteristics": [
+                      {
+                        "$text": "72\"",
+                        "name": "Range",
+                        "typeId": "9896-9419-16a1-92fc"
+                      },
+                      {
+                        "$text": "D3+6",
+                        "name": "A",
+                        "typeId": "3bb-c35f-f54-fb08"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "BS",
+                        "typeId": "94d-8a98-cf90-183e"
+                      },
+                      {
+                        "$text": "8",
+                        "name": "S",
+                        "typeId": "2229-f494-25db-c5d3"
+                      },
+                      {
+                        "$text": "-2",
+                        "name": "AP",
+                        "typeId": "9ead-8a10-520-de15"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "D",
+                        "typeId": "a354-c1c8-a745-f9e3"
+                      },
+                      {
+                        "$text": "Blast, Heavy, Indirect Fire",
+                        "name": "Keywords",
+                        "typeId": "7f1b-8591-2fcf-d01c"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Blast",
+                    "id": "4210-77bd-90da-908b",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "6c1f-1cf7-ff25-c99e"
+                  },
+                  {
+                    "name": "Indirect Fire",
+                    "id": "70ef-a3c2-69fd-e40c",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "4ddd-4e29-acdd-5e6d"
+                  }
+                ],
+                "entryLinks": [
+                  {
+                    "import": true,
+                    "name": "Weapon Modifications",
+                    "hidden": false,
+                    "id": "9bd9-6e41-8b01-c3b2",
+                    "type": "selectionEntryGroup",
+                    "targetId": "f9da-852a-d7f0-92e9"
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 2
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Calloson",
+        "hidden": false,
+        "id": "b107-bac0-11a3-d698",
+        "categoryLinks": [
+          {
+            "name": "Character",
+            "hidden": false,
+            "id": "2a10-c55b-1a65-8665",
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "primary": false
+          },
+          {
+            "name": "Epic Hero",
+            "hidden": false,
+            "id": "85f2-fb72-89ff-7248",
+            "targetId": "4f3a-f0f7-6647-348d",
+            "primary": true
+          },
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "6f1d-1302-b02e-e2c8",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Captain",
+            "hidden": false,
+            "id": "1525-1972-9721-7b14",
+            "targetId": "2d7f-1892-2fd0-e29c",
+            "primary": false
+          },
+          {
+            "name": "Grenades",
+            "hidden": false,
+            "id": "183b-f41c-6b45-5596",
+            "targetId": "5a61-81ac-eb7c-a87e",
+            "primary": false
+          },
+          {
+            "name": "Imperium",
+            "hidden": false,
+            "id": "ecb1-2672-82d6-0c23",
+            "targetId": "aff3-d6a3-2a95-9dc",
+            "primary": false
+          },
+          {
+            "name": "Faction: Dark Angels",
+            "hidden": false,
+            "id": "a2be-e696-005c-f945",
+            "targetId": "aab1-4f05-fabe-5ba5",
+            "primary": false
+          },
+          {
+            "name": "Faction: Adeptus Astartes",
+            "hidden": false,
+            "id": "d4dd-dc57-757a-40f9",
+            "targetId": "6e7-40c-58d9-e402",
+            "primary": false
+          },
+          {
+            "name": "Tacticus",
+            "hidden": false,
+            "id": "b707-9225-e531-c0af",
+            "targetId": "5179-8ede-45e3-49a2",
+            "primary": false
+          },
+          {
+            "name": "Stormwing",
+            "hidden": false,
+            "id": "a1f5-0089-db81-e1c4",
+            "targetId": "74a8-baab-1166-df00",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Calloson",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "a7b1-5ce1-f05c-42f2",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "4+"
+              }
+            ],
+            "page": 19
+          },
+          {
+            "name": "Grand Marshal of Stormwing",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "88f3-abad-5509-e161",
+            "characteristics": [
+              {
+                "$text": "Once per battle round, when a friendly Dark Angels Battleline unit is targeted with a Stratagem, you can target one other eligible friendly Dark Angels Battleline unit with the same Stratagem for 0 CP, even if that Stratagem has already been used this phase.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "page": 19
+          },
+          {
+            "name": "Shield of Calloson",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "06ce-00a0-4aa2-2412",
+            "characteristics": [
+              {
+                "$text": "While this model is leading a unit, models in that unit have the Feel No Pain 6+ ability. While that unit is within range of an objective marker, those models have the Feel No Pain 5+ ability instead.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "page": 19
+          },
+          {
+            "name": "Invulnerable Save",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "f692-bd92-a7b4-8642",
+            "characteristics": [
+              {
+                "$text": "4+",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "page": 19
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "a70f-c409-e166-c86a",
+            "characteristics": [
+              {
+                "$text": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Tactical Squad\n■ Stormwing Breechers\n■ Stormwing Despoilers\n■ Stormwing Ravagers",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "page": 20
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Relic Heavy Bolt pistol",
+            "hidden": false,
+            "id": "ee8d-0abc-70ae-f7b1",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4480-73fc-20d6-59f8"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "179c-175f-9b80-de1b"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Relic Heavy Bolt pistol",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "4153-b491-a2cd-1229",
+                "characteristics": [
+                  {
+                    "$text": "12\"",
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc"
+                  },
+                  {
+                    "$text": "1",
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e"
+                  },
+                  {
+                    "$text": "5",
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3"
+                  },
+                  {
+                    "$text": "-2",
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3"
+                  },
+                  {
+                    "$text": "Pistol",
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c"
+                  }
+                ]
+              }
+            ],
+            "page": 19
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Stormbringer",
+            "hidden": false,
+            "id": "827a-143a-5962-caa8",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0f09-9098-190f-75f6"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1f8f-a388-9240-167d"
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Stormbringer",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "462a-15d3-02d1-4784",
+                "characteristics": [
+                  {
+                    "$text": "Melee",
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132"
+                  },
+                  {
+                    "$text": "6",
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110"
+                  },
+                  {
+                    "$text": "2+",
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6"
+                  },
+                  {
+                    "$text": "7",
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba"
+                  },
+                  {
+                    "$text": "-3",
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2"
+                  },
+                  {
+                    "$text": "2",
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e"
+                  }
+                ],
+                "page": 19
+              }
+            ],
+            "page": 19
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Warlord",
+            "hidden": false,
+            "id": "de06-43ef-2f82-dfda",
+            "type": "selectionEntry",
+            "targetId": "caa-f869-3cbd-b48e"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 100
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Oath of Moment",
+            "id": "f108-685b-f4c0-9612",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3b76-4053-ece9-6e7d"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "423f-7897-8dba-e9d0",
+            "includeChildSelections": true
+          }
+        ],
+        "page": 19
       }
     ],
     "sharedSelectionEntryGroups": [
