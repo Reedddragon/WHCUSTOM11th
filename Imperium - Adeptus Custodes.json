@@ -25610,7 +25610,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.",
+                        "$text": "Your Shooting phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -25639,7 +25639,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to shoot or fight.",
+                        "$text": "Fight phase, when an ADEPTUS CUSTODES CHARACTER model from your army is selected to fight.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -25830,7 +25830,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
+                        "$text": "Your opponent's Shooting phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -25860,7 +25860,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
+                        "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES TERMINATOR unit as the target of its attacks.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26051,7 +26051,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase.",
+                        "$text": "Your Shooting phase.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26081,7 +26081,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Shooting phase or the Fight phase.",
+                        "$text": "Fight phase.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26111,7 +26111,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Movement phase or your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move or declares a charge.",
+                        "$text": "Your Movement phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26141,7 +26141,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your Movement phase or your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit makes a move or declares a charge.",
+                        "$text": "Your Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit declares a charge.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26337,7 +26337,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
+                        "$text": "Your opponent's Shooting phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -26367,7 +26367,7 @@
                       },
                       {
                         "name": "When",
-                        "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
+                        "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS) as the target of its attacks.",
                         "typeId": "7e2f-1026-f101-0002"
                       },
                       {
@@ -27650,7 +27650,7 @@
                           },
                           {
                             "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+                            "$text": "Your opponent's Shooting phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
                             "typeId": "7e2f-1026-f101-0002"
                           },
                           {
@@ -27680,7 +27680,7 @@
                           },
                           {
                             "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+                            "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
                             "typeId": "7e2f-1026-f101-0002"
                           },
                           {
@@ -27878,7 +27878,7 @@
                           },
                           {
                             "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+                            "$text": "Your opponent's Shooting phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
                             "typeId": "7e2f-1026-f101-0002"
                           },
                           {
@@ -27908,7 +27908,7 @@
                           },
                           {
                             "name": "When",
-                            "$text": "Your opponent's Shooting phase or the Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
+                            "$text": "Fight phase, when an enemy unit selects a friendly ADEPTUS CUSTODES unit as the target of its attacks.",
                             "typeId": "7e2f-1026-f101-0002"
                           },
                           {
