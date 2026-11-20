@@ -11834,7 +11834,7 @@
             "id": "2b58-946f-e4c2-c6a7",
             "characteristics": [
               {
-                "$text": "Once per battle round, when an enemy unit ends a Charge move within 6\" of this model, you can use the Heroic Intervention Stratagem targeting this model for 0 CP.",
+                "$text": "Once per battle round, when an enemy unit ends a Charge move within 6\" of this model, you can use the Heroic Intervention Stratagem targeting this model for 0 CP. This includes its Into the Fray option: its additional +1 CP cost is also waived, so the total cost remains 0 CP.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
