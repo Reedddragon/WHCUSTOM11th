@@ -11789,7 +11789,7 @@
             "id": "4f6d-3067-b4be-71c3",
             "characteristics": [
               {
-                "$text": "Once per phase, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.",
+                "$text": "Twice per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
