@@ -12162,6 +12162,13 @@
             "hidden": false,
             "type": "rule",
             "targetId": "3b76-4053-ece9-6e7d"
+          },
+          {
+            "name": "Fights First",
+            "id": "e721-824b-9ab5-0031",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "24-c886-e8ba-5a89"
           }
         ],
         "entryLinks": [
