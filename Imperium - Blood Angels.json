@@ -6961,6 +6961,16 @@
                     "type": "instanceOf",
                     "value": 1,
                     "id": "31a3-2f72-5dcf-e3a9"
+                  },
+                  {
+                    "childId": "25e4-ead-faac-2531",
+                    "childName": "Sanguinary Guard",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1,
+                    "id": "e68b-26e6-a3b7-f5f1"
                   }
                 ]
               }
@@ -7468,7 +7478,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can support the following units:\n\n■ Assault Squad with Jump Packs\n■ Vanguard Veteran Squad with Jump Packs\n■ Assault Intercessors with Jump Packs\n■ Dawnbreaker Cohort\n■ The Angel’s Tears\n\nThis model follows the Support rules when attached to a unit.",
+                "$text": "This model can support the following units:\n\n■ Assault Squad with Jump Packs\n■ Vanguard Veteran Squad with Jump Packs\n■ Assault Intercessors with Jump Packs\n■ Dawnbreaker Cohort\n■ The Angel’s Tears\n■ Sanguinary Guard\n\nThis model follows the Support rules when attached to a unit.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
