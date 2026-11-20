@@ -11689,7 +11689,7 @@
                 "typeId": "e703-ecb6-5ce7-aec1"
               },
               {
-                "$text": "9",
+                "$text": "10",
                 "name": "T",
                 "typeId": "d29d-cf75-fc2d-34a4"
               },
@@ -11699,7 +11699,7 @@
                 "typeId": "450-a17e-9d5e-29da"
               },
               {
-                "$text": "10",
+                "$text": "14",
                 "name": "W",
                 "typeId": "750a-a2ec-90d3-21fe"
               },
@@ -11716,7 +11716,7 @@
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "page": 41
@@ -11729,7 +11729,7 @@
             "id": "50fe-19de-0d84-f5dc",
             "characteristics": [
               {
-                "$text": "At the start of your Command phase, select two Angel of Blood abilities. Until the start of your next Command phase, this model has those abilities.",
+                "$text": "At the start of your Command phase, select two of this model's Angel of Blood abilities. This model has the selected abilities until the start of your next Command phase.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11789,7 +11789,7 @@
             "id": "4f6d-3067-b4be-71c3",
             "characteristics": [
               {
-                "$text": "Once per phase, When an attack is is allocated to this model, you can change the damage characteristic of that attack to 0",
+                "$text": "Once per phase, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11804,22 +11804,7 @@
             "id": "e8d4-d9a9-7ecd-c040",
             "characteristics": [
               {
-                "$text": "While this model is within 3\" of one or more friendly ^^**Adeptus Astartes Infantry^^** units, this model has the Lone Operative ability.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "page": 41
-          },
-          {
-            "name": "Invulnerable Save 4+",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "3d3c-c4e9-7b5f-3e67",
-            "characteristics": [
-              {
-                "$text": "4+",
+                "$text": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES INFANTRY units, this model has the Lone Operative ability.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11834,7 +11819,7 @@
             "id": "1ea7-6c96-59aa-150b",
             "characteristics": [
               {
-                "$text": "When this model reaches 0 wounds while in engagement range, This model can fight as if it was in fight phase even if this model has fought already and The Blade Encarmine gain Extra Attack ability, after fighting remove this model. All Adeptus Astartes and Blood Angels Units are Battle shocked and can re-roll The Hit roll and Gain Feel no pain 6+. This last until your next turn.",
+                "$text": "When this model is destroyed while within Engagement Range of an enemy unit, before removing it from play, it can fight, even if it has already fought this phase. For that fight, the Blade Encarmine gains the Extra Attacks ability. Then remove this model. Until the start of your next turn, friendly ADEPTUS ASTARTES and BLOOD ANGELS units are Battle-shocked, can re-roll Hit rolls, and have Feel No Pain 6+.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -11966,7 +11951,7 @@
                     "typeId": "94d-8a98-cf90-183e"
                   },
                   {
-                    "$text": "9",
+                    "$text": "10",
                     "name": "S",
                     "typeId": "2229-f494-25db-c5d3"
                   },
@@ -12044,7 +12029,7 @@
                     "typeId": "95d1-95f-45b4-11d6"
                   },
                   {
-                    "$text": "6",
+                    "$text": "8",
                     "name": "S",
                     "typeId": "ab33-d393-96ce-ccba"
                   },
@@ -12406,7 +12391,7 @@
             "id": "debf-d05c-cf9a-f5cc",
             "characteristics": [
               {
-                "$text": "While a Character model is leading this unit, each time this unit does a melee attack, add 1 to the wound roll.",
+                "$text": "While a CHARACTER model is leading this unit, each time a model in this unit makes a melee attack, add 1 to the Wound roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12420,7 +12405,7 @@
             "id": "125f-0be7-62dd-dfbd",
             "characteristics": [
               {
-                "$text": "If a Captain model from your army with the Leader ability can be attached to Terminator, it can be attached to this unit instead.",
+                "$text": "A CAPTAIN model from your army that can be attached to a TERMINATOR unit can be attached to this unit instead.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -12485,7 +12470,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "7",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -12539,7 +12524,7 @@
                                 "typeId": "914c-b413-91e3-a132"
                               },
                               {
-                                "$text": "3",
+                                "$text": "4",
                                 "name": "A",
                                 "typeId": "2337-daa1-6682-b110"
                               },
@@ -12549,7 +12534,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "6",
+                                "$text": "9",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -12637,7 +12622,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "4\""
+                        "$text": "5\""
                       },
                       {
                         "name": "T",
@@ -12647,7 +12632,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": "2"
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -12662,7 +12647,7 @@
                       {
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -12725,7 +12710,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "7",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -12804,7 +12789,7 @@
                       {
                         "name": "M",
                         "typeId": "e703-ecb6-5ce7-aec1",
-                        "$text": "4\""
+                        "$text": "5\""
                       },
                       {
                         "name": "T",
@@ -12829,7 +12814,7 @@
                       {
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -13241,7 +13226,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "in your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 5\" horizontally away from all enemy units. after being Set up, enemy units within 9\" must take a battle-shock test."
+                "$text": "In your Movement phase, when this unit is set up using Deep Strike, it can be set up more than 5\" horizontally away from all enemy units. After this unit is set up, each enemy unit within 9\" of it must take a Battle-shock test."
               }
             ]
           },
@@ -13255,7 +13240,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "If a Leader model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
+                "$text": "A LEADER model from your army that can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit can be attached to this unit instead."
               }
             ]
           }
@@ -13339,12 +13324,12 @@
                                 "typeId": "2337-daa1-6682-b110"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "WS",
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "7",
+                                "$text": "8",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13392,12 +13377,12 @@
                                 "typeId": "2337-daa1-6682-b110"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "WS",
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13436,12 +13421,12 @@
                                 "typeId": "2337-daa1-6682-b110"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "WS",
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13502,7 +13487,7 @@
                       {
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "4"
+                        "$text": "5"
                       },
                       {
                         "name": "Sv",
@@ -13522,7 +13507,7 @@
                       {
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -13635,7 +13620,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "7",
+                                "$text": "8",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13688,7 +13673,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13732,7 +13717,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -13775,7 +13760,7 @@
                       {
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4",
-                        "$text": "4"
+                        "$text": "5"
                       },
                       {
                         "name": "Sv",
@@ -13795,7 +13780,7 @@
                       {
                         "name": "OC",
                         "typeId": "bef7-942a-1a23-59f8",
-                        "$text": "1"
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
@@ -14247,7 +14232,7 @@
             "id": "e07e-beff-8668-54b1",
             "characteristics": [
               {
-                "$text": "You can re-roll Wound rolls made for this unit.",
+                "$text": "Each time a model in this unit makes an attack, you can re-roll the Wound roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -14263,7 +14248,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "If a Leader model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
+                "$text": "A LEADER model from your army that can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit can be attached to this unit instead."
               }
             ]
           }
@@ -14347,7 +14332,7 @@
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "BS",
                                 "typeId": "94d-8a98-cf90-183e"
                               },
@@ -14409,7 +14394,7 @@
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "BS",
                                 "typeId": "94d-8a98-cf90-183e"
                               },
@@ -14429,7 +14414,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "Blast, Anti-Infantry 3+",
+                                "$text": "Blast 1, Anti-Infantry 3+",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -14490,12 +14475,12 @@
                                 "typeId": "3bb-c35f-f54-fb08"
                               },
                               {
-                                "$text": "3+",
+                                "$text": "2+",
                                 "name": "BS",
                                 "typeId": "94d-8a98-cf90-183e"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
@@ -14505,7 +14490,7 @@
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
-                                "$text": "1",
+                                "$text": "2",
                                 "name": "D",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
@@ -14545,12 +14530,12 @@
                               {
                                 "name": "BS",
                                 "typeId": "94d-8a98-cf90-183e",
-                                "$text": "3+"
+                                "$text": "2+"
                               },
                               {
                                 "name": "S",
                                 "typeId": "2229-f494-25db-c5d3",
-                                "$text": "13"
+                                "$text": "14"
                               },
                               {
                                 "name": "AP",
@@ -14560,7 +14545,7 @@
                               {
                                 "name": "D",
                                 "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "D6+1"
+                                "$text": "D6+2"
                               },
                               {
                                 "name": "Keywords",
@@ -14667,7 +14652,7 @@
                         "typeId": "e703-ecb6-5ce7-aec1"
                       },
                       {
-                        "$text": "4",
+                        "$text": "5",
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
@@ -14677,7 +14662,7 @@
                         "typeId": "450-a17e-9d5e-29da"
                       },
                       {
-                        "$text": "2",
+                        "$text": "3",
                         "name": "W",
                         "typeId": "750a-a2ec-90d3-21fe"
                       },
@@ -14839,7 +14824,7 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "Blast, Anti-Infantry 3+",
+                                "$text": "Blast 1, Anti-Infantry 3+",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -14905,7 +14890,7 @@
                                 "typeId": "94d-8a98-cf90-183e"
                               },
                               {
-                                "$text": "5",
+                                "$text": "6",
                                 "name": "S",
                                 "typeId": "2229-f494-25db-c5d3"
                               },
@@ -14915,7 +14900,7 @@
                                 "typeId": "9ead-8a10-520-de15"
                               },
                               {
-                                "$text": "1",
+                                "$text": "2",
                                 "name": "D",
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
@@ -14960,7 +14945,7 @@
                               {
                                 "name": "S",
                                 "typeId": "2229-f494-25db-c5d3",
-                                "$text": "13"
+                                "$text": "14"
                               },
                               {
                                 "name": "AP",
@@ -14970,7 +14955,7 @@
                               {
                                 "name": "D",
                                 "typeId": "a354-c1c8-a745-f9e3",
-                                "$text": "D6+1"
+                                "$text": "D6+2"
                               },
                               {
                                 "name": "Keywords",
@@ -15035,7 +15020,7 @@
                         "typeId": "e703-ecb6-5ce7-aec1"
                       },
                       {
-                        "$text": "4",
+                        "$text": "5",
                         "name": "T",
                         "typeId": "d29d-cf75-fc2d-34a4"
                       },
@@ -15413,7 +15398,7 @@
             "id": "f002-4a14-c99e-f877",
             "characteristics": [
               {
-                "$text": "This model can charge the turn it advanced.",
+                "$text": "This model is eligible to declare a charge in a turn in which it Advanced.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -15543,7 +15528,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "12",
+                                "$text": "13",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -15587,7 +15572,7 @@
                                 "typeId": "95d1-95f-45b4-11d6"
                               },
                               {
-                                "$text": "7",
+                                "$text": "8",
                                 "name": "S",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
@@ -15719,7 +15704,7 @@
                                     "typeId": "94d-8a98-cf90-183e"
                                   },
                                   {
-                                    "$text": "4",
+                                    "$text": "6",
                                     "name": "S",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
@@ -15791,7 +15776,7 @@
                                     "typeId": "94d-8a98-cf90-183e"
                                   },
                                   {
-                                    "$text": "9",
+                                    "$text": "10",
                                     "name": "S",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
@@ -15801,7 +15786,7 @@
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
-                                    "$text": "D6",
+                                    "$text": "D3+2",
                                     "name": "D",
                                     "typeId": "a354-c1c8-a745-f9e3"
                                   },
@@ -16051,7 +16036,7 @@
                                     "typeId": "94d-8a98-cf90-183e"
                                   },
                                   {
-                                    "$text": "4",
+                                    "$text": "6",
                                     "name": "S",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
@@ -16123,7 +16108,7 @@
                                     "typeId": "94d-8a98-cf90-183e"
                                   },
                                   {
-                                    "$text": "9",
+                                    "$text": "10",
                                     "name": "S",
                                     "typeId": "2229-f494-25db-c5d3"
                                   },
@@ -16133,7 +16118,7 @@
                                     "typeId": "9ead-8a10-520-de15"
                                   },
                                   {
-                                    "$text": "D6",
+                                    "$text": "D3+2",
                                     "name": "D",
                                     "typeId": "a354-c1c8-a745-f9e3"
                                   },
