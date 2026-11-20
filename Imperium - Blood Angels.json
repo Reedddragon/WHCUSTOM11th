@@ -7382,6 +7382,22 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "41a0-1301-112a-e2f2",
+            "type": "decrement",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "any",
+                "field": "associations",
+                "scope": "self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
