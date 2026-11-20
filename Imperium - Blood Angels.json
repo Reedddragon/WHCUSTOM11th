@@ -7343,13 +7343,6 @@
                 "field": "add-info",
                 "type": "add",
                 "value": "5e10-6d62-2624-80a8"
-              },
-              {
-                "affects": "self.entries.group.recursive.profiles.Melee Weapons",
-                "field": "41a0-1301-112a-e2f2",
-                "scope": "parent",
-                "type": "decrement",
-                "value": 1
               }
             ]
           }
@@ -7464,7 +7457,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
+                "$text": "While this model is attached to a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that supported unit by 1. This bonus does not affect any other units.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
