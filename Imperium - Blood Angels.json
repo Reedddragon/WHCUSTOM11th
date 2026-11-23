@@ -245,6 +245,112 @@
     ],
     "sharedSelectionEntries": [
       {
+        "name": "Thunder Hammer",
+        "id": "dcba-1124-dc00-0001",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Thunder Hammer",
+            "id": "dcba-1124-dc00-1001",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {
+                "name": "Range",
+                "$text": "Melee",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "name": "A",
+                "$text": "3",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "name": "WS",
+                "$text": "4+",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "name": "S",
+                "$text": "10",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "name": "AP",
+                "$text": "-2",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "name": "D",
+                "$text": "3",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "$text": "Devastating Wounds",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thunder Hammer",
+        "id": "dcba-1124-dc00-0002",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Thunder Hammer",
+            "id": "dcba-1124-dc00-1002",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {
+                "name": "Range",
+                "$text": "Melee",
+                "typeId": "914c-b413-91e3-a132"
+              },
+              {
+                "name": "A",
+                "$text": "5",
+                "typeId": "2337-daa1-6682-b110"
+              },
+              {
+                "name": "WS",
+                "$text": "3+",
+                "typeId": "95d1-95f-45b4-11d6"
+              },
+              {
+                "name": "S",
+                "$text": "10",
+                "typeId": "ab33-d393-96ce-ccba"
+              },
+              {
+                "name": "AP",
+                "$text": "-2",
+                "typeId": "41a0-1301-112a-e2f2"
+              },
+              {
+                "name": "D",
+                "$text": "3",
+                "typeId": "3254-9fe6-d824-513e"
+              },
+              {
+                "name": "Keywords",
+                "$text": "Devastating Wounds",
+                "typeId": "893f-9000-ccf7-648e"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Astorath",
         "id": "f943-72c8-581c-e6f2",
         "hidden": false,
@@ -3111,7 +3217,7 @@
                     ],
                     "entryLinks": [
                       {"name": "Power fist", "id": "b198-fd3c-1a46-b4c1", "hidden": false, "import": true, "targetId": "f8d8-7e77-4b71-faac", "type": "selectionEntry"},
-                      {"name": "Thunder Hammer", "id": "704a-7184-da47-4059", "hidden": false, "import": true, "targetId": "4913-96d4-2b1f-2c21", "type": "selectionEntry"},
+                      {"name": "Thunder Hammer", "id": "704a-7184-da47-4059", "hidden": false, "import": true, "targetId": "dcba-1124-dc00-0001", "type": "selectionEntry"},
                       {"name": "Power weapon", "id": "f60c-8ff0-7084-492b", "hidden": false, "import": true, "targetId": "50dd-3e76-d993-4d1a", "type": "selectionEntry"}
                     ]
                   },
@@ -3695,9 +3801,9 @@
                               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
                               {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
                               {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
-                              {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+                              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
                               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                               {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                             ]
                           }
@@ -4487,7 +4593,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "8",
+                                "$text": "10",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -4497,7 +4603,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "2",
+                                "$text": "3",
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
@@ -9889,7 +9995,7 @@
                     "id": "a155-41da-fc7a-e8f3",
                     "hidden": false,
                     "import": true,
-                    "targetId": "62ad-da0b-24f7-fe33",
+                    "targetId": "dcba-1124-dc00-0002",
                     "type": "selectionEntry",
                     "constraints": [
                       {
@@ -10524,7 +10630,7 @@
                       {"id": "57e0-15ea-a7bd-a74d", "field": "selections", "includeChildSelections": true, "scope": "2ed1-aba1-feec-a885", "shared": true, "type": "max", "value": 2}
                     ],
                     "entryLinks": [
-                      {"name": "Thunder Hammer", "id": "d21e-f281-5e3f-e0b2", "hidden": false, "import": true, "targetId": "3acf-2a72-a5a2-84a2", "type": "selectionEntry"},
+                      {"name": "Thunder Hammer", "id": "d21e-f281-5e3f-e0b2", "hidden": false, "import": true, "targetId": "dcba-1124-dc00-0001", "type": "selectionEntry"},
                       {"name": "Power weapon", "id": "6969-2b53-4bc9-6905", "hidden": false, "import": true, "targetId": "c4b5-68e-2266-f459", "type": "selectionEntry"},
                       {"name": "Chainsword", "id": "919f-6a34-9a92-f6b3", "hidden": false, "import": true, "targetId": "efcd-180-d07-b4d6", "type": "selectionEntry"}
                     ],
@@ -11148,7 +11254,7 @@
                         "id": "0750-7bd3-6edf-09d2",
                         "hidden": false,
                         "import": true,
-                        "targetId": "3acf-2a72-a5a2-84a2",
+                        "targetId": "dcba-1124-dc00-0001",
                         "type": "selectionEntry",
                         "categoryLinks": [{"name": "DCo Weapon Swap", "id": "1205-d6bd-43e1-bfc6", "hidden": false, "primary": false, "targetId": "78e1-92d6-d2d8-0509"}]
                       },
@@ -11654,7 +11760,7 @@
                               },
                               {
                                 "name": "S",
-                                "$text": "8",
+                                "$text": "10",
                                 "typeId": "ab33-d393-96ce-ccba"
                               },
                               {
@@ -11664,7 +11770,7 @@
                               },
                               {
                                 "name": "D",
-                                "$text": "2",
+                                "$text": "3",
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
@@ -12664,9 +12770,9 @@
                               {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
                               {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
                               {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
-                              {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+                              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
                               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                               {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                             ]
                           }
