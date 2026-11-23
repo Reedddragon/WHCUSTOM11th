@@ -1218,7 +1218,7 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [{"name": "Description", "$text": "Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider.", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntries": [
@@ -1276,7 +1276,7 @@
                   {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
                   {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
                   {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                  {"name": "Keywords", "typeId": "893f-9000-ccf7-648e"}
+                  {"name": "Keywords", "$text": "Cleave 1", "typeId": "893f-9000-ccf7-648e"}
                 ]
               },
               {
@@ -2669,7 +2669,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
+                "$text": "While this model is leading a unit, that unit's attacks have +1 to Hit rolls while it is below Starting Strength. If it is Below Half-strength, those attacks also have +1 to Wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -6954,7 +6954,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+                "$text": "While a CHARACTER model is leading this unit, attacks made by models in this unit have +1 to Hit rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -10829,7 +10829,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move, until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll.",
+                "$text": "This unit can re-roll Charge rolls. If this unit made a Charge move this turn, its melee attacks have +1 to Hit rolls until the end of the turn.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -11442,7 +11442,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1.",
+                "$text": "If this unit Remained Stationary this turn and contains a Long Fang Pack Leader, select one enemy unit visible to that model. Until the end of the turn, ranged attacks made by this unit targeting that enemy unit can re-roll Hit rolls of 1.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -11470,7 +11470,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.",
+                "$text": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -12527,7 +12527,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponent’s next turn, that enemy unit is Frozen. While a unit is Frozen, subtract 2 from that unit’s Move characteristic, and  subtract 2 from Advance and Charge rolls made for that unit.",
+                "$text": "In your Shooting phase, after this model has shot, select one enemy MONSTER or VEHICLE unit hit by one or more attacks made with its helfrost destructor. Until the end of your opponent's next turn, that unit is Frozen: subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -12966,7 +12966,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.",
+                "$text": "If a friendly unit disembarks from this TRANSPORT before this model moves, that unit can declare a charge this turn even if it Advanced.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -14146,7 +14146,7 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following unit: Skyclaws\n\n\n", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following unit:\n■ Skyclaws", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntryGroups": [
@@ -16246,7 +16246,7 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "While this model is leading a unit, models in that unit have the Scouts 6\" ability.", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [{"name": "Description", "$text": "While this model is attached to a Fenrisian Wolves unit, that unit has the Scouts 6\" ability.", "typeId": "9b8f-694b-e5e-b573"}]
           },
           {
             "name": "Close In for the Kill",
@@ -16257,7 +16257,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll.",
+                "$text": "This model's attacks that target an enemy unit that is Below Half-strength have +1 to Hit rolls and +1 to Wound rolls.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -18049,7 +18049,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s Iron Priest hammer has an Attacks characteristic of 6.",
+                "$text": "If a friendly SPACE WOLVES VEHICLE model is destroyed within 12\" of this model, the Attacks characteristic of this model's Iron Priest hammer becomes 6 until the end of the battle.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -18071,7 +18071,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
+                "$text": "While this model is within 3\" of one or more friendly SPACE WOLVES VEHICLE units, this model has Lone Operative.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -18085,7 +18085,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.",
+                "$text": "In your Movement phase, at the start or end of this model's move, select one friendly SPACE WOLVES VEHICLE model within 3\". That model regains up to D3 lost wounds and has +1 to Hit rolls for its attacks until the start of your next Command phase. Each VEHICLE model can only be selected for this ability once per turn.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
