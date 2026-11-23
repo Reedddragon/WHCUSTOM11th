@@ -4246,6 +4246,282 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Death Company Marine with Jump Pack (Classic Wargear)",
+                "id": "dc26-001d-92f0-c9b1",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapon Options",
+                    "id": "dc26-001e-92f0-c9b1",
+                    "defaultSelectionEntryId": "dc26-0021-92f0-c9b1",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "dc26-001f-92f0-c9b1",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dc26-0020-92f0-c9b1",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Boltgun and Close Combat Weapon",
+                        "id": "dc26-0021-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "entryLinks": [
+                          {
+                            "name": "Boltgun",
+                            "id": "dc26-0022-92f0-c9b1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "beac-9df8-7247-c8ab",
+                            "type": "selectionEntry",
+                            "constraints": [
+                              {
+                                "id": "dc26-0023-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-0024-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Close combat weapon",
+                            "id": "dc26-0025-92f0-c9b1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "6c7d-af5b-482-6fbe",
+                            "type": "selectionEntry",
+                            "constraints": [
+                              {
+                                "id": "dc26-0026-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-0027-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Melee and Pistol",
+                        "id": "dc26-0028-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "selectionEntryGroups": [
+                          {
+                            "name": "Melee Option",
+                            "id": "dc26-0029-92f0-c9b1",
+                            "defaultSelectionEntryId": "36c0-711a-50e7-ddba",
+                            "hidden": false,
+                            "constraints": [
+                              {
+                                "id": "dc26-002a-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-002b-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "name": "Chainsword",
+                                "id": "dc26-002c-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "efcd-180-d07-b4d6",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Power fist",
+                                "id": "dc26-002d-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "f8d8-7e77-4b71-faac",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Power weapon",
+                                "id": "dc26-002e-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "50dd-3e76-d993-4d1a",
+                                "type": "selectionEntry"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Pistol Option",
+                            "id": "dc26-002f-92f0-c9b1",
+                            "defaultSelectionEntryId": "2fdf-b222-d6a8-6af4",
+                            "hidden": false,
+                            "constraints": [
+                              {
+                                "id": "dc26-0030-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-0031-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "name": "Bolt pistol",
+                                "id": "dc26-0032-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "18b0-8c2-173f-5",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Plasma pistol",
+                                "id": "dc26-0033-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "25c2-104f-fa0c-809e",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Hand flamer",
+                                "id": "dc26-0034-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "9dc6-6ad8-818e-db2e",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Inferno Pistol",
+                                "id": "dc26-0035-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "d8bf-e17f-d6fa-b7e8",
+                                "type": "selectionEntry"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Thunder Hammer",
+                        "id": "dc26-0036-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "profiles": [
+                          {
+                            "name": "Thunder Hammer",
+                            "id": "dc26-0037-92f0-c9b1",
+                            "hidden": false,
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "$text": "Melee",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "3",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "name": "WS",
+                                "$text": "4+",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "8",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "-2",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "2",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "$text": "Devastating Wounds",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "dc26-0038-92f0-c9b1",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 10
+                  }
+                ]
               }
             ]
           }
@@ -11137,6 +11413,385 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Death Company Marine (Classic Wargear)",
+                "id": "dc26-0001-92f0-c9b1",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapon Options",
+                    "id": "dc26-0002-92f0-c9b1",
+                    "defaultSelectionEntryId": "dc26-0005-92f0-c9b1",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "id": "dc26-0003-92f0-c9b1",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dc26-0004-92f0-c9b1",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Boltgun and Close Combat Weapon",
+                        "id": "dc26-0005-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "entryLinks": [
+                          {
+                            "name": "Boltgun",
+                            "id": "dc26-0006-92f0-c9b1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "beac-9df8-7247-c8ab",
+                            "type": "selectionEntry",
+                            "constraints": [
+                              {
+                                "id": "dc26-0007-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-0008-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Close combat weapon",
+                            "id": "dc26-0009-92f0-c9b1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "6c7d-af5b-482-6fbe",
+                            "type": "selectionEntry",
+                            "constraints": [
+                              {
+                                "id": "dc26-000a-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-000b-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Melee and Pistol",
+                        "id": "dc26-000c-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "selectionEntryGroups": [
+                          {
+                            "name": "Melee Option",
+                            "id": "dc26-000d-92f0-c9b1",
+                            "defaultSelectionEntryId": "dc26-0010-92f0-c9b1",
+                            "hidden": false,
+                            "constraints": [
+                              {
+                                "id": "dc26-000e-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-000f-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "name": "Chainsword",
+                                "id": "dc26-0010-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "efcd-180-d07-b4d6",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Power fist",
+                                "id": "dc26-0011-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "f8d8-7e77-4b71-faac",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Power weapon",
+                                "id": "dc26-0012-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "50dd-3e76-d993-4d1a",
+                                "type": "selectionEntry"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Pistol Option",
+                            "id": "dc26-0013-92f0-c9b1",
+                            "defaultSelectionEntryId": "dc26-0016-92f0-c9b1",
+                            "hidden": false,
+                            "constraints": [
+                              {
+                                "id": "dc26-0014-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "min",
+                                "value": 1
+                              },
+                              {
+                                "id": "dc26-0015-92f0-c9b1",
+                                "field": "selections",
+                                "scope": "parent",
+                                "shared": true,
+                                "type": "max",
+                                "value": 1
+                              }
+                            ],
+                            "entryLinks": [
+                              {
+                                "name": "Bolt pistol",
+                                "id": "dc26-0016-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "18b0-8c2-173f-5",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Plasma pistol",
+                                "id": "dc26-0017-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "25c2-104f-fa0c-809e",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Hand flamer",
+                                "id": "dc26-0018-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "9dc6-6ad8-818e-db2e",
+                                "type": "selectionEntry"
+                              },
+                              {
+                                "name": "Inferno Pistol",
+                                "id": "dc26-0019-92f0-c9b1",
+                                "hidden": false,
+                                "import": true,
+                                "targetId": "d8bf-e17f-d6fa-b7e8",
+                                "type": "selectionEntry"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Thunder Hammer",
+                        "id": "dc26-001a-92f0-c9b1",
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "profiles": [
+                          {
+                            "name": "Thunder Hammer",
+                            "id": "dc26-001b-92f0-c9b1",
+                            "hidden": false,
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "$text": "Melee",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "3",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "name": "WS",
+                                "$text": "4+",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "8",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "-2",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "2",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "$text": "Devastating Wounds",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "dc26-001c-92f0-c9b1",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 10
+                  }
+                ]
+              },
+              {
+                "name": "Death Company Marine with Bolt Rifle and Bolt Pistol",
+                "id": "dc26-0039-92f0-c9b1",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "entryLinks": [
+                  {
+                    "name": "Bolt Rifle",
+                    "id": "dc26-003a-92f0-c9b1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6155-c404-a228-cb72",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "dc26-003b-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dc26-003c-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bolt pistol",
+                    "id": "dc26-003d-92f0-c9b1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "18b0-8c2-173f-5",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "dc26-003e-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dc26-003f-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Close combat weapon",
+                    "id": "dc26-0040-92f0-c9b1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6c7d-af5b-482-6fbe",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "dc26-0041-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dc26-0042-92f0-c9b1",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "dc26-0043-92f0-c9b1",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 10
+                  }
+                ]
               }
             ]
           }
@@ -16985,7 +17640,15 @@
             "type": "selectionEntry",
             "categoryLinks": [{"name": "Pistol replacement", "id": "4dca-64f5-dc6a-9fb4", "hidden": false, "primary": false, "targetId": "f06c-dfec-c720-57f1"}]
           },
-          {"name": "Heavy Bolt Pistol", "id": "7054-eb96-3614-542a", "hidden": false, "import": true, "targetId": "83a1-feb8-d495-aa28", "type": "selectionEntry"}
+          {"name": "Heavy Bolt Pistol", "id": "7054-eb96-3614-542a", "hidden": false, "import": true, "targetId": "83a1-feb8-d495-aa28", "type": "selectionEntry"},
+          {
+            "name": "Bolt pistol",
+            "id": "dc26-0044-92f0-c9b1",
+            "hidden": false,
+            "import": true,
+            "targetId": "18b0-8c2-173f-5",
+            "type": "selectionEntry"
+          }
         ]
       }
     ]
