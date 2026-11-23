@@ -16131,7 +16131,7 @@
               },
               {
                 "type": "max",
-                "value": 6,
+                "value": 3,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
