@@ -16030,7 +16030,7 @@
       {
         "name": "Cyberwolf [Legends]",
         "id": "6a06-e50c-2c7d-3ec3",
-        "hidden": true,
+        "hidden": false,
         "import": true,
         "type": "model",
         "associations": [
