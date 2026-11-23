@@ -7988,6 +7988,68 @@
                 ],
                 "selectionEntries": [
                   {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Power Claw Fist",
+                    "hidden": false,
+                    "id": "2e88-805c-5c3f-928f",
+                    "profiles": [
+                      {
+                        "name": "Power Claw Fist",
+                        "typeId": "8a40-4aaa-c780-9046",
+                        "typeName": "Melee Weapons",
+                        "hidden": false,
+                        "id": "cde9-4ac9-50a1-af1b",
+                        "characteristics": [
+                          {
+                            "$text": "Melee",
+                            "name": "Range",
+                            "typeId": "914c-b413-91e3-a132"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "A",
+                            "typeId": "2337-daa1-6682-b110"
+                          },
+                          {
+                            "$text": "3+",
+                            "name": "WS",
+                            "typeId": "95d1-95f-45b4-11d6"
+                          },
+                          {
+                            "$text": "6",
+                            "name": "S",
+                            "typeId": "ab33-d393-96ce-ccba"
+                          },
+                          {
+                            "$text": "-2",
+                            "name": "AP",
+                            "typeId": "41a0-1301-112a-e2f2"
+                          },
+                          {
+                            "$text": "2",
+                            "name": "D",
+                            "typeId": "3254-9fe6-d824-513e"
+                          },
+                          {
+                            "name": "Keywords",
+                            "typeId": "893f-9000-ccf7-648e"
+                          }
+                        ]
+                      }
+                    ],
+                    "entryLinks": [
+                      {
+                        "import": true,
+                        "name": "Weapon Modifications",
+                        "hidden": false,
+                        "id": "b18c-7e5f-77cb-4a59",
+                        "type": "selectionEntryGroup",
+                        "targetId": "f9da-852a-d7f0-92e9"
+                      }
+                    ]
+                  },
+                  {
                     "name": "Twin Lightning Claws",
                     "id": "09b6-e7b6-d498-0e54",
                     "hidden": false,
@@ -8037,8 +8099,8 @@
                           {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
                           {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
                           {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
-                          {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
-                          {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                          {"name": "S", "$text": "9", "typeId": "ab33-d393-96ce-ccba"},
+                          {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
                           {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                           {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                         ]
@@ -8143,6 +8205,239 @@
               {"id": "665b-22f9-251d-def2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 9}
             ],
             "selectionEntries": [
+              {
+                "profiles": [
+                  {
+                    "name": "Wolf Guard Terminator",
+                    "id": "a0c2-8c31-2e93-5422",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {
+                        "name": "M",
+                        "$text": "6\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "6",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "2+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "3",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "4+",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "40mm",
+                        "typeId": "nr-base-size"
+                      }
+                    ]
+                  }
+                ],
+                "type": "model",
+                "import": true,
+                "name": "Wolf Guard Terminator (Relic Melee Weapons)",
+                "hidden": false,
+                "id": "de74-d402-89c1-578f",
+                "sortIndex": 3,
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapons",
+                    "id": "3234-b3bb-d373-9457",
+                    "hidden": false,
+                    "constraints": [
+                      {
+                        "type": "min",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "aeaa-7de1-68b3-0521",
+                        "includeChildSelections": false
+                      },
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "id": "4d16-a107-3044-6d58",
+                        "includeChildSelections": false
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Power Claw Fist",
+                        "hidden": false,
+                        "id": "8726-c348-ead4-c4ad",
+                        "profiles": [
+                          {
+                            "name": "Power Claw Fist",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "cb5b-5aad-fb4c-aa8e",
+                            "characteristics": [
+                              {
+                                "$text": "Melee",
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "$text": "3+",
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "$text": "6",
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "$text": "-2",
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "$text": "2",
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
+                            ]
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Modifications",
+                            "hidden": false,
+                            "id": "6cdc-c622-49c6-317c",
+                            "type": "selectionEntryGroup",
+                            "targetId": "f9da-852a-d7f0-92e9"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "upgrade",
+                        "import": true,
+                        "name": "Relic Great Axe",
+                        "hidden": false,
+                        "id": "22b3-ed52-6e0a-3da0",
+                        "profiles": [
+                          {
+                            "name": "Relic Great Axe",
+                            "typeId": "8a40-4aaa-c780-9046",
+                            "typeName": "Melee Weapons",
+                            "hidden": false,
+                            "id": "ab8d-6cf4-d736-319e",
+                            "characteristics": [
+                              {
+                                "name": "Range",
+                                "typeId": "914c-b413-91e3-a132",
+                                "$text": "Melee"
+                              },
+                              {
+                                "name": "A",
+                                "typeId": "2337-daa1-6682-b110",
+                                "$text": "3"
+                              },
+                              {
+                                "name": "WS",
+                                "typeId": "95d1-95f-45b4-11d6",
+                                "$text": "3+"
+                              },
+                              {
+                                "name": "S",
+                                "typeId": "ab33-d393-96ce-ccba",
+                                "$text": "9"
+                              },
+                              {
+                                "name": "AP",
+                                "typeId": "41a0-1301-112a-e2f2",
+                                "$text": "-3"
+                              },
+                              {
+                                "name": "D",
+                                "typeId": "3254-9fe6-d824-513e",
+                                "$text": "3"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e",
+                                "$text": "Devastating Wounds"
+                              }
+                            ]
+                          }
+                        ],
+                        "infoLinks": [
+                          {
+                            "name": "Devastating Wounds",
+                            "id": "4795-8f25-fe66-04b7",
+                            "hidden": false,
+                            "type": "rule",
+                            "targetId": "be1e-ac8e-1e2c-3528"
+                          }
+                        ],
+                        "entryLinks": [
+                          {
+                            "import": true,
+                            "name": "Weapon Modifications",
+                            "hidden": false,
+                            "id": "2dc0-bd94-126d-620e",
+                            "type": "selectionEntryGroup",
+                            "targetId": "f9da-852a-d7f0-92e9"
+                          }
+                        ]
+                      }
+                    ],
+                    "defaultSelectionEntryId": "8726-c348-ead4-c4ad"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "0e11-2dba-55c7-40ed",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 9
+                  }
+                ]
+              },
               {
                 "name": "Wolf Guard Terminator w/ storm bolter",
                 "id": "c169-905a-e3f-8c1",
