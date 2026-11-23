@@ -4349,7 +4349,7 @@
                           {
                             "name": "Melee Option",
                             "id": "dc26-0029-92f0-c9b1",
-                            "defaultSelectionEntryId": "36c0-711a-50e7-ddba",
+                            "defaultSelectionEntryId": "dc26-002c-92f0-c9b1",
                             "hidden": false,
                             "constraints": [
                               {
@@ -4399,7 +4399,7 @@
                           {
                             "name": "Pistol Option",
                             "id": "dc26-002f-92f0-c9b1",
-                            "defaultSelectionEntryId": "2fdf-b222-d6a8-6af4",
+                            "defaultSelectionEntryId": "dc26-0032-92f0-c9b1",
                             "hidden": false,
                             "constraints": [
                               {
