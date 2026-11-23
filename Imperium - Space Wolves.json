@@ -22387,12 +22387,12 @@
                 "id": "2ccc-be9b-6a0e-2a40",
                 "characteristics": [
                   {
-                    "$text": "9\"",
+                    "$text": "12\"",
                     "name": "M",
                     "typeId": "e703-ecb6-5ce7-aec1"
                   },
                   {
-                    "$text": "9",
+                    "$text": "10",
                     "name": "T",
                     "typeId": "d29d-cf75-fc2d-34a4"
                   },
