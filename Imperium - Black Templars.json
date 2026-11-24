@@ -466,7 +466,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 110
           },
           {
             "name": "Crusade Points",
@@ -563,18 +563,18 @@
             ]
           },
           {
-            "name": "Temple Relics",
-            "id": "2e00-2ac9-9892-856",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of your Command phase, if this unit contains one or more Cenobyte Servitor models, select up to one of the abilities in the Temple Relics section. Until the start of your next Command phase, this model has that ability.\n\n\nBanner of the Emperor Victorious\nThis unit has +1 to advance rolls and charge rolls.\n\n\nColumn from the Major Altar\nThis unit has +1 T.\n\n\nWater from the Stoup of Elucidation\nThis unit's melee attacks have +1 AP.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit, Add 2 instead if Vow \"Accept Any Challenge, No Matter the Odds\" is active.\n\n\nColumn of the Major Alter: Models in this unit have the Feel No Pain +5 ability. If the Uphold The Honor of The Emperor Vow is active, add +1 to the toughness of this unit\n\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1. If the Suffer Not the Unclean to Live, add +1 to the Strength of the melee weapons of this unit"
               }
-            ]
+            ],
+            "name": "Temple Relics",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "2e00-2ac9-9892-856"
           },
           {
             "name": "Leader",
@@ -603,6 +603,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle at the start of the command phase, this model gains access to all Temple Relic abilities and all enemy units within 12” of this model’s unit can only Charge and enter within engagement range of this unit until the end of your opponent’s turn."
+              }
+            ],
+            "name": "For Helsreach!",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1100-1000-e001"
           }
         ],
         "selectionEntries": [
@@ -1407,32 +1421,32 @@
             ]
           },
           {
-            "name": "Crusade of Wrath",
-            "id": "89a6-52b4-cba8-4f11",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
             "characteristics": [
               {
+                "$text": "While this model is leading a unit, add 1 to the Attacks and Strength characteristic of melee weapons equipped by models in that unit.",
                 "name": "Description",
-                "$text": "This unit's melee attacks have:\n- +1 A.\n- +1 S.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
-            ]
+            ],
+            "name": "Crusade of Wrath",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "89a6-52b4-cba8-4f11"
           },
           {
-            "name": "High Marshal",
-            "id": "6e7f-e156-fc38-c2a4",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
             "characteristics": [
               {
+                "$text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 1 to the result for every five models in this model's unit: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
                 "name": "Description",
-                "$text": "At the start of the Fight phase, select up to one enemy unit engaged with this unit and roll one D6:\n\n\n- On a 2-3, that enemy unit suffers D3 mortal wounds.\n- On a 4-5, that enemy unit suffers 3 mortal wounds.\n- On a 6+, that enemy unit suffers D3+3 mortal wounds.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
-            ]
+            ],
+            "name": "High Marshal",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "6e7f-e156-fc38-c2a4"
           },
           {
             "name": "Leader",
@@ -1804,7 +1818,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 160
+            "value": 120
           },
           {
             "name": "Crusade Points",
@@ -2087,7 +2101,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 305,
+            "value": 250,
             "conditions": [
               {
                 "id": "f8f1-a0a-81ed-680b",
@@ -2120,18 +2134,18 @@
         ],
         "profiles": [
           {
-            "name": "Righteous Zeal",
-            "id": "eb4a-e30-3fd1-5dec",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+1.",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2."
               }
-            ]
+            ],
+            "name": "Righteous Zeal",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "eb4a-e30-3fd1-5dec"
           }
         ],
         "selectionEntryGroups": [
@@ -3891,7 +3905,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 140,
+            "value": 130,
             "conditions": [
               {
                 "id": "8c55-cc1f-8b59-6cc0",
@@ -3908,7 +3922,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 250,
+            "value": 235,
             "conditionGroups": [
               {
                 "type": "and",
@@ -3938,7 +3952,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 275,
+            "value": 260,
             "conditions": [
               {
                 "id": "296d-05da-c4b1-b708",
@@ -3980,7 +3994,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In your opponent's Movement phase, when an enemy unit that was engaged with this unit ends a fall-back move, if this unit is unengaged it can make a normal move of up to 6\".",
+                "$text": "In your opponent's Movement phase, when an enemy unit that was engaged with this unit ends a Fall Back move, if this unit is unengaged it can move up to 6\" towards that enemy unit. This move can end within Engagement Range of that enemy unit.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4033,6 +4047,20 @@
                 "typeId": "nr-base-size"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the Fight phase, select one of the following effects. Until the end of the phase, melee weapons equipped by models in this unit have either +1 A or +1 D."
+              }
+            ],
+            "name": "Vow-sworn Bladesmen",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1100-1001-e001"
           }
         ],
         "selectionEntryGroups": [
@@ -4726,6 +4754,298 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Enhancements",
+            "id": "5688-6bf5-eb6a-11bf",
+            "hidden": false,
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fervent Exemplars",
+                "hidden": false,
+                "id": "9a7f-fcfb-5ea1-bfe6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "cf0b-49b9-dd72-c9d0",
+                    "includeChildSelections": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Fervent Exemplars",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "73e9-ff31-d0db-6982",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Inheritors of Sigismund",
+                "hidden": false,
+                "id": "1363-5e93-bfd4-3646",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "0080-d186-7184-98ff",
+                    "includeChildSelections": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  },
+                  {
+                    "name": "Honour Points",
+                    "typeId": "8135-9a2f-6627-09e2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Relic Fragments",
+                    "typeId": "0ece-6541-4662-ece2",
+                    "value": 0
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Inheritors of Sigismund",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "08cf-3426-4493-1e01",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "SWORD BRETHREN SQUAD unit only. This unit has Fights First"
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "e533-c51a-5949-a579",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Marshal's Household"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "edb9-830e-ce05-d8a2",
+                "includeChildSelections": false
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "e533-c51a-5949-a579",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Marshal's Household"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4899,7 +5219,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -5277,7 +5597,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Attacks allocated to this model have ‑1 D.",
+                "$text": "Attacks allocated to this model have -1 D (to a minimum of 1). Once per phase, when an attack is allocated to this model and its saving throw is failed, you can change the Damage characteristic of that attack to 0.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -5291,7 +5611,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This unit has +1 to charge rolls.",
+                "$text": "This unit has +1 to charge rolls. When this unit declares a charge, if an enemy CHARACTER unit is within 12\" of this unit, you can use this ability. If you do, this unit can re-roll that charge roll and must end that charge move engaged with one or more of those enemy CHARACTER units. (Once per battle, per army) In the Fight phase, when this unit is selected to fight, if it is engaged with a CHARACTER unit, this unit's melee attacks have [DEVASTATING WOUNDS] until the end of the phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
