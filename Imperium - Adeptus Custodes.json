@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 44,
+    "revision": 45,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -31823,14 +31823,72 @@
                 ],
                 "modifiers": [
                   {
-                    "field": "ab33-d393-96ce-ccba",
-                    "type": "set",
-                    "value": "12"
-                  },
-                  {
                     "field": "893f-9000-ccf7-648e",
                     "type": "set",
                     "value": "Lance"
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6319-eeba-b717-bd86",
+                    "childName": "Shield-Captain in Allarus Terminator Armour",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "6319-eeba-b717-bd86",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "set",
+                    "value": "12"
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6319-eeba-b717-bd86",
+                    "childName": "Shield-Captain in Allarus Terminator Armour",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "6319-eeba-b717-bd86",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Admonimortis: Allarus bearer only",
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "set",
+                    "value": "15"
                   }
                 ]
               }
@@ -31841,31 +31899,16 @@
                 "field": "ab33-d393-96ce-ccba",
                 "type": "set",
                 "value": "13",
-                "conditionGroups": [
+                "conditions": [
                   {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "58f9-79ac-2fb3-3359",
-                        "childName": "Admonimortis",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "b61c-b815-65c0-b1cc",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
-                      {
-                        "childId": "58f9-79ac-2fb3-3359",
-                        "childName": "Admonimortis",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "6319-eeba-b717-bd86",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "b61c-b815-65c0-b1cc",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               },
@@ -32123,14 +32166,72 @@
                 ],
                 "modifiers": [
                   {
-                    "field": "ab33-d393-96ce-ccba",
-                    "type": "set",
-                    "value": "10"
-                  },
-                  {
                     "field": "893f-9000-ccf7-648e",
                     "type": "set",
                     "value": "Lance"
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6319-eeba-b717-bd86",
+                    "childName": "Shield-Captain in Allarus Terminator Armour",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "6319-eeba-b717-bd86",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "set",
+                    "value": "10"
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "6319-eeba-b717-bd86",
+                    "childName": "Shield-Captain in Allarus Terminator Armour",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "6319-eeba-b717-bd86",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Admonimortis: Allarus bearer only",
+                    "field": "ab33-d393-96ce-ccba",
+                    "type": "set",
+                    "value": "13"
                   }
                 ]
               }
@@ -32141,31 +32242,16 @@
                 "field": "ab33-d393-96ce-ccba",
                 "type": "set",
                 "value": "11",
-                "conditionGroups": [
+                "conditions": [
                   {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "58f9-79ac-2fb3-3359",
-                        "childName": "Admonimortis",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "b61c-b815-65c0-b1cc",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
-                      {
-                        "childId": "58f9-79ac-2fb3-3359",
-                        "childName": "Admonimortis",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "6319-eeba-b717-bd86",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      }
-                    ]
+                    "childId": "58f9-79ac-2fb3-3359",
+                    "childName": "Admonimortis",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "b61c-b815-65c0-b1cc",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
                   }
                 ]
               },
