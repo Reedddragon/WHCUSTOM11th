@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 42,
+    "revision": 43,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -38115,7 +38115,7 @@
                 ]
               },
               {
-                "name": "Unstoppable Destroyer",
+                "name": "Admonimortis",
                 "id": "58f9-79ac-2fb3-3359",
                 "hidden": false,
                 "import": true,
@@ -38135,7 +38135,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 25
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -38180,8 +38180,8 @@
                     "value": true,
                     "conditions": [
                       {
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "childName": "Infantry",
+                        "childId": "6bfb-3b18-fd53-9ff1",
+                        "childName": "Shield-Captain",
                         "field": "selections",
                         "includeChildSelections": false,
                         "scope": "ancestor",
@@ -38194,7 +38194,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Unstoppable Destroyer",
+                    "name": "Admonimortis",
                     "id": "62d7-07ac-97b5-e401",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -38202,7 +38202,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "When this unit is selected to make a **pile-in/consolidation move**:\n- This unit can move up to 4\".\n- You can select any **consolidation mode** for that **consolidation move**, regardless of that **consolidation move**'s Before Moving restrictions.",
+                        "$text": "**^^Shield-Captain^^** model only. Add 3 to the Strength characteristic and 1 to the Armour Penetration and Damage characteristics of the bearer's melee weapons (improving AP by 1).",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
