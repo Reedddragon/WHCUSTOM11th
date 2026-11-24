@@ -53,7 +53,7 @@
     ],
     "entryLinks": [
       {
-        "name": "Chaplain Grimaldus",
+        "name": "Reclusiarch Grimaldus",
         "id": "524-c0e0-88a9-bc11",
         "hidden": false,
         "import": true,
@@ -345,7 +345,7 @@
     ],
     "sharedSelectionEntries": [
       {
-        "name": "Chaplain Grimaldus",
+        "name": "Reclusiarch Grimaldus",
         "id": "8165-e372-4fd6-3274",
         "hidden": false,
         "import": true,
@@ -575,7 +575,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit, Add 2 instead if Vow \"Accept Any Challenge, No Matter the Odds\" is active.\n\n\nColumn of the Major Alter: Models in this unit have the Feel No Pain +5 ability. If the Uphold The Honor of The Emperor Vow is active, add +1 to the toughness of this unit\n\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1. If the Suffer Not the Unclean to Live, add +1 to the Strength of the melee weapons of this unit"
+                "$text": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Reclusiarch Grimaldus model has that ability.\n\n\nBanner of the Emperor Victorious: Add 1 to Advance and Charge rolls for this unit, Add 2 instead if Vow \"Accept Any Challenge, No Matter the Odds\" is active.\n\n\nColumn of the Major Alter: Models in this unit have the Feel No Pain +5 ability. If the Uphold The Honor of The Emperor Vow is active, add +1 to the toughness of this unit\n\n\n\nWater from the Stoup of Elucidation: Improve the Armour Penetration characteristic of melee weapons equipped by models in this unit by 1. If the Suffer Not the Unclean to Live, add +1 to the Strength of the melee weapons of this unit"
               }
             ],
             "name": "Temple Relics",
@@ -607,7 +607,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "- If this unit’s Chaplain Grimaldus model is destroyed, this unit’s remaining Cenobyte Servitor models are also destroyed.\n- Each Cenobyte Servitor model in this unit takes up 0 transport capacity.",
+                "$text": "- If this unit’s Reclusiarch Grimaldus model is destroyed, this unit’s remaining Cenobyte Servitor models are also destroyed.\n- Each Cenobyte Servitor model in this unit takes up 0 transport capacity.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -629,7 +629,7 @@
         ],
         "selectionEntries": [
           {
-            "name": "Chaplain Grimaldus",
+            "name": "Reclusiarch Grimaldus",
             "id": "6c29-b6fd-c8bb-4aad",
             "hidden": false,
             "import": true,
@@ -680,7 +680,7 @@
             ],
             "profiles": [
               {
-                "name": "Chaplain Grimaldus",
+                "name": "Reclusiarch Grimaldus",
                 "id": "28af-dd23-5740-1cab",
                 "hidden": false,
                 "typeId": "c547-1836-d8a-ff4f",
