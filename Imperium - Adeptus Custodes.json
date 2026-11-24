@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 43,
+    "revision": 44,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -8812,6 +8812,62 @@
                         "$text": "Precision",
                         "typeId": "893f-9000-ccf7-648e"
                       }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "set",
+                        "value": "13",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "41a0-1301-112a-e2f2",
+                        "type": "set",
+                        "value": "-4",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "3254-9fe6-d824-513e",
+                        "type": "set",
+                        "value": "4",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
                     ]
                   }
                 ],
@@ -8980,6 +9036,62 @@
                         "name": "Keywords",
                         "$text": "Cleave 1",
                         "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "set",
+                        "value": "11",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "41a0-1301-112a-e2f2",
+                        "type": "set",
+                        "value": "-3",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "3254-9fe6-d824-513e",
+                        "type": "set",
+                        "value": "3",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "b61c-b815-65c0-b1cc",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   },
@@ -10741,6 +10853,62 @@
                         "name": "Keywords",
                         "$text": "Lance",
                         "typeId": "893f-9000-ccf7-648e"
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "ab33-d393-96ce-ccba",
+                        "type": "set",
+                        "value": "13",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "58fa-4a25-a5af-1144",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "41a0-1301-112a-e2f2",
+                        "type": "set",
+                        "value": "-3",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "58fa-4a25-a5af-1144",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Admonimortis: bearer only",
+                        "field": "3254-9fe6-d824-513e",
+                        "type": "set",
+                        "value": "4",
+                        "conditions": [
+                          {
+                            "childId": "58f9-79ac-2fb3-3359",
+                            "childName": "Admonimortis",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "58fa-4a25-a5af-1144",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   }
@@ -31666,6 +31834,107 @@
                   }
                 ]
               }
+            ],
+            "modifiers": [
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "ab33-d393-96ce-ccba",
+                "type": "set",
+                "value": "13",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "41a0-1301-112a-e2f2",
+                "type": "set",
+                "value": "-3",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "3254-9fe6-d824-513e",
+                "type": "set",
+                "value": "5",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -31862,6 +32131,107 @@
                     "field": "893f-9000-ccf7-648e",
                     "type": "set",
                     "value": "Lance"
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "ab33-d393-96ce-ccba",
+                "type": "set",
+                "value": "11",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "41a0-1301-112a-e2f2",
+                "type": "set",
+                "value": "-3",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Admonimortis: bearer only",
+                "field": "3254-9fe6-d824-513e",
+                "type": "set",
+                "value": "3",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "b61c-b815-65c0-b1cc",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "58f9-79ac-2fb3-3359",
+                        "childName": "Admonimortis",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "6319-eeba-b717-bd86",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
