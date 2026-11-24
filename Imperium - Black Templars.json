@@ -5942,7 +5942,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 165
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -6312,18 +6312,18 @@
             ]
           },
           {
-            "name": "Aquilon Optics",
-            "id": "6e41-bf9f-317c-e83f",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
             "characteristics": [
               {
+                "$text": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks",
                 "name": "Description",
-                "$text": "This unit’s ranged attacks that target a Monster/Vehicle unit can:\n\n\n- Re-roll one hit roll.\n- Re-roll one wound roll.\n- Re-roll one damage roll.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
-            ]
+            ],
+            "name": "Aquilon Optics",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "6e41-bf9f-317c-e83f"
           }
         ],
         "selectionEntryGroups": [
@@ -6397,7 +6397,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 0
                   }
                 ],
                 "entryLinks": [
@@ -6627,7 +6627,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 165
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -7009,6 +7009,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "$text": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "name": "Rotating Death",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1200-1000-e001"
           }
         ],
         "selectionEntryGroups": [
@@ -7082,7 +7096,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 0
                   }
                 ],
                 "entryLinks": [
@@ -7772,6 +7786,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "$text": "Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "name": "Ferocious Assault",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1200-1001-e001"
           }
         ],
         "selectionEntryGroups": [
@@ -9090,7 +9118,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 170
           },
           {
             "name": "Crusade Points",
@@ -9559,7 +9587,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 0
                   }
                 ],
                 "entryLinks": [
@@ -9863,7 +9891,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 265
+            "value": 255
           },
           {
             "name": "Crusade Points",
@@ -10404,7 +10432,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 10
+                    "value": 0
                   }
                 ],
                 "entryLinks": [
@@ -10557,7 +10585,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 0
+                        "value": 10
                       },
                       {
                         "name": "Crusade Points",
@@ -10897,7 +10925,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -11274,10 +11302,24 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "In the Fight phase, when this unit is selected to fight, you can use this ability. If you do, make a leadership roll for this unit:\n- This unit's melee attacks can re-roll hit rolls of 1.\n- Or: If that roll succeeds: \nThis unit's melee attacks:\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1.",
+                "$text": "Once per phase, when this unit is selected as a target of an attack or selected to fight, you can use this ability. Select Defensive or Offensive and make a Leadership roll for this unit. Until the end of the phase: Defensive — models in this unit have Feel No Pain 6+ and a 5+ invulnerable save; if the roll succeeds, they instead have Feel No Pain 5+ and a 4+ invulnerable save. Offensive — this unit's melee attacks can re-roll hit rolls of 1; if the roll succeeds, they can also re-roll wound rolls of 1. You cannot select both effects in the same phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 2+, you gain 1 CP"
+              }
+            ],
+            "name": "Prioritised Eradication",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "1a65-fdc4-d7f2-6673"
           }
         ],
         "selectionEntryGroups": [
@@ -12107,7 +12149,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This unit's melee attacks have +1 to hit rolls.",
+                "$text": "This unit's melee attacks have +1 to hit rolls. While this model is leading a unit, unmodified hit rolls of 5+ for melee attacks made by models in that unit score Critical Hits.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -12801,7 +12843,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 50
           },
           {
             "name": "Crusade Points",
@@ -13186,10 +13228,24 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "After this unit has fought, if this unit destroyed an enemy model this phase, each enemy unit engaged with this unit makes a battle-shock roll, with -1 to that battle-shock roll.",
+                "$text": "After this unit has fought, if this unit destroyed an enemy model this phase, each enemy unit within 6\" of this model must make a Battle-shock roll, with -1 to that roll.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, this model can use this ability. If a model within this unit used a Once Per Battle or Once per Phase ability, they can do so again."
+              }
+            ],
+            "name": "By The Emperor’s Will",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1200-1002-e001"
           }
         ],
         "selectionEntryGroups": [
@@ -13577,7 +13633,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -13973,6 +14029,20 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
+          },
+          {
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of the command phase while a Crusade Ancient is on the battlefield, select one enemy unit as an Eternal Crusade target. Until the end of the battle round, re-roll the Hit rolls when attacking the target. If the target is within range of an objective marker, re-roll wound rolls of 1."
+              }
+            ],
+            "name": "Eternal Crusade",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "bc25-1200-1003-e001"
           }
         ],
         "selectionEntryGroups": [
