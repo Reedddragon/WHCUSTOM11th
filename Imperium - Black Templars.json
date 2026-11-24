@@ -20866,7 +20866,7 @@
         "type": "unit",
         "import": true,
         "name": "Crusader Squad [Legends]",
-        "hidden": true,
+        "hidden": false,
         "id": "2da2-ad08-6057-5a1c"
       }
     ]
