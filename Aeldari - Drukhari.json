@@ -113,7 +113,8 @@
       {"name": "Kharseth", "id": "5fb0-7aa1-e011-6869", "hidden": false, "import": true, "targetId": "4273-173c-e850-4071", "type": "selectionEntry"},
       {"name": "Starfangs", "id": "4cb1-ad14-dc73-de3c", "hidden": false, "import": true, "targetId": "a074-87f8-810d-492a", "type": "selectionEntry"},
       {"name": "Archtormentor [Crucible]", "id": "799a-1c90-f232-68d0", "hidden": false, "import": true, "targetId": "62f8-6a75-5ffb-e83b", "type": "selectionEntry"},
-      {"name": "Flesh Crafter [Crucible]", "id": "db0d-2274-9fd1-e3aa", "hidden": false, "import": true, "targetId": "b5a1-7e2b-7a1d-bbda", "type": "selectionEntry"}
+      {"name": "Flesh Crafter [Crucible]", "id": "db0d-2274-9fd1-e3aa", "hidden": false, "import": true, "targetId": "b5a1-7e2b-7a1d-bbda", "type": "selectionEntry"},
+      {"import":true,"name":"Archon on wings","hidden":false,"id":"0e3a-29b8-8586-89ac","type":"selectionEntry","targetId":"b383-9fad-f680-89fa"}
     ]
   }
 }
