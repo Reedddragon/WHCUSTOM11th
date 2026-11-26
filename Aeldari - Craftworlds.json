@@ -20,7 +20,8 @@
         "hidden": false,
         "import": true,
         "targetId": "5aa4-107-d7ee-f0f3",
-        "type": "selectionEntry"
+        "type": "selectionEntry",
+        "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":120}]
       },
       {
         "name": "Windriders",
@@ -78,7 +79,7 @@
       {"name": "Shroud Runners", "id": "2d9f-9bff-13a0-a4ec", "hidden": false, "import": true, "targetId": "c1ff-dc11-9853-e3e3", "type": "selectionEntry"},
       {"name": "Skyweavers", "id": "281d-42e5-46cc-73fa", "hidden": false, "import": true, "targetId": "9270-4b93-ca59-f3ed", "type": "selectionEntry"},
       {"name": "Solitaire", "id": "d316-91f3-9934-ed3e", "hidden": false, "import": true, "targetId": "f88f-60c5-3daf-3d2f", "type": "selectionEntry"},
-      {"name": "Spiritseer", "id": "2a7d-902-33d3-f639", "hidden": false, "import": true, "targetId": "e53b-7d09-eb7c-c6c7", "type": "selectionEntry"},
+      {"name": "Spiritseer", "id": "2a7d-902-33d3-f639", "hidden": false, "import": true, "targetId": "e53b-7d09-eb7c-c6c7", "type": "selectionEntry", "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":40}]},
       {"name": "Starweaver", "id": "ef4d-241e-a2cc-f1ad", "hidden": false, "import": true, "targetId": "854b-f8e-28fa-8c24", "type": "selectionEntry"},
       {"name": "Storm Guardians", "id": "a203-f251-2149-a253", "hidden": false, "import": true, "targetId": "5452-c4a7-59fb-f05c", "type": "selectionEntry"},
       {"name": "D-Cannon Platform", "id": "d91c-7d02-673a-97ed", "hidden": false, "import": true, "targetId": "82ac-7d93-df55-5504", "type": "selectionEntry"},
@@ -102,16 +103,17 @@
           {"name": "Character", "id": "cd67-c168-a002-96a9", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Psyker", "id": "249e-724f-e253-818", "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Warlock", "id": "2696-afd8-d427-f9a8", "primary": false, "targetId": "a67a-77cf-f6e3-390a"}
-        ]
+        ],
+        "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":45}]
       },
       {"name": "Warlock Conclave", "id": "95cc-3f6-f56b-3638", "hidden": false, "import": true, "targetId": "d61-c058-6bd1-112f", "type": "selectionEntry"},
       {"name": "Warlock Skyrunners", "id": "7fe1-5b20-b119-a9f", "hidden": false, "import": true, "targetId": "f52d-1814-7d66-1f7b", "type": "selectionEntry"},
       {"name": "Warp Spiders", "id": "e43e-9113-736d-cdf6", "hidden": false, "import": true, "targetId": "57ec-47a8-a59a-6a46", "type": "selectionEntry"},
       {"name": "Wave Serpent", "id": "c302-5769-871e-853b", "hidden": false, "import": true, "targetId": "ad88-f706-318c-e70e", "type": "selectionEntry"},
       {"name": "Webway Gate [Legends]", "id": "bdf5-36f4-8fc-1358", "hidden": false, "import": true, "targetId": "2f21-23a3-48e0-5788", "type": "selectionEntry"},
-      {"name": "Wraithblades", "id": "8cb-f672-a815-49ef", "hidden": false, "import": true, "targetId": "bb4f-4359-cc16-e6d5", "type": "selectionEntry"},
+      {"name": "Wraithblades", "id": "8cb-f672-a815-49ef", "hidden": false, "import": true, "targetId": "bb4f-4359-cc16-e6d5", "type": "selectionEntry", "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":120}]},
       {"name": "Wraithknight", "id": "9049-3d27-e0d4-924b", "hidden": false, "import": true, "targetId": "bfd-df5a-b358-4cf9", "type": "selectionEntry"},
-      {"name": "Wraithlord", "id": "6e10-c7d2-905f-1f99", "hidden": false, "import": true, "targetId": "b9e9-397e-d83a-f77a", "type": "selectionEntry"},
+      {"name": "Wraithlord", "id": "6e10-c7d2-905f-1f99", "hidden": false, "import": true, "targetId": "b9e9-397e-d83a-f77a", "type": "selectionEntry", "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":120}]},
       {"name": "Yvraine", "id": "f1bb-5b7e-c4a5-4040", "hidden": false, "import": true, "targetId": "ada5-25ce-d5d5-4ccb", "type": "selectionEntry"},
       {"name": "Striking Scorpions", "id": "d4d2-fedf-140e-3f76", "hidden": false, "import": true, "targetId": "c90f-a8e5-6afa-eb91", "type": "selectionEntry"},
       {"name": "Cobra [Legends]", "id": "ae18-a032-75f6-f1f7", "hidden": false, "import": true, "targetId": "e2ad-60b4-9678-88aa", "type": "selectionEntry"},
@@ -132,7 +134,7 @@
       {"name": "Phantom Titan", "id": "c387-32f8-8aa0-4b34", "hidden": false, "import": true, "targetId": "79b3-2cd1-d7b4-d7b1", "type": "selectionEntry"},
       {"name": "Revenant Titan", "id": "ed6a-ff9f-28a3-1716", "hidden": false, "import": true, "targetId": "ca40-4a0d-567-852", "type": "selectionEntry"},
       {"name": "Warp Hunter [Legends]", "id": "3549-ed9e-6768-b32b", "hidden": false, "import": true, "targetId": "ef18-ff32-2be6-7372", "type": "selectionEntry"},
-      {"name": "Wraithseer [Legends]", "id": "42ef-1197-f9dd-799c", "hidden": false, "import": true, "targetId": "b369-a813-75ac-2dc6", "type": "selectionEntry"},
+      {"name": "Wraithseer [Legends]", "id": "42ef-1197-f9dd-799c", "hidden": false, "import": true, "targetId": "b369-a813-75ac-2dc6", "type": "selectionEntry", "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":120}]},
       {"name": "Detachment", "id": "73aa-e2f4-3244-456f", "hidden": false, "import": true, "targetId": "68f1-24f4-a4c6-303f", "type": "selectionEntry"},
       {
         "name": "Amallyn Shadowguide [Legends]",
@@ -142,7 +144,7 @@
         "targetId": "965e-3df7-287a-6ac0",
         "type": "selectionEntry"
       },
-      {"name": "Bonesinger [Legends]", "id": "f207-382f-bf76-960a", "hidden": false, "import": true, "targetId": "2384-4154-b67a-3827", "type": "selectionEntry"},
+      {"name": "Bonesinger [Legends]", "id": "f207-382f-bf76-960a", "hidden": false, "import": true, "targetId": "2384-4154-b67a-3827", "type": "selectionEntry", "costs": [{"name":"pts","typeId":"51b2-306e-1021-d207","value":40}]},
       {
         "name": "Corsair Cloud Dancer Band [Legends]",
         "id": "2760-2254-881f-bf94",
