@@ -17567,7 +17567,7 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units:\nTERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, SWORD BRETHREN TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units:\nTERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, RELIC TERMINATOR SQUAD, SWORD BRETHREN TERMINATOR SQUAD, DEATHWATCH TERMINATOR SQUAD",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -18222,6 +18222,72 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ],
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "c58b-7e43-fec2-9d61",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "6179-3533-ba6-9593",
+                    "childName": "Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "4e0-4cf8-e8b5-726",
+                    "childName": "Terminator Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "25f4-2bec-a254-82a7",
+                    "childName": "Relic Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "45e1-aad6-6c8c-82f3",
+                    "childName": "Sword Brethren Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "8311-8645-4ce3-8b3",
+                    "childName": "Deathwatch Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
