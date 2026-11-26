@@ -11539,24 +11539,98 @@
         "import": true,
         "type": "unit",
         "categoryLinks": [
-          {"name": "Faction: Adeptus Astartes", "id": "90cb-95be-9f95-fb7b", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Faction: Space Wolves", "id": "46b8-a4c1-8908-8756", "primary": false, "targetId": "a0d9-c115-2a-8330"},
-          {"name": "Infantry", "id": "d468-a336-f1d0-88cc", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Grenades", "id": "6e9f-ad8-af5b-8165", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
-          {"name": "Imperium", "id": "e345-2a64-3d39-5427", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Long Fangs", "id": "aeb5-fb23-9ede-696", "primary": false, "targetId": "200a-c333-3440-f3ca"}
+          {
+            "name": "Faction: Adeptus Astartes",
+            "id": "90cb-95be-9f95-fb7b",
+            "primary": false,
+            "targetId": "6e7-40c-58d9-e402"
+          },
+          {
+            "name": "Faction: Space Wolves",
+            "id": "46b8-a4c1-8908-8756",
+            "primary": false,
+            "targetId": "a0d9-c115-2a-8330"
+          },
+          {
+            "name": "Infantry",
+            "id": "d468-a336-f1d0-88cc",
+            "primary": true,
+            "targetId": "cf47-a0d7-7207-29dc"
+          },
+          {
+            "name": "Grenades",
+            "id": "6e9f-ad8-af5b-8165",
+            "primary": false,
+            "targetId": "5a61-81ac-eb7c-a87e"
+          },
+          {
+            "name": "Imperium",
+            "id": "e345-2a64-3d39-5427",
+            "primary": false,
+            "targetId": "aff3-d6a3-2a95-9dc"
+          },
+          {
+            "name": "Long Fangs",
+            "id": "aeb5-fb23-9ede-696",
+            "primary": false,
+            "targetId": "200a-c333-3440-f3ca"
+          }
         ],
         "constraints": [
-          {"id": "b4c0-132a-35ac-ac66", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
-          {"id": "a372-5dff-d40a-d130", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
-          {"id": "f309-a224-53b3-8333", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0}
+          {
+            "id": "b4c0-132a-35ac-ac66",
+            "field": "75bb-ded1-c86d-bdf0",
+            "includeChildSelections": false,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          },
+          {
+            "id": "a372-5dff-d40a-d130",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          },
+          {
+            "id": "f309-a224-53b3-8333",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0}
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 90
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -11569,7 +11643,15 @@
             "type": "selectionEntryGroup"
           }
         ],
-        "infoLinks": [{"name": "Combat Doctrines", "id": "9d3e-c26a-4f02-5d17", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}],
+        "infoLinks": [
+          {
+            "name": "Combat Doctrines",
+            "id": "9d3e-c26a-4f02-5d17",
+            "hidden": false,
+            "targetId": "3b76-4053-ece9-6e7d",
+            "type": "rule"
+          }
+        ],
         "modifierGroups": [
           {
             "comment": "Crusade modifiers",
@@ -11579,7 +11661,17 @@
                 "field": "b4c0-132a-35ac-ac66",
                 "type": "set",
                 "value": 6,
-                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+                "conditions": [
+                  {
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               },
               {
                 "field": "a372-5dff-d40a-d130",
@@ -11623,7 +11715,15 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 5
+                      },
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
@@ -11646,8 +11746,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 5
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 15
+                      }
                     ]
                   }
                 ]
@@ -11660,8 +11776,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 15
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 30
+                      }
                     ]
                   }
                 ]
@@ -11674,8 +11806,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 30
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 50
+                      }
                     ]
                   }
                 ]
@@ -11684,29 +11832,22 @@
                 "field": "name",
                 "type": "append",
                 "value": "(Legendary)",
-                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+                "conditions": [
+                  {
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 50
+                  }
+                ]
               }
             ]
           }
         ],
         "modifiers": [
-          {
-            "field": "51b2-306e-1021-d207",
-            "type": "set",
-            "value": 145,
-            "conditions": [
-              {
-                "id": "8095-cf30-5200-2f2d",
-                "childId": "model",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "47fa-f42-bb06-77d2",
-                "shared": true,
-                "type": "atLeast",
-                "value": 6
-              }
-            ]
-          },
           {
             "field": "hidden",
             "type": "set",
@@ -11779,8 +11920,22 @@
             "sortIndex": 2,
             "type": "model",
             "constraints": [
-              {"id": "9c77-8a50-755a-9cbf", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "e5f2-1a32-e349-fddd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "9c77-8a50-755a-9cbf",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e5f2-1a32-e349-fddd",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "entryLinks": [
               {
@@ -11791,11 +11946,32 @@
                 "targetId": "18b0-8c2-173f-5",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "499f-c6e1-ad0a-a302", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "139b-702b-5afc-f06e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "499f-c6e1-ad0a-a302",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "139b-702b-5afc-f06e",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "73f5-f8b0-96a7-46fe", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "73f5-f8b0-96a7-46fe",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
                 ]
               },
               {
@@ -11805,6 +11981,42 @@
                 "import": true,
                 "targetId": "e7f9-66f5-9b9e-c587",
                 "type": "selectionEntry"
+              },
+              {
+                "name": "Close combat weapon",
+                "id": "67cd-3d69-4c01-910d",
+                "hidden": false,
+                "import": true,
+                "targetId": "c5c2-d76d-97ed-de16",
+                "type": "selectionEntry",
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "13ae-1e16-4120-c32a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "id": "lfhg-1126-cc01-2026",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "lfhg-1126-cc02-2026",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -11815,167 +12027,612 @@
                 "typeId": "c547-1836-d8a-ff4f",
                 "typeName": "Unit",
                 "characteristics": [
-                  {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                  {
+                    "name": "M",
+                    "$text": "7\"",
+                    "typeId": "e703-ecb6-5ce7-aec1"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "5",
+                    "typeId": "d29d-cf75-fc2d-34a4"
+                  },
+                  {
+                    "name": "Sv",
+                    "$text": "3+",
+                    "typeId": "450-a17e-9d5e-29da"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "2",
+                    "typeId": "750a-a2ec-90d3-21fe"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "6+",
+                    "typeId": "58d2-b879-49c7-43bc"
+                  },
+                  {
+                    "name": "OC",
+                    "$text": "1",
+                    "typeId": "bef7-942a-1a23-59f8"
+                  },
+                  {
+                    "name": "InSv",
+                    "$text": "",
+                    "typeId": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "name": "Base",
+                    "$text": "32mm",
+                    "typeId": "nr-base-size"
+                  }
                 ]
               }
             ],
             "selectionEntryGroups": [
               {
-                "name": "Replace boltgun",
+                "name": "Ranged weapon",
                 "id": "c482-edd-7ba-82e9",
-                "defaultSelectionEntryId": "9b8d-ab37-7f4c-a026",
+                "defaultSelectionEntryId": "lfhg-1126-0001-2026",
                 "hidden": false,
                 "constraints": [
-                  {"id": "c31-a221-f493-b4f4", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "327f-ab72-6407-4c8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "c31-a221-f493-b4f4",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "327f-ab72-6407-4c8",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
                   {
                     "name": "Boltgun",
-                    "id": "9b8d-ab37-7f4c-a026",
+                    "id": "lfhg-1126-0001-2026",
                     "hidden": false,
                     "import": true,
                     "targetId": "beac-9df8-7247-c8ab",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "b7b2-3274-9855-b49d", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
+                    "type": "selectionEntry"
                   },
                   {
-                    "name": "Flamer",
-                    "id": "242-65ba-f8e4-5c1b",
+                    "name": "Multi-melta",
+                    "id": "lfhg-1126-0036-2026",
                     "hidden": false,
                     "import": true,
-                    "targetId": "469c-6259-59a5-64c1",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "b197-1ffd-30f2-a81e", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
-                  {
-                    "name": "Grav-gun",
-                    "id": "58c4-80a4-7414-d1e9",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "f2b1-745f-e386-2f1",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "ad88-1be6-9e3e-a60e", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
-                  {
-                    "name": "Plasma gun",
-                    "id": "c843-495f-45f8-259b",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "4f0e-770d-bae4-bfc3",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "9b70-6a8a-4dd9-d5c4", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
-                  {
-                    "name": "Meltagun",
-                    "id": "fc77-53f1-deb7-dc70",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "958-24c7-8843-459f",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "05fb-9b50-baf8-bcce", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
-                  {
-                    "name": "Plasma pistol",
-                    "id": "82d7-3f8f-8628-b29e",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "7b6b-13c7-2973-44c0",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "e63f-98c1-365b-f30b", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Replace close combat weapon",
-                "id": "7c4-761c-ec74-5643",
-                "defaultSelectionEntryId": "67cd-3d69-4c01-910d",
-                "hidden": false,
-                "constraints": [
-                  {"id": "d003-15ce-e8c4-7b29", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "d82c-da1a-59e9-83d2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "entryLinks": [
-                  {
-                    "name": "Close combat weapon",
-                    "id": "67cd-3d69-4c01-910d",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "c5c2-d76d-97ed-de16",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "13ae-1e16-4120-c32a", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ],
-                    "modifiers": [{"field": "7ee1-3aa9-f117-7e94", "type": "set", "value": 0}]
-                  },
-                  {
-                    "name": "Power fist",
-                    "id": "dbaf-41a-1c47-9e3c",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "5d22-a8d8-8e57-b8ab",
-                    "type": "selectionEntry",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "c979-56a5-0c53-1145", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  },
-                  {
-                    "name": "Astartes Chainsword",
-                    "id": "4bde-0b2f-b97b-ac75",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "bfe9-3520-54d3-9a90",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "85ff-572e-dfd8-8f40", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "bdfd-1218-a60a-d9e7", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
+                    "targetId": "59c-91b5-f87b-1395",
+                    "type": "selectionEntry"
                   }
                 ],
                 "selectionEntries": [
                   {
-                    "name": "Power weapon",
-                    "id": "3d43-1996-d71e-ae97",
+                    "name": "Lascannon",
+                    "id": "lfhg-1126-0004-2026",
+                    "collective": true,
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "b449-8d1a-e06b-1258", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    "infoLinks": [
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0007-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
-                        "name": "Power weapon",
-                        "id": "d274-fd57-66d5-6fa4",
+                        "name": "Lascannon",
+                        "id": "lfhg-1126-0008-2026",
                         "hidden": false,
-                        "typeId": "8a40-4aaa-c780-9046",
-                        "typeName": "Melee Weapons",
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                          {"name": "A", "$text": "2", "typeId": "2337-daa1-6682-b110"},
-                          {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
-                          {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
-                          {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                          {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                          {"name": "Keywords", "typeId": "893f-9000-ccf7-648e"}
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "1",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "12",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-3",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "D6+1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Heavy bolter",
+                    "id": "lfhg-1126-0009-2026",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "infoLinks": [
+                      {
+                        "name": "Sustained Hits",
+                        "id": "lfhg-1126-0012-2026",
+                        "hidden": false,
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0013-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Heavy bolter",
+                        "id": "lfhg-1126-0014-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "5",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy, Sustained Hits 1",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Grav-cannon",
+                    "id": "lfhg-1126-0015-2026",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "infoLinks": [
+                      {
+                        "name": "Anti",
+                        "id": "lfhg-1126-0018-2026",
+                        "hidden": false,
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0019-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Grav-cannon",
+                        "id": "lfhg-1126-0020-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "24\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "3",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Anti-VEHICLE 2+, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Missile launcher",
+                    "id": "lfhg-1126-0021-2026",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "infoLinks": [
+                      {
+                        "name": "Blast",
+                        "id": "lfhg-1126-0024-2026",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0025-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Missile launcher - frag",
+                        "id": "lfhg-1126-0026-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "4",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "0",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Missile launcher - krak",
+                        "id": "lfhg-1126-0027-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "1",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "9",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "D6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Plasma cannon",
+                    "id": "lfhg-1126-0028-2026",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "infoLinks": [
+                      {
+                        "name": "Blast",
+                        "id": "lfhg-1126-0031-2026",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0032-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Hazardous",
+                        "id": "lfhg-1126-0033-2026",
+                        "hidden": false,
+                        "targetId": "8367-374c-f87-c627",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Plasma cannon - standard",
+                        "id": "lfhg-1126-0034-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "7",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "➤ Plasma cannon - supercharge",
+                        "id": "lfhg-1126-0035-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "8",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-3",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Hazardous, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Heavy flamer",
+                    "id": "lfhg-1126-0039-2026",
+                    "collective": true,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "categoryLinks": [
+                      {
+                        "name": "Attacks Dx Weapon",
+                        "id": "lfhg-1126-0040-2026",
+                        "hidden": false,
+                        "primary": false,
+                        "targetId": "e993-e086-6de1-12af"
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Ignores Cover",
+                        "id": "lfhg-1126-0043-2026",
+                        "hidden": false,
+                        "targetId": "4640-43e7-30b-215a",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "lfhg-1126-0044-2026",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Torrent",
+                        "id": "lfhg-1126-0045-2026",
+                        "hidden": false,
+                        "targetId": "5edf-d619-23e0-9b56",
+                        "type": "rule"
+                      }
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Heavy flamer",
+                        "id": "lfhg-1126-0046-2026",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {
+                            "name": "Range",
+                            "$text": "12\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "N/A",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "5",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy, Ignores Cover, Torrent",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -11987,14 +12644,28 @@
         ],
         "selectionEntryGroups": [
           {
-            "name": "4-5 Long Fangs",
+            "name": "4 Long Fangs",
             "id": "8bb2-a69b-9945-91c",
             "defaultSelectionEntryId": "f22d-c7f6-434f-4564",
             "hidden": false,
             "sortIndex": 3,
             "constraints": [
-              {"id": "2851-dfa4-52eb-8e5b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 4},
-              {"id": "7ad2-e98d-4973-42d6", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}
+              {
+                "id": "2851-dfa4-52eb-8e5b",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 4
+              },
+              {
+                "id": "7ad2-e98d-4973-42d6",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              }
             ],
             "selectionEntries": [
               {
@@ -12003,9 +12674,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "1018-5724-65d6-6074", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "1018-5724-65d6-6074",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Boltgun",
                     "id": "92e5-8a0e-e728-f6eb",
@@ -12014,8 +12701,22 @@
                     "targetId": "beac-9df8-7247-c8ab",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "166a-cc36-1e9-32f6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d4d1-9b58-2b45-8b76", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "166a-cc36-1e9-32f6",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d4d1-9b58-2b45-8b76",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   },
                   {
@@ -12026,8 +12727,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12039,14 +12754,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ]
@@ -12057,9 +12804,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "4f67-29d3-550e-e35a", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "4f67-29d3-550e-e35a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "2643-161c-c680-a38a",
@@ -12068,8 +12831,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12081,14 +12858,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12101,10 +12910,32 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
-                    "infoLinks": [{"name": "Heavy", "id": "5999-d3fc-ea3f-31a", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
+                    "infoLinks": [
+                      {
+                        "name": "Heavy",
+                        "id": "5999-d3fc-ea3f-31a",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
+                    ],
                     "profiles": [
                       {
                         "name": "Lascannon",
@@ -12113,13 +12944,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "D6+1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "1",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "12",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-3",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "D6+1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -12132,9 +12991,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "98ca-a390-5e7-537e", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "98ca-a390-5e7-537e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "608d-f701-4c61-ffda",
@@ -12143,8 +13018,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12156,14 +13045,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12176,12 +13097,38 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Sustained Hits", "id": "e045-88ae-1f56-7405", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
-                      {"name": "Heavy", "id": "54b9-fb8d-15df-e775", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}
+                      {
+                        "name": "Sustained Hits",
+                        "id": "e045-88ae-1f56-7405",
+                        "hidden": false,
+                        "targetId": "1897-c22c-9597-12b1",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "54b9-fb8d-15df-e775",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -12191,13 +13138,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Heavy, Sustained Hits 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "5",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy, Sustained Hits 1",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -12210,9 +13185,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "4ed7-7a3d-ef78-9445", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "4ed7-7a3d-ef78-9445",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "1555-2d27-4007-615",
@@ -12221,8 +13212,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12234,14 +13239,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12254,12 +13291,38 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Anti", "id": "1e3b-7af6-8bc7-a844", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
-                      {"name": "Heavy", "id": "df00-fb09-d4de-faff", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}
+                      {
+                        "name": "Anti",
+                        "id": "1e3b-7af6-8bc7-a844",
+                        "hidden": false,
+                        "targetId": "4111-82e3-9444-e942",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "df00-fb09-d4de-faff",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -12269,13 +13332,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Anti-VEHICLE 2+, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "24\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "6",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "3",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Anti-VEHICLE 2+, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -12288,9 +13379,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "a0b1-7519-c3cd-d306", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "a0b1-7519-c3cd-d306",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "4e1c-36f6-2359-f62d",
@@ -12299,8 +13406,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12312,14 +13433,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12332,12 +13485,38 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Blast", "id": "4f0b-a6f3-fe03-7c2f", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                      {"name": "Heavy", "id": "f3a9-48fe-fb85-2870", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}
+                      {
+                        "name": "Blast",
+                        "id": "4f0b-a6f3-fe03-7c2f",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "f3a9-48fe-fb85-2870",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -12347,13 +13526,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "4",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "0",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       },
                       {
@@ -12363,13 +13570,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "D6", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "48\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "1",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "9",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "D6",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -12382,9 +13617,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "2e14-db95-ff37-2004", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "2e14-db95-ff37-2004",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "5441-1b9c-497-cbdc",
@@ -12393,8 +13644,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12406,14 +13671,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12426,13 +13723,45 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Blast", "id": "bc63-b25d-d226-2422", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                      {"name": "Heavy", "id": "b222-7163-c9e8-6eb3", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
-                      {"name": "Hazardous", "id": "8c35-2da7-f9e5-21ca", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"}
+                      {
+                        "name": "Blast",
+                        "id": "bc63-b25d-d226-2422",
+                        "hidden": false,
+                        "targetId": "6c1f-1cf7-ff25-c99e",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "b222-7163-c9e8-6eb3",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Hazardous",
+                        "id": "8c35-2da7-f9e5-21ca",
+                        "hidden": false,
+                        "targetId": "8367-374c-f87-c627",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -12442,13 +13771,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "D3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "7",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-2",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       },
                       {
@@ -12458,13 +13815,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "D3", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "4+", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Blast, Hazardous, Heavy", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "36\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D3",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "4+",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "8",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-3",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "2",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Blast, Hazardous, Heavy",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -12477,9 +13862,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "95b3-c8d6-c9f1-d405", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "95b3-c8d6-c9f1-d405",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "f37a-8660-f2a3-ac71",
@@ -12488,8 +13889,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   },
                   {
@@ -12500,8 +13915,22 @@
                     "targetId": "59c-91b5-f87b-1395",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "9fdd-3b4d-a8dc-0c8e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "c548-9083-ee1f-fdf8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "9fdd-3b4d-a8dc-0c8e",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "c548-9083-ee1f-fdf8",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12513,14 +13942,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ]
@@ -12531,9 +13992,25 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "constraints": [{"id": "4964-c717-d328-8504", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                "constraints": [
+                  {
+                    "id": "4964-c717-d328-8504",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 4
+                  }
+                ],
                 "entryLinks": [
-                  {"name": "Close combat weapon", "id": "fb3-5a69-947c-404f", "hidden": false, "import": true, "targetId": "c5c2-d76d-97ed-de16", "type": "selectionEntry"},
+                  {
+                    "name": "Close combat weapon",
+                    "id": "fb3-5a69-947c-404f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c5c2-d76d-97ed-de16",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Bolt pistol",
                     "id": "bb91-4a0b-4db0-d86c",
@@ -12542,8 +14019,22 @@
                     "targetId": "18b0-8c2-173f-5",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "be85-c5c4-f91b-4d42", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "100e-5065-8d2a-3e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "be85-c5c4-f91b-4d42",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "100e-5065-8d2a-3e0a",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -12555,14 +14046,46 @@
                     "typeId": "c547-1836-d8a-ff4f",
                     "typeName": "Unit",
                     "characteristics": [
-                      {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
-                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
-                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
-                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                      {
+                        "name": "M",
+                        "$text": "7\"",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "name": "T",
+                        "$text": "5",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "name": "Sv",
+                        "$text": "3+",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "name": "W",
+                        "$text": "2",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "name": "LD",
+                        "$text": "6+",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "name": "OC",
+                        "$text": "1",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "$text": "",
+                        "typeId": "55a7-5b54-c60d-11dc"
+                      },
+                      {
+                        "name": "Base",
+                        "$text": "32mm",
+                        "typeId": "nr-base-size"
+                      }
                     ]
                   }
                 ],
@@ -12574,15 +14097,55 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "2e7a-d86c-ce38-f63a", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+                    "categoryLinks": [
+                      {
+                        "name": "Attacks Dx Weapon",
+                        "id": "2e7a-d86c-ce38-f63a",
+                        "hidden": false,
+                        "primary": false,
+                        "targetId": "e993-e086-6de1-12af"
+                      }
+                    ],
                     "constraints": [
-                      {"id": "c940-f666-80cb-2e97", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d9d8-2aeb-94c0-4469", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "c940-f666-80cb-2e97",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "d9d8-2aeb-94c0-4469",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Ignores Cover", "id": "c510-66dc-d21b-1ebd", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
-                      {"name": "Heavy", "id": "2b42-f8cf-ab60-dbc9", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
-                      {"name": "Torrent", "id": "d946-526f-7d13-f7a8", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+                      {
+                        "name": "Ignores Cover",
+                        "id": "c510-66dc-d21b-1ebd",
+                        "hidden": false,
+                        "targetId": "4640-43e7-30b-215a",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Heavy",
+                        "id": "2b42-f8cf-ab60-dbc9",
+                        "hidden": false,
+                        "targetId": "1202-10a8-78e9-4c67",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Torrent",
+                        "id": "d946-526f-7d13-f7a8",
+                        "hidden": false,
+                        "targetId": "5edf-d619-23e0-9b56",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -12592,13 +14155,41 @@
                         "typeId": "f77d-b953-8fa4-b762",
                         "typeName": "Ranged Weapons",
                         "characteristics": [
-                          {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-                          {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
-                          {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
-                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-                          {"name": "Keywords", "$text": "Heavy, Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                          {
+                            "name": "Range",
+                            "$text": "12\"",
+                            "typeId": "9896-9419-16a1-92fc"
+                          },
+                          {
+                            "name": "A",
+                            "$text": "D6",
+                            "typeId": "3bb-c35f-f54-fb08"
+                          },
+                          {
+                            "name": "BS",
+                            "$text": "N/A",
+                            "typeId": "94d-8a98-cf90-183e"
+                          },
+                          {
+                            "name": "S",
+                            "$text": "5",
+                            "typeId": "2229-f494-25db-c5d3"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-1",
+                            "typeId": "9ead-8a10-520-de15"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "a354-c1c8-a745-f9e3"
+                          },
+                          {
+                            "name": "Keywords",
+                            "$text": "Heavy, Ignores Cover, Torrent",
+                            "typeId": "7f1b-8591-2fcf-d01c"
+                          }
                         ]
                       }
                     ]
@@ -21037,19 +22628,84 @@
         "import": true,
         "type": "unit",
         "categoryLinks": [
-          {"name": "Infantry", "id": "33ae-f560-7e6f-1568", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Smoke", "id": "f82d-785f-5be0-25cb", "primary": false, "targetId": "6df-937-16bc-8c1a"},
-          {"name": "Imperium", "id": "9cc7-ae5a-8bc6-5245", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Phobos", "id": "9f94-3844-6802-5ccf", "primary": false, "targetId": "7295-ed65-8ff4-7a5f"},
-          {"name": "Wolf Scouts", "id": "f60c-b5ed-0aed-5667", "primary": false, "targetId": "be72-390b-33b7-d52d"},
-          {"name": "Faction: Adeptus Astartes", "id": "b3cb-e00a-0cf0-5dca", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Faction: Space Wolves", "id": "8e2c-4899-061b-1143", "primary": false, "targetId": "a0d9-c115-2a-8330"},
-          {"name": "Explosives", "id": "8d29-2780-fb3b-3c23", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {
+            "name": "Infantry",
+            "id": "33ae-f560-7e6f-1568",
+            "primary": true,
+            "targetId": "cf47-a0d7-7207-29dc"
+          },
+          {
+            "name": "Smoke",
+            "id": "f82d-785f-5be0-25cb",
+            "primary": false,
+            "targetId": "6df-937-16bc-8c1a"
+          },
+          {
+            "name": "Imperium",
+            "id": "9cc7-ae5a-8bc6-5245",
+            "primary": false,
+            "targetId": "aff3-d6a3-2a95-9dc"
+          },
+          {
+            "name": "Phobos",
+            "id": "9f94-3844-6802-5ccf",
+            "primary": false,
+            "targetId": "7295-ed65-8ff4-7a5f"
+          },
+          {
+            "name": "Wolf Scouts",
+            "id": "f60c-b5ed-0aed-5667",
+            "primary": false,
+            "targetId": "be72-390b-33b7-d52d"
+          },
+          {
+            "name": "Faction: Adeptus Astartes",
+            "id": "b3cb-e00a-0cf0-5dca",
+            "primary": false,
+            "targetId": "6e7-40c-58d9-e402"
+          },
+          {
+            "name": "Faction: Space Wolves",
+            "id": "8e2c-4899-061b-1143",
+            "primary": false,
+            "targetId": "a0d9-c115-2a-8330"
+          },
+          {
+            "name": "Explosives",
+            "id": "8d29-2780-fb3b-3c23",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e33d-891d-33aa-e9bf"
+          }
         ],
         "constraints": [
-          {"id": "bdcb-49b7-be5e-195a", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
-          {"id": "77ed-2f45-d0d0-1eb5", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
-          {"id": "2016-a7b0-5825-2596", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0},
+          {
+            "id": "bdcb-49b7-be5e-195a",
+            "field": "75bb-ded1-c86d-bdf0",
+            "includeChildSelections": false,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 3
+          },
+          {
+            "id": "77ed-2f45-d0d0-1eb5",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          },
+          {
+            "id": "2016-a7b0-5825-2596",
+            "field": "716d-91b7-d55a-1022",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          },
           {
             "id": "3263-57bc-8a4f-9c5f",
             "childId": "any",
@@ -21085,16 +22741,56 @@
           }
         ],
         "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 70},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
-          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
-          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
-          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          },
+          {
+            "name": "Honour Points",
+            "typeId": "8135-9a2f-6627-09e2",
+            "value": 0
+          },
+          {
+            "name": "Relic Fragments",
+            "typeId": "0ece-6541-4662-ece2",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -21117,10 +22813,34 @@
           }
         ],
         "infoLinks": [
-          {"name": "Hunting Hounds", "id": "5d9f-638f-d74d-c9de", "hidden": false, "targetId": "90e0-d8ee-abf5-5cab", "type": "profile"},
-          {"name": "Infiltrators", "id": "52f1-9099-2f85-b69e", "hidden": false, "targetId": "c05d-f4c3-f091-4938", "type": "rule"},
-          {"name": "Scouts 8\"", "id": "451a-cd9b-8c4c-4530", "hidden": false, "targetId": "a5f4-4af8-4735-7384", "type": "rule"},
-          {"name": "Combat Doctrines", "id": "0ef6-e93a-6171-d209", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {
+            "name": "Hunting Hounds",
+            "id": "5d9f-638f-d74d-c9de",
+            "hidden": false,
+            "targetId": "90e0-d8ee-abf5-5cab",
+            "type": "profile"
+          },
+          {
+            "name": "Infiltrators",
+            "id": "52f1-9099-2f85-b69e",
+            "hidden": false,
+            "targetId": "c05d-f4c3-f091-4938",
+            "type": "rule"
+          },
+          {
+            "name": "Scouts 8\"",
+            "id": "451a-cd9b-8c4c-4530",
+            "hidden": false,
+            "targetId": "a5f4-4af8-4735-7384",
+            "type": "rule"
+          },
+          {
+            "name": "Combat Doctrines",
+            "id": "0ef6-e93a-6171-d209",
+            "hidden": false,
+            "targetId": "3b76-4053-ece9-6e7d",
+            "type": "rule"
+          }
         ],
         "modifierGroups": [
           {
@@ -21131,7 +22851,17 @@
                 "field": "75bb-ded1-c86d-bdf0",
                 "type": "set",
                 "value": 6,
-                "conditions": [{"childId": "1511-18fe-f51e-7b9d", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+                "conditions": [
+                  {
+                    "childId": "1511-18fe-f51e-7b9d",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               },
               {
                 "field": "716d-91b7-d55a-1022",
@@ -21175,7 +22905,15 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 5},
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 5
+                      },
                       {
                         "childId": "cac3-71d1-ea4b-795d",
                         "field": "forces",
@@ -21198,8 +22936,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 5},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 15}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 5
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 15
+                      }
                     ]
                   }
                 ]
@@ -21212,8 +22966,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 15},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 30}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 15
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 30
+                      }
                     ]
                   }
                 ]
@@ -21226,8 +22996,24 @@
                   {
                     "type": "and",
                     "conditions": [
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 30},
-                      {"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "atMost", "value": 50}
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 30
+                      },
+                      {
+                        "childId": "2dbf-4d49-5d74-85c9",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "self",
+                        "shared": true,
+                        "type": "atMost",
+                        "value": 50
+                      }
                     ]
                   }
                 ]
@@ -21236,7 +23022,17 @@
                 "field": "name",
                 "type": "append",
                 "value": "(Legendary)",
-                "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
+                "conditions": [
+                  {
+                    "childId": "2dbf-4d49-5d74-85c9",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "greaterThan",
+                    "value": 50
+                  }
+                ]
               }
             ]
           }
@@ -21245,8 +23041,18 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "set",
-            "value": 180,
-            "conditions": [{"childId": "model", "field": "selections", "includeChildSelections": true, "scope": "ee6b-3815-3a1a-6458", "shared": true, "type": "atLeast", "value": 12}]
+            "value": 150,
+            "conditions": [
+              {
+                "childId": "model",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "ee6b-3815-3a1a-6458",
+                "shared": true,
+                "type": "atLeast",
+                "value": 12
+              }
+            ]
           }
         ],
         "profiles": [
@@ -21272,8 +23078,24 @@
             "hidden": false,
             "sortIndex": 2,
             "constraints": [
-              {"id": "baa8-5ae9-dfe4-15b3-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "baa8-5ae9-dfe4-15b3-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "baa8-5ae9-dfe4-15b3-min",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "baa8-5ae9-dfe4-15b3-max",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "selectionEntries": [
               {
@@ -21283,7 +23105,14 @@
                 "import": true,
                 "type": "upgrade",
                 "entryLinks": [
-                  {"name": "Wolf Scout Pack Leader", "id": "c3a6-3151-fe5d-ef1f", "hidden": false, "sortIndex": 1, "targetId": "4174-3c06-0bf7-e559", "type": "selectionEntry"},
+                  {
+                    "name": "Wolf Scout Pack Leader",
+                    "id": "c3a6-3151-fe5d-ef1f",
+                    "hidden": false,
+                    "sortIndex": 1,
+                    "targetId": "4174-3c06-0bf7-e559",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Wolf Scout w/ plasma gun",
                     "id": "ecf6-3629-0895-9208",
@@ -21456,8 +23285,24 @@
                     "sortIndex": 7,
                     "type": "model",
                     "constraints": [
-                      {"id": "0f4b-69e4-d0ce-fba9-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
-                      {"id": "0f4b-69e4-d0ce-fba9-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
+                      {
+                        "id": "0f4b-69e4-d0ce-fba9-min",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 2
+                      },
+                      {
+                        "id": "0f4b-69e4-d0ce-fba9-max",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 2
+                      }
                     ],
                     "profiles": [
                       {
@@ -21467,14 +23312,46 @@
                         "typeId": "c547-1836-d8a-ff4f",
                         "typeName": "Unit",
                         "characteristics": [
-                          {"name": "M", "$text": "10\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                          {"name": "T", "$text": "4", "typeId": "d29d-cf75-fc2d-34a4"},
-                          {"name": "Sv", "$text": "6+", "typeId": "450-a17e-9d5e-29da"},
-                          {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
-                          {"name": "LD", "$text": "8+", "typeId": "58d2-b879-49c7-43bc"},
-                          {"name": "OC", "$text": "0", "typeId": "bef7-942a-1a23-59f8"},
-                          {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                          {"name": "Base", "$text": "60x35.5mm", "typeId": "nr-base-size"}
+                          {
+                            "name": "M",
+                            "$text": "10\"",
+                            "typeId": "e703-ecb6-5ce7-aec1"
+                          },
+                          {
+                            "name": "T",
+                            "$text": "4",
+                            "typeId": "d29d-cf75-fc2d-34a4"
+                          },
+                          {
+                            "name": "Sv",
+                            "$text": "6+",
+                            "typeId": "450-a17e-9d5e-29da"
+                          },
+                          {
+                            "name": "W",
+                            "$text": "1",
+                            "typeId": "750a-a2ec-90d3-21fe"
+                          },
+                          {
+                            "name": "LD",
+                            "$text": "8+",
+                            "typeId": "58d2-b879-49c7-43bc"
+                          },
+                          {
+                            "name": "OC",
+                            "$text": "0",
+                            "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "$text": "",
+                            "typeId": "55a7-5b54-c60d-11dc"
+                          },
+                          {
+                            "name": "Base",
+                            "$text": "60x35.5mm",
+                            "typeId": "nr-base-size"
+                          }
                         ]
                       }
                     ],
@@ -21486,8 +23363,24 @@
                         "import": true,
                         "type": "upgrade",
                         "constraints": [
-                          {"id": "2a89-fe0e-b661-b52c-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "2a89-fe0e-b661-b52c-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                          {
+                            "id": "2a89-fe0e-b661-b52c-min",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "2a89-fe0e-b661-b52c-max",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
                         ],
                         "profiles": [
                           {
@@ -21497,13 +23390,40 @@
                             "typeId": "8a40-4aaa-c780-9046",
                             "typeName": "Melee Weapons",
                             "characteristics": [
-                              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                              {"name": "A", "$text": "2", "typeId": "2337-daa1-6682-b110"},
-                              {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
-                              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
-                              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
-                              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                              {"name": "Keywords", "typeId": "893f-9000-ccf7-648e"}
+                              {
+                                "name": "Range",
+                                "$text": "Melee",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "2",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "name": "WS",
+                                "$text": "4+",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "4",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "0",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "1",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
                             ]
                           }
                         ]
@@ -21517,7 +23437,17 @@
                     "import": true,
                     "sortIndex": 6,
                     "type": "model",
-                    "constraints": [{"id": "a54e-4aca-74f7-f5cb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "constraints": [
+                      {
+                        "id": "a54e-4aca-74f7-f5cb",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
                     "entryLinks": [
                       {
                         "name": "Combat Knife",
@@ -21528,8 +23458,24 @@
                         "targetId": "ec23-682e-c760-407e",
                         "type": "selectionEntry",
                         "constraints": [
-                          {"id": "b41a-1830-28ad-b579", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "7863-f908-7b92-1621", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                          {
+                            "id": "b41a-1830-28ad-b579",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "7863-f908-7b92-1621",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
                         ]
                       }
                     ],
@@ -21542,12 +23488,40 @@
                         "sortIndex": 1,
                         "type": "upgrade",
                         "constraints": [
-                          {"id": "d21a-620a-bc30-e6e4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "580c-c9de-e84b-c5d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                          {
+                            "id": "d21a-620a-bc30-e6e4",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "580c-c9de-e84b-c5d2",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
                         ],
                         "infoLinks": [
-                          {"name": "Precision", "id": "2ece-860a-3706-bd56", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"},
-                          {"name": "Lethal Hits", "id": "b519-d6aa-8d9b-6b24", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+                          {
+                            "name": "Precision",
+                            "id": "2ece-860a-3706-bd56",
+                            "hidden": false,
+                            "targetId": "9143-31ae-e0a6-6007",
+                            "type": "rule"
+                          },
+                          {
+                            "name": "Lethal Hits",
+                            "id": "b519-d6aa-8d9b-6b24",
+                            "hidden": false,
+                            "targetId": "d1d1-611e-5191-1095",
+                            "type": "rule"
+                          }
                         ],
                         "profiles": [
                           {
@@ -21557,13 +23531,41 @@
                             "typeId": "f77d-b953-8fa4-b762",
                             "typeName": "Ranged Weapons",
                             "characteristics": [
-                              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-                              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
-                              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-                              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
-                              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Lethal Hits: non-Monster/Vehicle, Precision", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {
+                                "name": "Range",
+                                "$text": "24\"",
+                                "typeId": "9896-9419-16a1-92fc"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "2",
+                                "typeId": "3bb-c35f-f54-fb08"
+                              },
+                              {
+                                "name": "BS",
+                                "$text": "3+",
+                                "typeId": "94d-8a98-cf90-183e"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "5",
+                                "typeId": "2229-f494-25db-c5d3"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "-2",
+                                "typeId": "9ead-8a10-520-de15"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "2",
+                                "typeId": "a354-c1c8-a745-f9e3"
+                              },
+                              {
+                                "name": "Keywords",
+                                "$text": "Lethal Hits: non-Monster/Vehicle, Precision",
+                                "typeId": "7f1b-8591-2fcf-d01c"
+                              }
                             ]
                           }
                         ]
@@ -21699,7 +23701,14 @@
                       }
                     ]
                   },
-                  {"name": "Wolf Scout w/ plasma gun", "id": "35f0-330a-45a2-aed5", "hidden": false, "sortIndex": 3, "targetId": "602e-f68d-8d32-93c1", "type": "selectionEntry"},
+                  {
+                    "name": "Wolf Scout w/ plasma gun",
+                    "id": "35f0-330a-45a2-aed5",
+                    "hidden": false,
+                    "sortIndex": 3,
+                    "targetId": "602e-f68d-8d32-93c1",
+                    "type": "selectionEntry"
+                  },
                   {
                     "name": "Wolf Scout w/ runic stave and Thunderclap",
                     "id": "52ca-b98d-55d8-e045",
@@ -21727,8 +23736,24 @@
                     "sortIndex": 6,
                     "type": "model",
                     "constraints": [
-                      {"id": "555b-1de4-6832-d61c-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "555b-1de4-6832-d61c-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "555b-1de4-6832-d61c-min",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "555b-1de4-6832-d61c-max",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "profiles": [
                       {
@@ -21738,14 +23763,46 @@
                         "typeId": "c547-1836-d8a-ff4f",
                         "typeName": "Unit",
                         "characteristics": [
-                          {"name": "M", "$text": "10\"", "typeId": "e703-ecb6-5ce7-aec1"},
-                          {"name": "T", "$text": "4", "typeId": "d29d-cf75-fc2d-34a4"},
-                          {"name": "Sv", "$text": "6+", "typeId": "450-a17e-9d5e-29da"},
-                          {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
-                          {"name": "LD", "$text": "8+", "typeId": "58d2-b879-49c7-43bc"},
-                          {"name": "OC", "$text": "0", "typeId": "bef7-942a-1a23-59f8"},
-                          {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                          {"name": "Base", "$text": "60x35.5mm", "typeId": "nr-base-size"}
+                          {
+                            "name": "M",
+                            "$text": "10\"",
+                            "typeId": "e703-ecb6-5ce7-aec1"
+                          },
+                          {
+                            "name": "T",
+                            "$text": "4",
+                            "typeId": "d29d-cf75-fc2d-34a4"
+                          },
+                          {
+                            "name": "Sv",
+                            "$text": "6+",
+                            "typeId": "450-a17e-9d5e-29da"
+                          },
+                          {
+                            "name": "W",
+                            "$text": "1",
+                            "typeId": "750a-a2ec-90d3-21fe"
+                          },
+                          {
+                            "name": "LD",
+                            "$text": "8+",
+                            "typeId": "58d2-b879-49c7-43bc"
+                          },
+                          {
+                            "name": "OC",
+                            "$text": "0",
+                            "typeId": "bef7-942a-1a23-59f8"
+                          },
+                          {
+                            "name": "InSv",
+                            "$text": "",
+                            "typeId": "55a7-5b54-c60d-11dc"
+                          },
+                          {
+                            "name": "Base",
+                            "$text": "60x35.5mm",
+                            "typeId": "nr-base-size"
+                          }
                         ]
                       }
                     ],
@@ -21757,8 +23814,24 @@
                         "import": true,
                         "type": "upgrade",
                         "constraints": [
-                          {"id": "e619-86c9-15aa-752f-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "e619-86c9-15aa-752f-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                          {
+                            "id": "e619-86c9-15aa-752f-min",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          },
+                          {
+                            "id": "e619-86c9-15aa-752f-max",
+                            "field": "selections",
+                            "includeChildSelections": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          }
                         ],
                         "profiles": [
                           {
@@ -21768,13 +23841,40 @@
                             "typeId": "8a40-4aaa-c780-9046",
                             "typeName": "Melee Weapons",
                             "characteristics": [
-                              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                              {"name": "A", "$text": "2", "typeId": "2337-daa1-6682-b110"},
-                              {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
-                              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
-                              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
-                              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
-                              {"name": "Keywords", "typeId": "893f-9000-ccf7-648e"}
+                              {
+                                "name": "Range",
+                                "$text": "Melee",
+                                "typeId": "914c-b413-91e3-a132"
+                              },
+                              {
+                                "name": "A",
+                                "$text": "2",
+                                "typeId": "2337-daa1-6682-b110"
+                              },
+                              {
+                                "name": "WS",
+                                "$text": "4+",
+                                "typeId": "95d1-95f-45b4-11d6"
+                              },
+                              {
+                                "name": "S",
+                                "$text": "4",
+                                "typeId": "ab33-d393-96ce-ccba"
+                              },
+                              {
+                                "name": "AP",
+                                "$text": "0",
+                                "typeId": "41a0-1301-112a-e2f2"
+                              },
+                              {
+                                "name": "D",
+                                "$text": "1",
+                                "typeId": "3254-9fe6-d824-513e"
+                              },
+                              {
+                                "name": "Keywords",
+                                "typeId": "893f-9000-ccf7-648e"
+                              }
                             ]
                           }
                         ]
